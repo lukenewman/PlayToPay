@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "252e40458d217632a7f20d5308a83720"
+build_time: [496558205, 275683000]
+inputs: 
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/ViewController.swift": [496558203, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/AppDelegate.swift": [496558203, 0]
