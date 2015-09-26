@@ -7,13 +7,15 @@
 //
 
 import Foundation
+import ChameleonFramework
 
-class SpeedTap : Minigame {
+class RapidFire : Minigame {
     override init() {
         super.init()
         
-        self.title = "Speed Tap"
+        self.title = "Rapid Fire"
         self.instructions = "Tap as many times as you can in 15 seconds."
-        self.segueIdentifier = "speedTap"
+        self.segueIdentifier = "rapidFire"
+        self.themeColor = FlatRed()
     }
 }

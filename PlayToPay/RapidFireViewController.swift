@@ -1,5 +1,5 @@
 //
-//  SpeedTapViewController.swift
+//  RapidFireViewController.swift
 //  PlayToPay
 //
 //  Created by Luke Newman on 9/26/15.
@@ -10,7 +10,7 @@ import UIKit
 import HTPressableButton
 import ChameleonFramework
 
-class SpeedTapViewController: UIViewController {
+class RapidFireViewController: UIViewController {
 
     var count = 0
     var seconds = 1
@@ -33,7 +33,7 @@ class SpeedTapViewController: UIViewController {
         button.buttonColor = FlatPink()
         button.shadowColor = FlatPinkDark()
         
-        button.setTitle("🎊", forState: UIControlState.Normal)
+        button.setTitle("HIT ME", forState: UIControlState.Normal)
         
         button.addTarget(self, action: "buttonPressed", forControlEvents: UIControlEvents.TouchUpInside)
         

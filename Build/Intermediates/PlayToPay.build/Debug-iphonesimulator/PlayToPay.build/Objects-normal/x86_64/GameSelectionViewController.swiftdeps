@@ -6,58 +6,58 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay27GameSelectionViewController", ""]
 provides-dynamic-lookup:
-- "rotateDown"
 - "showContinueButton"
-- "buttonTitles"
-- "viewDidLoad"
 - "startTheSelection"
-- "mysteryTileView"
-- "rotateUp"
-- "goToTheGame"
-- "viewWillAppear"
-- "viewDidAppear"
-- "prepareForSegue"
-- "drawContinueButton"
 - "animationCompletionCount"
-- "questionMarkLabel"
-- "continueButton"
+- "buttonTitles"
 - "gameTitleLabel"
+- "prepareForSegue"
+- "viewDidLoad"
+- "mysteryTileView"
+- "viewWillAppear"
+- "goToTheGame"
+- "rotateDown"
+- "drawContinueButton"
+- "viewDidAppear"
+- "questionMarkLabel"
+- "rotateUp"
+- "continueButton"
 depends-top-level:
-- "StringLiteralType"
-- "HTPressableButton"
 - !private "FlatYellow"
-- "UILabel"
-- !private "UInt32"
-- !private "UIControlEvents"
-- !private "Void"
-- !private "HTPressableButtonStyle"
-- "GameSelectionViewController"
-- "Minigame"
-- !private "M_PI"
-- !private "kPOPLayerPositionY"
-- "kPOPLayerRotation"
-- "UIStoryboardSegue"
-- "UIViewController"
-- "POPSpringAnimation"
 - "IntegerLiteralType"
-- !private "arc4random_uniform"
-- !private "-"
-- "UIView"
-- !private "BooleanLiteralType"
-- !private "PlayerStartViewController"
+- !private "CGRectMake"
+- "UILabel"
 - "AnyObject"
-- !private "UIControlState"
-- !private "UIScreen"
-- "SpeedTap"
+- "Minigame"
+- "UIStoryboardSegue"
 - !private "FlatYellowDark"
-- !private "+"
-- !private "CABasicAnimation"
-- !private "FlatWhite"
+- !private "M_PI"
 - !private "Int"
 - "POPAnimationDelegate"
+- "StringLiteralType"
+- !private "UIControlState"
+- !private "kPOPLayerPositionY"
+- !private "UIScreen"
+- !private "CABasicAnimation"
+- !private "UInt32"
+- !private "-"
+- "kPOPLayerRotation"
+- "UIViewController"
+- !private "arc4random_uniform"
+- !private "Void"
+- "POPSpringAnimation"
 - "Array"
-- !private "CGRectMake"
+- !private "BooleanLiteralType"
+- "UIView"
+- !private "+"
 - "Bool"
+- !private "UIControlEvents"
+- "GameSelectionViewController"
+- "RapidFire"
+- !private "FlatWhite"
+- !private "HTPressableButtonStyle"
+- !private "PlayerStartViewController"
+- "HTPressableButton"
 depends-member:
 - !private ["PSs9AnyObject", "CABasicAnimation"]
 - !private ["PSs9AnyObject", "CGRectMake"]
@@ -69,7 +69,7 @@ depends-member:
 - !private ["PSs9AnyObject", "Int"]
 - !private ["PSs9AnyObject", "M_PI"]
 - ["PSs9AnyObject", "POPSpringAnimation"]
-- ["PSs9AnyObject", "SpeedTap"]
+- ["PSs9AnyObject", "RapidFire"]
 - !private ["PSs9AnyObject", "UIControlEvents"]
 - !private ["PSs9AnyObject", "UIControlState"]
 - !private ["PSs9AnyObject", "UIScreen"]
@@ -123,6 +123,7 @@ depends-member:
 - !private ["PSs9AnyObject", "springSpeed"]
 - ["PSs9AnyObject", "startTheSelection"]
 - !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "themeColor"]
 - !private ["PSs9AnyObject", "title"]
 - !private ["PSs9AnyObject", "toValue"]
 - !private ["PSs9AnyObject", "top"]
@@ -193,7 +194,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "M_PI"]
 - ["PSs11CVarArgType", "POPSpringAnimation"]
-- ["PSs11CVarArgType", "SpeedTap"]
+- ["PSs11CVarArgType", "RapidFire"]
 - !private ["PSs11CVarArgType", "UIControlEvents"]
 - !private ["PSs11CVarArgType", "UIControlState"]
 - !private ["PSs11CVarArgType", "UIScreen"]
@@ -291,7 +292,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["PSs23CustomStringConvertible", "M_PI"]
 - ["PSs23CustomStringConvertible", "POPSpringAnimation"]
-- ["PSs23CustomStringConvertible", "SpeedTap"]
+- ["PSs23CustomStringConvertible", "RapidFire"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UIControlEvents"]
 - !private ["PSs23CustomStringConvertible", "UIControlState"]
@@ -366,8 +367,8 @@ depends-member:
 - !private ["PSs9Equatable", "M_PI"]
 - !private ["PSs9Equatable", "Normal"]
 - ["PSs9Equatable", "POPSpringAnimation"]
+- ["PSs9Equatable", "RapidFire"]
 - !private ["PSs9Equatable", "Rounded"]
-- ["PSs9Equatable", "SpeedTap"]
 - !private ["PSs9Equatable", "TouchUpInside"]
 - !private ["PSs9Equatable", "UIControlEvents"]
 - !private ["PSs9Equatable", "UIControlState"]
@@ -445,7 +446,7 @@ depends-member:
 - ["C9PlayToPay27GameSelectionViewController", "Minigame"]
 - ["C9PlayToPay27GameSelectionViewController", "POPSpringAnimation"]
 - !private ["C9PlayToPay27GameSelectionViewController", "PlayerStartViewController"]
-- ["C9PlayToPay27GameSelectionViewController", "SpeedTap"]
+- ["C9PlayToPay27GameSelectionViewController", "RapidFire"]
 - !private ["C9PlayToPay27GameSelectionViewController", "UIControlEvents"]
 - !private ["C9PlayToPay27GameSelectionViewController", "UIControlState"]
 - ["C9PlayToPay27GameSelectionViewController", "UILabel"]
@@ -505,8 +506,8 @@ depends-member:
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "M_PI"]
 - ["PSs8Hashable", "POPSpringAnimation"]
+- ["PSs8Hashable", "RapidFire"]
 - !private ["PSs8Hashable", "Rounded"]
-- ["PSs8Hashable", "SpeedTap"]
 - !private ["PSs8Hashable", "UIControlEvents"]
 - !private ["PSs8Hashable", "UIControlState"]
 - !private ["PSs8Hashable", "UIScreen"]
@@ -586,6 +587,7 @@ depends-member:
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - !private ["PSs11IntegerType", "init"]
 - ["C9PlayToPay8Minigame", "init"]
+- !private ["C9PlayToPay8Minigame", "themeColor"]
 - !private ["C9PlayToPay8Minigame", "title"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
@@ -618,7 +620,7 @@ depends-member:
 - !private ["PSo8NSCoding", "Int"]
 - !private ["PSo8NSCoding", "M_PI"]
 - ["PSo8NSCoding", "POPSpringAnimation"]
-- ["PSo8NSCoding", "SpeedTap"]
+- ["PSo8NSCoding", "RapidFire"]
 - !private ["PSo8NSCoding", "UIControlEvents"]
 - !private ["PSo8NSCoding", "UIControlState"]
 - !private ["PSo8NSCoding", "UIScreen"]
@@ -687,7 +689,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - !private ["PSo26NSExtensionRequestHandling", "M_PI"]
 - ["PSo26NSExtensionRequestHandling", "POPSpringAnimation"]
-- ["PSo26NSExtensionRequestHandling", "SpeedTap"]
+- ["PSo26NSExtensionRequestHandling", "RapidFire"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlEvents"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
 - !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
@@ -736,7 +738,7 @@ depends-member:
 - ["CSo8NSObject", "Minigame"]
 - ["CSo8NSObject", "POPSpringAnimation"]
 - !private ["CSo8NSObject", "PlayerStartViewController"]
-- ["CSo8NSObject", "SpeedTap"]
+- ["CSo8NSObject", "RapidFire"]
 - !private ["CSo8NSObject", "UIControlEvents"]
 - !private ["CSo8NSObject", "UIControlState"]
 - ["CSo8NSObject", "UILabel"]
@@ -807,7 +809,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "M_PI"]
 - ["PSo16NSObjectProtocol", "POPSpringAnimation"]
-- ["PSo16NSObjectProtocol", "SpeedTap"]
+- ["PSo16NSObjectProtocol", "RapidFire"]
 - !private ["PSo16NSObjectProtocol", "UIControlEvents"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
@@ -882,7 +884,7 @@ depends-member:
 - !private ["PSo20POPAnimationDelegate", "Int"]
 - !private ["PSo20POPAnimationDelegate", "M_PI"]
 - ["PSo20POPAnimationDelegate", "POPSpringAnimation"]
-- ["PSo20POPAnimationDelegate", "SpeedTap"]
+- ["PSo20POPAnimationDelegate", "RapidFire"]
 - !private ["PSo20POPAnimationDelegate", "UIControlEvents"]
 - !private ["PSo20POPAnimationDelegate", "UIControlState"]
 - !private ["PSo20POPAnimationDelegate", "UIScreen"]
@@ -925,6 +927,8 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- ["C9PlayToPay9RapidFire", "deinit"]
+- ["C9PlayToPay9RapidFire", "init"]
 - !private ["PSs16RawRepresentable", "Normal"]
 - !private ["PSs16RawRepresentable", "Rounded"]
 - !private ["PSs16RawRepresentable", "TouchUpInside"]
@@ -948,8 +952,6 @@ depends-member:
 - !private ["VSs5Slice", "Index"]
 - !private ["VSs5Slice", "SubSequence"]
 - !private ["VSs5Slice", "_Element"]
-- ["C9PlayToPay8SpeedTap", "deinit"]
-- ["C9PlayToPay8SpeedTap", "init"]
 - !private ["PSs10Strideable", "Distance"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
 - !private ["PSs10Strideable", "init"]
@@ -991,7 +993,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "M_PI"]
 - ["PSo21UIAppearanceContainer", "POPSpringAnimation"]
-- ["PSo21UIAppearanceContainer", "SpeedTap"]
+- ["PSo21UIAppearanceContainer", "RapidFire"]
 - !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
 - !private ["PSo21UIAppearanceContainer", "UIControlState"]
 - !private ["PSo21UIAppearanceContainer", "UIScreen"]
@@ -1057,7 +1059,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Int"]
 - !private ["PSo18UIContentContainer", "M_PI"]
 - ["PSo18UIContentContainer", "POPSpringAnimation"]
-- ["PSo18UIContentContainer", "SpeedTap"]
+- ["PSo18UIContentContainer", "RapidFire"]
 - !private ["PSo18UIContentContainer", "UIControlEvents"]
 - !private ["PSo18UIContentContainer", "UIControlState"]
 - !private ["PSo18UIContentContainer", "UIScreen"]
@@ -1147,7 +1149,7 @@ depends-member:
 - ["CSo11UIResponder", "Minigame"]
 - ["CSo11UIResponder", "POPSpringAnimation"]
 - !private ["CSo11UIResponder", "PlayerStartViewController"]
-- ["CSo11UIResponder", "SpeedTap"]
+- ["CSo11UIResponder", "RapidFire"]
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - !private ["CSo11UIResponder", "UIControlState"]
 - ["CSo11UIResponder", "UILabel"]
@@ -1210,7 +1212,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "M_PI"]
 - ["PSo16UIStateRestoring", "POPSpringAnimation"]
-- ["PSo16UIStateRestoring", "SpeedTap"]
+- ["PSo16UIStateRestoring", "RapidFire"]
 - !private ["PSo16UIStateRestoring", "UIControlEvents"]
 - !private ["PSo16UIStateRestoring", "UIControlState"]
 - !private ["PSo16UIStateRestoring", "UIScreen"]
@@ -1257,7 +1259,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "M_PI"]
 - ["PSo18UITraitEnvironment", "POPSpringAnimation"]
-- ["PSo18UITraitEnvironment", "SpeedTap"]
+- ["PSo18UITraitEnvironment", "RapidFire"]
 - !private ["PSo18UITraitEnvironment", "UIControlEvents"]
 - !private ["PSo18UITraitEnvironment", "UIControlState"]
 - !private ["PSo18UITraitEnvironment", "UIScreen"]
@@ -1336,7 +1338,7 @@ depends-member:
 - ["CSo16UIViewController", "Minigame"]
 - ["CSo16UIViewController", "POPSpringAnimation"]
 - !private ["CSo16UIViewController", "PlayerStartViewController"]
-- ["CSo16UIViewController", "SpeedTap"]
+- ["CSo16UIViewController", "RapidFire"]
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - !private ["CSo16UIViewController", "UIControlState"]
 - ["CSo16UIViewController", "UILabel"]
@@ -1508,6 +1510,7 @@ depends-nominal:
 - !private "C9PlayToPay25PlayerStartViewController"
 - !private "PSs21RandomAccessIndexType"
 - "PSs30RangeReplaceableCollectionType"
+- "C9PlayToPay9RapidFire"
 - !private "PSs16RawRepresentable"
 - !private "V10ObjectiveC8Selector"
 - "PSs12SequenceType"
@@ -1515,7 +1518,6 @@ depends-nominal:
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
-- "C9PlayToPay8SpeedTap"
 - !private "PSs10Strideable"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
@@ -1633,4 +1635,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
-interface-hash: "97333aa7292ec2124b6e86ed603bf7bf"
+interface-hash: "f4b8c26f9a1b456d434deed7baefff82"

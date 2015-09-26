@@ -12,14 +12,13 @@
 		3F9227271BB6C44F004AC920 /* TapABoxGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F92272A1BB70EE7004AC920 /* PlayerStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227291BB70EE7004AC920 /* PlayerStartViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F92272C1BB70F7D004AC920 /* Minigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92272B1BB70F7D004AC920 /* Minigame.swift */; settings = {ASSET_TAGS = (); }; };
-		3F92272E1BB713CE004AC920 /* SpeedTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92272D1BB713CE004AC920 /* SpeedTap.swift */; settings = {ASSET_TAGS = (); }; };
+		3F92272E1BB713CE004AC920 /* RapidFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92272D1BB713CE004AC920 /* RapidFire.swift */; settings = {ASSET_TAGS = (); }; };
 		3F9227301BB71C25004AC920 /* FlatUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F92272F1BB71C25004AC920 /* FlatUIKit.framework */; };
-		3F9227321BB721F9004AC920 /* SpeedTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227311BB721F9004AC920 /* SpeedTapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F9227321BB721F9004AC920 /* RapidFireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227311BB721F9004AC920 /* RapidFireViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3FFE8EED1BB65B7B00AD2CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE8EEC1BB65B7B00AD2CFC /* AppDelegate.swift */; };
 		3FFE8EEF1BB65B7B00AD2CFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */; };
 		3FFE8EF21BB65B7B00AD2CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE8EF01BB65B7B00AD2CFC /* Main.storyboard */; };
 		3FFE8EF41BB65B7B00AD2CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE8EF31BB65B7B00AD2CFC /* Assets.xcassets */; };
-		3FFE8F021BB66DB100AD2CFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE8F011BB66DB100AD2CFC /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
 		3FFE8F061BB6736800AD2CFC /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFE8F041BB6736800AD2CFC /* ChameleonFramework.framework */; };
 		3FFE8F071BB6736800AD2CFC /* HTPressableButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFE8F051BB6736800AD2CFC /* HTPressableButton.framework */; };
 		3FFE8F0B1BB67BE200AD2CFC /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFE8F0A1BB67BE200AD2CFC /* SnapKit.framework */; };
@@ -43,16 +42,15 @@
 		3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapABoxGameViewController.swift; sourceTree = "<group>"; };
 		3F9227291BB70EE7004AC920 /* PlayerStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStartViewController.swift; sourceTree = "<group>"; };
 		3F92272B1BB70F7D004AC920 /* Minigame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minigame.swift; sourceTree = "<group>"; };
-		3F92272D1BB713CE004AC920 /* SpeedTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedTap.swift; sourceTree = "<group>"; };
+		3F92272D1BB713CE004AC920 /* RapidFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RapidFire.swift; sourceTree = "<group>"; };
 		3F92272F1BB71C25004AC920 /* FlatUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlatUIKit.framework; path = "Pods/../build/Debug-iphoneos/FlatUIKit.framework"; sourceTree = "<group>"; };
-		3F9227311BB721F9004AC920 /* SpeedTapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedTapViewController.swift; sourceTree = "<group>"; };
+		3F9227311BB721F9004AC920 /* RapidFireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RapidFireViewController.swift; sourceTree = "<group>"; };
 		3FFE8EE91BB65B7B00AD2CFC /* PlayToPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayToPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE8EEC1BB65B7B00AD2CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3FFE8EF11BB65B7B00AD2CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FFE8EF31BB65B7B00AD2CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFE8EF81BB65B7B00AD2CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FFE8F011BB66DB100AD2CFC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3FFE8F041BB6736800AD2CFC /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		3FFE8F051BB6736800AD2CFC /* HTPressableButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTPressableButton.framework; path = "Pods/../build/Debug-iphoneos/HTPressableButton.framework"; sourceTree = "<group>"; };
 		3FFE8F081BB679B300AD2CFC /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = "Pods/../build/Debug-iphoneos/Masonry.framework"; sourceTree = "<group>"; };
@@ -87,13 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F9227281BB70151004AC920 /* Game View Controllers */ = {
+		3F9227281BB70151004AC920 /* Game Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */,
-				3F9227311BB721F9004AC920 /* SpeedTapViewController.swift */,
+				3F9227311BB721F9004AC920 /* RapidFireViewController.swift */,
 			);
-			name = "Game View Controllers";
+			name = "Game Controllers";
+			sourceTree = "<group>";
+		};
+		3F9227331BB75475004AC920 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */,
+				3F9227221BB69914004AC920 /* GameSelectionViewController.swift */,
+				3F9227291BB70EE7004AC920 /* PlayerStartViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		3FFE8EE01BB65B7B00AD2CFC = {
@@ -118,13 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				3FFE8EEC1BB65B7B00AD2CFC /* AppDelegate.swift */,
-				3FFE8F011BB66DB100AD2CFC /* Constants.swift */,
-				3FFE8F271BB693C900AD2CFC /* Models */,
 				3FFE8EF01BB65B7B00AD2CFC /* Main.storyboard */,
-				3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */,
-				3F9227221BB69914004AC920 /* GameSelectionViewController.swift */,
-				3F9227291BB70EE7004AC920 /* PlayerStartViewController.swift */,
-				3F9227281BB70151004AC920 /* Game View Controllers */,
+				3FFE8F271BB693C900AD2CFC /* Models */,
+				3F9227331BB75475004AC920 /* Controllers */,
+				3F9227281BB70151004AC920 /* Game Controllers */,
 				3FFE8F031BB6724C00AD2CFC /* Supporting Files */,
 				3FFE8F0E1BB690DD00AD2CFC /* Resources */,
 			);
@@ -159,7 +164,7 @@
 				3FFE8F281BB693DE00AD2CFC /* Festivity.swift */,
 				3FFE8F2A1BB693F600AD2CFC /* Player.swift */,
 				3F92272B1BB70F7D004AC920 /* Minigame.swift */,
-				3F92272D1BB713CE004AC920 /* SpeedTap.swift */,
+				3F92272D1BB713CE004AC920 /* RapidFire.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -319,11 +324,10 @@
 				3FFE8F291BB693DE00AD2CFC /* Festivity.swift in Sources */,
 				3FFE8EED1BB65B7B00AD2CFC /* AppDelegate.swift in Sources */,
 				3F9227271BB6C44F004AC920 /* TapABoxGameViewController.swift in Sources */,
-				3F92272E1BB713CE004AC920 /* SpeedTap.swift in Sources */,
-				3F9227321BB721F9004AC920 /* SpeedTapViewController.swift in Sources */,
+				3F92272E1BB713CE004AC920 /* RapidFire.swift in Sources */,
+				3F9227321BB721F9004AC920 /* RapidFireViewController.swift in Sources */,
 				3F92272A1BB70EE7004AC920 /* PlayerStartViewController.swift in Sources */,
 				3FFE8F2B1BB693F600AD2CFC /* Player.swift in Sources */,
-				3FFE8F021BB66DB100AD2CFC /* Constants.swift in Sources */,
 				3F9227231BB69914004AC920 /* GameSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

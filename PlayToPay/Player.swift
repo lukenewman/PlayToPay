@@ -10,4 +10,10 @@ import Foundation
 
 class Player {
     var name: String!
+    var isStillInIt: Bool!
+    
+    init() {
+        self.name = ""
+        self.isStillInIt = true
+    }
 }

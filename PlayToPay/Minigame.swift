@@ -10,7 +10,10 @@ import Foundation
 import UIKit
 
 class Minigame {
+    
     var title: String!
     var instructions: String!
     var segueIdentifier: String!
+    var themeColor: UIColor!
+    
 }

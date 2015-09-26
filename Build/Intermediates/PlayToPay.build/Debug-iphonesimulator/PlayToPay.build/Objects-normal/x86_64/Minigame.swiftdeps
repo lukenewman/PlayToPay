@@ -7,15 +7,18 @@ provides-member:
 - ["C9PlayToPay8Minigame", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "Minigame"
+- "UIColor"
+- "String"
 depends-member:
 - ["PSs9AnyObject", ""]
 - ["C9PlayToPay8Minigame", "String"]
+- ["C9PlayToPay8Minigame", "UIColor"]
 - ["C9PlayToPay8Minigame", "deinit"]
 - ["C9PlayToPay8Minigame", "init"]
 - ["C9PlayToPay8Minigame", "instructions"]
 - ["C9PlayToPay8Minigame", "segueIdentifier"]
+- ["C9PlayToPay8Minigame", "themeColor"]
 - ["C9PlayToPay8Minigame", "title"]
 depends-nominal:
 - "PSs9AnyObject"
@@ -102,4 +105,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
-interface-hash: "2a1170c03f3b3639df7bf1f507b1db79"
+interface-hash: "0409cf0e0ca33cccda856f0583ce4768"

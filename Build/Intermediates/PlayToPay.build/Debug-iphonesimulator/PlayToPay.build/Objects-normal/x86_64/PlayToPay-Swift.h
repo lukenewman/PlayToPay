@@ -182,8 +182,8 @@ SWIFT_CLASS("_TtC9PlayToPay25PlayerStartViewController")
 
 @class NSTimer;
 
-SWIFT_CLASS("_TtC9PlayToPay22SpeedTapViewController")
-@interface SpeedTapViewController : UIViewController
+SWIFT_CLASS("_TtC9PlayToPay23RapidFireViewController")
+@interface RapidFireViewController : UIViewController
 @property (nonatomic) NSInteger count;
 @property (nonatomic) NSInteger seconds;
 @property (nonatomic) NSTimer * __nonnull timer;

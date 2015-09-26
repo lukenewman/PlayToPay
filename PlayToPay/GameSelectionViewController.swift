@@ -19,7 +19,7 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     let rotateUp = POPSpringAnimation(propertyNamed: kPOPLayerRotation)
     
     let buttonTitles = ["Neato!", "Groovy", "Aight", "Cool Beans", "Dope", "Rad"]
-    let games = [SpeedTap(), SpeedTap(), SpeedTap()]
+    let games = [RapidFire(), RapidFire(), RapidFire()]
     
     var selectedGame: Minigame!
 
@@ -99,6 +99,7 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
         questionMarkLabel.hidden = true
         gameTitleLabel.text = selectedGame.title
         gameTitleLabel.hidden = false
+        mysteryTileView.backgroundColor = selectedGame.themeColor
         
         let animation1 = CABasicAnimation(keyPath:"transform.rotation.y")
         animation1.toValue = M_PI
@@ -113,7 +114,6 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
 
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let destVC = segue.destinationViewController as! PlayerStartViewController
         destVC.game = selectedGame

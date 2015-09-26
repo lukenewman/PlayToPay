@@ -7,9 +7,9 @@ provides-member:
 - ["C9PlayToPay8SpeedTap", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Minigame"
 - !private "StringLiteralType"
 - "SpeedTap"
+- "Minigame"
 depends-member:
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "instructions"]

@@ -9,8 +9,15 @@
 import Foundation
 
 class Festivity {
+    
+    enum GameMode {
+        case SingleRound
+        case Elimination
+    }
+    
     var players: [Player]!
     var scoreToBeat: Int!
+    var gameMode: GameMode!
     
     static let theFestivity = Festivity()
 }
