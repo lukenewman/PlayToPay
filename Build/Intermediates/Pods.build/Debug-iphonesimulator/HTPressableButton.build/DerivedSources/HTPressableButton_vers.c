@@ -1,0 +1,1 @@
+ const unsigned char HTPressableButtonVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:HTPressableButton  PROJECT:Pods-1.3.2" "\n"; const double HTPressableButtonVersionNumber __attribute__ ((used)) = (double)1.3;

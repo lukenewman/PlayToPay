@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "e0308262701c621211d26038dd44a29a"
+build_time: [496607643, 374915000]
+inputs: 
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [496564032, 0]

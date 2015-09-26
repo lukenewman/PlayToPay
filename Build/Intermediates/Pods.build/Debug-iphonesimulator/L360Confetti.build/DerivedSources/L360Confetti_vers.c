@@ -1,0 +1,1 @@
+ const unsigned char L360ConfettiVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:L360Confetti  PROJECT:Pods-1.1.3" "\n"; const double L360ConfettiVersionNumber __attribute__ ((used)) = (double)1.1;

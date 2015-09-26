@@ -1,0 +1,763 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/CMDQueryStringSerialization.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CMDQueryStringSerialization-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/CMDQueryStringSerialization.framework/Headers/CMDQueryStringSerialization-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMDQueryStringSerialization-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/CMDQueryStringSerialization/CMDQueryStringSerialization-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMDQueryStringSerialization.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/CMDQueryStringSerialization/CMDQueryStringSerialization/CMDQueryStringSerialization.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/CMDQueryStringSerialization.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/CMDQueryStringSerialization.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonConstants.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonEnums.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonEnums.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonFramework-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonFramework-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChameleonMacros.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+ChameleonPrivate.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ChameleonPrivate.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UILabel+Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationController+Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+ChameleonPrivate.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+Chameleon.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChameleonFramework.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FUIAlertView.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUIAlertView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUIButton.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUIButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUICellBackgroundView.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUICellBackgroundView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUIPopoverBackgroundView.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUIPopoverBackgroundView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUISegmentedControl.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUISwitch.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUISwitch.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUITextField.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FUITextField.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlatUIKit-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlatUIKit-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/FlatUIKit/FlatUIKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlatUIKit.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/FlatUIKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+Icons.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/NSString+Icons.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIBarButtonItem+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIBarButtonItem+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIColor+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIFont+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIFont+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIImage+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationBar+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UINavigationBar+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIPopoverController+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIPopoverController+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIProgressView+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UISlider+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UISlider+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIStepper+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIStepper+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITabBar+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UITabBar+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITableViewCell+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UITableViewCell+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIToolbar+FlatUI.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/FlatUIKit/Classes/ios/UIToolbar+FlatUI.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/FlatUIKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HTPressableButton-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButton-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HTPressableButton-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/HTPressableButton/HTPressableButton-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "HTPressableButton.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/HTPressableButton/Classes/HTPressableButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "HTPressableButtonPrefs.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/HTPressableButton/Classes/HTPressableButtonPrefs.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+HTColor.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/HTPressableButton/Classes/UIColor+HTColor.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+HTButton.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/HTPressableButton/Classes/UIImage+HTButton.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/HTPressableButton.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "L360Confetti-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "L360Confetti-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/L360Confetti/L360Confetti-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "L360ConfettiArea.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/L360Confetti/iOS/L360Confetti/L360ConfettiArea.h"
+        },
+        {
+          'type': 'file',
+          'name': "L360ConfettiObject.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/L360Confetti/iOS/L360Confetti/L360ConfettiObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "L360ConfettiView.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/L360Confetti/iOS/L360Confetti/L360ConfettiView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/L360Confetti.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/Pods/Pods-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SSKeychain.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SSKeychain-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SSKeychain.framework/Headers/SSKeychain-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SSKeychain-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/SSKeychain/SSKeychain-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SSKeychain.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SSKeychain/SSKeychain/SSKeychain.h"
+        },
+        {
+          'type': 'file',
+          'name': "SSKeychainQuery.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SSKeychain/SSKeychain/SSKeychainQuery.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SSKeychain.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/SSKeychain.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SnapKit-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SnapKit-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSArray+VENCore.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Categories/NSArray+VENCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+VENCore.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Categories/NSDictionary+VENCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSError+VENCore.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Categories/NSError+VENCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+VENCore.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Categories/NSString+VENCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIDevice+VENCore.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Categories/UIDevice+VENCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENCore-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENCore-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/VENCore/VENCore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENCore.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/VENCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENCreateTransactionRequest.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Models/Transactions/VENCreateTransactionRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENHTTP.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Networking/VENHTTP.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENHTTPResponse.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Networking/VENHTTPResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENTransaction.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Models/Transactions/VENTransaction.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENTransactionPayloadKeys.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Models/Transactions/VENTransactionPayloadKeys.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENTransactionTarget.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Models/Transactions/VENTransactionTarget.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENUser.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Models/Users/VENUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENUserPayloadKeys.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/VENCore/VENCore/Models/Users/VENUserPayloadKeys.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/VENCore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSBundle+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/NSBundle+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/NSDictionary+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSError+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/NSError+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+MD5Addition.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/NSString+MD5Addition.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/NSString+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSURL+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/NSURL+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIDevice+IdentifierAddition.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/UIDevice+IdentifierAddition.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENBase64_Internal.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Encryption/VENBase64_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENDefines_Internal.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Encryption/VENDefines_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENErrors.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Supporting Files/VENErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENHMAC_SHA256_Internal.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Encryption/VENHMAC_SHA256_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENPermission.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Models/VENPermission.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENPermissionConstants.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Supporting Files/VENPermissionConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENRequestDecoder.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Encryption/VENRequestDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENSession.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Models/VENSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENTransaction+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/VENTransaction+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENURLProtocol.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/URL Handling/VENURLProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "VENUser+VenmoSDK.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Categories/VENUser+VenmoSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "Venmo-iOS-SDK-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/Venmo-iOS-SDK/Venmo-iOS-SDK-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Venmo.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Venmo-iOS-SDK/venmo-sdk/Venmo.h"
+        },
+        {
+          'type': 'file',
+          'name': "Venmo_iOS_SDK-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo_iOS_SDK-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/Venmo-iOS-SDK.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "POP.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POP.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimatableProperty.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPAnimatableProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimation.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimationEvent.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPAnimationEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimationExtras.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPAnimationExtras.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimationTracer.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPAnimationTracer.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPAnimator.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPAnimator.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPBasicAnimation.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPBasicAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPCustomAnimation.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPCustomAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPDecayAnimation.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPDecayAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPDefines.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPGeometry.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPGeometry.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPLayerExtras.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPLayerExtras.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPPropertyAnimation.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPPropertyAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "POPSpringAnimation.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/pop/pop/POPSpringAnimation.h"
+        },
+        {
+          'type': 'file',
+          'name': "pop-Swift.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "pop-umbrella.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/pop/pop-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/pop.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

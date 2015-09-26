@@ -1,0 +1,1 @@
+L___CONFETTI_OTHER_LDFLAGS = -framework "UIKit"

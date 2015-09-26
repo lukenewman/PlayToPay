@@ -1,0 +1,556 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TapABoxGameViewController"
+provides-nominal:
+- "C9PlayToPay25TapABoxGameViewController"
+provides-member:
+- ["C9PlayToPay25TapABoxGameViewController", ""]
+provides-dynamic-lookup:
+- "view13"
+- "view23"
+- "createButtonInView"
+- "view21"
+- "view33"
+- "view12"
+- "viewDidLoad"
+- "view31"
+- "timeLeft"
+- "createButtons"
+- "view22"
+- "view11"
+- "viewDidAppear"
+- "view32"
+depends-top-level:
+- !private "HTPressableButton"
+- !private "HTPressableButtonStyle"
+- "TapABoxGameViewController"
+- !private "FlatWhiteDark"
+- "UIViewController"
+- "UIView"
+- "Bool"
+- !private "FlatWhite"
+depends-member:
+- !private ["PSs9AnyObject", "FlatWhite"]
+- !private ["PSs9AnyObject", "FlatWhiteDark"]
+- !private ["PSs9AnyObject", "HTPressableButton"]
+- !private ["PSs9AnyObject", "HTPressableButtonStyle"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "buttonColor"]
+- ["PSs9AnyObject", "createButtonInView"]
+- ["PSs9AnyObject", "createButtons"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "shadowColor"]
+- ["PSs9AnyObject", "timeLeft"]
+- ["PSs9AnyObject", "view11"]
+- ["PSs9AnyObject", "view12"]
+- ["PSs9AnyObject", "view13"]
+- ["PSs9AnyObject", "view21"]
+- ["PSs9AnyObject", "view22"]
+- ["PSs9AnyObject", "view23"]
+- ["PSs9AnyObject", "view31"]
+- ["PSs9AnyObject", "view32"]
+- ["PSs9AnyObject", "view33"]
+- ["PSs9AnyObject", "viewDidAppear"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "FlatWhite"]
+- !private ["PSs11CVarArgType", "FlatWhiteDark"]
+- !private ["PSs11CVarArgType", "HTPressableButton"]
+- !private ["PSs11CVarArgType", "HTPressableButtonStyle"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "buttonColor"]
+- ["PSs11CVarArgType", "createButtonInView"]
+- ["PSs11CVarArgType", "createButtons"]
+- !private ["PSs11CVarArgType", "frame"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "shadowColor"]
+- ["PSs11CVarArgType", "timeLeft"]
+- ["PSs11CVarArgType", "view11"]
+- ["PSs11CVarArgType", "view12"]
+- ["PSs11CVarArgType", "view13"]
+- ["PSs11CVarArgType", "view21"]
+- ["PSs11CVarArgType", "view22"]
+- ["PSs11CVarArgType", "view23"]
+- ["PSs11CVarArgType", "view31"]
+- ["PSs11CVarArgType", "view32"]
+- ["PSs11CVarArgType", "view33"]
+- ["PSs11CVarArgType", "viewDidAppear"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "FlatWhite"]
+- !private ["PSs23CustomStringConvertible", "FlatWhiteDark"]
+- !private ["PSs23CustomStringConvertible", "HTPressableButton"]
+- !private ["PSs23CustomStringConvertible", "HTPressableButtonStyle"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "buttonColor"]
+- ["PSs23CustomStringConvertible", "createButtonInView"]
+- ["PSs23CustomStringConvertible", "createButtons"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "shadowColor"]
+- ["PSs23CustomStringConvertible", "timeLeft"]
+- ["PSs23CustomStringConvertible", "view11"]
+- ["PSs23CustomStringConvertible", "view12"]
+- ["PSs23CustomStringConvertible", "view13"]
+- ["PSs23CustomStringConvertible", "view21"]
+- ["PSs23CustomStringConvertible", "view22"]
+- ["PSs23CustomStringConvertible", "view23"]
+- ["PSs23CustomStringConvertible", "view31"]
+- ["PSs23CustomStringConvertible", "view32"]
+- ["PSs23CustomStringConvertible", "view33"]
+- ["PSs23CustomStringConvertible", "viewDidAppear"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "FlatWhite"]
+- !private ["PSs9Equatable", "FlatWhiteDark"]
+- !private ["PSs9Equatable", "HTPressableButton"]
+- !private ["PSs9Equatable", "HTPressableButtonStyle"]
+- !private ["PSs9Equatable", "Rounded"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "buttonColor"]
+- ["PSs9Equatable", "createButtonInView"]
+- ["PSs9Equatable", "createButtons"]
+- !private ["PSs9Equatable", "frame"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "shadowColor"]
+- ["PSs9Equatable", "timeLeft"]
+- ["PSs9Equatable", "view11"]
+- ["PSs9Equatable", "view12"]
+- ["PSs9Equatable", "view13"]
+- ["PSs9Equatable", "view21"]
+- ["PSs9Equatable", "view22"]
+- ["PSs9Equatable", "view23"]
+- ["PSs9Equatable", "view31"]
+- ["PSs9Equatable", "view32"]
+- ["PSs9Equatable", "view33"]
+- ["PSs9Equatable", "viewDidAppear"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["CSo17HTPressableButton", "buttonColor"]
+- !private ["CSo17HTPressableButton", "init"]
+- !private ["CSo17HTPressableButton", "shadowColor"]
+- !private ["OSC22HTPressableButtonStyle", "Rounded"]
+- !private ["PSs8Hashable", "FlatWhite"]
+- !private ["PSs8Hashable", "FlatWhiteDark"]
+- !private ["PSs8Hashable", "HTPressableButton"]
+- !private ["PSs8Hashable", "HTPressableButtonStyle"]
+- !private ["PSs8Hashable", "Rounded"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "buttonColor"]
+- ["PSs8Hashable", "createButtonInView"]
+- ["PSs8Hashable", "createButtons"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "shadowColor"]
+- ["PSs8Hashable", "timeLeft"]
+- ["PSs8Hashable", "view11"]
+- ["PSs8Hashable", "view12"]
+- ["PSs8Hashable", "view13"]
+- ["PSs8Hashable", "view21"]
+- ["PSs8Hashable", "view22"]
+- ["PSs8Hashable", "view23"]
+- ["PSs8Hashable", "view31"]
+- ["PSs8Hashable", "view32"]
+- ["PSs8Hashable", "view33"]
+- ["PSs8Hashable", "viewDidAppear"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "FlatWhite"]
+- !private ["PSo8NSCoding", "FlatWhiteDark"]
+- !private ["PSo8NSCoding", "HTPressableButton"]
+- !private ["PSo8NSCoding", "HTPressableButtonStyle"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "buttonColor"]
+- ["PSo8NSCoding", "createButtonInView"]
+- ["PSo8NSCoding", "createButtons"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "shadowColor"]
+- ["PSo8NSCoding", "timeLeft"]
+- ["PSo8NSCoding", "view11"]
+- ["PSo8NSCoding", "view12"]
+- ["PSo8NSCoding", "view13"]
+- ["PSo8NSCoding", "view21"]
+- ["PSo8NSCoding", "view22"]
+- ["PSo8NSCoding", "view23"]
+- ["PSo8NSCoding", "view31"]
+- ["PSo8NSCoding", "view32"]
+- ["PSo8NSCoding", "view33"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "FlatWhite"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatWhiteDark"]
+- !private ["PSo26NSExtensionRequestHandling", "HTPressableButton"]
+- !private ["PSo26NSExtensionRequestHandling", "HTPressableButtonStyle"]
+- ["PSo26NSExtensionRequestHandling", "createButtonInView"]
+- ["PSo26NSExtensionRequestHandling", "createButtons"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "timeLeft"]
+- ["PSo26NSExtensionRequestHandling", "view11"]
+- ["PSo26NSExtensionRequestHandling", "view12"]
+- ["PSo26NSExtensionRequestHandling", "view13"]
+- ["PSo26NSExtensionRequestHandling", "view21"]
+- ["PSo26NSExtensionRequestHandling", "view22"]
+- ["PSo26NSExtensionRequestHandling", "view23"]
+- ["PSo26NSExtensionRequestHandling", "view31"]
+- ["PSo26NSExtensionRequestHandling", "view32"]
+- ["PSo26NSExtensionRequestHandling", "view33"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FlatWhite"]
+- !private ["CSo8NSObject", "FlatWhiteDark"]
+- !private ["CSo8NSObject", "HTPressableButton"]
+- !private ["CSo8NSObject", "HTPressableButtonStyle"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "buttonColor"]
+- ["CSo8NSObject", "createButtonInView"]
+- ["CSo8NSObject", "createButtons"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "shadowColor"]
+- ["CSo8NSObject", "timeLeft"]
+- ["CSo8NSObject", "view11"]
+- ["CSo8NSObject", "view12"]
+- ["CSo8NSObject", "view13"]
+- ["CSo8NSObject", "view21"]
+- ["CSo8NSObject", "view22"]
+- ["CSo8NSObject", "view23"]
+- ["CSo8NSObject", "view31"]
+- ["CSo8NSObject", "view32"]
+- ["CSo8NSObject", "view33"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FlatWhite"]
+- !private ["PSo16NSObjectProtocol", "FlatWhiteDark"]
+- !private ["PSo16NSObjectProtocol", "HTPressableButton"]
+- !private ["PSo16NSObjectProtocol", "HTPressableButtonStyle"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "buttonColor"]
+- ["PSo16NSObjectProtocol", "createButtonInView"]
+- ["PSo16NSObjectProtocol", "createButtons"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "shadowColor"]
+- ["PSo16NSObjectProtocol", "timeLeft"]
+- ["PSo16NSObjectProtocol", "view11"]
+- ["PSo16NSObjectProtocol", "view12"]
+- ["PSo16NSObjectProtocol", "view13"]
+- ["PSo16NSObjectProtocol", "view21"]
+- ["PSo16NSObjectProtocol", "view22"]
+- ["PSo16NSObjectProtocol", "view23"]
+- ["PSo16NSObjectProtocol", "view31"]
+- ["PSo16NSObjectProtocol", "view32"]
+- ["PSo16NSObjectProtocol", "view33"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs16RawRepresentable", "Rounded"]
+- ["C9PlayToPay25TapABoxGameViewController", "Bool"]
+- !private ["C9PlayToPay25TapABoxGameViewController", "FlatWhite"]
+- !private ["C9PlayToPay25TapABoxGameViewController", "FlatWhiteDark"]
+- !private ["C9PlayToPay25TapABoxGameViewController", "HTPressableButton"]
+- !private ["C9PlayToPay25TapABoxGameViewController", "HTPressableButtonStyle"]
+- ["C9PlayToPay25TapABoxGameViewController", "UIView"]
+- ["C9PlayToPay25TapABoxGameViewController", "createButtonInView"]
+- ["C9PlayToPay25TapABoxGameViewController", "createButtons"]
+- ["C9PlayToPay25TapABoxGameViewController", "deinit"]
+- ["C9PlayToPay25TapABoxGameViewController", "init"]
+- ["C9PlayToPay25TapABoxGameViewController", "timeLeft"]
+- ["C9PlayToPay25TapABoxGameViewController", "view11"]
+- ["C9PlayToPay25TapABoxGameViewController", "view12"]
+- ["C9PlayToPay25TapABoxGameViewController", "view13"]
+- ["C9PlayToPay25TapABoxGameViewController", "view21"]
+- ["C9PlayToPay25TapABoxGameViewController", "view22"]
+- ["C9PlayToPay25TapABoxGameViewController", "view23"]
+- ["C9PlayToPay25TapABoxGameViewController", "view31"]
+- ["C9PlayToPay25TapABoxGameViewController", "view32"]
+- ["C9PlayToPay25TapABoxGameViewController", "view33"]
+- ["C9PlayToPay25TapABoxGameViewController", "viewDidAppear"]
+- ["C9PlayToPay25TapABoxGameViewController", "viewDidLoad"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "buttonColor"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "shadowColor"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "buttonColor"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "shadowColor"]
+- !private ["PSo21UIAppearanceContainer", "FlatWhite"]
+- !private ["PSo21UIAppearanceContainer", "FlatWhiteDark"]
+- !private ["PSo21UIAppearanceContainer", "HTPressableButton"]
+- !private ["PSo21UIAppearanceContainer", "HTPressableButtonStyle"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "buttonColor"]
+- ["PSo21UIAppearanceContainer", "createButtonInView"]
+- ["PSo21UIAppearanceContainer", "createButtons"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "shadowColor"]
+- ["PSo21UIAppearanceContainer", "timeLeft"]
+- ["PSo21UIAppearanceContainer", "view11"]
+- ["PSo21UIAppearanceContainer", "view12"]
+- ["PSo21UIAppearanceContainer", "view13"]
+- ["PSo21UIAppearanceContainer", "view21"]
+- ["PSo21UIAppearanceContainer", "view22"]
+- ["PSo21UIAppearanceContainer", "view23"]
+- ["PSo21UIAppearanceContainer", "view31"]
+- ["PSo21UIAppearanceContainer", "view32"]
+- ["PSo21UIAppearanceContainer", "view33"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "buttonColor"]
+- !private ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "shadowColor"]
+- !private ["PSo18UIContentContainer", "FlatWhite"]
+- !private ["PSo18UIContentContainer", "FlatWhiteDark"]
+- !private ["PSo18UIContentContainer", "HTPressableButton"]
+- !private ["PSo18UIContentContainer", "HTPressableButtonStyle"]
+- ["PSo18UIContentContainer", "createButtonInView"]
+- ["PSo18UIContentContainer", "createButtons"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "timeLeft"]
+- ["PSo18UIContentContainer", "view11"]
+- ["PSo18UIContentContainer", "view12"]
+- ["PSo18UIContentContainer", "view13"]
+- ["PSo18UIContentContainer", "view21"]
+- ["PSo18UIContentContainer", "view22"]
+- ["PSo18UIContentContainer", "view23"]
+- ["PSo18UIContentContainer", "view31"]
+- ["PSo18UIContentContainer", "view32"]
+- ["PSo18UIContentContainer", "view33"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "buttonColor"]
+- !private ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "shadowColor"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "buttonColor"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "shadowColor"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "buttonColor"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "shadowColor"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FlatWhite"]
+- !private ["CSo11UIResponder", "FlatWhiteDark"]
+- !private ["CSo11UIResponder", "HTPressableButton"]
+- !private ["CSo11UIResponder", "HTPressableButtonStyle"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "buttonColor"]
+- ["CSo11UIResponder", "createButtonInView"]
+- ["CSo11UIResponder", "createButtons"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "shadowColor"]
+- ["CSo11UIResponder", "timeLeft"]
+- ["CSo11UIResponder", "view11"]
+- ["CSo11UIResponder", "view12"]
+- ["CSo11UIResponder", "view13"]
+- ["CSo11UIResponder", "view21"]
+- ["CSo11UIResponder", "view22"]
+- ["CSo11UIResponder", "view23"]
+- ["CSo11UIResponder", "view31"]
+- ["CSo11UIResponder", "view32"]
+- ["CSo11UIResponder", "view33"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "FlatWhite"]
+- !private ["PSo16UIStateRestoring", "FlatWhiteDark"]
+- !private ["PSo16UIStateRestoring", "HTPressableButton"]
+- !private ["PSo16UIStateRestoring", "HTPressableButtonStyle"]
+- ["PSo16UIStateRestoring", "createButtonInView"]
+- ["PSo16UIStateRestoring", "createButtons"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "timeLeft"]
+- ["PSo16UIStateRestoring", "view11"]
+- ["PSo16UIStateRestoring", "view12"]
+- ["PSo16UIStateRestoring", "view13"]
+- ["PSo16UIStateRestoring", "view21"]
+- ["PSo16UIStateRestoring", "view22"]
+- ["PSo16UIStateRestoring", "view23"]
+- ["PSo16UIStateRestoring", "view31"]
+- ["PSo16UIStateRestoring", "view32"]
+- ["PSo16UIStateRestoring", "view33"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "FlatWhite"]
+- !private ["PSo18UITraitEnvironment", "FlatWhiteDark"]
+- !private ["PSo18UITraitEnvironment", "HTPressableButton"]
+- !private ["PSo18UITraitEnvironment", "HTPressableButtonStyle"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "buttonColor"]
+- ["PSo18UITraitEnvironment", "createButtonInView"]
+- ["PSo18UITraitEnvironment", "createButtons"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "shadowColor"]
+- ["PSo18UITraitEnvironment", "timeLeft"]
+- ["PSo18UITraitEnvironment", "view11"]
+- ["PSo18UITraitEnvironment", "view12"]
+- ["PSo18UITraitEnvironment", "view13"]
+- ["PSo18UITraitEnvironment", "view21"]
+- ["PSo18UITraitEnvironment", "view22"]
+- ["PSo18UITraitEnvironment", "view23"]
+- ["PSo18UITraitEnvironment", "view31"]
+- ["PSo18UITraitEnvironment", "view32"]
+- ["PSo18UITraitEnvironment", "view33"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "buttonColor"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "shadowColor"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "FlatWhite"]
+- !private ["CSo16UIViewController", "FlatWhiteDark"]
+- !private ["CSo16UIViewController", "HTPressableButton"]
+- !private ["CSo16UIViewController", "HTPressableButtonStyle"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "createButtonInView"]
+- ["CSo16UIViewController", "createButtons"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "timeLeft"]
+- ["CSo16UIViewController", "view11"]
+- ["CSo16UIViewController", "view12"]
+- ["CSo16UIViewController", "view13"]
+- ["CSo16UIViewController", "view21"]
+- ["CSo16UIViewController", "view22"]
+- ["CSo16UIViewController", "view23"]
+- ["CSo16UIViewController", "view31"]
+- ["CSo16UIViewController", "view32"]
+- ["CSo16UIViewController", "view33"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "buttonColor"]
+- !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "shadowColor"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "CSo17HTPressableButton"
+- !private "OSC22HTPressableButtonStyle"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs16RawRepresentable"
+- "C9PlayToPay25TapABoxGameViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIImage+HTButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIColor+HTColor.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButtonPrefs.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButton-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiObject.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiArea.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/NSString+Icons.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISwitch.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISegmentedControl.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUITextField.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIAlertView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimator.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPGeometry.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDefines.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
+interface-hash: "6588e42582bc3eb3532b127198ccd30c"

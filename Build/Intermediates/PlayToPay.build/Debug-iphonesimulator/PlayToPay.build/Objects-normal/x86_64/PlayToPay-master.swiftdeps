@@ -1,6 +1,15 @@
 version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
-options: "252e40458d217632a7f20d5308a83720"
-build_time: [496558205, 275683000]
+options: "8344664943cff964894a32d760f96b03"
+build_time: [496616254, 782589000]
 inputs: 
-	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/ViewController.swift": [496558203, 0]
-	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/AppDelegate.swift": [496558203, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/SpeedTap.swift": [496611218, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Festivity.swift": [496604548, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Player.swift": [496584388, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Minigame.swift": [496611206, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/SpeedTapViewController.swift": [496611603, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/AppDelegate.swift": [496573007, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Constants.swift": [496564114, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/TapABoxGameViewController.swift": [496600647, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/PlayerStartViewController.swift": [496616251, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/GameSelectionViewController.swift": [496616231, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/MainViewController.swift": [496604650, 0]

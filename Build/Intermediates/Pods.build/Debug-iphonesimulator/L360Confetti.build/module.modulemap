@@ -1,0 +1,6 @@
+framework module L360Confetti {
+  umbrella header "L360Confetti-umbrella.h"
+
+  export *
+  module * { export * }
+}

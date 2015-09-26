@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "64ef95689820229766bd6dc9e47cac56"
+build_time: [496572820, 822885000]
+inputs: 
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/AppDelegate.swift": [496572163, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/ViewController.swift": [496572282, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Player.swift": [496572668, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Festivity.swift": [496572670, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/PlayToPay/Constants.swift": [496564114, 0]
