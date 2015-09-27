@@ -1,0 +1,1 @@
+ const unsigned char Venmo_iOS_SDKVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Venmo_iOS_SDK  PROJECT:Pods-1.3.0" "\n"; const double Venmo_iOS_SDKVersionNumber __attribute__ ((used)) = (double)1.3;

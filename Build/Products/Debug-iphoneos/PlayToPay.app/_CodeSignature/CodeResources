@@ -28,38 +28,20 @@
 		<data>
 		DjVfBEur27hDz5wDEMIsCfsSIAA=
 		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VAIxBq+kjz+y0GnVdB3SjBTodsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n2t8gsDpfE6XkhG31p7IQJRxTxU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			r0nnP/5yBmCavomJtPgn35AC/qQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uyhVEPsEOylEHfuaJZe3XMiBz/M=
+			huqm0pXkac4H0aPh0QWV6wd9EQ0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/FaQ-9I-qSt-view-mgD-5U-7vl.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DyyR5cLeX+0ad6jMSgoC1WwW9rU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -68,7 +50,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			YGrg9pnGe/2zanacySjUExcdFJM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/NJX-WN-hiP-view-9OX-4O-Yv1.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			txzOmrKVtqjTGzx/pDq2xVxQ65I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,14 +68,80 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kg8qTwoxrOAnv+TMtzoRlmmf8zs=
+			BDgaXOcgACAoKXt+5KnUAm0XsUY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-FaQ-9I-qSt.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wOkdawklng0EsBLeFo8spDHRJnQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-NJX-WN-hiP.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9oSlFteuUCGrzfKxJgWTvZmpsg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-cyc-iG-I33.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GkkZuoeaGEtRdtnVbr4I4NrcKAs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-qMo-6F-asu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEZN2jT/OHbHBIywCGnzwXOTxEs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/cyc-iG-I33-view-JlL-nR-OTi.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ghIxnN7f/7s1pCG7A7RBi02QxDo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/qMo-6F-asu-view-bNN-Im-9iG.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RnYj67TlFHC7xYohx4qQHaVe/QI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/CMDQueryStringSerialization.framework/CMDQueryStringSerialization</key>
+		<data>
+		JA5WaX2Qe0LnrXX2sqaGvTE0nmg=
+		</data>
+		<key>Frameworks/CMDQueryStringSerialization.framework/Info.plist</key>
+		<data>
+		sfJRtUwP650be1RVExS3bZ3m6W0=
+		</data>
+		<key>Frameworks/CMDQueryStringSerialization.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2xkRL+4DN0xywnwlkQvcr/ckDwI=
+		</data>
 		<key>Frameworks/ChameleonFramework.framework/ChameleonFramework</key>
 		<data>
-		Hx0PJxmqM7bplNAfrbJ8IaaSTho=
+		z2RhVQ9QfRe9CWQWzdaKUksBI9A=
 		</data>
 		<key>Frameworks/ChameleonFramework.framework/Info.plist</key>
 		<data>
@@ -94,9 +151,41 @@
 		<data>
 		Hu4TFnRHaJo0r28OveiZx1XtIzc=
 		</data>
+		<key>Frameworks/FlatUIKit.framework/FlatUIKit</key>
+		<data>
+		WLmOnj8CjMQOa0AbVxvFv7YHOgQ=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Info.plist</key>
+		<data>
+		Bc/2EqjdKw3qQFDc8xWyOdqqRiU=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Bold.ttf</key>
+		<data>
+		wzDVnz5k4HolccK6T0EJsgoWj2k=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Italic.ttf</key>
+		<data>
+		5M6oA1olioaaYTn7905tDCR71Js=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Light.ttf</key>
+		<data>
+		brlRCP74G9jPv34g1MoGNOWYkBk=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Regular.ttf</key>
+		<data>
+		En8kGHGp/kLNjQc6CDVBDzgk1Xw=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		3vKprQSVOTN1gLUILRi13Lz9bks=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/flat-ui-icons-regular.ttf</key>
+		<data>
+		OMIWLvbu4CvjKZzq3atPLEtIaqE=
+		</data>
 		<key>Frameworks/HTPressableButton.framework/HTPressableButton</key>
 		<data>
-		ZPoTO5sXZyjWb99yxaGOQO1T8SE=
+		fk2/O/tGMjeQ1EzpyJ/JI7zwiTk=
 		</data>
 		<key>Frameworks/HTPressableButton.framework/Info.plist</key>
 		<data>
@@ -112,11 +201,23 @@
 		</data>
 		<key>Frameworks/L360Confetti.framework/L360Confetti</key>
 		<data>
-		OoqVDteLN9VfGzDQbQ2A/WTmM40=
+		SIZ+1+zybeNU25mSepsJSdGicsE=
 		</data>
 		<key>Frameworks/L360Confetti.framework/_CodeSignature/CodeResources</key>
 		<data>
 		BX5dunCXPZwX9FJ7ek0onvEAQWg=
+		</data>
+		<key>Frameworks/SSKeychain.framework/Info.plist</key>
+		<data>
+		n2lWJ436TBkglVZWgecV/4CfF5M=
+		</data>
+		<key>Frameworks/SSKeychain.framework/SSKeychain</key>
+		<data>
+		QzjlPAX+vVn6U2UP5qqD3HrOCNo=
+		</data>
+		<key>Frameworks/SSKeychain.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/g3cAPfLP7L/ytgskQrm0NSG5Jg=
 		</data>
 		<key>Frameworks/SnapKit.framework/Info.plist</key>
 		<data>
@@ -124,47 +225,91 @@
 		</data>
 		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<data>
-		6wjKpgby4NbbqnBqncVlh0mQPyg=
+		ZT2i76YY1RpX2kL4+bdvs/s1Zkw=
 		</data>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<data>
 		8iwH0I9sitZDro/k3bjlgRp5gow=
 		</data>
+		<key>Frameworks/VENCore.framework/Info.plist</key>
+		<data>
+		KChg0Zlfg3osuMEwDpjzY6z2Ozo=
+		</data>
+		<key>Frameworks/VENCore.framework/VENCore</key>
+		<data>
+		3sp/Csr6ZYydsiFl/rsV+kZTHt4=
+		</data>
+		<key>Frameworks/VENCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		VhpcuCrcCi4GkUghMK5hpXwhIG4=
+		</data>
+		<key>Frameworks/Venmo_iOS_SDK.framework/Info.plist</key>
+		<data>
+		LABUEosfLDOlrAE18HUXH2u4wwQ=
+		</data>
+		<key>Frameworks/Venmo_iOS_SDK.framework/Venmo_iOS_SDK</key>
+		<data>
+		afY25w0HBP35t85O5SCrzr58grU=
+		</data>
+		<key>Frameworks/Venmo_iOS_SDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		FmaGS3z4umYfaVPCNuKsvzYEi64=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		uT95gO6/RwQpcm6H5FjfTKDjPoE=
+		5m0vjImzJPERBki7EWYw393l1rE=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		s6V08GaPyvCaGw3zHDmkQaCgfn0=
+		S0JMY3t1oe1YqFEmcykoCUoqbpE=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		wLNxhnqchok9vj0FdrmKxbSqEsE=
+		0FSDeyRbzgf+uvaKyiORkPxL/W0=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		+7CIZcotqwH8IW3ZxVF/dPRFDm4=
+		kcq/JRUP4l539Um98FEM8kR3j8A=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		awOXSPUT7UCRWoC+amXr/UVzizA=
+		eL+sWxTCy2FD4llNAUQKywzsM9g=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		9b3+R+Du6x+1Sg/Aqf3ivKYaTvE=
+		XISXW9LbjmwBEhzyE8Y9EhKiRJg=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		uba0PH+vzp1gT0ws3Lz5uuMMvnw=
+		67ALZu+kPfTJGr9FMuYPxuk33YE=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		xU5zx/TJTRNeN2pK0Ysv9R8W7KQ=
+		ajx3v2q8GM4am+UDFK/VwmqTSZA=
+		</data>
+		<key>Frameworks/pop.framework/Info.plist</key>
+		<data>
+		3zwmh2mR32wmC2SfUJvbykpvXts=
+		</data>
+		<key>Frameworks/pop.framework/_CodeSignature/CodeResources</key>
+		<data>
+		R+Bhe1qQk79/OueKoR36fHLdNgI=
+		</data>
+		<key>Frameworks/pop.framework/pop</key>
+		<data>
+		zyBQ2aPix+DGl7HVulAUXkoulIg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/bVKKKCqB+GLM2QGWW2o5rOIcnY=
+		54GaOwCXH9inmx9gFFJLsyDFLZY=
+		</data>
+		<key>LaunchImage-800-667h@2x.png</key>
+		<data>
+		phVkf0EQKzsr0WiF1HydIYCeFxE=
+		</data>
+		<key>LaunchImage-800-Portrait-736h@3x.png</key>
+		<data>
+		KwYOcOvn7X6NTau0IbEvOFv77c0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -201,38 +346,20 @@
 		<data>
 		DjVfBEur27hDz5wDEMIsCfsSIAA=
 		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VAIxBq+kjz+y0GnVdB3SjBTodsU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n2t8gsDpfE6XkhG31p7IQJRxTxU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			r0nnP/5yBmCavomJtPgn35AC/qQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uyhVEPsEOylEHfuaJZe3XMiBz/M=
+			huqm0pXkac4H0aPh0QWV6wd9EQ0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/FaQ-9I-qSt-view-mgD-5U-7vl.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DyyR5cLeX+0ad6jMSgoC1WwW9rU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -241,7 +368,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			YGrg9pnGe/2zanacySjUExcdFJM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/NJX-WN-hiP-view-9OX-4O-Yv1.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			txzOmrKVtqjTGzx/pDq2xVxQ65I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -250,14 +386,80 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kg8qTwoxrOAnv+TMtzoRlmmf8zs=
+			BDgaXOcgACAoKXt+5KnUAm0XsUY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-FaQ-9I-qSt.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wOkdawklng0EsBLeFo8spDHRJnQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-NJX-WN-hiP.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9oSlFteuUCGrzfKxJgWTvZmpsg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-cyc-iG-I33.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GkkZuoeaGEtRdtnVbr4I4NrcKAs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-qMo-6F-asu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEZN2jT/OHbHBIywCGnzwXOTxEs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/cyc-iG-I33-view-JlL-nR-OTi.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ghIxnN7f/7s1pCG7A7RBi02QxDo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/qMo-6F-asu-view-bNN-Im-9iG.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RnYj67TlFHC7xYohx4qQHaVe/QI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/CMDQueryStringSerialization.framework/CMDQueryStringSerialization</key>
+		<data>
+		JA5WaX2Qe0LnrXX2sqaGvTE0nmg=
+		</data>
+		<key>Frameworks/CMDQueryStringSerialization.framework/Info.plist</key>
+		<data>
+		sfJRtUwP650be1RVExS3bZ3m6W0=
+		</data>
+		<key>Frameworks/CMDQueryStringSerialization.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2xkRL+4DN0xywnwlkQvcr/ckDwI=
+		</data>
 		<key>Frameworks/ChameleonFramework.framework/ChameleonFramework</key>
 		<data>
-		Hx0PJxmqM7bplNAfrbJ8IaaSTho=
+		z2RhVQ9QfRe9CWQWzdaKUksBI9A=
 		</data>
 		<key>Frameworks/ChameleonFramework.framework/Info.plist</key>
 		<data>
@@ -267,9 +469,41 @@
 		<data>
 		Hu4TFnRHaJo0r28OveiZx1XtIzc=
 		</data>
+		<key>Frameworks/FlatUIKit.framework/FlatUIKit</key>
+		<data>
+		WLmOnj8CjMQOa0AbVxvFv7YHOgQ=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Info.plist</key>
+		<data>
+		Bc/2EqjdKw3qQFDc8xWyOdqqRiU=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Bold.ttf</key>
+		<data>
+		wzDVnz5k4HolccK6T0EJsgoWj2k=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Italic.ttf</key>
+		<data>
+		5M6oA1olioaaYTn7905tDCR71Js=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Light.ttf</key>
+		<data>
+		brlRCP74G9jPv34g1MoGNOWYkBk=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/Lato-Regular.ttf</key>
+		<data>
+		En8kGHGp/kLNjQc6CDVBDzgk1Xw=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		3vKprQSVOTN1gLUILRi13Lz9bks=
+		</data>
+		<key>Frameworks/FlatUIKit.framework/flat-ui-icons-regular.ttf</key>
+		<data>
+		OMIWLvbu4CvjKZzq3atPLEtIaqE=
+		</data>
 		<key>Frameworks/HTPressableButton.framework/HTPressableButton</key>
 		<data>
-		ZPoTO5sXZyjWb99yxaGOQO1T8SE=
+		fk2/O/tGMjeQ1EzpyJ/JI7zwiTk=
 		</data>
 		<key>Frameworks/HTPressableButton.framework/Info.plist</key>
 		<data>
@@ -285,11 +519,23 @@
 		</data>
 		<key>Frameworks/L360Confetti.framework/L360Confetti</key>
 		<data>
-		OoqVDteLN9VfGzDQbQ2A/WTmM40=
+		SIZ+1+zybeNU25mSepsJSdGicsE=
 		</data>
 		<key>Frameworks/L360Confetti.framework/_CodeSignature/CodeResources</key>
 		<data>
 		BX5dunCXPZwX9FJ7ek0onvEAQWg=
+		</data>
+		<key>Frameworks/SSKeychain.framework/Info.plist</key>
+		<data>
+		n2lWJ436TBkglVZWgecV/4CfF5M=
+		</data>
+		<key>Frameworks/SSKeychain.framework/SSKeychain</key>
+		<data>
+		QzjlPAX+vVn6U2UP5qqD3HrOCNo=
+		</data>
+		<key>Frameworks/SSKeychain.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/g3cAPfLP7L/ytgskQrm0NSG5Jg=
 		</data>
 		<key>Frameworks/SnapKit.framework/Info.plist</key>
 		<data>
@@ -297,43 +543,87 @@
 		</data>
 		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<data>
-		6wjKpgby4NbbqnBqncVlh0mQPyg=
+		ZT2i76YY1RpX2kL4+bdvs/s1Zkw=
 		</data>
 		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<data>
 		8iwH0I9sitZDro/k3bjlgRp5gow=
 		</data>
+		<key>Frameworks/VENCore.framework/Info.plist</key>
+		<data>
+		KChg0Zlfg3osuMEwDpjzY6z2Ozo=
+		</data>
+		<key>Frameworks/VENCore.framework/VENCore</key>
+		<data>
+		3sp/Csr6ZYydsiFl/rsV+kZTHt4=
+		</data>
+		<key>Frameworks/VENCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		VhpcuCrcCi4GkUghMK5hpXwhIG4=
+		</data>
+		<key>Frameworks/Venmo_iOS_SDK.framework/Info.plist</key>
+		<data>
+		LABUEosfLDOlrAE18HUXH2u4wwQ=
+		</data>
+		<key>Frameworks/Venmo_iOS_SDK.framework/Venmo_iOS_SDK</key>
+		<data>
+		afY25w0HBP35t85O5SCrzr58grU=
+		</data>
+		<key>Frameworks/Venmo_iOS_SDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		FmaGS3z4umYfaVPCNuKsvzYEi64=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		uT95gO6/RwQpcm6H5FjfTKDjPoE=
+		5m0vjImzJPERBki7EWYw393l1rE=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		s6V08GaPyvCaGw3zHDmkQaCgfn0=
+		S0JMY3t1oe1YqFEmcykoCUoqbpE=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		wLNxhnqchok9vj0FdrmKxbSqEsE=
+		0FSDeyRbzgf+uvaKyiORkPxL/W0=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		+7CIZcotqwH8IW3ZxVF/dPRFDm4=
+		kcq/JRUP4l539Um98FEM8kR3j8A=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		awOXSPUT7UCRWoC+amXr/UVzizA=
+		eL+sWxTCy2FD4llNAUQKywzsM9g=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		9b3+R+Du6x+1Sg/Aqf3ivKYaTvE=
+		XISXW9LbjmwBEhzyE8Y9EhKiRJg=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		uba0PH+vzp1gT0ws3Lz5uuMMvnw=
+		67ALZu+kPfTJGr9FMuYPxuk33YE=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		xU5zx/TJTRNeN2pK0Ysv9R8W7KQ=
+		ajx3v2q8GM4am+UDFK/VwmqTSZA=
+		</data>
+		<key>Frameworks/pop.framework/Info.plist</key>
+		<data>
+		3zwmh2mR32wmC2SfUJvbykpvXts=
+		</data>
+		<key>Frameworks/pop.framework/_CodeSignature/CodeResources</key>
+		<data>
+		R+Bhe1qQk79/OueKoR36fHLdNgI=
+		</data>
+		<key>Frameworks/pop.framework/pop</key>
+		<data>
+		zyBQ2aPix+DGl7HVulAUXkoulIg=
+		</data>
+		<key>LaunchImage-800-667h@2x.png</key>
+		<data>
+		phVkf0EQKzsr0WiF1HydIYCeFxE=
+		</data>
+		<key>LaunchImage-800-Portrait-736h@3x.png</key>
+		<data>
+		KwYOcOvn7X6NTau0IbEvOFv77c0=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

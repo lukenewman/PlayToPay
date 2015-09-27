@@ -14,12 +14,8 @@ import pop
 
 class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     
-    var animationCompletionCount = 10
-    let rotateDown = POPSpringAnimation(propertyNamed: kPOPLayerRotation)
-    let rotateUp = POPSpringAnimation(propertyNamed: kPOPLayerRotation)
-    
     let buttonTitles = ["Neato!", "Groovy", "Aight", "Cool Beans", "Dope", "Rad"]
-    let games = [RapidFire(), RapidFire(), RapidFire()]
+    let games = [BustIt()]
     
     var selectedGame: Minigame!
 
@@ -31,12 +27,12 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        mysteryTileView.layer.cornerRadius = 10
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        mysteryTileView.layer.cornerRadius = 10
         
         self.view.backgroundColor = FlatWhite()
         gameTitleLabel.hidden = true
@@ -47,8 +43,12 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        startTheSelection()
-        showContinueButton()
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
+            self.startTheSelection()
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
+                self.showContinueButton()
+            }
+        }
     }
     
     func drawContinueButton() {
@@ -89,34 +89,28 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     func startTheSelection() {
         let randomGameIndex = Int(arc4random_uniform(UInt32(games.count)))
         selectedGame = games[randomGameIndex]
-
-        let animation = CABasicAnimation(keyPath:"transform.rotation.y")
-        animation.toValue = M_PI
-        animation.speed = 3
-        animation.repeatCount = 10
-        mysteryTileView.layer.addAnimation(animation, forKey: "rotate")
+        Festivity.theFestivity.game = selectedGame
+        
+        let spin = CABasicAnimation(keyPath:"transform.rotation.y")
+        spin.toValue = M_PI
+        spin.speed = 3
+        spin.repeatCount = 6
+        mysteryTileView.layer.addAnimation(spin, forKey: "spin")
         
         questionMarkLabel.hidden = true
         gameTitleLabel.text = selectedGame.title
         gameTitleLabel.hidden = false
         mysteryTileView.backgroundColor = selectedGame.themeColor
         
-        let animation1 = CABasicAnimation(keyPath:"transform.rotation.y")
-        animation1.toValue = M_PI
-        animation1.speed = 3
-        animation1.repeatCount = 4
-        mysteryTileView.layer.addAnimation(animation1, forKey: "rotate")
+        let reveal = CABasicAnimation(keyPath:"transform.rotation.y")
+        reveal.toValue = M_PI
+        reveal.speed = 3
+        reveal.repeatCount = 4
+        mysteryTileView.layer.addAnimation(reveal, forKey: "reveal")
     }
     
     func goToTheGame() {
         performSegueWithIdentifier("toPlayerStart", sender: self)
-    }
-
-    // MARK: - Navigation
-
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let destVC = segue.destinationViewController as! PlayerStartViewController
-        destVC.game = selectedGame
     }
 
 }

@@ -6,70 +6,73 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay27GameSelectionViewController", ""]
 provides-dynamic-lookup:
-- "showContinueButton"
-- "startTheSelection"
-- "animationCompletionCount"
-- "buttonTitles"
-- "gameTitleLabel"
-- "prepareForSegue"
-- "viewDidLoad"
 - "mysteryTileView"
-- "viewWillAppear"
 - "goToTheGame"
-- "rotateDown"
-- "drawContinueButton"
-- "viewDidAppear"
+- "gameTitleLabel"
+- "viewDidLoad"
 - "questionMarkLabel"
-- "rotateUp"
+- "showContinueButton"
+- "viewWillAppear"
 - "continueButton"
+- "drawContinueButton"
+- "buttonTitles"
+- "viewDidAppear"
+- "startTheSelection"
 depends-top-level:
-- !private "FlatYellow"
-- "IntegerLiteralType"
-- !private "CGRectMake"
-- "UILabel"
-- "AnyObject"
-- "Minigame"
-- "UIStoryboardSegue"
-- !private "FlatYellowDark"
-- !private "M_PI"
-- !private "Int"
-- "POPAnimationDelegate"
-- "StringLiteralType"
-- !private "UIControlState"
-- !private "kPOPLayerPositionY"
-- !private "UIScreen"
-- !private "CABasicAnimation"
+- !private "dispatch_time"
+- !private "dispatch_after"
 - !private "UInt32"
-- !private "-"
-- "kPOPLayerRotation"
-- "UIViewController"
-- !private "arc4random_uniform"
-- !private "Void"
-- "POPSpringAnimation"
-- "Array"
-- !private "BooleanLiteralType"
-- "UIView"
-- !private "+"
-- "Bool"
-- !private "UIControlEvents"
-- "GameSelectionViewController"
-- "RapidFire"
-- !private "FlatWhite"
+- !private "Int64"
 - !private "HTPressableButtonStyle"
-- !private "PlayerStartViewController"
+- "GameSelectionViewController"
+- "Minigame"
+- !private "DISPATCH_TIME_NOW"
+- !private "*"
+- !private "arc4random_uniform"
+- !private "FlatYellow"
+- !private "UIControlEvents"
+- !private "M_PI"
+- !private "FlatWhite"
+- "Array"
+- "UIView"
+- !private "UIScreen"
+- !private "Int"
+- !private "-"
+- "UIViewController"
+- !private "NSEC_PER_SEC"
+- "StringLiteralType"
+- !private "POPSpringAnimation"
+- "UILabel"
+- !private "dispatch_get_main_queue"
 - "HTPressableButton"
+- !private "Void"
+- !private "UIControlState"
+- "Bool"
+- !private "kPOPLayerPositionY"
+- !private "BooleanLiteralType"
+- "BustIt"
+- "POPAnimationDelegate"
+- !private "FlatYellowDark"
+- !private "Festivity"
+- !private "CGRectMake"
+- !private "+"
+- !private "CABasicAnimation"
 depends-member:
+- ["PSs9AnyObject", "BustIt"]
 - !private ["PSs9AnyObject", "CABasicAnimation"]
 - !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "DISPATCH_TIME_NOW"]
+- !private ["PSs9AnyObject", "Festivity"]
 - !private ["PSs9AnyObject", "FlatWhite"]
 - !private ["PSs9AnyObject", "FlatYellow"]
 - !private ["PSs9AnyObject", "FlatYellowDark"]
 - !private ["PSs9AnyObject", "HTPressableButton"]
 - !private ["PSs9AnyObject", "HTPressableButtonStyle"]
 - !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "Int64"]
 - !private ["PSs9AnyObject", "M_PI"]
-- ["PSs9AnyObject", "POPSpringAnimation"]
-- ["PSs9AnyObject", "RapidFire"]
+- !private ["PSs9AnyObject", "NSEC_PER_SEC"]
+- !private ["PSs9AnyObject", "POPSpringAnimation"]
 - !private ["PSs9AnyObject", "UIControlEvents"]
 - !private ["PSs9AnyObject", "UIControlState"]
 - !private ["PSs9AnyObject", "UIScreen"]
@@ -77,7 +80,6 @@ depends-member:
 - !private ["PSs9AnyObject", "addAnimation"]
 - !private ["PSs9AnyObject", "addSubview"]
 - !private ["PSs9AnyObject", "addTarget"]
-- ["PSs9AnyObject", "animationCompletionCount"]
 - !private ["PSs9AnyObject", "arc4random_uniform"]
 - !private ["PSs9AnyObject", "backgroundColor"]
 - !private ["PSs9AnyObject", "bottom"]
@@ -87,7 +89,9 @@ depends-member:
 - !private ["PSs9AnyObject", "centerX"]
 - ["PSs9AnyObject", "continueButton"]
 - !private ["PSs9AnyObject", "cornerRadius"]
-- !private ["PSs9AnyObject", "destinationViewController"]
+- !private ["PSs9AnyObject", "dispatch_after"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- !private ["PSs9AnyObject", "dispatch_time"]
 - ["PSs9AnyObject", "drawContinueButton"]
 - !private ["PSs9AnyObject", "game"]
 - ["PSs9AnyObject", "gameTitleLabel"]
@@ -96,7 +100,6 @@ depends-member:
 - !private ["PSs9AnyObject", "hidden"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "kPOPLayerPositionY"]
-- ["PSs9AnyObject", "kPOPLayerRotation"]
 - !private ["PSs9AnyObject", "layer"]
 - !private ["PSs9AnyObject", "mainScreen"]
 - ["PSs9AnyObject", "mysteryTileView"]
@@ -106,11 +109,8 @@ depends-member:
 - ["PSs9AnyObject", "pop_animationDidReachToValue"]
 - ["PSs9AnyObject", "pop_animationDidStart"]
 - ["PSs9AnyObject", "pop_animationDidStop"]
-- ["PSs9AnyObject", "prepareForSegue"]
 - ["PSs9AnyObject", "questionMarkLabel"]
 - !private ["PSs9AnyObject", "repeatCount"]
-- ["PSs9AnyObject", "rotateDown"]
-- ["PSs9AnyObject", "rotateUp"]
 - ["PSs9AnyObject", "selectedGame"]
 - !private ["PSs9AnyObject", "setTitle"]
 - !private ["PSs9AnyObject", "shadowColor"]
@@ -123,6 +123,7 @@ depends-member:
 - !private ["PSs9AnyObject", "springSpeed"]
 - ["PSs9AnyObject", "startTheSelection"]
 - !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "theFestivity"]
 - !private ["PSs9AnyObject", "themeColor"]
 - !private ["PSs9AnyObject", "title"]
 - !private ["PSs9AnyObject", "toValue"]
@@ -155,6 +156,8 @@ depends-member:
 - !private ["PSs21BitwiseOperationsType", "Distance"]
 - !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["PSs21BitwiseOperationsType", "init"]
+- ["C9PlayToPay6BustIt", "deinit"]
+- ["C9PlayToPay6BustIt", "init"]
 - !private ["PSo8CAAction", "init"]
 - !private ["PSo8CAAction", "repeatCount"]
 - !private ["PSo8CAAction", "speed"]
@@ -182,19 +185,23 @@ depends-member:
 - !private ["VSC6CGRect", "size"]
 - !private ["VSC6CGSize", "deinit"]
 - !private ["VSC6CGSize", "height"]
+- ["PSs11CVarArgType", "BustIt"]
 - !private ["PSs11CVarArgType", "CABasicAnimation"]
 - !private ["PSs11CVarArgType", "CGRectMake"]
+- !private ["PSs11CVarArgType", "DISPATCH_TIME_NOW"]
 - !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "Festivity"]
 - !private ["PSs11CVarArgType", "FlatWhite"]
 - !private ["PSs11CVarArgType", "FlatYellow"]
 - !private ["PSs11CVarArgType", "FlatYellowDark"]
 - !private ["PSs11CVarArgType", "HTPressableButton"]
 - !private ["PSs11CVarArgType", "HTPressableButtonStyle"]
 - !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "Int64"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "M_PI"]
-- ["PSs11CVarArgType", "POPSpringAnimation"]
-- ["PSs11CVarArgType", "RapidFire"]
+- !private ["PSs11CVarArgType", "NSEC_PER_SEC"]
+- !private ["PSs11CVarArgType", "POPSpringAnimation"]
 - !private ["PSs11CVarArgType", "UIControlEvents"]
 - !private ["PSs11CVarArgType", "UIControlState"]
 - !private ["PSs11CVarArgType", "UIScreen"]
@@ -202,7 +209,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "addAnimation"]
 - !private ["PSs11CVarArgType", "addSubview"]
 - !private ["PSs11CVarArgType", "addTarget"]
-- ["PSs11CVarArgType", "animationCompletionCount"]
 - !private ["PSs11CVarArgType", "arc4random_uniform"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
 - !private ["PSs11CVarArgType", "bounds"]
@@ -210,16 +216,16 @@ depends-member:
 - ["PSs11CVarArgType", "buttonTitles"]
 - ["PSs11CVarArgType", "continueButton"]
 - !private ["PSs11CVarArgType", "cornerRadius"]
-- !private ["PSs11CVarArgType", "destinationViewController"]
+- !private ["PSs11CVarArgType", "dispatch_after"]
+- !private ["PSs11CVarArgType", "dispatch_get_main_queue"]
+- !private ["PSs11CVarArgType", "dispatch_time"]
 - ["PSs11CVarArgType", "drawContinueButton"]
-- !private ["PSs11CVarArgType", "game"]
 - ["PSs11CVarArgType", "gameTitleLabel"]
 - ["PSs11CVarArgType", "games"]
 - ["PSs11CVarArgType", "goToTheGame"]
 - !private ["PSs11CVarArgType", "hidden"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "kPOPLayerPositionY"]
-- ["PSs11CVarArgType", "kPOPLayerRotation"]
 - !private ["PSs11CVarArgType", "layer"]
 - !private ["PSs11CVarArgType", "mainScreen"]
 - ["PSs11CVarArgType", "mysteryTileView"]
@@ -229,11 +235,8 @@ depends-member:
 - ["PSs11CVarArgType", "pop_animationDidReachToValue"]
 - ["PSs11CVarArgType", "pop_animationDidStart"]
 - ["PSs11CVarArgType", "pop_animationDidStop"]
-- ["PSs11CVarArgType", "prepareForSegue"]
 - ["PSs11CVarArgType", "questionMarkLabel"]
 - !private ["PSs11CVarArgType", "repeatCount"]
-- ["PSs11CVarArgType", "rotateDown"]
-- ["PSs11CVarArgType", "rotateUp"]
 - ["PSs11CVarArgType", "selectedGame"]
 - !private ["PSs11CVarArgType", "setTitle"]
 - !private ["PSs11CVarArgType", "shadowColor"]
@@ -277,10 +280,13 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
 - !private ["PSs28CustomDebugStringConvertible", "count"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "BustIt"]
 - !private ["PSs23CustomStringConvertible", "CABasicAnimation"]
 - !private ["PSs23CustomStringConvertible", "CGRectMake"]
+- !private ["PSs23CustomStringConvertible", "DISPATCH_TIME_NOW"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Festivity"]
 - !private ["PSs23CustomStringConvertible", "FlatWhite"]
 - !private ["PSs23CustomStringConvertible", "FlatYellow"]
 - !private ["PSs23CustomStringConvertible", "FlatYellowDark"]
@@ -289,10 +295,11 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "HTPressableButtonStyle"]
 - !private ["PSs23CustomStringConvertible", "Index"]
 - !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "Int64"]
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["PSs23CustomStringConvertible", "M_PI"]
-- ["PSs23CustomStringConvertible", "POPSpringAnimation"]
-- ["PSs23CustomStringConvertible", "RapidFire"]
+- !private ["PSs23CustomStringConvertible", "NSEC_PER_SEC"]
+- !private ["PSs23CustomStringConvertible", "POPSpringAnimation"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UIControlEvents"]
 - !private ["PSs23CustomStringConvertible", "UIControlState"]
@@ -301,7 +308,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "addAnimation"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
 - !private ["PSs23CustomStringConvertible", "addTarget"]
-- ["PSs23CustomStringConvertible", "animationCompletionCount"]
 - !private ["PSs23CustomStringConvertible", "arc4random_uniform"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
 - !private ["PSs23CustomStringConvertible", "bounds"]
@@ -310,16 +316,16 @@ depends-member:
 - ["PSs23CustomStringConvertible", "continueButton"]
 - !private ["PSs23CustomStringConvertible", "cornerRadius"]
 - !private ["PSs23CustomStringConvertible", "count"]
-- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- !private ["PSs23CustomStringConvertible", "dispatch_after"]
+- !private ["PSs23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["PSs23CustomStringConvertible", "dispatch_time"]
 - ["PSs23CustomStringConvertible", "drawContinueButton"]
-- !private ["PSs23CustomStringConvertible", "game"]
 - ["PSs23CustomStringConvertible", "gameTitleLabel"]
 - ["PSs23CustomStringConvertible", "games"]
 - ["PSs23CustomStringConvertible", "goToTheGame"]
 - !private ["PSs23CustomStringConvertible", "hidden"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "kPOPLayerPositionY"]
-- ["PSs23CustomStringConvertible", "kPOPLayerRotation"]
 - !private ["PSs23CustomStringConvertible", "layer"]
 - !private ["PSs23CustomStringConvertible", "mainScreen"]
 - ["PSs23CustomStringConvertible", "mysteryTileView"]
@@ -329,11 +335,8 @@ depends-member:
 - ["PSs23CustomStringConvertible", "pop_animationDidReachToValue"]
 - ["PSs23CustomStringConvertible", "pop_animationDidStart"]
 - ["PSs23CustomStringConvertible", "pop_animationDidStop"]
-- ["PSs23CustomStringConvertible", "prepareForSegue"]
 - ["PSs23CustomStringConvertible", "questionMarkLabel"]
 - !private ["PSs23CustomStringConvertible", "repeatCount"]
-- ["PSs23CustomStringConvertible", "rotateDown"]
-- ["PSs23CustomStringConvertible", "rotateUp"]
 - ["PSs23CustomStringConvertible", "selectedGame"]
 - !private ["PSs23CustomStringConvertible", "setTitle"]
 - !private ["PSs23CustomStringConvertible", "shadowColor"]
@@ -354,20 +357,24 @@ depends-member:
 - ["PSs23CustomStringConvertible", "viewWillAppear"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
+- ["PSs9Equatable", "BustIt"]
 - !private ["PSs9Equatable", "CABasicAnimation"]
 - !private ["PSs9Equatable", "CGRectMake"]
+- !private ["PSs9Equatable", "DISPATCH_TIME_NOW"]
 - !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Festivity"]
 - !private ["PSs9Equatable", "FlatWhite"]
 - !private ["PSs9Equatable", "FlatYellow"]
 - !private ["PSs9Equatable", "FlatYellowDark"]
 - !private ["PSs9Equatable", "HTPressableButton"]
 - !private ["PSs9Equatable", "HTPressableButtonStyle"]
 - !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "Int64"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "M_PI"]
+- !private ["PSs9Equatable", "NSEC_PER_SEC"]
 - !private ["PSs9Equatable", "Normal"]
-- ["PSs9Equatable", "POPSpringAnimation"]
-- ["PSs9Equatable", "RapidFire"]
+- !private ["PSs9Equatable", "POPSpringAnimation"]
 - !private ["PSs9Equatable", "Rounded"]
 - !private ["PSs9Equatable", "TouchUpInside"]
 - !private ["PSs9Equatable", "UIControlEvents"]
@@ -377,7 +384,6 @@ depends-member:
 - !private ["PSs9Equatable", "addAnimation"]
 - !private ["PSs9Equatable", "addSubview"]
 - !private ["PSs9Equatable", "addTarget"]
-- ["PSs9Equatable", "animationCompletionCount"]
 - !private ["PSs9Equatable", "arc4random_uniform"]
 - !private ["PSs9Equatable", "backgroundColor"]
 - !private ["PSs9Equatable", "bounds"]
@@ -385,9 +391,10 @@ depends-member:
 - ["PSs9Equatable", "buttonTitles"]
 - ["PSs9Equatable", "continueButton"]
 - !private ["PSs9Equatable", "cornerRadius"]
-- !private ["PSs9Equatable", "destinationViewController"]
+- !private ["PSs9Equatable", "dispatch_after"]
+- !private ["PSs9Equatable", "dispatch_get_main_queue"]
+- !private ["PSs9Equatable", "dispatch_time"]
 - ["PSs9Equatable", "drawContinueButton"]
-- !private ["PSs9Equatable", "game"]
 - ["PSs9Equatable", "gameTitleLabel"]
 - ["PSs9Equatable", "games"]
 - ["PSs9Equatable", "goToTheGame"]
@@ -395,7 +402,6 @@ depends-member:
 - !private ["PSs9Equatable", "hidden"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "kPOPLayerPositionY"]
-- ["PSs9Equatable", "kPOPLayerRotation"]
 - !private ["PSs9Equatable", "layer"]
 - !private ["PSs9Equatable", "mainScreen"]
 - ["PSs9Equatable", "mysteryTileView"]
@@ -405,11 +411,8 @@ depends-member:
 - ["PSs9Equatable", "pop_animationDidReachToValue"]
 - ["PSs9Equatable", "pop_animationDidStart"]
 - ["PSs9Equatable", "pop_animationDidStop"]
-- ["PSs9Equatable", "prepareForSegue"]
 - ["PSs9Equatable", "questionMarkLabel"]
 - !private ["PSs9Equatable", "repeatCount"]
-- ["PSs9Equatable", "rotateDown"]
-- ["PSs9Equatable", "rotateUp"]
 - ["PSs9Equatable", "selectedGame"]
 - !private ["PSs9Equatable", "setTitle"]
 - !private ["PSs9Equatable", "shadowColor"]
@@ -429,54 +432,55 @@ depends-member:
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", "viewWillAppear"]
 - ["PSs9Equatable", ""]
+- !private ["C9PlayToPay9Festivity", "game"]
+- !private ["C9PlayToPay9Festivity", "theFestivity"]
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["PSs16ForwardIndexType", "init"]
-- ["C9PlayToPay27GameSelectionViewController", "AnyObject"]
 - ["C9PlayToPay27GameSelectionViewController", "Bool"]
+- ["C9PlayToPay27GameSelectionViewController", "BustIt"]
 - !private ["C9PlayToPay27GameSelectionViewController", "CABasicAnimation"]
 - !private ["C9PlayToPay27GameSelectionViewController", "CGRectMake"]
+- !private ["C9PlayToPay27GameSelectionViewController", "DISPATCH_TIME_NOW"]
+- !private ["C9PlayToPay27GameSelectionViewController", "Festivity"]
 - !private ["C9PlayToPay27GameSelectionViewController", "FlatWhite"]
 - !private ["C9PlayToPay27GameSelectionViewController", "FlatYellow"]
 - !private ["C9PlayToPay27GameSelectionViewController", "FlatYellowDark"]
 - ["C9PlayToPay27GameSelectionViewController", "HTPressableButton"]
 - !private ["C9PlayToPay27GameSelectionViewController", "HTPressableButtonStyle"]
 - !private ["C9PlayToPay27GameSelectionViewController", "Int"]
+- !private ["C9PlayToPay27GameSelectionViewController", "Int64"]
 - !private ["C9PlayToPay27GameSelectionViewController", "M_PI"]
 - ["C9PlayToPay27GameSelectionViewController", "Minigame"]
-- ["C9PlayToPay27GameSelectionViewController", "POPSpringAnimation"]
-- !private ["C9PlayToPay27GameSelectionViewController", "PlayerStartViewController"]
-- ["C9PlayToPay27GameSelectionViewController", "RapidFire"]
+- !private ["C9PlayToPay27GameSelectionViewController", "NSEC_PER_SEC"]
+- !private ["C9PlayToPay27GameSelectionViewController", "POPSpringAnimation"]
 - !private ["C9PlayToPay27GameSelectionViewController", "UIControlEvents"]
 - !private ["C9PlayToPay27GameSelectionViewController", "UIControlState"]
 - ["C9PlayToPay27GameSelectionViewController", "UILabel"]
 - !private ["C9PlayToPay27GameSelectionViewController", "UIScreen"]
-- ["C9PlayToPay27GameSelectionViewController", "UIStoryboardSegue"]
 - ["C9PlayToPay27GameSelectionViewController", "UIView"]
 - !private ["C9PlayToPay27GameSelectionViewController", "UInt32"]
 - !private ["C9PlayToPay27GameSelectionViewController", "Void"]
-- ["C9PlayToPay27GameSelectionViewController", "animationCompletionCount"]
 - !private ["C9PlayToPay27GameSelectionViewController", "arc4random_uniform"]
 - ["C9PlayToPay27GameSelectionViewController", "buttonTitles"]
 - ["C9PlayToPay27GameSelectionViewController", "continueButton"]
 - ["C9PlayToPay27GameSelectionViewController", "deinit"]
+- !private ["C9PlayToPay27GameSelectionViewController", "dispatch_after"]
+- !private ["C9PlayToPay27GameSelectionViewController", "dispatch_get_main_queue"]
+- !private ["C9PlayToPay27GameSelectionViewController", "dispatch_time"]
 - ["C9PlayToPay27GameSelectionViewController", "drawContinueButton"]
 - ["C9PlayToPay27GameSelectionViewController", "gameTitleLabel"]
 - ["C9PlayToPay27GameSelectionViewController", "games"]
 - ["C9PlayToPay27GameSelectionViewController", "goToTheGame"]
 - ["C9PlayToPay27GameSelectionViewController", "init"]
 - !private ["C9PlayToPay27GameSelectionViewController", "kPOPLayerPositionY"]
-- ["C9PlayToPay27GameSelectionViewController", "kPOPLayerRotation"]
 - ["C9PlayToPay27GameSelectionViewController", "mysteryTileView"]
 - !private ["C9PlayToPay27GameSelectionViewController", "performSegueWithIdentifier"]
 - ["C9PlayToPay27GameSelectionViewController", "pop_animationDidApply"]
 - ["C9PlayToPay27GameSelectionViewController", "pop_animationDidReachToValue"]
 - ["C9PlayToPay27GameSelectionViewController", "pop_animationDidStart"]
 - ["C9PlayToPay27GameSelectionViewController", "pop_animationDidStop"]
-- ["C9PlayToPay27GameSelectionViewController", "prepareForSegue"]
 - ["C9PlayToPay27GameSelectionViewController", "questionMarkLabel"]
-- ["C9PlayToPay27GameSelectionViewController", "rotateDown"]
-- ["C9PlayToPay27GameSelectionViewController", "rotateUp"]
 - ["C9PlayToPay27GameSelectionViewController", "selectedGame"]
 - ["C9PlayToPay27GameSelectionViewController", "showContinueButton"]
 - ["C9PlayToPay27GameSelectionViewController", "startTheSelection"]
@@ -494,19 +498,23 @@ depends-member:
 - !private ["CSo17HTPressableButton", "snp_makeConstraints"]
 - !private ["CSo17HTPressableButton", "snp_remakeConstraints"]
 - !private ["OSC22HTPressableButtonStyle", "Rounded"]
+- ["PSs8Hashable", "BustIt"]
 - !private ["PSs8Hashable", "CABasicAnimation"]
 - !private ["PSs8Hashable", "CGRectMake"]
+- !private ["PSs8Hashable", "DISPATCH_TIME_NOW"]
 - !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "Festivity"]
 - !private ["PSs8Hashable", "FlatWhite"]
 - !private ["PSs8Hashable", "FlatYellow"]
 - !private ["PSs8Hashable", "FlatYellowDark"]
 - !private ["PSs8Hashable", "HTPressableButton"]
 - !private ["PSs8Hashable", "HTPressableButtonStyle"]
 - !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "Int64"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "M_PI"]
-- ["PSs8Hashable", "POPSpringAnimation"]
-- ["PSs8Hashable", "RapidFire"]
+- !private ["PSs8Hashable", "NSEC_PER_SEC"]
+- !private ["PSs8Hashable", "POPSpringAnimation"]
 - !private ["PSs8Hashable", "Rounded"]
 - !private ["PSs8Hashable", "UIControlEvents"]
 - !private ["PSs8Hashable", "UIControlState"]
@@ -515,7 +523,6 @@ depends-member:
 - !private ["PSs8Hashable", "addAnimation"]
 - !private ["PSs8Hashable", "addSubview"]
 - !private ["PSs8Hashable", "addTarget"]
-- ["PSs8Hashable", "animationCompletionCount"]
 - !private ["PSs8Hashable", "arc4random_uniform"]
 - !private ["PSs8Hashable", "backgroundColor"]
 - !private ["PSs8Hashable", "bounds"]
@@ -523,16 +530,16 @@ depends-member:
 - ["PSs8Hashable", "buttonTitles"]
 - ["PSs8Hashable", "continueButton"]
 - !private ["PSs8Hashable", "cornerRadius"]
-- !private ["PSs8Hashable", "destinationViewController"]
+- !private ["PSs8Hashable", "dispatch_after"]
+- !private ["PSs8Hashable", "dispatch_get_main_queue"]
+- !private ["PSs8Hashable", "dispatch_time"]
 - ["PSs8Hashable", "drawContinueButton"]
-- !private ["PSs8Hashable", "game"]
 - ["PSs8Hashable", "gameTitleLabel"]
 - ["PSs8Hashable", "games"]
 - ["PSs8Hashable", "goToTheGame"]
 - !private ["PSs8Hashable", "hidden"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "kPOPLayerPositionY"]
-- ["PSs8Hashable", "kPOPLayerRotation"]
 - !private ["PSs8Hashable", "layer"]
 - !private ["PSs8Hashable", "mainScreen"]
 - ["PSs8Hashable", "mysteryTileView"]
@@ -542,11 +549,8 @@ depends-member:
 - ["PSs8Hashable", "pop_animationDidReachToValue"]
 - ["PSs8Hashable", "pop_animationDidStart"]
 - ["PSs8Hashable", "pop_animationDidStop"]
-- ["PSs8Hashable", "prepareForSegue"]
 - ["PSs8Hashable", "questionMarkLabel"]
 - !private ["PSs8Hashable", "repeatCount"]
-- ["PSs8Hashable", "rotateDown"]
-- ["PSs8Hashable", "rotateUp"]
 - ["PSs8Hashable", "selectedGame"]
 - !private ["PSs8Hashable", "setTitle"]
 - !private ["PSs8Hashable", "shadowColor"]
@@ -577,6 +581,7 @@ depends-member:
 - !private ["Si", "Distance"]
 - !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "init"]
+- !private ["VSs5Int64", "init"]
 - !private ["PSs21IntegerArithmeticType", "Distance"]
 - !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["PSs21IntegerArithmeticType", "init"]
@@ -610,17 +615,21 @@ depends-member:
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "count"]
 - !private ["PSs16MutableSliceable", "subscript"]
+- ["PSo8NSCoding", "BustIt"]
 - !private ["PSo8NSCoding", "CABasicAnimation"]
 - !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "DISPATCH_TIME_NOW"]
+- !private ["PSo8NSCoding", "Festivity"]
 - !private ["PSo8NSCoding", "FlatWhite"]
 - !private ["PSo8NSCoding", "FlatYellow"]
 - !private ["PSo8NSCoding", "FlatYellowDark"]
 - !private ["PSo8NSCoding", "HTPressableButton"]
 - !private ["PSo8NSCoding", "HTPressableButtonStyle"]
 - !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "Int64"]
 - !private ["PSo8NSCoding", "M_PI"]
-- ["PSo8NSCoding", "POPSpringAnimation"]
-- ["PSo8NSCoding", "RapidFire"]
+- !private ["PSo8NSCoding", "NSEC_PER_SEC"]
+- !private ["PSo8NSCoding", "POPSpringAnimation"]
 - !private ["PSo8NSCoding", "UIControlEvents"]
 - !private ["PSo8NSCoding", "UIControlState"]
 - !private ["PSo8NSCoding", "UIScreen"]
@@ -628,22 +637,22 @@ depends-member:
 - !private ["PSo8NSCoding", "addAnimation"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "addTarget"]
-- ["PSo8NSCoding", "animationCompletionCount"]
 - !private ["PSo8NSCoding", "arc4random_uniform"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "buttonColor"]
 - ["PSo8NSCoding", "buttonTitles"]
 - ["PSo8NSCoding", "continueButton"]
 - !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "dispatch_after"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- !private ["PSo8NSCoding", "dispatch_time"]
 - ["PSo8NSCoding", "drawContinueButton"]
-- !private ["PSo8NSCoding", "game"]
 - ["PSo8NSCoding", "gameTitleLabel"]
 - ["PSo8NSCoding", "games"]
 - ["PSo8NSCoding", "goToTheGame"]
 - !private ["PSo8NSCoding", "hidden"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "kPOPLayerPositionY"]
-- ["PSo8NSCoding", "kPOPLayerRotation"]
 - !private ["PSo8NSCoding", "layer"]
 - ["PSo8NSCoding", "mysteryTileView"]
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
@@ -652,11 +661,8 @@ depends-member:
 - ["PSo8NSCoding", "pop_animationDidReachToValue"]
 - ["PSo8NSCoding", "pop_animationDidStart"]
 - ["PSo8NSCoding", "pop_animationDidStop"]
-- ["PSo8NSCoding", "prepareForSegue"]
 - ["PSo8NSCoding", "questionMarkLabel"]
 - !private ["PSo8NSCoding", "repeatCount"]
-- ["PSo8NSCoding", "rotateDown"]
-- ["PSo8NSCoding", "rotateUp"]
 - ["PSo8NSCoding", "selectedGame"]
 - !private ["PSo8NSCoding", "setTitle"]
 - !private ["PSo8NSCoding", "shadowColor"]
@@ -673,49 +679,50 @@ depends-member:
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewWillAppear"]
 - ["PSo8NSCoding", ""]
-- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "repeatCount"]
 - !private ["PSo9NSCopying", "speed"]
 - !private ["PSo9NSCopying", "springBounciness"]
 - !private ["PSo9NSCopying", "springSpeed"]
 - !private ["PSo9NSCopying", "toValue"]
+- ["PSo26NSExtensionRequestHandling", "BustIt"]
 - !private ["PSo26NSExtensionRequestHandling", "CABasicAnimation"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
+- !private ["PSo26NSExtensionRequestHandling", "DISPATCH_TIME_NOW"]
+- !private ["PSo26NSExtensionRequestHandling", "Festivity"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatWhite"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatYellow"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatYellowDark"]
 - !private ["PSo26NSExtensionRequestHandling", "HTPressableButton"]
 - !private ["PSo26NSExtensionRequestHandling", "HTPressableButtonStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "Int64"]
 - !private ["PSo26NSExtensionRequestHandling", "M_PI"]
-- ["PSo26NSExtensionRequestHandling", "POPSpringAnimation"]
-- ["PSo26NSExtensionRequestHandling", "RapidFire"]
+- !private ["PSo26NSExtensionRequestHandling", "NSEC_PER_SEC"]
+- !private ["PSo26NSExtensionRequestHandling", "POPSpringAnimation"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlEvents"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
 - !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
 - !private ["PSo26NSExtensionRequestHandling", "UInt32"]
-- ["PSo26NSExtensionRequestHandling", "animationCompletionCount"]
 - !private ["PSo26NSExtensionRequestHandling", "arc4random_uniform"]
 - ["PSo26NSExtensionRequestHandling", "buttonTitles"]
 - ["PSo26NSExtensionRequestHandling", "continueButton"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_after"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_time"]
 - ["PSo26NSExtensionRequestHandling", "drawContinueButton"]
-- !private ["PSo26NSExtensionRequestHandling", "game"]
 - ["PSo26NSExtensionRequestHandling", "gameTitleLabel"]
 - ["PSo26NSExtensionRequestHandling", "games"]
 - ["PSo26NSExtensionRequestHandling", "goToTheGame"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "kPOPLayerPositionY"]
-- ["PSo26NSExtensionRequestHandling", "kPOPLayerRotation"]
 - ["PSo26NSExtensionRequestHandling", "mysteryTileView"]
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "pop_animationDidApply"]
 - ["PSo26NSExtensionRequestHandling", "pop_animationDidReachToValue"]
 - ["PSo26NSExtensionRequestHandling", "pop_animationDidStart"]
 - ["PSo26NSExtensionRequestHandling", "pop_animationDidStop"]
-- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
 - ["PSo26NSExtensionRequestHandling", "questionMarkLabel"]
-- ["PSo26NSExtensionRequestHandling", "rotateDown"]
-- ["PSo26NSExtensionRequestHandling", "rotateUp"]
 - ["PSo26NSExtensionRequestHandling", "selectedGame"]
 - ["PSo26NSExtensionRequestHandling", "showContinueButton"]
 - ["PSo26NSExtensionRequestHandling", "startTheSelection"]
@@ -724,33 +731,33 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "BustIt"]
 - !private ["CSo8NSObject", "CABasicAnimation"]
 - !private ["CSo8NSObject", "CGRectMake"]
+- !private ["CSo8NSObject", "DISPATCH_TIME_NOW"]
+- !private ["CSo8NSObject", "Festivity"]
 - !private ["CSo8NSObject", "FlatWhite"]
 - !private ["CSo8NSObject", "FlatYellow"]
 - !private ["CSo8NSObject", "FlatYellowDark"]
 - ["CSo8NSObject", "HTPressableButton"]
 - !private ["CSo8NSObject", "HTPressableButtonStyle"]
 - !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Int64"]
 - !private ["CSo8NSObject", "M_PI"]
 - ["CSo8NSObject", "Minigame"]
-- ["CSo8NSObject", "POPSpringAnimation"]
-- !private ["CSo8NSObject", "PlayerStartViewController"]
-- ["CSo8NSObject", "RapidFire"]
+- !private ["CSo8NSObject", "NSEC_PER_SEC"]
+- !private ["CSo8NSObject", "POPSpringAnimation"]
 - !private ["CSo8NSObject", "UIControlEvents"]
 - !private ["CSo8NSObject", "UIControlState"]
 - ["CSo8NSObject", "UILabel"]
 - !private ["CSo8NSObject", "UIScreen"]
-- ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "UInt32"]
 - !private ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "addAnimation"]
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "addTarget"]
-- ["CSo8NSObject", "animationCompletionCount"]
 - !private ["CSo8NSObject", "arc4random_uniform"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "bounds"]
@@ -758,16 +765,16 @@ depends-member:
 - ["CSo8NSObject", "buttonTitles"]
 - ["CSo8NSObject", "continueButton"]
 - !private ["CSo8NSObject", "cornerRadius"]
-- !private ["CSo8NSObject", "destinationViewController"]
+- !private ["CSo8NSObject", "dispatch_after"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "dispatch_time"]
 - ["CSo8NSObject", "drawContinueButton"]
-- !private ["CSo8NSObject", "game"]
 - ["CSo8NSObject", "gameTitleLabel"]
 - ["CSo8NSObject", "games"]
 - ["CSo8NSObject", "goToTheGame"]
 - !private ["CSo8NSObject", "hidden"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "kPOPLayerPositionY"]
-- ["CSo8NSObject", "kPOPLayerRotation"]
 - !private ["CSo8NSObject", "layer"]
 - !private ["CSo8NSObject", "mainScreen"]
 - ["CSo8NSObject", "mysteryTileView"]
@@ -777,11 +784,8 @@ depends-member:
 - ["CSo8NSObject", "pop_animationDidReachToValue"]
 - ["CSo8NSObject", "pop_animationDidStart"]
 - ["CSo8NSObject", "pop_animationDidStop"]
-- ["CSo8NSObject", "prepareForSegue"]
 - ["CSo8NSObject", "questionMarkLabel"]
 - !private ["CSo8NSObject", "repeatCount"]
-- ["CSo8NSObject", "rotateDown"]
-- ["CSo8NSObject", "rotateUp"]
 - ["CSo8NSObject", "selectedGame"]
 - !private ["CSo8NSObject", "setTitle"]
 - !private ["CSo8NSObject", "shadowColor"]
@@ -799,17 +803,21 @@ depends-member:
 - ["CSo8NSObject", "viewDidAppear"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "BustIt"]
 - !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
 - !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "DISPATCH_TIME_NOW"]
+- !private ["PSo16NSObjectProtocol", "Festivity"]
 - !private ["PSo16NSObjectProtocol", "FlatWhite"]
 - !private ["PSo16NSObjectProtocol", "FlatYellow"]
 - !private ["PSo16NSObjectProtocol", "FlatYellowDark"]
 - !private ["PSo16NSObjectProtocol", "HTPressableButton"]
 - !private ["PSo16NSObjectProtocol", "HTPressableButtonStyle"]
 - !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "Int64"]
 - !private ["PSo16NSObjectProtocol", "M_PI"]
-- ["PSo16NSObjectProtocol", "POPSpringAnimation"]
-- ["PSo16NSObjectProtocol", "RapidFire"]
+- !private ["PSo16NSObjectProtocol", "NSEC_PER_SEC"]
+- !private ["PSo16NSObjectProtocol", "POPSpringAnimation"]
 - !private ["PSo16NSObjectProtocol", "UIControlEvents"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
@@ -817,7 +825,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "addAnimation"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
-- ["PSo16NSObjectProtocol", "animationCompletionCount"]
 - !private ["PSo16NSObjectProtocol", "arc4random_uniform"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
@@ -825,16 +832,16 @@ depends-member:
 - ["PSo16NSObjectProtocol", "buttonTitles"]
 - ["PSo16NSObjectProtocol", "continueButton"]
 - !private ["PSo16NSObjectProtocol", "cornerRadius"]
-- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- !private ["PSo16NSObjectProtocol", "dispatch_after"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "dispatch_time"]
 - ["PSo16NSObjectProtocol", "drawContinueButton"]
-- !private ["PSo16NSObjectProtocol", "game"]
 - ["PSo16NSObjectProtocol", "gameTitleLabel"]
 - ["PSo16NSObjectProtocol", "games"]
 - ["PSo16NSObjectProtocol", "goToTheGame"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "kPOPLayerPositionY"]
-- ["PSo16NSObjectProtocol", "kPOPLayerRotation"]
 - !private ["PSo16NSObjectProtocol", "layer"]
 - !private ["PSo16NSObjectProtocol", "mainScreen"]
 - ["PSo16NSObjectProtocol", "mysteryTileView"]
@@ -844,11 +851,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "pop_animationDidReachToValue"]
 - ["PSo16NSObjectProtocol", "pop_animationDidStart"]
 - ["PSo16NSObjectProtocol", "pop_animationDidStop"]
-- ["PSo16NSObjectProtocol", "prepareForSegue"]
 - ["PSo16NSObjectProtocol", "questionMarkLabel"]
 - !private ["PSo16NSObjectProtocol", "repeatCount"]
-- ["PSo16NSObjectProtocol", "rotateDown"]
-- ["PSo16NSObjectProtocol", "rotateUp"]
 - ["PSo16NSObjectProtocol", "selectedGame"]
 - !private ["PSo16NSObjectProtocol", "setTitle"]
 - !private ["PSo16NSObjectProtocol", "shadowColor"]
@@ -870,21 +874,25 @@ depends-member:
 - !private ["PSs13OptionSetType", "Normal"]
 - !private ["PSs13OptionSetType", "TouchUpInside"]
 - !private ["Sq", "deinit"]
-- ["CSo12POPAnimation", "init"]
+- !private ["CSo12POPAnimation", "init"]
 - !private ["CSo12POPAnimation", "springBounciness"]
 - !private ["CSo12POPAnimation", "springSpeed"]
 - !private ["CSo12POPAnimation", "toValue"]
+- ["PSo20POPAnimationDelegate", "BustIt"]
 - !private ["PSo20POPAnimationDelegate", "CABasicAnimation"]
 - !private ["PSo20POPAnimationDelegate", "CGRectMake"]
+- !private ["PSo20POPAnimationDelegate", "DISPATCH_TIME_NOW"]
+- !private ["PSo20POPAnimationDelegate", "Festivity"]
 - !private ["PSo20POPAnimationDelegate", "FlatWhite"]
 - !private ["PSo20POPAnimationDelegate", "FlatYellow"]
 - !private ["PSo20POPAnimationDelegate", "FlatYellowDark"]
 - !private ["PSo20POPAnimationDelegate", "HTPressableButton"]
 - !private ["PSo20POPAnimationDelegate", "HTPressableButtonStyle"]
 - !private ["PSo20POPAnimationDelegate", "Int"]
+- !private ["PSo20POPAnimationDelegate", "Int64"]
 - !private ["PSo20POPAnimationDelegate", "M_PI"]
-- ["PSo20POPAnimationDelegate", "POPSpringAnimation"]
-- ["PSo20POPAnimationDelegate", "RapidFire"]
+- !private ["PSo20POPAnimationDelegate", "NSEC_PER_SEC"]
+- !private ["PSo20POPAnimationDelegate", "POPSpringAnimation"]
 - !private ["PSo20POPAnimationDelegate", "UIControlEvents"]
 - !private ["PSo20POPAnimationDelegate", "UIControlState"]
 - !private ["PSo20POPAnimationDelegate", "UIScreen"]
@@ -892,11 +900,13 @@ depends-member:
 - !private ["PSo20POPAnimationDelegate", "arc4random_uniform"]
 - !private ["PSo20POPAnimationDelegate", "buttonTitles"]
 - !private ["PSo20POPAnimationDelegate", "continueButton"]
+- !private ["PSo20POPAnimationDelegate", "dispatch_after"]
+- !private ["PSo20POPAnimationDelegate", "dispatch_get_main_queue"]
+- !private ["PSo20POPAnimationDelegate", "dispatch_time"]
 - !private ["PSo20POPAnimationDelegate", "drawContinueButton"]
 - !private ["PSo20POPAnimationDelegate", "gameTitleLabel"]
 - !private ["PSo20POPAnimationDelegate", "games"]
 - !private ["PSo20POPAnimationDelegate", "kPOPLayerPositionY"]
-- ["PSo20POPAnimationDelegate", "kPOPLayerRotation"]
 - !private ["PSo20POPAnimationDelegate", "mysteryTileView"]
 - !private ["PSo20POPAnimationDelegate", "performSegueWithIdentifier"]
 - ["PSo20POPAnimationDelegate", "pop_animationDidApply"]
@@ -909,15 +919,14 @@ depends-member:
 - !private ["PSo20POPAnimationDelegate", "startTheSelection"]
 - !private ["PSo20POPAnimationDelegate", "view"]
 - ["PSo20POPAnimationDelegate", ""]
-- ["CSo20POPPropertyAnimation", "init"]
+- !private ["CSo20POPPropertyAnimation", "init"]
 - !private ["CSo20POPPropertyAnimation", "springBounciness"]
 - !private ["CSo20POPPropertyAnimation", "springSpeed"]
 - !private ["CSo20POPPropertyAnimation", "toValue"]
-- ["CSo18POPSpringAnimation", "init"]
+- !private ["CSo18POPSpringAnimation", "init"]
 - !private ["CSo18POPSpringAnimation", "springBounciness"]
 - !private ["CSo18POPSpringAnimation", "springSpeed"]
 - !private ["CSo18POPSpringAnimation", "toValue"]
-- !private ["C9PlayToPay25PlayerStartViewController", "game"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["PSs21RandomAccessIndexType", "init"]
@@ -927,8 +936,6 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
-- ["C9PlayToPay9RapidFire", "deinit"]
-- ["C9PlayToPay9RapidFire", "init"]
 - !private ["PSs16RawRepresentable", "Normal"]
 - !private ["PSs16RawRepresentable", "Rounded"]
 - !private ["PSs16RawRepresentable", "TouchUpInside"]
@@ -983,38 +990,42 @@ depends-member:
 - !private ["PSo12UIAppearance", "snp_makeConstraints"]
 - !private ["PSo12UIAppearance", "snp_remakeConstraints"]
 - !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "BustIt"]
 - !private ["PSo21UIAppearanceContainer", "CABasicAnimation"]
 - !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "DISPATCH_TIME_NOW"]
+- !private ["PSo21UIAppearanceContainer", "Festivity"]
 - !private ["PSo21UIAppearanceContainer", "FlatWhite"]
 - !private ["PSo21UIAppearanceContainer", "FlatYellow"]
 - !private ["PSo21UIAppearanceContainer", "FlatYellowDark"]
 - !private ["PSo21UIAppearanceContainer", "HTPressableButton"]
 - !private ["PSo21UIAppearanceContainer", "HTPressableButtonStyle"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
+- !private ["PSo21UIAppearanceContainer", "Int64"]
 - !private ["PSo21UIAppearanceContainer", "M_PI"]
-- ["PSo21UIAppearanceContainer", "POPSpringAnimation"]
-- ["PSo21UIAppearanceContainer", "RapidFire"]
+- !private ["PSo21UIAppearanceContainer", "NSEC_PER_SEC"]
+- !private ["PSo21UIAppearanceContainer", "POPSpringAnimation"]
 - !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
 - !private ["PSo21UIAppearanceContainer", "UIControlState"]
 - !private ["PSo21UIAppearanceContainer", "UIScreen"]
 - !private ["PSo21UIAppearanceContainer", "UInt32"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "addTarget"]
-- ["PSo21UIAppearanceContainer", "animationCompletionCount"]
 - !private ["PSo21UIAppearanceContainer", "arc4random_uniform"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - !private ["PSo21UIAppearanceContainer", "buttonColor"]
 - ["PSo21UIAppearanceContainer", "buttonTitles"]
 - ["PSo21UIAppearanceContainer", "continueButton"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_after"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_time"]
 - ["PSo21UIAppearanceContainer", "drawContinueButton"]
-- !private ["PSo21UIAppearanceContainer", "game"]
 - ["PSo21UIAppearanceContainer", "gameTitleLabel"]
 - ["PSo21UIAppearanceContainer", "games"]
 - ["PSo21UIAppearanceContainer", "goToTheGame"]
 - !private ["PSo21UIAppearanceContainer", "hidden"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "kPOPLayerPositionY"]
-- ["PSo21UIAppearanceContainer", "kPOPLayerRotation"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "mysteryTileView"]
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
@@ -1023,10 +1034,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "pop_animationDidReachToValue"]
 - ["PSo21UIAppearanceContainer", "pop_animationDidStart"]
 - ["PSo21UIAppearanceContainer", "pop_animationDidStop"]
-- ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - ["PSo21UIAppearanceContainer", "questionMarkLabel"]
-- ["PSo21UIAppearanceContainer", "rotateDown"]
-- ["PSo21UIAppearanceContainer", "rotateUp"]
 - ["PSo21UIAppearanceContainer", "selectedGame"]
 - !private ["PSo21UIAppearanceContainer", "setTitle"]
 - !private ["PSo21UIAppearanceContainer", "shadowColor"]
@@ -1049,43 +1057,44 @@ depends-member:
 - !private ["CSo8UIButton", "shadowColor"]
 - !private ["CSo8UIButton", "snp_makeConstraints"]
 - !private ["CSo8UIButton", "snp_remakeConstraints"]
+- ["PSo18UIContentContainer", "BustIt"]
 - !private ["PSo18UIContentContainer", "CABasicAnimation"]
 - !private ["PSo18UIContentContainer", "CGRectMake"]
+- !private ["PSo18UIContentContainer", "DISPATCH_TIME_NOW"]
+- !private ["PSo18UIContentContainer", "Festivity"]
 - !private ["PSo18UIContentContainer", "FlatWhite"]
 - !private ["PSo18UIContentContainer", "FlatYellow"]
 - !private ["PSo18UIContentContainer", "FlatYellowDark"]
 - !private ["PSo18UIContentContainer", "HTPressableButton"]
 - !private ["PSo18UIContentContainer", "HTPressableButtonStyle"]
 - !private ["PSo18UIContentContainer", "Int"]
+- !private ["PSo18UIContentContainer", "Int64"]
 - !private ["PSo18UIContentContainer", "M_PI"]
-- ["PSo18UIContentContainer", "POPSpringAnimation"]
-- ["PSo18UIContentContainer", "RapidFire"]
+- !private ["PSo18UIContentContainer", "NSEC_PER_SEC"]
+- !private ["PSo18UIContentContainer", "POPSpringAnimation"]
 - !private ["PSo18UIContentContainer", "UIControlEvents"]
 - !private ["PSo18UIContentContainer", "UIControlState"]
 - !private ["PSo18UIContentContainer", "UIScreen"]
 - !private ["PSo18UIContentContainer", "UInt32"]
-- ["PSo18UIContentContainer", "animationCompletionCount"]
 - !private ["PSo18UIContentContainer", "arc4random_uniform"]
 - ["PSo18UIContentContainer", "buttonTitles"]
 - ["PSo18UIContentContainer", "continueButton"]
+- !private ["PSo18UIContentContainer", "dispatch_after"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- !private ["PSo18UIContentContainer", "dispatch_time"]
 - ["PSo18UIContentContainer", "drawContinueButton"]
-- !private ["PSo18UIContentContainer", "game"]
 - ["PSo18UIContentContainer", "gameTitleLabel"]
 - ["PSo18UIContentContainer", "games"]
 - ["PSo18UIContentContainer", "goToTheGame"]
 - ["PSo18UIContentContainer", "init"]
 - !private ["PSo18UIContentContainer", "kPOPLayerPositionY"]
-- ["PSo18UIContentContainer", "kPOPLayerRotation"]
 - ["PSo18UIContentContainer", "mysteryTileView"]
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "pop_animationDidApply"]
 - ["PSo18UIContentContainer", "pop_animationDidReachToValue"]
 - ["PSo18UIContentContainer", "pop_animationDidStart"]
 - ["PSo18UIContentContainer", "pop_animationDidStop"]
-- ["PSo18UIContentContainer", "prepareForSegue"]
 - ["PSo18UIContentContainer", "questionMarkLabel"]
-- ["PSo18UIContentContainer", "rotateDown"]
-- ["PSo18UIContentContainer", "rotateUp"]
 - ["PSo18UIContentContainer", "selectedGame"]
 - ["PSo18UIContentContainer", "showContinueButton"]
 - ["PSo18UIContentContainer", "startTheSelection"]
@@ -1135,46 +1144,47 @@ depends-member:
 - !private ["VSC12UIEdgeInsets", "deinit"]
 - !private ["CSo7UILabel", "hidden"]
 - !private ["CSo7UILabel", "text"]
-- ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "BustIt"]
 - !private ["CSo11UIResponder", "CABasicAnimation"]
 - !private ["CSo11UIResponder", "CGRectMake"]
+- !private ["CSo11UIResponder", "DISPATCH_TIME_NOW"]
+- !private ["CSo11UIResponder", "Festivity"]
 - !private ["CSo11UIResponder", "FlatWhite"]
 - !private ["CSo11UIResponder", "FlatYellow"]
 - !private ["CSo11UIResponder", "FlatYellowDark"]
 - ["CSo11UIResponder", "HTPressableButton"]
 - !private ["CSo11UIResponder", "HTPressableButtonStyle"]
 - !private ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "Int64"]
 - !private ["CSo11UIResponder", "M_PI"]
 - ["CSo11UIResponder", "Minigame"]
-- ["CSo11UIResponder", "POPSpringAnimation"]
-- !private ["CSo11UIResponder", "PlayerStartViewController"]
-- ["CSo11UIResponder", "RapidFire"]
+- !private ["CSo11UIResponder", "NSEC_PER_SEC"]
+- !private ["CSo11UIResponder", "POPSpringAnimation"]
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - !private ["CSo11UIResponder", "UIControlState"]
 - ["CSo11UIResponder", "UILabel"]
 - !private ["CSo11UIResponder", "UIScreen"]
-- ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "UInt32"]
 - !private ["CSo11UIResponder", "Void"]
 - !private ["CSo11UIResponder", "addSubview"]
 - !private ["CSo11UIResponder", "addTarget"]
-- ["CSo11UIResponder", "animationCompletionCount"]
 - !private ["CSo11UIResponder", "arc4random_uniform"]
 - !private ["CSo11UIResponder", "backgroundColor"]
 - !private ["CSo11UIResponder", "buttonColor"]
 - ["CSo11UIResponder", "buttonTitles"]
 - ["CSo11UIResponder", "continueButton"]
+- !private ["CSo11UIResponder", "dispatch_after"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- !private ["CSo11UIResponder", "dispatch_time"]
 - ["CSo11UIResponder", "drawContinueButton"]
-- !private ["CSo11UIResponder", "game"]
 - ["CSo11UIResponder", "gameTitleLabel"]
 - ["CSo11UIResponder", "games"]
 - ["CSo11UIResponder", "goToTheGame"]
 - !private ["CSo11UIResponder", "hidden"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "kPOPLayerPositionY"]
-- ["CSo11UIResponder", "kPOPLayerRotation"]
 - !private ["CSo11UIResponder", "layer"]
 - ["CSo11UIResponder", "mysteryTileView"]
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
@@ -1183,10 +1193,7 @@ depends-member:
 - ["CSo11UIResponder", "pop_animationDidReachToValue"]
 - ["CSo11UIResponder", "pop_animationDidStart"]
 - ["CSo11UIResponder", "pop_animationDidStop"]
-- ["CSo11UIResponder", "prepareForSegue"]
 - ["CSo11UIResponder", "questionMarkLabel"]
-- ["CSo11UIResponder", "rotateDown"]
-- ["CSo11UIResponder", "rotateUp"]
 - ["CSo11UIResponder", "selectedGame"]
 - !private ["CSo11UIResponder", "setTitle"]
 - !private ["CSo11UIResponder", "shadowColor"]
@@ -1202,43 +1209,44 @@ depends-member:
 - ["CSo11UIResponder", "viewWillAppear"]
 - !private ["CSo8UIScreen", "bounds"]
 - !private ["CSo8UIScreen", "mainScreen"]
+- ["PSo16UIStateRestoring", "BustIt"]
 - !private ["PSo16UIStateRestoring", "CABasicAnimation"]
 - !private ["PSo16UIStateRestoring", "CGRectMake"]
+- !private ["PSo16UIStateRestoring", "DISPATCH_TIME_NOW"]
+- !private ["PSo16UIStateRestoring", "Festivity"]
 - !private ["PSo16UIStateRestoring", "FlatWhite"]
 - !private ["PSo16UIStateRestoring", "FlatYellow"]
 - !private ["PSo16UIStateRestoring", "FlatYellowDark"]
 - !private ["PSo16UIStateRestoring", "HTPressableButton"]
 - !private ["PSo16UIStateRestoring", "HTPressableButtonStyle"]
 - !private ["PSo16UIStateRestoring", "Int"]
+- !private ["PSo16UIStateRestoring", "Int64"]
 - !private ["PSo16UIStateRestoring", "M_PI"]
-- ["PSo16UIStateRestoring", "POPSpringAnimation"]
-- ["PSo16UIStateRestoring", "RapidFire"]
+- !private ["PSo16UIStateRestoring", "NSEC_PER_SEC"]
+- !private ["PSo16UIStateRestoring", "POPSpringAnimation"]
 - !private ["PSo16UIStateRestoring", "UIControlEvents"]
 - !private ["PSo16UIStateRestoring", "UIControlState"]
 - !private ["PSo16UIStateRestoring", "UIScreen"]
 - !private ["PSo16UIStateRestoring", "UInt32"]
-- ["PSo16UIStateRestoring", "animationCompletionCount"]
 - !private ["PSo16UIStateRestoring", "arc4random_uniform"]
 - ["PSo16UIStateRestoring", "buttonTitles"]
 - ["PSo16UIStateRestoring", "continueButton"]
+- !private ["PSo16UIStateRestoring", "dispatch_after"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- !private ["PSo16UIStateRestoring", "dispatch_time"]
 - ["PSo16UIStateRestoring", "drawContinueButton"]
-- !private ["PSo16UIStateRestoring", "game"]
 - ["PSo16UIStateRestoring", "gameTitleLabel"]
 - ["PSo16UIStateRestoring", "games"]
 - ["PSo16UIStateRestoring", "goToTheGame"]
 - ["PSo16UIStateRestoring", "init"]
 - !private ["PSo16UIStateRestoring", "kPOPLayerPositionY"]
-- ["PSo16UIStateRestoring", "kPOPLayerRotation"]
 - ["PSo16UIStateRestoring", "mysteryTileView"]
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "pop_animationDidApply"]
 - ["PSo16UIStateRestoring", "pop_animationDidReachToValue"]
 - ["PSo16UIStateRestoring", "pop_animationDidStart"]
 - ["PSo16UIStateRestoring", "pop_animationDidStop"]
-- ["PSo16UIStateRestoring", "prepareForSegue"]
 - ["PSo16UIStateRestoring", "questionMarkLabel"]
-- ["PSo16UIStateRestoring", "rotateDown"]
-- ["PSo16UIStateRestoring", "rotateUp"]
 - ["PSo16UIStateRestoring", "selectedGame"]
 - ["PSo16UIStateRestoring", "showContinueButton"]
 - ["PSo16UIStateRestoring", "startTheSelection"]
@@ -1247,41 +1255,43 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewWillAppear"]
 - ["PSo16UIStateRestoring", ""]
-- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
-- !private ["PSo19UITextFieldDelegate", "game"]
+- ["PSo18UITraitEnvironment", "BustIt"]
 - !private ["PSo18UITraitEnvironment", "CABasicAnimation"]
 - !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "DISPATCH_TIME_NOW"]
+- !private ["PSo18UITraitEnvironment", "Festivity"]
 - !private ["PSo18UITraitEnvironment", "FlatWhite"]
 - !private ["PSo18UITraitEnvironment", "FlatYellow"]
 - !private ["PSo18UITraitEnvironment", "FlatYellowDark"]
 - !private ["PSo18UITraitEnvironment", "HTPressableButton"]
 - !private ["PSo18UITraitEnvironment", "HTPressableButtonStyle"]
 - !private ["PSo18UITraitEnvironment", "Int"]
+- !private ["PSo18UITraitEnvironment", "Int64"]
 - !private ["PSo18UITraitEnvironment", "M_PI"]
-- ["PSo18UITraitEnvironment", "POPSpringAnimation"]
-- ["PSo18UITraitEnvironment", "RapidFire"]
+- !private ["PSo18UITraitEnvironment", "NSEC_PER_SEC"]
+- !private ["PSo18UITraitEnvironment", "POPSpringAnimation"]
 - !private ["PSo18UITraitEnvironment", "UIControlEvents"]
 - !private ["PSo18UITraitEnvironment", "UIControlState"]
 - !private ["PSo18UITraitEnvironment", "UIScreen"]
 - !private ["PSo18UITraitEnvironment", "UInt32"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "addTarget"]
-- ["PSo18UITraitEnvironment", "animationCompletionCount"]
 - !private ["PSo18UITraitEnvironment", "arc4random_uniform"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - !private ["PSo18UITraitEnvironment", "bounds"]
 - !private ["PSo18UITraitEnvironment", "buttonColor"]
 - ["PSo18UITraitEnvironment", "buttonTitles"]
 - ["PSo18UITraitEnvironment", "continueButton"]
+- !private ["PSo18UITraitEnvironment", "dispatch_after"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UITraitEnvironment", "dispatch_time"]
 - ["PSo18UITraitEnvironment", "drawContinueButton"]
-- !private ["PSo18UITraitEnvironment", "game"]
 - ["PSo18UITraitEnvironment", "gameTitleLabel"]
 - ["PSo18UITraitEnvironment", "games"]
 - ["PSo18UITraitEnvironment", "goToTheGame"]
 - !private ["PSo18UITraitEnvironment", "hidden"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "kPOPLayerPositionY"]
-- ["PSo18UITraitEnvironment", "kPOPLayerRotation"]
 - !private ["PSo18UITraitEnvironment", "layer"]
 - !private ["PSo18UITraitEnvironment", "mainScreen"]
 - ["PSo18UITraitEnvironment", "mysteryTileView"]
@@ -1291,10 +1301,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "pop_animationDidReachToValue"]
 - ["PSo18UITraitEnvironment", "pop_animationDidStart"]
 - ["PSo18UITraitEnvironment", "pop_animationDidStop"]
-- ["PSo18UITraitEnvironment", "prepareForSegue"]
 - ["PSo18UITraitEnvironment", "questionMarkLabel"]
-- ["PSo18UITraitEnvironment", "rotateDown"]
-- ["PSo18UITraitEnvironment", "rotateUp"]
 - ["PSo18UITraitEnvironment", "selectedGame"]
 - !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "shadowColor"]
@@ -1324,52 +1331,49 @@ depends-member:
 - !private ["CSo6UIView", "snp_makeConstraints"]
 - !private ["CSo6UIView", "snp_remakeConstraints"]
 - !private ["CSo6UIView", "text"]
-- ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "BustIt"]
 - !private ["CSo16UIViewController", "CABasicAnimation"]
 - !private ["CSo16UIViewController", "CGRectMake"]
+- !private ["CSo16UIViewController", "DISPATCH_TIME_NOW"]
+- !private ["CSo16UIViewController", "Festivity"]
 - !private ["CSo16UIViewController", "FlatWhite"]
 - !private ["CSo16UIViewController", "FlatYellow"]
 - !private ["CSo16UIViewController", "FlatYellowDark"]
 - ["CSo16UIViewController", "HTPressableButton"]
 - !private ["CSo16UIViewController", "HTPressableButtonStyle"]
 - !private ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "Int64"]
 - !private ["CSo16UIViewController", "M_PI"]
 - ["CSo16UIViewController", "Minigame"]
-- ["CSo16UIViewController", "POPSpringAnimation"]
-- !private ["CSo16UIViewController", "PlayerStartViewController"]
-- ["CSo16UIViewController", "RapidFire"]
+- !private ["CSo16UIViewController", "NSEC_PER_SEC"]
+- !private ["CSo16UIViewController", "POPSpringAnimation"]
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - !private ["CSo16UIViewController", "UIControlState"]
 - ["CSo16UIViewController", "UILabel"]
 - !private ["CSo16UIViewController", "UIScreen"]
-- ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UIView"]
 - !private ["CSo16UIViewController", "UInt32"]
 - !private ["CSo16UIViewController", "Void"]
-- ["CSo16UIViewController", "animationCompletionCount"]
 - !private ["CSo16UIViewController", "arc4random_uniform"]
 - ["CSo16UIViewController", "buttonTitles"]
 - ["CSo16UIViewController", "continueButton"]
-- !private ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "dispatch_after"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- !private ["CSo16UIViewController", "dispatch_time"]
 - ["CSo16UIViewController", "drawContinueButton"]
-- !private ["CSo16UIViewController", "game"]
 - ["CSo16UIViewController", "gameTitleLabel"]
 - ["CSo16UIViewController", "games"]
 - ["CSo16UIViewController", "goToTheGame"]
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "kPOPLayerPositionY"]
-- ["CSo16UIViewController", "kPOPLayerRotation"]
 - ["CSo16UIViewController", "mysteryTileView"]
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "pop_animationDidApply"]
 - ["CSo16UIViewController", "pop_animationDidReachToValue"]
 - ["CSo16UIViewController", "pop_animationDidStart"]
 - ["CSo16UIViewController", "pop_animationDidStop"]
-- ["CSo16UIViewController", "prepareForSegue"]
 - ["CSo16UIViewController", "questionMarkLabel"]
-- ["CSo16UIViewController", "rotateDown"]
-- ["CSo16UIViewController", "rotateUp"]
 - ["CSo16UIViewController", "selectedGame"]
 - ["CSo16UIViewController", "showContinueButton"]
 - ["CSo16UIViewController", "startTheSelection"]
@@ -1389,6 +1393,7 @@ depends-member:
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
 - ["PSs24_DestructorSafeContainer", "Element"]
 - !private ["PSs24_DestructorSafeContainer", "Generator"]
 - !private ["PSs24_DestructorSafeContainer", "Index"]
@@ -1454,6 +1459,7 @@ depends-nominal:
 - !private "VSs10ArraySlice"
 - !private "PSs22BidirectionalIndexType"
 - !private "PSs21BitwiseOperationsType"
+- "C9PlayToPay6BustIt"
 - !private "PSo8CAAction"
 - !private "CSo11CAAnimation"
 - !private "CSo16CABasicAnimation"
@@ -1478,6 +1484,7 @@ depends-nominal:
 - "PSs23CustomStringConvertible"
 - !private "Sd"
 - "PSs9Equatable"
+- !private "C9PlayToPay9Festivity"
 - !private "PSs16ForwardIndexType"
 - "C9PlayToPay27GameSelectionViewController"
 - !private "PSs13GeneratorType"
@@ -1488,6 +1495,7 @@ depends-nominal:
 - "PSs9Indexable"
 - !private "VSs17IndexingGenerator"
 - !private "Si"
+- !private "VSs5Int64"
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
@@ -1497,20 +1505,18 @@ depends-nominal:
 - "PSs16MutableIndexable"
 - "PSs16MutableSliceable"
 - "PSo8NSCoding"
-- "PSo9NSCopying"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSs13OptionSetType"
 - !private "Sq"
-- "CSo12POPAnimation"
+- !private "CSo12POPAnimation"
 - "PSo20POPAnimationDelegate"
-- "CSo20POPPropertyAnimation"
-- "CSo18POPSpringAnimation"
-- !private "C9PlayToPay25PlayerStartViewController"
+- !private "CSo20POPPropertyAnimation"
+- !private "CSo18POPSpringAnimation"
 - !private "PSs21RandomAccessIndexType"
 - "PSs30RangeReplaceableCollectionType"
-- "C9PlayToPay9RapidFire"
 - !private "PSs16RawRepresentable"
 - !private "V10ObjectiveC8Selector"
 - "PSs12SequenceType"
@@ -1534,8 +1540,6 @@ depends-nominal:
 - "CSo11UIResponder"
 - !private "CSo8UIScreen"
 - "PSo16UIStateRestoring"
-- !private "CSo17UIStoryboardSegue"
-- !private "PSo19UITextFieldDelegate"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
@@ -1543,6 +1547,7 @@ depends-nominal:
 - !private "PSs19UnsignedIntegerType"
 - "PSs10_ArrayType"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
 - "PSs24_DestructorSafeContainer"
 - !private "PSs28_DisallowMixedSignArithmetic"
 - !private "PSs14_Incrementable"
@@ -1556,13 +1561,11 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
@@ -1580,6 +1583,8 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIImage+HTButton.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIColor+HTColor.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButtonPrefs.h"
@@ -1595,6 +1600,23 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiArea.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimator.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPGeometry.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDefines.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/NSString+Icons.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
@@ -1618,21 +1640,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPBasicAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimator.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPPropertyAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPSpringAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationExtras.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPGeometry.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationEvent.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimationTracer.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPAnimatableProperty.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDefines.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
-interface-hash: "f4b8c26f9a1b456d434deed7baefff82"
+interface-hash: "cbcb064011cc9aa0e44855b968c49dfe"

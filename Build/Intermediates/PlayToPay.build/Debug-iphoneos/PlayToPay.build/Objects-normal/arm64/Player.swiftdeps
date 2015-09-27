@@ -7,13 +7,25 @@ provides-member:
 - ["C9PlayToPay6Player", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "StringLiteralType"
+- "Bool"
 - "Player"
+- !private "BooleanLiteralType"
+- "String"
 depends-member:
+- !private ["PSs9AnyObject", "isStillInIt"]
+- !private ["PSs9AnyObject", "name"]
 - ["PSs9AnyObject", ""]
+- !private ["SQ", "deinit"]
+- ["C9PlayToPay6Player", "Bool"]
+- ["C9PlayToPay6Player", "String"]
 - ["C9PlayToPay6Player", "deinit"]
 - ["C9PlayToPay6Player", "init"]
+- ["C9PlayToPay6Player", "isStillInIt"]
+- ["C9PlayToPay6Player", "name"]
 depends-nominal:
 - "PSs9AnyObject"
+- !private "SQ"
 - "C9PlayToPay6Player"
 depends-dynamic-lookup:
 depends-external:
@@ -57,4 +69,44 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiArea.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Modules/module.modulemap"
-interface-hash: "1b3bd554d76869c027d638cbbd0d4964"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/NSString+Icons.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUISwitch.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUISegmentedControl.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUITextField.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIAlertView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimator.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPGeometry.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDefines.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/pop-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Modules/module.modulemap"
+interface-hash: "bac654017e8520137b793cc53ad9a189"

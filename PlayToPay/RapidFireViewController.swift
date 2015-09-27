@@ -54,21 +54,36 @@ class RapidFireViewController: UIViewController {
         scoreLabel.text = "\(count)"
     }
     
+    func buttonPressed()  {
+        count++
+        scoreLabel.text = "\(count)"
+    }
+    
     func subtractTime() {
         seconds--
         timerLabel.text = "\(seconds)"
         
         if(seconds == 0)  {
             timer.invalidate()
-            let alert = UIAlertController(title: "Time is up!", message: "You scored \(count) points", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "Play Again", style: UIAlertActionStyle.Default, handler: {action in self.setupGame()}))
-            presentViewController(alert, animated: true, completion:nil)
+            
+            let _ = NSTimer(timeInterval: 0.5, target: self, selector: "blinkTimerLabel", userInfo: nil, repeats: false)
+            
+            performSelector("goToResults", withObject: nil, afterDelay: 0.5)
         }
     }
     
-    func buttonPressed()  {
-        count++
-        scoreLabel.text = "\(count)"
+    func blinkTimerLabel() {
+        print("blink timer label")
+        self.timerLabel.hidden = !self.timerLabel.hidden
+    }
+    
+    func goToResults() {
+        performSegueWithIdentifier("toResults", sender: self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let destVC = segue.destinationViewController as! MinigameResultsViewController
+        destVC.score = Int(scoreLabel.text!)
     }
 
 }

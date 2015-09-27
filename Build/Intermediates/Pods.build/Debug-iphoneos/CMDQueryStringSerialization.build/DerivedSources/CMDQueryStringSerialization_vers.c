@@ -1,0 +1,1 @@
+ const unsigned char CMDQueryStringSerializationVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:CMDQueryStringSerialization  PROJECT:Pods-0.2.0" "\n"; const double CMDQueryStringSerializationVersionNumber __attribute__ ((used)) = (double)0.2;

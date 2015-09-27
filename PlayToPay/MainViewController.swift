@@ -16,7 +16,7 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
     
     var numberOfPlayers = 4
     let minNumberOfPlayers = 2
-    let maxNumberOfPlayers = 7
+    let maxNumberOfPlayers = 8
     
     var commenceButton: HTPressableButton!
     var plusButton: HTPressableButton!
@@ -28,11 +28,6 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        confettiArea = L360ConfettiArea(frame: self.view.frame)
-        confettiArea.delegate = self
-        
-        confettiArea.burstAt(self.view.center, confettiWidth: 10, numberOfConfetti: 100)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -40,6 +35,10 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         
         self.view.backgroundColor = FlatWhite()
 
+        confettiArea = L360ConfettiArea(frame: self.view.frame)
+        confettiArea.delegate = self
+        self.view.addSubview(confettiArea)
+        
         drawCommenceButton()
         drawPlusButton()
         drawMinusButton()
@@ -71,10 +70,7 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         plusButton.shadowColor = FlatGreenDark()
         plusButton.disabledButtonColor = FlatGray()
         
-//        let font = UIFont(name: "Aleo-Bold", size: 20)
-//        let attributedPlus = NSAttributedString(string: "+", attributes: [NSFontAttributeName : font!])
-        
-        plusButton.setTitle("+", forState: UIControlState.Normal)
+        plusButton.setTitle("MORE", forState: UIControlState.Normal)
         
         plusButton.addTarget(self, action: "addPlayer", forControlEvents: UIControlEvents.TouchUpInside)
         
@@ -93,7 +89,7 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         minusButton.buttonColor = FlatRed()
         minusButton.shadowColor = FlatRedDark()
         minusButton.disabledButtonColor = FlatGray()
-        minusButton.setTitle("-", forState: UIControlState.Normal)
+        minusButton.setTitle("LESS", forState: UIControlState.Normal)
         
         minusButton.addTarget(self, action: "subPlayer", forControlEvents: UIControlEvents.TouchUpInside)
         
@@ -106,9 +102,15 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
     }
     
     func commenceFestivities() {
-        Festivity.theFestivity.players = [Player](count: numberOfPlayers, repeatedValue: Player())
-        confettiArea.burstAt(self.view.center, confettiWidth: 10, numberOfConfetti: 100)
-        self.performSegueWithIdentifier("toGameSelection", sender: self)
+        Festivity.theFestivity.players = []
+        for _ in 1...Int(numPlayersLabel.text!)! {
+            Festivity.theFestivity.players.append(Player())
+        }
+        confettiArea.burstAt(self.view.center, confettiWidth: 10, numberOfConfetti: 50)
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(3 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
+            self.performSegueWithIdentifier("toGameSelection", sender: self)
+        }
     }
     
     func addPlayer() {
@@ -140,7 +142,7 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
     }
     
     func colorsForConfettiArea(confettiArea: L360ConfettiArea!) -> [AnyObject]! {
-        return [FlatMint(), FlatWatermelon(), FlatSkyBlue()]
+        return [FlatMint(), FlatWatermelon(), FlatSkyBlue(), FlatYellow()]
     }
     
 }

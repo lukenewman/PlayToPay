@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import pop;
 @import L360Confetti;
 #endif
 
@@ -103,14 +104,40 @@ SWIFT_CLASS("_TtC9PlayToPay11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class POPSpringAnimation;
 @class HTPressableButton;
-@class L360ConfettiArea;
+@class UIStoryboardSegue;
+@class UIView;
 @class UILabel;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC9PlayToPay14ViewController")
-@interface ViewController : UIViewController <L360ConfettiAreaDelegate>
+SWIFT_CLASS("_TtC9PlayToPay27GameSelectionViewController")
+@interface GameSelectionViewController : UIViewController <POPAnimationDelegate>
+@property (nonatomic) NSInteger animationCompletionCount;
+@property (nonatomic, readonly) POPSpringAnimation * __null_unspecified rotateDown;
+@property (nonatomic, readonly) POPSpringAnimation * __null_unspecified rotateUp;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * __nonnull buttonTitles;
+@property (nonatomic) HTPressableButton * __null_unspecified continueButton;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified mysteryTileView;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified questionMarkLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified gameTitleLabel;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)drawContinueButton;
+- (void)showContinueButton;
+- (void)startTheSelection;
+- (void)goToTheGame;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class L360ConfettiArea;
+
+SWIFT_CLASS("_TtC9PlayToPay18MainViewController")
+@interface MainViewController : UIViewController <L360ConfettiAreaDelegate>
 @property (nonatomic) NSInteger numberOfPlayers;
 @property (nonatomic, readonly) NSInteger minNumberOfPlayers;
 @property (nonatomic, readonly) NSInteger maxNumberOfPlayers;
@@ -128,6 +155,77 @@ SWIFT_CLASS("_TtC9PlayToPay14ViewController")
 - (void)addPlayer;
 - (void)subPlayer;
 - (NSArray * __null_unspecified)colorsForConfettiArea:(L360ConfettiArea * __null_unspecified)confettiArea;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9PlayToPay29MinigameResultsViewController")
+@interface MinigameResultsViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UITextView;
+
+SWIFT_CLASS("_TtC9PlayToPay25PlayerStartViewController")
+@interface PlayerStartViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, readonly, copy) NSArray<NSString *> * __nonnull buttonTitles;
+@property (nonatomic) HTPressableButton * __null_unspecified playButton;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified gameTitleLabel;
+@property (nonatomic, weak) IBOutlet UITextView * __null_unspecified instructionsTextView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified enterNameView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified enterNameLabel;
+@property (nonatomic, weak) IBOutlet UITextField * __null_unspecified enterNameTextField;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified scoreToBeatView;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified scoreToBeatLabel;
+- (void)viewDidLoad;
+- (BOOL)textFieldShouldReturn:(UITextField * __nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * __nonnull)textField;
+- (void)drawPlayButton;
+- (void)playGame;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSTimer;
+
+SWIFT_CLASS("_TtC9PlayToPay23RapidFireViewController")
+@interface RapidFireViewController : UIViewController
+@property (nonatomic) NSInteger count;
+@property (nonatomic) NSInteger seconds;
+@property (nonatomic) NSTimer * __nonnull timer;
+@property (nonatomic) IBOutlet UILabel * __null_unspecified scoreLabel;
+@property (nonatomic) IBOutlet UILabel * __null_unspecified timerLabel;
+- (void)viewDidLoad;
+- (void)drawButton;
+- (void)setupGame;
+- (void)subtractTime;
+- (void)buttonPressed;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9PlayToPay25TapABoxGameViewController")
+@interface TapABoxGameViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view11;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view12;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view13;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view21;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view22;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view23;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view31;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view32;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified view33;
+@property (nonatomic) NSInteger timeLeft;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)createButtons;
+- (void)createButtonInView:(UIView * __nonnull)superview;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

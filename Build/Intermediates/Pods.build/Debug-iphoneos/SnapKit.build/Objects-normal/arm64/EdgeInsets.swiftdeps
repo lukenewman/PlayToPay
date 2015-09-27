@@ -7,11 +7,11 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "UIEdgeInsets"
-- "CGFloat"
-- "EdgeInsets"
 - "EdgeInsetsMake"
 - "EdgeInsetsZero"
+- "EdgeInsets"
+- "UIEdgeInsets"
+- "CGFloat"
 depends-member:
 - ["V12CoreGraphics7CGFloat", "deinit"]
 - ["PSs9Equatable", "init"]
