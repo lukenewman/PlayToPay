@@ -12,6 +12,7 @@ import ChameleonFramework
 import HTPressableButton
 import pop
 import L360Confetti
+import AVFoundation
 
 class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
 
@@ -31,6 +32,7 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         confettiArea.delegate = self
         self.view.addSubview(confettiArea)
 
+        print("loserLabel: \(loserLabel)")
         loserLabel.text = festivity.scoreToBeatHolder.name
         
         loserLabel.snp_makeConstraints(closure: { (make) -> Void in
@@ -46,12 +48,9 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         super.viewDidAppear(animated)
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(2 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
-            // show loser
-            let enterFromRight = POPSpringAnimation(propertyNamed: kPOPLayerPositionX)
-            enterFromRight.toValue = self.view.bounds.midX
-            enterFromRight.springBounciness = 10
-            enterFromRight.springSpeed = 10
-            self.loserLabel.layer.pop_addAnimation(enterFromRight, forKey: "enterFromRight")
+            self.showLoser()
+            
+            self.playHorn()
             
             // CONFETTI
             self.confettiArea.burstAt(CGPointMake(self.view.bounds.size.width / 4, 30), confettiWidth: 5, numberOfConfetti: 25)
@@ -64,6 +63,19 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         }
     }
     
+    var avPlayer: AVAudioPlayer!
+    
+    func playHorn() {
+        do {
+            try avPlayer = AVAudioPlayer(contentsOfURL: NSURL (fileURLWithPath: NSBundle.mainBundle().pathForResource("menu_horn", ofType: "wav")!), fileTypeHint:nil)
+            avPlayer.prepareToPlay()
+            print("playing")
+            avPlayer.play()
+        } catch {
+            //Handle the error
+        }
+    }
+    
     func showPlayAgainButton() {
         let anim = POPSpringAnimation(propertyNamed: kPOPLayerPositionY)
         anim.toValue = UIScreen.mainScreen().bounds.size.height - 100
@@ -72,8 +84,8 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         playAgainButton.pop_addAnimation(anim, forKey: "slideIn")
         
         playAgainButton.snp_remakeConstraints { (make) -> Void in
-            make.bottom.equalTo(self.view).offset(-70)
-            make.centerX.equalTo(self.view)
+            make.bottom.equalTo(self.view).offset(-75)
+            make.centerX.equalTo(self.view).offset(-90)
         }
     }
     
@@ -85,8 +97,8 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         venmoButton.pop_addAnimation(anim, forKey: "slideIn")
         
         venmoButton.snp_remakeConstraints { (make) -> Void in
-            make.bottom.equalTo(self.view).offset(-70)
-            make.centerX.equalTo(self.view)
+            make.bottom.equalTo(self.view).offset(-75)
+            make.centerX.equalTo(self.view).offset(90)
         }
     }
     
@@ -105,7 +117,7 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         
         playAgainButton.snp_makeConstraints { (make) -> Void in
             make.top.equalTo(self.view.snp_bottom)
-            make.right.equalTo(self.view.snp_centerX).offset(-20)
+            make.right.equalTo(self.view.snp_centerX).offset(-70)
         }
     }
     
@@ -115,8 +127,9 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         venmoButton = HTPressableButton(frame: buttonFrame, buttonStyle: HTPressableButtonStyle.Rounded)
         
         venmoButton.setTitle("Pay With Venmo", forState: UIControlState.Normal)
-        venmoButton.buttonColor = FlatYellow()
-        venmoButton.shadowColor = FlatYellowDark()
+        
+        venmoButton.buttonColor = UIColor(red: 61/255, green: 149/255, blue: 206/255, alpha: 1)
+        venmoButton.shadowColor = UIColor(red: 10/255, green: 98/255, blue: 155/255, alpha: 1)
         
         venmoButton.addTarget(self, action: "payWithVenmo", forControlEvents: UIControlEvents.TouchUpInside)
         
@@ -124,16 +137,22 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         
         venmoButton.snp_makeConstraints { (make) -> Void in
             make.top.equalTo(self.view.snp_bottom)
-            make.left.equalTo(self.view.snp_centerX).offset(20)
+            make.left.equalTo(self.view.snp_centerX).offset(70)
         }
     }
     
     func showLoser() {
+        print("show loser")
         let enterFromRight = POPSpringAnimation(propertyNamed: kPOPLayerPositionX)
-        enterFromRight.toValue = UIScreen.mainScreen().bounds.midX
+        enterFromRight.toValue = self.view.bounds.midX
         enterFromRight.springBounciness = 10
         enterFromRight.springSpeed = 10
         loserLabel.layer.pop_addAnimation(enterFromRight, forKey: "enterFromRight")
+        
+//        loserLabel.removeConstraints(loserLabel.constraints)
+        loserLabel.snp_remakeConstraints { (make) -> Void in
+            make.center.equalTo(self.view)
+        }
     }
     
     func colorsForConfettiArea(confettiArea: L360ConfettiArea!) -> [AnyObject]! {

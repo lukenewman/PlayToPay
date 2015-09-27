@@ -7,57 +7,57 @@ provides-member:
 - ["C9PlayToPay20BustItViewController", ""]
 provides-dynamic-lookup:
 - "timer"
-- "count"
 - "goToResults"
-- "setupGame"
-- "timeLabel"
-- "randomCGFloat"
-- "scoreLabel"
-- "seconds"
-- "screenSwitch"
-- "timing"
-- "canTap"
-- "resetRound"
-- "viewDidLoad"
-- "round"
 - "timingFreeze"
-- "mainButton"
 - "addTime"
+- "canTap"
+- "viewDidLoad"
+- "screenSwitch"
+- "resetRound"
+- "timeLabel"
+- "round"
+- "randomCGFloat"
+- "count"
+- "mainButton"
+- "setupGame"
+- "scoreLabel"
 - "prepareForSegue"
+- "seconds"
 - "buttonTapped"
+- "timing"
 depends-top-level:
+- !private "MinigameResultsViewController"
+- "Float"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UIViewController"
 - !private "=="
+- "IntegerLiteralType"
+- !private "/"
+- "AnyObject"
+- !private "+="
+- !private "UInt32"
+- "UIStoryboardSegue"
+- "BustItViewController"
+- !private "+"
+- "NSTimer"
+- !private ">"
+- !private "BooleanLiteralType"
+- "UIButton"
+- !private "arc4random"
+- !private "*"
+- !private "FlatMint"
+- "UILabel"
+- !private "Selector"
+- !private "Int"
+- !private "||"
 - !private "-"
 - !private "++"
-- "IntegerLiteralType"
-- !private "+="
-- "BustItViewController"
-- !private ">"
-- !private "MinigameResultsViewController"
-- "UIStoryboardSegue"
-- !private "Selector"
-- !private "UInt32"
-- "UIButton"
-- "AnyObject"
-- "NSTimer"
-- "UILabel"
-- !private "/"
-- !private "StringLiteralType"
-- !private "*"
-- !private "Int"
-- !private "arc4random"
-- !private "+"
-- !private "BooleanLiteralType"
-- !private "FlatGreen"
-- "Float"
-- !private "UIColor"
-- !private "||"
-- "UIViewController"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["PSs16AbsoluteValuable", "init"]
-- !private ["PSs9AnyObject", "FlatGreen"]
+- !private ["PSs9AnyObject", "FlatMint"]
 - !private ["PSs9AnyObject", "Float"]
 - !private ["PSs9AnyObject", "Int"]
 - ["PSs9AnyObject", "NSTimer"]
@@ -112,7 +112,7 @@ depends-member:
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - ["C9PlayToPay20BustItViewController", "AnyObject"]
-- !private ["C9PlayToPay20BustItViewController", "FlatGreen"]
+- !private ["C9PlayToPay20BustItViewController", "FlatMint"]
 - ["C9PlayToPay20BustItViewController", "Float"]
 - !private ["C9PlayToPay20BustItViewController", "Int"]
 - !private ["C9PlayToPay20BustItViewController", "MinigameResultsViewController"]
@@ -151,7 +151,7 @@ depends-member:
 - !private ["V12CoreGraphics7CGFloat", "Stride"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["PSs11CVarArgType", "Distance"]
-- !private ["PSs11CVarArgType", "FlatGreen"]
+- !private ["PSs11CVarArgType", "FlatMint"]
 - !private ["PSs11CVarArgType", "Float"]
 - !private ["PSs11CVarArgType", "Int"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
@@ -202,7 +202,7 @@ depends-member:
 - !private ["PSs10Comparable", "max"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
-- !private ["PSs23CustomStringConvertible", "FlatGreen"]
+- !private ["PSs23CustomStringConvertible", "FlatMint"]
 - !private ["PSs23CustomStringConvertible", "Float"]
 - !private ["PSs23CustomStringConvertible", "Int"]
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
@@ -249,7 +249,7 @@ depends-member:
 - !private ["Sd", "Stride"]
 - !private ["Sd", "deinit"]
 - !private ["PSs9Equatable", "Distance"]
-- !private ["PSs9Equatable", "FlatGreen"]
+- !private ["PSs9Equatable", "FlatMint"]
 - !private ["PSs9Equatable", "Float"]
 - !private ["PSs9Equatable", "Int"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
@@ -311,7 +311,7 @@ depends-member:
 - !private ["PSs16ForwardIndexType", "init"]
 - !private ["PSs16ForwardIndexType", "max"]
 - !private ["PSs8Hashable", "Distance"]
-- !private ["PSs8Hashable", "FlatGreen"]
+- !private ["PSs8Hashable", "FlatMint"]
 - !private ["PSs8Hashable", "Float"]
 - !private ["PSs8Hashable", "Int"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -390,7 +390,7 @@ depends-member:
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "Stride"]
 - !private ["PSs14MirrorPathType", "init"]
-- !private ["PSo8NSCoding", "FlatGreen"]
+- !private ["PSo8NSCoding", "FlatMint"]
 - !private ["PSo8NSCoding", "Float"]
 - !private ["PSo8NSCoding", "Int"]
 - ["PSo8NSCoding", "NSTimer"]
@@ -427,7 +427,7 @@ depends-member:
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "whiteColor"]
-- !private ["PSo26NSExtensionRequestHandling", "FlatGreen"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatMint"]
 - !private ["PSo26NSExtensionRequestHandling", "Float"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - ["PSo26NSExtensionRequestHandling", "NSTimer"]
@@ -462,7 +462,7 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "AnyObject"]
-- !private ["CSo8NSObject", "FlatGreen"]
+- !private ["CSo8NSObject", "FlatMint"]
 - ["CSo8NSObject", "Float"]
 - !private ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "MinigameResultsViewController"]
@@ -503,7 +503,7 @@ depends-member:
 - ["CSo8NSObject", "timingFreeze"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["CSo8NSObject", "whiteColor"]
-- !private ["PSo16NSObjectProtocol", "FlatGreen"]
+- !private ["PSo16NSObjectProtocol", "FlatMint"]
 - !private ["PSo16NSObjectProtocol", "Float"]
 - !private ["PSo16NSObjectProtocol", "Int"]
 - ["PSo16NSObjectProtocol", "NSTimer"]
@@ -580,7 +580,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "text"]
-- !private ["PSo21UIAppearanceContainer", "FlatGreen"]
+- !private ["PSo21UIAppearanceContainer", "FlatMint"]
 - !private ["PSo21UIAppearanceContainer", "Float"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - ["PSo21UIAppearanceContainer", "NSTimer"]
@@ -616,7 +616,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "backgroundColor"]
 - !private ["CSo7UIColor", "whiteColor"]
-- !private ["PSo18UIContentContainer", "FlatGreen"]
+- !private ["PSo18UIContentContainer", "FlatMint"]
 - !private ["PSo18UIContentContainer", "Float"]
 - !private ["PSo18UIContentContainer", "Int"]
 - ["PSo18UIContentContainer", "NSTimer"]
@@ -655,7 +655,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "AnyObject"]
-- !private ["CSo11UIResponder", "FlatGreen"]
+- !private ["CSo11UIResponder", "FlatMint"]
 - ["CSo11UIResponder", "Float"]
 - !private ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "MinigameResultsViewController"]
@@ -692,7 +692,7 @@ depends-member:
 - ["CSo11UIResponder", "timing"]
 - ["CSo11UIResponder", "timingFreeze"]
 - ["CSo11UIResponder", "viewDidLoad"]
-- !private ["PSo16UIStateRestoring", "FlatGreen"]
+- !private ["PSo16UIStateRestoring", "FlatMint"]
 - !private ["PSo16UIStateRestoring", "Float"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - ["PSo16UIStateRestoring", "NSTimer"]
@@ -725,7 +725,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo17UIStoryboardSegue", "destinationViewController"]
-- !private ["PSo18UITraitEnvironment", "FlatGreen"]
+- !private ["PSo18UITraitEnvironment", "FlatMint"]
 - !private ["PSo18UITraitEnvironment", "Float"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - ["PSo18UITraitEnvironment", "NSTimer"]
@@ -762,7 +762,7 @@ depends-member:
 - !private ["CSo6UIView", "backgroundColor"]
 - !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "AnyObject"]
-- !private ["CSo16UIViewController", "FlatGreen"]
+- !private ["CSo16UIViewController", "FlatMint"]
 - ["CSo16UIViewController", "Float"]
 - !private ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "MinigameResultsViewController"]
@@ -1055,6 +1055,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiArea.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"

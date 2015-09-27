@@ -1,0 +1,841 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwitchUpViewController"
+provides-nominal:
+- "C9PlayToPay22SwitchUpViewController"
+provides-member:
+- ["C9PlayToPay22SwitchUpViewController", ""]
+provides-dynamic-lookup:
+- "goToResults"
+- "timer"
+- "randomCGFloat"
+- "rightButton"
+- "subtractTime"
+- "buttonPress"
+- "prepareForSegue"
+- "scoreLabel"
+- "count"
+- "leftButton"
+- "seconds"
+- "viewDidLoad"
+- "setupGame"
+- "timerLabel"
+depends-top-level:
+- !private "++"
+- !private "FlatWhite"
+- !private "--"
+- !private "FlatOrange"
+- "IntegerLiteralType"
+- !private "UInt32"
+- !private "<"
+- !private "MinigameResultsViewController"
+- "NSTimer"
+- !private "=="
+- !private "/"
+- "UILabel"
+- !private "StringLiteralType"
+- !private "arc4random"
+- !private "Int"
+- "SwitchUpViewController"
+- "AnyObject"
+- "Float"
+- "UIViewController"
+- "UIButton"
+- !private "Selector"
+- !private "BooleanLiteralType"
+- "UIStoryboardSegue"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "FlatOrange"]
+- !private ["PSs9AnyObject", "FlatWhite"]
+- !private ["PSs9AnyObject", "Float"]
+- !private ["PSs9AnyObject", "Int"]
+- ["PSs9AnyObject", "NSTimer"]
+- !private ["PSs9AnyObject", "Selector"]
+- !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "arc4random"]
+- !private ["PSs9AnyObject", "backgroundColor"]
+- ["PSs9AnyObject", "buttonPress"]
+- ["PSs9AnyObject", "count"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "goToResults"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "invalidate"]
+- ["PSs9AnyObject", "leftButton"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- !private ["PSs9AnyObject", "performSelector"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- ["PSs9AnyObject", "randomCGFloat"]
+- ["PSs9AnyObject", "rightButton"]
+- !private ["PSs9AnyObject", "scheduledTimerWithTimeInterval"]
+- !private ["PSs9AnyObject", "score"]
+- ["PSs9AnyObject", "scoreLabel"]
+- ["PSs9AnyObject", "seconds"]
+- ["PSs9AnyObject", "setupGame"]
+- ["PSs9AnyObject", "subtractTime"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "timer"]
+- ["PSs9AnyObject", "timerLabel"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs22BidirectionalIndexType", "max"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["PSs21BitwiseOperationsType", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "FlatOrange"]
+- !private ["PSs11CVarArgType", "FlatWhite"]
+- !private ["PSs11CVarArgType", "Float"]
+- !private ["PSs11CVarArgType", "Int"]
+- ["PSs11CVarArgType", "NSTimer"]
+- !private ["PSs11CVarArgType", "Selector"]
+- !private ["PSs11CVarArgType", "UInt32"]
+- !private ["PSs11CVarArgType", "arc4random"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
+- ["PSs11CVarArgType", "buttonPress"]
+- ["PSs11CVarArgType", "count"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "goToResults"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "invalidate"]
+- ["PSs11CVarArgType", "leftButton"]
+- !private ["PSs11CVarArgType", "max"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- !private ["PSs11CVarArgType", "performSelector"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- ["PSs11CVarArgType", "randomCGFloat"]
+- ["PSs11CVarArgType", "rightButton"]
+- !private ["PSs11CVarArgType", "scheduledTimerWithTimeInterval"]
+- !private ["PSs11CVarArgType", "score"]
+- ["PSs11CVarArgType", "scoreLabel"]
+- ["PSs11CVarArgType", "seconds"]
+- ["PSs11CVarArgType", "setupGame"]
+- ["PSs11CVarArgType", "subtractTime"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "timer"]
+- ["PSs11CVarArgType", "timerLabel"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "max"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "FlatOrange"]
+- !private ["PSs23CustomStringConvertible", "FlatWhite"]
+- !private ["PSs23CustomStringConvertible", "Float"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- ["PSs23CustomStringConvertible", "NSTimer"]
+- !private ["PSs23CustomStringConvertible", "Selector"]
+- !private ["PSs23CustomStringConvertible", "UInt32"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "arc4random"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- ["PSs23CustomStringConvertible", "buttonPress"]
+- ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "goToResults"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "invalidate"]
+- ["PSs23CustomStringConvertible", "leftButton"]
+- !private ["PSs23CustomStringConvertible", "max"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "performSelector"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- ["PSs23CustomStringConvertible", "randomCGFloat"]
+- ["PSs23CustomStringConvertible", "rightButton"]
+- !private ["PSs23CustomStringConvertible", "scheduledTimerWithTimeInterval"]
+- !private ["PSs23CustomStringConvertible", "score"]
+- ["PSs23CustomStringConvertible", "scoreLabel"]
+- ["PSs23CustomStringConvertible", "seconds"]
+- ["PSs23CustomStringConvertible", "setupGame"]
+- ["PSs23CustomStringConvertible", "subtractTime"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "timer"]
+- ["PSs23CustomStringConvertible", "timerLabel"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "FlatOrange"]
+- !private ["PSs9Equatable", "FlatWhite"]
+- !private ["PSs9Equatable", "Float"]
+- !private ["PSs9Equatable", "Int"]
+- ["PSs9Equatable", "NSTimer"]
+- !private ["PSs9Equatable", "Selector"]
+- !private ["PSs9Equatable", "UInt32"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "arc4random"]
+- !private ["PSs9Equatable", "backgroundColor"]
+- ["PSs9Equatable", "buttonPress"]
+- ["PSs9Equatable", "count"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "goToResults"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "invalidate"]
+- ["PSs9Equatable", "leftButton"]
+- !private ["PSs9Equatable", "max"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- !private ["PSs9Equatable", "performSelector"]
+- ["PSs9Equatable", "prepareForSegue"]
+- ["PSs9Equatable", "randomCGFloat"]
+- ["PSs9Equatable", "rightButton"]
+- !private ["PSs9Equatable", "scheduledTimerWithTimeInterval"]
+- !private ["PSs9Equatable", "score"]
+- ["PSs9Equatable", "scoreLabel"]
+- ["PSs9Equatable", "seconds"]
+- ["PSs9Equatable", "setupGame"]
+- ["PSs9Equatable", "subtractTime"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "timer"]
+- ["PSs9Equatable", "timerLabel"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs16ForwardIndexType", "max"]
+- !private ["PSs8Hashable", "FlatOrange"]
+- !private ["PSs8Hashable", "FlatWhite"]
+- !private ["PSs8Hashable", "Float"]
+- !private ["PSs8Hashable", "Int"]
+- ["PSs8Hashable", "NSTimer"]
+- !private ["PSs8Hashable", "Selector"]
+- !private ["PSs8Hashable", "UInt32"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "arc4random"]
+- !private ["PSs8Hashable", "backgroundColor"]
+- ["PSs8Hashable", "buttonPress"]
+- ["PSs8Hashable", "count"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "goToResults"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "invalidate"]
+- ["PSs8Hashable", "leftButton"]
+- !private ["PSs8Hashable", "max"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- !private ["PSs8Hashable", "performSelector"]
+- ["PSs8Hashable", "prepareForSegue"]
+- ["PSs8Hashable", "randomCGFloat"]
+- ["PSs8Hashable", "rightButton"]
+- !private ["PSs8Hashable", "scheduledTimerWithTimeInterval"]
+- !private ["PSs8Hashable", "score"]
+- ["PSs8Hashable", "scoreLabel"]
+- ["PSs8Hashable", "seconds"]
+- ["PSs8Hashable", "setupGame"]
+- ["PSs8Hashable", "subtractTime"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "timer"]
+- ["PSs8Hashable", "timerLabel"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs21IntegerArithmeticType", "max"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "max"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs11IntegerType", "max"]
+- !private ["C9PlayToPay29MinigameResultsViewController", "score"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "FlatOrange"]
+- !private ["PSo8NSCoding", "FlatWhite"]
+- !private ["PSo8NSCoding", "Float"]
+- !private ["PSo8NSCoding", "Int"]
+- ["PSo8NSCoding", "NSTimer"]
+- !private ["PSo8NSCoding", "Selector"]
+- !private ["PSo8NSCoding", "UInt32"]
+- !private ["PSo8NSCoding", "arc4random"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- ["PSo8NSCoding", "buttonPress"]
+- ["PSo8NSCoding", "count"]
+- ["PSo8NSCoding", "goToResults"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "leftButton"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "performSelector"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- ["PSo8NSCoding", "randomCGFloat"]
+- ["PSo8NSCoding", "rightButton"]
+- !private ["PSo8NSCoding", "score"]
+- ["PSo8NSCoding", "scoreLabel"]
+- ["PSo8NSCoding", "seconds"]
+- ["PSo8NSCoding", "setupGame"]
+- ["PSo8NSCoding", "subtractTime"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "timer"]
+- ["PSo8NSCoding", "timerLabel"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatOrange"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatWhite"]
+- !private ["PSo26NSExtensionRequestHandling", "Float"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- ["PSo26NSExtensionRequestHandling", "NSTimer"]
+- !private ["PSo26NSExtensionRequestHandling", "Selector"]
+- !private ["PSo26NSExtensionRequestHandling", "UInt32"]
+- !private ["PSo26NSExtensionRequestHandling", "arc4random"]
+- ["PSo26NSExtensionRequestHandling", "buttonPress"]
+- ["PSo26NSExtensionRequestHandling", "count"]
+- ["PSo26NSExtensionRequestHandling", "goToResults"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "leftButton"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "performSelector"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- ["PSo26NSExtensionRequestHandling", "randomCGFloat"]
+- ["PSo26NSExtensionRequestHandling", "rightButton"]
+- !private ["PSo26NSExtensionRequestHandling", "score"]
+- ["PSo26NSExtensionRequestHandling", "scoreLabel"]
+- ["PSo26NSExtensionRequestHandling", "seconds"]
+- ["PSo26NSExtensionRequestHandling", "setupGame"]
+- ["PSo26NSExtensionRequestHandling", "subtractTime"]
+- ["PSo26NSExtensionRequestHandling", "timer"]
+- ["PSo26NSExtensionRequestHandling", "timerLabel"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "FlatOrange"]
+- !private ["CSo8NSObject", "FlatWhite"]
+- ["CSo8NSObject", "Float"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "MinigameResultsViewController"]
+- ["CSo8NSObject", "NSTimer"]
+- !private ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "UInt32"]
+- !private ["CSo8NSObject", "arc4random"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- ["CSo8NSObject", "buttonPress"]
+- ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "goToResults"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "invalidate"]
+- ["CSo8NSObject", "leftButton"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "performSelector"]
+- ["CSo8NSObject", "prepareForSegue"]
+- ["CSo8NSObject", "randomCGFloat"]
+- ["CSo8NSObject", "rightButton"]
+- !private ["CSo8NSObject", "scheduledTimerWithTimeInterval"]
+- !private ["CSo8NSObject", "score"]
+- ["CSo8NSObject", "scoreLabel"]
+- ["CSo8NSObject", "seconds"]
+- ["CSo8NSObject", "setupGame"]
+- ["CSo8NSObject", "subtractTime"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "timer"]
+- ["CSo8NSObject", "timerLabel"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FlatOrange"]
+- !private ["PSo16NSObjectProtocol", "FlatWhite"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- ["PSo16NSObjectProtocol", "NSTimer"]
+- !private ["PSo16NSObjectProtocol", "Selector"]
+- !private ["PSo16NSObjectProtocol", "UInt32"]
+- !private ["PSo16NSObjectProtocol", "arc4random"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- ["PSo16NSObjectProtocol", "buttonPress"]
+- ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "goToResults"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invalidate"]
+- ["PSo16NSObjectProtocol", "leftButton"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "performSelector"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- ["PSo16NSObjectProtocol", "randomCGFloat"]
+- ["PSo16NSObjectProtocol", "rightButton"]
+- !private ["PSo16NSObjectProtocol", "scheduledTimerWithTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "score"]
+- ["PSo16NSObjectProtocol", "scoreLabel"]
+- ["PSo16NSObjectProtocol", "seconds"]
+- ["PSo16NSObjectProtocol", "setupGame"]
+- ["PSo16NSObjectProtocol", "subtractTime"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "timer"]
+- ["PSo16NSObjectProtocol", "timerLabel"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["CSo7NSTimer", "init"]
+- !private ["CSo7NSTimer", "invalidate"]
+- !private ["CSo7NSTimer", "scheduledTimerWithTimeInterval"]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs21RandomAccessIndexType", "max"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["V10ObjectiveC8Selector", "init"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs10Strideable", "max"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- ["C9PlayToPay22SwitchUpViewController", "AnyObject"]
+- !private ["C9PlayToPay22SwitchUpViewController", "FlatOrange"]
+- !private ["C9PlayToPay22SwitchUpViewController", "FlatWhite"]
+- ["C9PlayToPay22SwitchUpViewController", "Float"]
+- !private ["C9PlayToPay22SwitchUpViewController", "Int"]
+- !private ["C9PlayToPay22SwitchUpViewController", "MinigameResultsViewController"]
+- ["C9PlayToPay22SwitchUpViewController", "NSTimer"]
+- !private ["C9PlayToPay22SwitchUpViewController", "Selector"]
+- ["C9PlayToPay22SwitchUpViewController", "UIButton"]
+- ["C9PlayToPay22SwitchUpViewController", "UILabel"]
+- ["C9PlayToPay22SwitchUpViewController", "UIStoryboardSegue"]
+- !private ["C9PlayToPay22SwitchUpViewController", "UInt32"]
+- !private ["C9PlayToPay22SwitchUpViewController", "arc4random"]
+- ["C9PlayToPay22SwitchUpViewController", "buttonPress"]
+- ["C9PlayToPay22SwitchUpViewController", "count"]
+- ["C9PlayToPay22SwitchUpViewController", "deinit"]
+- ["C9PlayToPay22SwitchUpViewController", "goToResults"]
+- ["C9PlayToPay22SwitchUpViewController", "init"]
+- ["C9PlayToPay22SwitchUpViewController", "leftButton"]
+- !private ["C9PlayToPay22SwitchUpViewController", "performSegueWithIdentifier"]
+- !private ["C9PlayToPay22SwitchUpViewController", "performSelector"]
+- ["C9PlayToPay22SwitchUpViewController", "prepareForSegue"]
+- ["C9PlayToPay22SwitchUpViewController", "randomCGFloat"]
+- ["C9PlayToPay22SwitchUpViewController", "rightButton"]
+- ["C9PlayToPay22SwitchUpViewController", "scoreLabel"]
+- ["C9PlayToPay22SwitchUpViewController", "seconds"]
+- ["C9PlayToPay22SwitchUpViewController", "setupGame"]
+- ["C9PlayToPay22SwitchUpViewController", "subtractTime"]
+- ["C9PlayToPay22SwitchUpViewController", "timer"]
+- ["C9PlayToPay22SwitchUpViewController", "timerLabel"]
+- ["C9PlayToPay22SwitchUpViewController", "viewDidLoad"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "FlatOrange"]
+- !private ["PSo21UIAppearanceContainer", "FlatWhite"]
+- !private ["PSo21UIAppearanceContainer", "Float"]
+- !private ["PSo21UIAppearanceContainer", "Int"]
+- ["PSo21UIAppearanceContainer", "NSTimer"]
+- !private ["PSo21UIAppearanceContainer", "Selector"]
+- !private ["PSo21UIAppearanceContainer", "UInt32"]
+- !private ["PSo21UIAppearanceContainer", "arc4random"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "buttonPress"]
+- ["PSo21UIAppearanceContainer", "count"]
+- ["PSo21UIAppearanceContainer", "goToResults"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "leftButton"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "performSelector"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- ["PSo21UIAppearanceContainer", "randomCGFloat"]
+- ["PSo21UIAppearanceContainer", "rightButton"]
+- !private ["PSo21UIAppearanceContainer", "score"]
+- ["PSo21UIAppearanceContainer", "scoreLabel"]
+- ["PSo21UIAppearanceContainer", "seconds"]
+- ["PSo21UIAppearanceContainer", "setupGame"]
+- ["PSo21UIAppearanceContainer", "subtractTime"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "timer"]
+- ["PSo21UIAppearanceContainer", "timerLabel"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "backgroundColor"]
+- !private ["CSo7UIColor", "deinit"]
+- !private ["PSo18UIContentContainer", "FlatOrange"]
+- !private ["PSo18UIContentContainer", "FlatWhite"]
+- !private ["PSo18UIContentContainer", "Float"]
+- !private ["PSo18UIContentContainer", "Int"]
+- ["PSo18UIContentContainer", "NSTimer"]
+- !private ["PSo18UIContentContainer", "Selector"]
+- !private ["PSo18UIContentContainer", "UInt32"]
+- !private ["PSo18UIContentContainer", "arc4random"]
+- ["PSo18UIContentContainer", "buttonPress"]
+- ["PSo18UIContentContainer", "count"]
+- ["PSo18UIContentContainer", "goToResults"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "leftButton"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "performSelector"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- ["PSo18UIContentContainer", "randomCGFloat"]
+- ["PSo18UIContentContainer", "rightButton"]
+- !private ["PSo18UIContentContainer", "score"]
+- ["PSo18UIContentContainer", "scoreLabel"]
+- ["PSo18UIContentContainer", "seconds"]
+- ["PSo18UIContentContainer", "setupGame"]
+- ["PSo18UIContentContainer", "subtractTime"]
+- ["PSo18UIContentContainer", "timer"]
+- ["PSo18UIContentContainer", "timerLabel"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "FlatOrange"]
+- !private ["CSo11UIResponder", "FlatWhite"]
+- ["CSo11UIResponder", "Float"]
+- !private ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "MinigameResultsViewController"]
+- ["CSo11UIResponder", "NSTimer"]
+- !private ["CSo11UIResponder", "Selector"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- !private ["CSo11UIResponder", "UInt32"]
+- !private ["CSo11UIResponder", "arc4random"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "buttonPress"]
+- ["CSo11UIResponder", "count"]
+- ["CSo11UIResponder", "goToResults"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "leftButton"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "performSelector"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- ["CSo11UIResponder", "randomCGFloat"]
+- ["CSo11UIResponder", "rightButton"]
+- !private ["CSo11UIResponder", "score"]
+- ["CSo11UIResponder", "scoreLabel"]
+- ["CSo11UIResponder", "seconds"]
+- ["CSo11UIResponder", "setupGame"]
+- ["CSo11UIResponder", "subtractTime"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "timer"]
+- ["CSo11UIResponder", "timerLabel"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "FlatOrange"]
+- !private ["PSo16UIStateRestoring", "FlatWhite"]
+- !private ["PSo16UIStateRestoring", "Float"]
+- !private ["PSo16UIStateRestoring", "Int"]
+- ["PSo16UIStateRestoring", "NSTimer"]
+- !private ["PSo16UIStateRestoring", "Selector"]
+- !private ["PSo16UIStateRestoring", "UInt32"]
+- !private ["PSo16UIStateRestoring", "arc4random"]
+- ["PSo16UIStateRestoring", "buttonPress"]
+- ["PSo16UIStateRestoring", "count"]
+- ["PSo16UIStateRestoring", "goToResults"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "leftButton"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "performSelector"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- ["PSo16UIStateRestoring", "randomCGFloat"]
+- ["PSo16UIStateRestoring", "rightButton"]
+- !private ["PSo16UIStateRestoring", "score"]
+- ["PSo16UIStateRestoring", "scoreLabel"]
+- ["PSo16UIStateRestoring", "seconds"]
+- ["PSo16UIStateRestoring", "setupGame"]
+- ["PSo16UIStateRestoring", "subtractTime"]
+- ["PSo16UIStateRestoring", "timer"]
+- ["PSo16UIStateRestoring", "timerLabel"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["PSo18UITraitEnvironment", "FlatOrange"]
+- !private ["PSo18UITraitEnvironment", "FlatWhite"]
+- !private ["PSo18UITraitEnvironment", "Float"]
+- !private ["PSo18UITraitEnvironment", "Int"]
+- ["PSo18UITraitEnvironment", "NSTimer"]
+- !private ["PSo18UITraitEnvironment", "Selector"]
+- !private ["PSo18UITraitEnvironment", "UInt32"]
+- !private ["PSo18UITraitEnvironment", "arc4random"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "buttonPress"]
+- ["PSo18UITraitEnvironment", "count"]
+- ["PSo18UITraitEnvironment", "goToResults"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "leftButton"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "performSelector"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- ["PSo18UITraitEnvironment", "randomCGFloat"]
+- ["PSo18UITraitEnvironment", "rightButton"]
+- !private ["PSo18UITraitEnvironment", "score"]
+- ["PSo18UITraitEnvironment", "scoreLabel"]
+- ["PSo18UITraitEnvironment", "seconds"]
+- ["PSo18UITraitEnvironment", "setupGame"]
+- ["PSo18UITraitEnvironment", "subtractTime"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "timer"]
+- ["PSo18UITraitEnvironment", "timerLabel"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "FlatOrange"]
+- !private ["CSo16UIViewController", "FlatWhite"]
+- ["CSo16UIViewController", "Float"]
+- !private ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "MinigameResultsViewController"]
+- ["CSo16UIViewController", "NSTimer"]
+- !private ["CSo16UIViewController", "Selector"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- !private ["CSo16UIViewController", "UInt32"]
+- !private ["CSo16UIViewController", "arc4random"]
+- ["CSo16UIViewController", "buttonPress"]
+- ["CSo16UIViewController", "count"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "goToResults"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "leftButton"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "performSelector"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- ["CSo16UIViewController", "randomCGFloat"]
+- ["CSo16UIViewController", "rightButton"]
+- !private ["CSo16UIViewController", "score"]
+- ["CSo16UIViewController", "scoreLabel"]
+- ["CSo16UIViewController", "seconds"]
+- ["CSo16UIViewController", "setupGame"]
+- ["CSo16UIViewController", "subtractTime"]
+- ["CSo16UIViewController", "timer"]
+- ["CSo16UIViewController", "timerLabel"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt32", "max"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19UnsignedIntegerType", "max"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "max"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "max"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs14_Incrementable", "max"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs22_IntegerArithmeticType", "max"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs12_IntegerType", "max"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "max"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "backgroundColor"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "max"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["PSs11_Strideable", "max"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "C9PlayToPay29MinigameResultsViewController"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "CSo7NSTimer"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "V10ObjectiveC8Selector"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C9PlayToPay22SwitchUpViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs19UnsignedIntegerType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs28_DisallowMixedSignArithmetic"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/UIImage+HTButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/UIColor+HTColor.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButtonPrefs.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButton-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiObject.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiArea.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimator.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPGeometry.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimation.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDefines.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/pop-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/NSString+Icons.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUISwitch.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUISegmentedControl.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIButton.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUITextField.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIAlertView.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Modules/module.modulemap"
+interface-hash: "e42ab90b3dc45bbed9e41018636f0e4f"

@@ -6,53 +6,53 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay25PlayerStartViewController", ""]
 provides-dynamic-lookup:
+- "textFieldDidEndEditing"
+- "gameTitleLabel"
+- "scoreToBeatView"
+- "buttonTitles"
 - "enterNameLabel"
+- "textFieldShouldReturn"
+- "instructionsTextView"
+- "drawPlayButton"
+- "viewDidLoad"
 - "playGame"
 - "scoreToBeatLabel"
-- "instructionsTextView"
-- "textFieldDidEndEditing"
-- "drawPlayButton"
-- "buttonTitles"
 - "playButton"
-- "textFieldShouldReturn"
-- "enterNameView"
 - "enterNameTextField"
-- "viewDidLoad"
-- "scoreToBeatView"
-- "gameTitleLabel"
+- "enterNameView"
 depends-top-level:
-- !private "+"
-- !private "Int"
-- !private "UIControlState"
+- !private "FlatYellowDark"
+- !private "UInt32"
+- "Festivity"
 - "Array"
-- "PlayerStartViewController"
-- "UIViewController"
-- !private "UnicodeScalarType"
-- !private "POPSpringAnimation"
-- "StringLiteralType"
-- "UITextFieldDelegate"
 - !private "print"
-- "Minigame"
+- !private "!="
+- !private "FlatOrange"
+- "StringLiteralType"
+- "UITextField"
+- "UITextFieldDelegate"
+- !private "CGRectMake"
+- !private "UIControlEvents"
+- "Bool"
+- "UILabel"
+- !private "Int"
+- !private "FlatYellow"
+- "HTPressableButton"
+- !private "POPSpringAnimation"
 - !private "Void"
 - !private "HTPressableButtonStyle"
-- !private "FlatYellow"
-- !private "CGRectMake"
-- !private "UInt32"
-- !private "arc4random_uniform"
-- "HTPressableButton"
-- "UIView"
-- "UILabel"
-- !private "UIControlEvents"
+- "UIViewController"
+- "PlayerStartViewController"
+- !private "+"
+- !private "UIControlState"
+- !private "UnicodeScalarType"
 - "UITextView"
-- "Bool"
 - !private "FlatOrangeDark"
-- !private "kPOPLayerPositionX"
-- !private "!="
-- !private "FlatYellowDark"
-- "UITextField"
+- "UIView"
+- "Minigame"
 - !private "BooleanLiteralType"
-- !private "FlatOrange"
-- "Festivity"
+- !private "kPOPLayerPositionX"
+- !private "arc4random_uniform"
 depends-member:
 - !private ["PSs9AnyObject", "CGColor"]
 - !private ["PSs9AnyObject", "CGRectMake"]
@@ -94,6 +94,7 @@ depends-member:
 - ["PSs9AnyObject", "gameTitleLabel"]
 - !private ["PSs9AnyObject", "hidden"]
 - ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "instructions"]
 - ["PSs9AnyObject", "instructionsTextView"]
 - !private ["PSs9AnyObject", "kPOPLayerPositionX"]
 - !private ["PSs9AnyObject", "layer"]
@@ -117,6 +118,7 @@ depends-member:
 - !private ["PSs9AnyObject", "springBounciness"]
 - !private ["PSs9AnyObject", "springSpeed"]
 - !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "textColor"]
 - ["PSs9AnyObject", "textField"]
 - ["PSs9AnyObject", "textFieldDidBeginEditing"]
 - ["PSs9AnyObject", "textFieldDidEndEditing"]
@@ -125,6 +127,7 @@ depends-member:
 - ["PSs9AnyObject", "textFieldShouldEndEditing"]
 - ["PSs9AnyObject", "textFieldShouldReturn"]
 - ["PSs9AnyObject", "theFestivity"]
+- !private ["PSs9AnyObject", "themeColor"]
 - !private ["PSs9AnyObject", "title"]
 - !private ["PSs9AnyObject", "toValue"]
 - !private ["PSs9AnyObject", "updateConstraints"]
@@ -226,6 +229,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "springBounciness"]
 - !private ["PSs11CVarArgType", "springSpeed"]
 - !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "textColor"]
 - ["PSs11CVarArgType", "textField"]
 - ["PSs11CVarArgType", "textFieldDidBeginEditing"]
 - ["PSs11CVarArgType", "textFieldDidEndEditing"]
@@ -330,6 +334,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "springSpeed"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "textColor"]
 - ["PSs23CustomStringConvertible", "textField"]
 - ["PSs23CustomStringConvertible", "textFieldDidBeginEditing"]
 - ["PSs23CustomStringConvertible", "textFieldDidEndEditing"]
@@ -404,6 +409,7 @@ depends-member:
 - !private ["PSs9Equatable", "springBounciness"]
 - !private ["PSs9Equatable", "springSpeed"]
 - !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "textColor"]
 - ["PSs9Equatable", "textField"]
 - ["PSs9Equatable", "textFieldDidBeginEditing"]
 - ["PSs9Equatable", "textFieldDidEndEditing"]
@@ -494,6 +500,7 @@ depends-member:
 - !private ["PSs8Hashable", "springBounciness"]
 - !private ["PSs8Hashable", "springSpeed"]
 - !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "textColor"]
 - ["PSs8Hashable", "textField"]
 - ["PSs8Hashable", "textFieldDidBeginEditing"]
 - ["PSs8Hashable", "textFieldDidEndEditing"]
@@ -533,7 +540,9 @@ depends-member:
 - !private ["PSs11IntegerType", "Distance"]
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - !private ["PSs11IntegerType", "init"]
+- !private ["C9PlayToPay8Minigame", "instructions"]
 - !private ["C9PlayToPay8Minigame", "segueIdentifier"]
+- !private ["C9PlayToPay8Minigame", "themeColor"]
 - !private ["C9PlayToPay8Minigame", "title"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
@@ -608,6 +617,7 @@ depends-member:
 - !private ["PSo8NSCoding", "snp_makeConstraints"]
 - !private ["PSo8NSCoding", "snp_right"]
 - !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textColor"]
 - ["PSo8NSCoding", "textField"]
 - ["PSo8NSCoding", "textFieldDidBeginEditing"]
 - ["PSo8NSCoding", "textFieldDidEndEditing"]
@@ -729,6 +739,7 @@ depends-member:
 - !private ["CSo8NSObject", "springBounciness"]
 - !private ["CSo8NSObject", "springSpeed"]
 - !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textColor"]
 - ["CSo8NSObject", "textField"]
 - ["CSo8NSObject", "textFieldDidBeginEditing"]
 - ["CSo8NSObject", "textFieldDidEndEditing"]
@@ -794,6 +805,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "springBounciness"]
 - !private ["PSo16NSObjectProtocol", "springSpeed"]
 - !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
 - ["PSo16NSObjectProtocol", "textField"]
 - ["PSo16NSObjectProtocol", "textFieldDidBeginEditing"]
 - ["PSo16NSObjectProtocol", "textFieldDidEndEditing"]
@@ -933,6 +945,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "snp_makeConstraints"]
 - !private ["PSo29UIAccessibilityIdentification", "snp_right"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
 - !private ["PSo29UIAccessibilityIdentification", "updateConstraints"]
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "addTarget"]
@@ -949,6 +962,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "snp_makeConstraints"]
 - !private ["PSo12UIAppearance", "snp_right"]
 - !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textColor"]
 - !private ["PSo12UIAppearance", "updateConstraints"]
 - !private ["PSo21UIAppearanceContainer", "CGRectMake"]
 - ["PSo21UIAppearanceContainer", "Festivity"]
@@ -997,6 +1011,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "snp_makeConstraints"]
 - !private ["PSo21UIAppearanceContainer", "snp_right"]
 - !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
 - ["PSo21UIAppearanceContainer", "textField"]
 - ["PSo21UIAppearanceContainer", "textFieldDidBeginEditing"]
 - ["PSo21UIAppearanceContainer", "textFieldDidEndEditing"]
@@ -1087,6 +1102,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "snp_makeConstraints"]
 - !private ["PSo17UICoordinateSpace", "snp_right"]
 - !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
 - !private ["PSo17UICoordinateSpace", "updateConstraints"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
@@ -1103,6 +1119,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "snp_makeConstraints"]
 - !private ["PSo13UIDynamicItem", "snp_right"]
 - !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textColor"]
 - !private ["PSo13UIDynamicItem", "updateConstraints"]
 - !private ["VSC12UIEdgeInsets", "deinit"]
 - !private ["PSo10UIKeyInput", "delegate"]
@@ -1110,6 +1127,7 @@ depends-member:
 - !private ["PSo10UIKeyInput", "resignFirstResponder"]
 - !private ["PSo10UIKeyInput", "text"]
 - !private ["CSo7UILabel", "text"]
+- !private ["CSo7UILabel", "textColor"]
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CGRectMake"]
 - ["CSo11UIResponder", "Festivity"]
@@ -1164,6 +1182,7 @@ depends-member:
 - !private ["CSo11UIResponder", "snp_makeConstraints"]
 - !private ["CSo11UIResponder", "snp_right"]
 - !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textColor"]
 - ["CSo11UIResponder", "textField"]
 - ["CSo11UIResponder", "textFieldDidBeginEditing"]
 - ["CSo11UIResponder", "textFieldDidEndEditing"]
@@ -1174,6 +1193,7 @@ depends-member:
 - !private ["CSo11UIResponder", "updateConstraints"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "text"]
 - !private ["PSo16UIStateRestoring", "CGRectMake"]
 - ["PSo16UIStateRestoring", "Festivity"]
 - !private ["PSo16UIStateRestoring", "FlatOrange"]
@@ -1245,6 +1265,7 @@ depends-member:
 - !private ["PSo19UITextFieldDelegate", "festivity"]
 - !private ["PSo19UITextFieldDelegate", "game"]
 - !private ["PSo19UITextFieldDelegate", "gameTitleLabel"]
+- !private ["PSo19UITextFieldDelegate", "instructionsTextView"]
 - !private ["PSo19UITextFieldDelegate", "kPOPLayerPositionX"]
 - !private ["PSo19UITextFieldDelegate", "performSegueWithIdentifier"]
 - !private ["PSo19UITextFieldDelegate", "playButton"]
@@ -1268,6 +1289,7 @@ depends-member:
 - !private ["PSo17UITextInputTraits", "layer"]
 - !private ["PSo17UITextInputTraits", "resignFirstResponder"]
 - !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
 - !private ["PSo18UITraitEnvironment", "CGRectMake"]
 - ["PSo18UITraitEnvironment", "Festivity"]
 - !private ["PSo18UITraitEnvironment", "FlatOrange"]
@@ -1315,6 +1337,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "snp_makeConstraints"]
 - !private ["PSo18UITraitEnvironment", "snp_right"]
 - !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
 - ["PSo18UITraitEnvironment", "textField"]
 - ["PSo18UITraitEnvironment", "textFieldDidBeginEditing"]
 - ["PSo18UITraitEnvironment", "textFieldDidEndEditing"]
@@ -1342,6 +1365,7 @@ depends-member:
 - !private ["CSo6UIView", "snp_makeConstraints"]
 - !private ["CSo6UIView", "snp_right"]
 - !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textColor"]
 - !private ["CSo6UIView", "updateConstraints"]
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGRectMake"]
@@ -1474,6 +1498,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "snp_right"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "textColor"]
 - !private ["PSs12_Reflectable", "updateConstraints"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
@@ -1582,11 +1607,13 @@ depends-nominal:
 - !private "PSo10UIKeyInput"
 - !private "CSo7UILabel"
 - "CSo11UIResponder"
+- !private "CSo12UIScrollView"
 - "PSo16UIStateRestoring"
 - !private "CSo11UITextField"
 - "PSo19UITextFieldDelegate"
 - !private "PSo11UITextInput"
 - !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
@@ -1620,13 +1647,11 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
@@ -1644,6 +1669,8 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIImage+HTButton.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIColor+HTColor.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButtonPrefs.h"
@@ -1659,6 +1686,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiArea.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"

@@ -138,6 +138,7 @@ SWIFT_CLASS("_TtC9PlayToPay20BustItViewController")
 
 @class L360ConfettiArea;
 @class HTPressableButton;
+@class AVAudioPlayer;
 
 SWIFT_CLASS("_TtC9PlayToPay24EndResultsViewController")
 @interface EndResultsViewController : UIViewController <L360ConfettiAreaDelegate>
@@ -147,6 +148,8 @@ SWIFT_CLASS("_TtC9PlayToPay24EndResultsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified loserLabel;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+@property (nonatomic) AVAudioPlayer * __null_unspecified avPlayer;
+- (void)playHorn;
 - (void)showPlayAgainButton;
 - (void)showVenmoButton;
 - (void)drawPlayAgainButton;
@@ -161,6 +164,7 @@ SWIFT_CLASS("_TtC9PlayToPay24EndResultsViewController")
 @end
 
 @class UIView;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC9PlayToPay27GameSelectionViewController")
 @interface GameSelectionViewController : UIViewController <POPAnimationDelegate>
@@ -169,6 +173,7 @@ SWIFT_CLASS("_TtC9PlayToPay27GameSelectionViewController")
 @property (nonatomic, weak) IBOutlet UIView * __null_unspecified mysteryTileView;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified questionMarkLabel;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified gameTitleLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified gameIconImageView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
@@ -190,6 +195,7 @@ SWIFT_CLASS("_TtC9PlayToPay18MainViewController")
 @property (nonatomic) HTPressableButton * __null_unspecified plusButton;
 @property (nonatomic) HTPressableButton * __null_unspecified minusButton;
 @property (nonatomic) L360ConfettiArea * __null_unspecified confettiArea;
+@property (nonatomic) AVAudioPlayer * __nonnull audioPlayer;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified numPlayersLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
@@ -197,6 +203,8 @@ SWIFT_CLASS("_TtC9PlayToPay18MainViewController")
 - (void)drawPlusButton;
 - (void)drawMinusButton;
 - (void)commenceFestivities;
+@property (nonatomic) AVAudioPlayer * __null_unspecified avPlayer;
+- (void)playHorn;
 - (void)addPlayer;
 - (void)subPlayer;
 - (NSArray * __null_unspecified)colorsForConfettiArea:(L360ConfettiArea * __null_unspecified)confettiArea;
@@ -259,6 +267,27 @@ SWIFT_CLASS("_TtC9PlayToPay23RapidFireViewController")
 - (void)buttonPressed;
 - (void)subtractTime;
 - (void)blinkTimerLabel;
+- (void)goToResults;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9PlayToPay22SwitchUpViewController")
+@interface SwitchUpViewController : UIViewController
+@property (nonatomic) NSInteger count;
+@property (nonatomic) NSInteger seconds;
+@property (nonatomic) NSTimer * __nonnull timer;
+@property (nonatomic) IBOutlet UILabel * __null_unspecified scoreLabel;
+@property (nonatomic) IBOutlet UILabel * __null_unspecified timerLabel;
+@property (nonatomic, weak) IBOutlet UIButton * __null_unspecified leftButton;
+@property (nonatomic, weak) IBOutlet UIButton * __null_unspecified rightButton;
+- (void)viewDidLoad;
+- (float)randomCGFloat;
+- (void)subtractTime;
+- (IBAction)buttonPress:(UIButton * __nonnull)sender;
+- (void)setupGame;
 - (void)goToResults;
 - (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

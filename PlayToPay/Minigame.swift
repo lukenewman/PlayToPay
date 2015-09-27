@@ -15,5 +15,6 @@ class Minigame {
     var instructions: String!
     var segueIdentifier: String!
     var themeColor: UIColor!
+    var icon: UIImage!
     
 }

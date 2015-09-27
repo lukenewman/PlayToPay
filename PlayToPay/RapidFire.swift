@@ -14,8 +14,9 @@ class RapidFire : Minigame {
         super.init()
         
         self.title = "Rapid Fire"
-        self.instructions = "Tap as many times as you can in 15 seconds."
+        self.instructions = "Tap as many times as humanly possible in 15 seconds. Now is the time to assert your tapping dominance."
         self.segueIdentifier = "rapidFire"
         self.themeColor = FlatRed()
+        self.icon = UIImage(named: "finger_360")
     }
 }

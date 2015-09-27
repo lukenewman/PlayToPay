@@ -25,6 +25,8 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
     let currentPlayerIndex = Festivity.theFestivity.currentPlayerIndex
     
     @IBOutlet weak var gameTitleLabel: UILabel!
+    @IBOutlet weak var gameIconBackgroundView: UIView!
+    @IBOutlet weak var gameIconImageView: UIImageView!
     @IBOutlet weak var instructionsTextView: UITextView!
     
     @IBOutlet weak var enterNameView: UIView!
@@ -37,15 +39,15 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("currentPlayerIndex: \(currentPlayerIndex)")
-        if currentPlayer.name != "" {
-            print("currentPlayer name: \(currentPlayer.name)")
-        } else {
-            print("currentPlayer name: (empty)");
-        }
-        
         game = festivity.game
         gameTitleLabel.text = game.title
+        gameTitleLabel.textColor = game.themeColor
+        gameIconBackgroundView.backgroundColor = game.themeColor
+        gameIconBackgroundView.layer.cornerRadius = 10
+        gameIconImageView.image = game.icon
+        
+        instructionsTextView.text = game.instructions
+        instructionsTextView.font = UIFont(name: "Aleo-Regular", size: 17.0)
         
         enterNameView.layer.borderColor = FlatOrange().CGColor
         enterNameView.layer.borderWidth = 5

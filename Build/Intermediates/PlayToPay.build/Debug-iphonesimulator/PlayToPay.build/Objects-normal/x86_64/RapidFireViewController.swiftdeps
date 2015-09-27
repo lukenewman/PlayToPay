@@ -7,48 +7,48 @@ provides-member:
 - ["C9PlayToPay23RapidFireViewController", ""]
 provides-dynamic-lookup:
 - "timerLabel"
-- "seconds"
-- "drawButton"
-- "setupGame"
+- "subtractTime"
+- "viewDidLoad"
 - "blinkTimerLabel"
+- "scoreLabel"
+- "prepareForSegue"
+- "count"
+- "timer"
+- "drawButton"
 - "buttonPressed"
 - "goToResults"
-- "timer"
-- "subtractTime"
-- "prepareForSegue"
-- "scoreLabel"
-- "viewDidLoad"
-- "count"
+- "seconds"
+- "setupGame"
 depends-top-level:
-- !private "=="
-- "IntegerLiteralType"
-- !private "Selector"
-- !private "FlatPink"
-- !private "CGRectMake"
-- "UIViewController"
-- !private "Int"
-- !private "HTPressableButtonStyle"
-- !private "++"
-- !private "UIControlEvents"
-- !private "HTPressableButton"
-- !private "StringLiteralType"
-- !private "!"
-- "UILabel"
-- !private "Void"
-- !private "print"
 - "AnyObject"
 - "RapidFireViewController"
-- "NSTimer"
-- !private "BooleanLiteralType"
+- "UILabel"
+- !private "!"
+- !private "HTPressableButton"
+- !private "FlatRedDark"
+- !private "UIControlEvents"
+- !private "Void"
+- "UIViewController"
 - !private "UIControlState"
-- "UIStoryboardSegue"
+- "IntegerLiteralType"
+- !private "HTPressableButtonStyle"
+- !private "StringLiteralType"
+- !private "++"
+- "NSTimer"
 - !private "--"
+- !private "=="
+- !private "print"
+- !private "Int"
+- "UIStoryboardSegue"
+- !private "CGRectMake"
+- !private "FlatRed"
+- !private "Selector"
+- !private "BooleanLiteralType"
 - !private "MinigameResultsViewController"
-- !private "FlatPinkDark"
 depends-member:
 - !private ["PSs9AnyObject", "CGRectMake"]
-- !private ["PSs9AnyObject", "FlatPink"]
-- !private ["PSs9AnyObject", "FlatPinkDark"]
+- !private ["PSs9AnyObject", "FlatRed"]
+- !private ["PSs9AnyObject", "FlatRedDark"]
 - !private ["PSs9AnyObject", "HTPressableButton"]
 - !private ["PSs9AnyObject", "HTPressableButtonStyle"]
 - !private ["PSs9AnyObject", "Int"]
@@ -99,8 +99,8 @@ depends-member:
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["PSs11CVarArgType", "CGRectMake"]
-- !private ["PSs11CVarArgType", "FlatPink"]
-- !private ["PSs11CVarArgType", "FlatPinkDark"]
+- !private ["PSs11CVarArgType", "FlatRed"]
+- !private ["PSs11CVarArgType", "FlatRedDark"]
 - !private ["PSs11CVarArgType", "HTPressableButton"]
 - !private ["PSs11CVarArgType", "HTPressableButtonStyle"]
 - !private ["PSs11CVarArgType", "Int"]
@@ -147,8 +147,8 @@ depends-member:
 - !private ["C7SnapKit15ConstraintMaker", "centerY"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "CGRectMake"]
-- !private ["PSs23CustomStringConvertible", "FlatPink"]
-- !private ["PSs23CustomStringConvertible", "FlatPinkDark"]
+- !private ["PSs23CustomStringConvertible", "FlatRed"]
+- !private ["PSs23CustomStringConvertible", "FlatRedDark"]
 - !private ["PSs23CustomStringConvertible", "HTPressableButton"]
 - !private ["PSs23CustomStringConvertible", "HTPressableButtonStyle"]
 - !private ["PSs23CustomStringConvertible", "Int"]
@@ -191,8 +191,8 @@ depends-member:
 - !private ["Sd", "deinit"]
 - !private ["PSs9Equatable", "CGRectMake"]
 - !private ["PSs9Equatable", "Circular"]
-- !private ["PSs9Equatable", "FlatPink"]
-- !private ["PSs9Equatable", "FlatPinkDark"]
+- !private ["PSs9Equatable", "FlatRed"]
+- !private ["PSs9Equatable", "FlatRedDark"]
 - !private ["PSs9Equatable", "HTPressableButton"]
 - !private ["PSs9Equatable", "HTPressableButtonStyle"]
 - !private ["PSs9Equatable", "Int"]
@@ -246,8 +246,8 @@ depends-member:
 - !private ["OSC22HTPressableButtonStyle", "Circular"]
 - !private ["PSs8Hashable", "CGRectMake"]
 - !private ["PSs8Hashable", "Circular"]
-- !private ["PSs8Hashable", "FlatPink"]
-- !private ["PSs8Hashable", "FlatPinkDark"]
+- !private ["PSs8Hashable", "FlatRed"]
+- !private ["PSs8Hashable", "FlatRedDark"]
 - !private ["PSs8Hashable", "HTPressableButton"]
 - !private ["PSs8Hashable", "HTPressableButtonStyle"]
 - !private ["PSs8Hashable", "Int"]
@@ -300,8 +300,8 @@ depends-member:
 - !private ["C9PlayToPay29MinigameResultsViewController", "score"]
 - !private ["PSs14MirrorPathType", "init"]
 - !private ["PSo8NSCoding", "CGRectMake"]
-- !private ["PSo8NSCoding", "FlatPink"]
-- !private ["PSo8NSCoding", "FlatPinkDark"]
+- !private ["PSo8NSCoding", "FlatRed"]
+- !private ["PSo8NSCoding", "FlatRedDark"]
 - !private ["PSo8NSCoding", "HTPressableButton"]
 - !private ["PSo8NSCoding", "HTPressableButtonStyle"]
 - !private ["PSo8NSCoding", "Int"]
@@ -339,8 +339,8 @@ depends-member:
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
-- !private ["PSo26NSExtensionRequestHandling", "FlatPink"]
-- !private ["PSo26NSExtensionRequestHandling", "FlatPinkDark"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatRed"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatRedDark"]
 - !private ["PSo26NSExtensionRequestHandling", "HTPressableButton"]
 - !private ["PSo26NSExtensionRequestHandling", "HTPressableButtonStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
@@ -371,8 +371,8 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "AnyObject"]
 - !private ["CSo8NSObject", "CGRectMake"]
-- !private ["CSo8NSObject", "FlatPink"]
-- !private ["CSo8NSObject", "FlatPinkDark"]
+- !private ["CSo8NSObject", "FlatRed"]
+- !private ["CSo8NSObject", "FlatRedDark"]
 - !private ["CSo8NSObject", "HTPressableButton"]
 - !private ["CSo8NSObject", "HTPressableButtonStyle"]
 - !private ["CSo8NSObject", "Int"]
@@ -415,8 +415,8 @@ depends-member:
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "CGRectMake"]
-- !private ["PSo16NSObjectProtocol", "FlatPink"]
-- !private ["PSo16NSObjectProtocol", "FlatPinkDark"]
+- !private ["PSo16NSObjectProtocol", "FlatRed"]
+- !private ["PSo16NSObjectProtocol", "FlatRedDark"]
 - !private ["PSo16NSObjectProtocol", "HTPressableButton"]
 - !private ["PSo16NSObjectProtocol", "HTPressableButtonStyle"]
 - !private ["PSo16NSObjectProtocol", "Int"]
@@ -468,8 +468,8 @@ depends-member:
 - !private ["PSs21RandomAccessIndexType", "init"]
 - ["C9PlayToPay23RapidFireViewController", "AnyObject"]
 - !private ["C9PlayToPay23RapidFireViewController", "CGRectMake"]
-- !private ["C9PlayToPay23RapidFireViewController", "FlatPink"]
-- !private ["C9PlayToPay23RapidFireViewController", "FlatPinkDark"]
+- !private ["C9PlayToPay23RapidFireViewController", "FlatRed"]
+- !private ["C9PlayToPay23RapidFireViewController", "FlatRedDark"]
 - !private ["C9PlayToPay23RapidFireViewController", "HTPressableButton"]
 - !private ["C9PlayToPay23RapidFireViewController", "HTPressableButtonStyle"]
 - !private ["C9PlayToPay23RapidFireViewController", "Int"]
@@ -533,8 +533,8 @@ depends-member:
 - !private ["PSo12UIAppearance", "snp_makeConstraints"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "CGRectMake"]
-- !private ["PSo21UIAppearanceContainer", "FlatPink"]
-- !private ["PSo21UIAppearanceContainer", "FlatPinkDark"]
+- !private ["PSo21UIAppearanceContainer", "FlatRed"]
+- !private ["PSo21UIAppearanceContainer", "FlatRedDark"]
 - !private ["PSo21UIAppearanceContainer", "HTPressableButton"]
 - !private ["PSo21UIAppearanceContainer", "HTPressableButtonStyle"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
@@ -577,8 +577,8 @@ depends-member:
 - !private ["CSo8UIButton", "shadowColor"]
 - !private ["CSo8UIButton", "snp_makeConstraints"]
 - !private ["PSo18UIContentContainer", "CGRectMake"]
-- !private ["PSo18UIContentContainer", "FlatPink"]
-- !private ["PSo18UIContentContainer", "FlatPinkDark"]
+- !private ["PSo18UIContentContainer", "FlatRed"]
+- !private ["PSo18UIContentContainer", "FlatRedDark"]
 - !private ["PSo18UIContentContainer", "HTPressableButton"]
 - !private ["PSo18UIContentContainer", "HTPressableButtonStyle"]
 - !private ["PSo18UIContentContainer", "Int"]
@@ -636,8 +636,8 @@ depends-member:
 - !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "AnyObject"]
 - !private ["CSo11UIResponder", "CGRectMake"]
-- !private ["CSo11UIResponder", "FlatPink"]
-- !private ["CSo11UIResponder", "FlatPinkDark"]
+- !private ["CSo11UIResponder", "FlatRed"]
+- !private ["CSo11UIResponder", "FlatRedDark"]
 - !private ["CSo11UIResponder", "HTPressableButton"]
 - !private ["CSo11UIResponder", "HTPressableButtonStyle"]
 - !private ["CSo11UIResponder", "Int"]
@@ -677,8 +677,8 @@ depends-member:
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo16UIStateRestoring", "CGRectMake"]
-- !private ["PSo16UIStateRestoring", "FlatPink"]
-- !private ["PSo16UIStateRestoring", "FlatPinkDark"]
+- !private ["PSo16UIStateRestoring", "FlatRed"]
+- !private ["PSo16UIStateRestoring", "FlatRedDark"]
 - !private ["PSo16UIStateRestoring", "HTPressableButton"]
 - !private ["PSo16UIStateRestoring", "HTPressableButtonStyle"]
 - !private ["PSo16UIStateRestoring", "Int"]
@@ -708,8 +708,8 @@ depends-member:
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo17UIStoryboardSegue", "destinationViewController"]
 - !private ["PSo18UITraitEnvironment", "CGRectMake"]
-- !private ["PSo18UITraitEnvironment", "FlatPink"]
-- !private ["PSo18UITraitEnvironment", "FlatPinkDark"]
+- !private ["PSo18UITraitEnvironment", "FlatRed"]
+- !private ["PSo18UITraitEnvironment", "FlatRedDark"]
 - !private ["PSo18UITraitEnvironment", "HTPressableButton"]
 - !private ["PSo18UITraitEnvironment", "HTPressableButtonStyle"]
 - !private ["PSo18UITraitEnvironment", "Int"]
@@ -757,8 +757,8 @@ depends-member:
 - !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "AnyObject"]
 - !private ["CSo16UIViewController", "CGRectMake"]
-- !private ["CSo16UIViewController", "FlatPink"]
-- !private ["CSo16UIViewController", "FlatPinkDark"]
+- !private ["CSo16UIViewController", "FlatRed"]
+- !private ["CSo16UIViewController", "FlatRedDark"]
 - !private ["CSo16UIViewController", "HTPressableButton"]
 - !private ["CSo16UIViewController", "HTPressableButtonStyle"]
 - !private ["CSo16UIViewController", "Int"]
@@ -926,13 +926,11 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
@@ -950,6 +948,8 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIImage+HTButton.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/UIColor+HTColor.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButtonPrefs.h"
@@ -965,6 +965,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiArea.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"

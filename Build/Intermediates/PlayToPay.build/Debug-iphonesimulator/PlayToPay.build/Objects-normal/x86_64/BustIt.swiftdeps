@@ -7,12 +7,15 @@ provides-member:
 - ["C9PlayToPay6BustIt", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "StringLiteralType"
 - "Minigame"
 - !private "FlatGreen"
-- !private "StringLiteralType"
+- !private "UIImage"
 - "BustIt"
 depends-member:
 - !private ["PSs9AnyObject", "FlatGreen"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "icon"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "instructions"]
 - !private ["PSs9AnyObject", "segueIdentifier"]
@@ -20,25 +23,49 @@ depends-member:
 - !private ["PSs9AnyObject", "title"]
 - ["PSs9AnyObject", ""]
 - !private ["C9PlayToPay6BustIt", "FlatGreen"]
+- !private ["C9PlayToPay6BustIt", "UIImage"]
 - ["C9PlayToPay6BustIt", "deinit"]
+- !private ["C9PlayToPay6BustIt", "icon"]
 - ["C9PlayToPay6BustIt", "init"]
 - !private ["C9PlayToPay6BustIt", "instructions"]
 - !private ["C9PlayToPay6BustIt", "segueIdentifier"]
 - !private ["C9PlayToPay6BustIt", "themeColor"]
 - !private ["C9PlayToPay6BustIt", "title"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs8Hashable", "init"]
 - !private ["SQ", "deinit"]
 - !private ["C9PlayToPay8Minigame", "FlatGreen"]
+- !private ["C9PlayToPay8Minigame", "UIImage"]
+- !private ["C9PlayToPay8Minigame", "icon"]
 - ["C9PlayToPay8Minigame", "init"]
 - !private ["C9PlayToPay8Minigame", "instructions"]
 - !private ["C9PlayToPay8Minigame", "segueIdentifier"]
 - !private ["C9PlayToPay8Minigame", "themeColor"]
 - !private ["C9PlayToPay8Minigame", "title"]
 - ["C9PlayToPay8Minigame", ""]
+- !private ["PSo8NSCoding", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
 depends-nominal:
 - "PSs9AnyObject"
 - "C9PlayToPay6BustIt"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
 - !private "SQ"
 - "C9PlayToPay8Minigame"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -81,6 +108,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360ConfettiArea.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"

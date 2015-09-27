@@ -41,4 +41,12 @@ class Festivity {
         self.scoreToBeat = 0
         self.scoreToBeatHolder = nil
     }
+    
+    func reset() {
+        self.players = nil
+        self.scoreToBeat = 0
+        self.scoreToBeatHolder = nil
+        self.game = nil
+        self.currentPlayerIndex = 0
+    }
 }

@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
 options: "a4c035946c758ea45a781eae3ebd4727"
-build_time: [496635378, 65990000]
+build_time: [496671367, 482126000]
 inputs: 
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/ConstraintRelation.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/EdgeInsets.swift": [496566443, 0]
@@ -8,8 +8,8 @@ inputs:
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/LayoutConstraint.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/Debugging.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/ConstraintAttributes.swift": [496566443, 0]
-	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/ConstraintItem.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/View+SnapKit.swift": [496566443, 0]
+	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/ConstraintItem.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/ConstraintDescription.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/ConstraintMaker.swift": [496566443, 0]
 	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/SnapKit/Source/SnapKit.swift": [496566443, 0]

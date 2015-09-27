@@ -23,7 +23,6 @@ class BustItViewController: UIViewController {
     
     @IBOutlet weak var mainButton: UIButton!
     @IBOutlet weak var scoreLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +45,6 @@ class BustItViewController: UIViewController {
     
     func addTime() {
         seconds++
-        timeLabel.text = "\(seconds)"
         
         if(seconds == 1000 || round == 3)  {
             timer.invalidate()
@@ -61,7 +59,7 @@ class BustItViewController: UIViewController {
     
     func screenSwitch() {
         timingFreeze = timing
-        mainButton.backgroundColor = FlatGreen()
+        mainButton.backgroundColor = FlatMint()
         canTap = 1
     }
     
@@ -80,7 +78,6 @@ class BustItViewController: UIViewController {
         count = 0
         round = 0
         mainButton.backgroundColor = UIColor.whiteColor()
-        timeLabel.text = "\(seconds)"
         scoreLabel.text = "\(count)"
     }
 

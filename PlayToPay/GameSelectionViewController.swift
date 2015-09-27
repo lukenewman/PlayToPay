@@ -15,7 +15,7 @@ import pop
 class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     
     let buttonTitles = ["Neato!", "Groovy", "Aight", "Cool Beans", "Dope", "Rad"]
-    let games = [BustIt()]
+    let games = [RapidFire(), BustIt(), SwitchUp()]
     
     var selectedGame: Minigame!
 
@@ -24,6 +24,7 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
     @IBOutlet weak var mysteryTileView: UIView!
     @IBOutlet weak var questionMarkLabel: UILabel!
     @IBOutlet weak var gameTitleLabel: UILabel!
+    @IBOutlet weak var gameIconImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,7 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
         
         self.view.backgroundColor = FlatWhite()
         gameTitleLabel.hidden = true
+        gameIconImageView.hidden = true
         
         drawContinueButton()
     }
@@ -99,7 +101,9 @@ class GameSelectionViewController: UIViewController, POPAnimationDelegate {
         
         questionMarkLabel.hidden = true
         gameTitleLabel.text = selectedGame.title
+        gameIconImageView.image = selectedGame.icon
         gameTitleLabel.hidden = false
+        gameIconImageView.hidden = false
         mysteryTileView.backgroundColor = selectedGame.themeColor
         
         let reveal = CABasicAnimation(keyPath:"transform.rotation.y")

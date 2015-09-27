@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/CMDQueryStringSerialization.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/CMDQueryStringSerialization.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "CMDQueryStringSerialization-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/CMDQueryStringSerialization.framework/Headers/CMDQueryStringSerialization-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/CMDQueryStringSerialization.framework/Headers/CMDQueryStringSerialization-Swift.h"
         },
         {
           'type': 'file',
@@ -25,18 +25,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/CMDQueryStringSerialization.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/CMDQueryStringSerialization.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/CMDQueryStringSerialization.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/CMDQueryStringSerialization.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -56,7 +56,7 @@
         {
           'type': 'file',
           'name': "ChameleonFramework-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
         },
         {
           'type': 'file',
@@ -117,18 +117,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChameleonFramework.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/ChameleonFramework.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -168,7 +168,7 @@
         {
           'type': 'file',
           'name': "FlatUIKit-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit-Swift.h"
         },
         {
           'type': 'file',
@@ -249,23 +249,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/FlatUIKit.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/FlatUIKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "HTPressableButton-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Headers/HTPressableButton-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButton-Swift.h"
         },
         {
           'type': 'file',
@@ -296,23 +296,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/HTPressableButton.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/HTPressableButton.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/HTPressableButton.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "L360Confetti-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Headers/L360Confetti-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360Confetti-Swift.h"
         },
         {
           'type': 'file',
@@ -338,23 +338,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/L360Confetti.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/L360Confetti.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/L360Confetti.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Pods.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Pods.framework/Headers/Pods-Swift.h"
         },
         {
           'type': 'file',
@@ -365,23 +365,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Pods.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SSKeychain.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SSKeychain.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SSKeychain-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SSKeychain.framework/Headers/SSKeychain-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SSKeychain.framework/Headers/SSKeychain-Swift.h"
         },
         {
           'type': 'file',
@@ -402,23 +402,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SSKeychain.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SSKeychain.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/SSKeychain.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/SSKeychain.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SnapKit-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
         },
         {
           'type': 'file',
@@ -429,18 +429,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -470,7 +470,7 @@
         {
           'type': 'file',
           'name': "VENCore-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCore-Swift.h"
         },
         {
           'type': 'file',
@@ -526,18 +526,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/VENCore.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/VENCore.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -642,24 +642,24 @@
         {
           'type': 'file',
           'name': "Venmo_iOS_SDK-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo_iOS_SDK-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/Venmo_iOS_SDK-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/Venmo-iOS-SDK.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/Venmo-iOS-SDK.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -739,7 +739,7 @@
         {
           'type': 'file',
           'name': "pop-Swift.h",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-Swift.h"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/pop-Swift.h"
         },
         {
           'type': 'file',
@@ -750,12 +750,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules",
+      'name': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/pop.build/module.modulemap"
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphoneos/pop.build/module.modulemap"
         }
       ]
     }

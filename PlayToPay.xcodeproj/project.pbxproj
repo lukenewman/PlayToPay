@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5AF8D31BB8153100CAEB15 /* festivities.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F5AF8D21BB8153100CAEB15 /* festivities.mp3 */; settings = {ASSET_TAGS = (); }; };
 		3F9227231BB69914004AC920 /* GameSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227221BB69914004AC920 /* GameSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F9227251BB6A1F4004AC920 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9227241BB6A1F4004AC920 /* pop.framework */; };
 		3F9227271BB6C44F004AC920 /* TapABoxGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -19,6 +20,10 @@
 		3F9227391BB7C13B004AC920 /* EndResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227381BB7C13B004AC920 /* EndResultsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F92273B1BB7F0C8004AC920 /* BustItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92273A1BB7F0C8004AC920 /* BustItViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F92273D1BB7F375004AC920 /* BustIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92273C1BB7F375004AC920 /* BustIt.swift */; settings = {ASSET_TAGS = (); }; };
+		3F92273F1BB7FF4E004AC920 /* menu_horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F92273E1BB7FF4E004AC920 /* menu_horn.wav */; settings = {ASSET_TAGS = (); }; };
+		3F9227411BB801E8004AC920 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9227401BB801E8004AC920 /* AVFoundation.framework */; };
+		3F9227431BB80510004AC920 /* SwitchUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227421BB80510004AC920 /* SwitchUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F9227451BB80529004AC920 /* SwitchUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227441BB80529004AC920 /* SwitchUp.swift */; settings = {ASSET_TAGS = (); }; };
 		3FFE8EED1BB65B7B00AD2CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE8EEC1BB65B7B00AD2CFC /* AppDelegate.swift */; };
 		3FFE8EEF1BB65B7B00AD2CFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */; };
 		3FFE8EF21BB65B7B00AD2CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE8EF01BB65B7B00AD2CFC /* Main.storyboard */; };
@@ -41,6 +46,7 @@
 /* Begin PBXFileReference section */
 		07244C5670972D1763997D98 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAD1EE51D10C124D528F9A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3F5AF8D21BB8153100CAEB15 /* festivities.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = festivities.mp3; sourceTree = "<group>"; };
 		3F9227221BB69914004AC920 /* GameSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSelectionViewController.swift; sourceTree = "<group>"; };
 		3F9227241BB6A1F4004AC920 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop.framework"; sourceTree = "<group>"; };
 		3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapABoxGameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +59,10 @@
 		3F9227381BB7C13B004AC920 /* EndResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndResultsViewController.swift; sourceTree = "<group>"; };
 		3F92273A1BB7F0C8004AC920 /* BustItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BustItViewController.swift; sourceTree = "<group>"; };
 		3F92273C1BB7F375004AC920 /* BustIt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BustIt.swift; sourceTree = "<group>"; };
+		3F92273E1BB7FF4E004AC920 /* menu_horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu_horn.wav; sourceTree = "<group>"; };
+		3F9227401BB801E8004AC920 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F9227421BB80510004AC920 /* SwitchUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchUpViewController.swift; sourceTree = "<group>"; };
+		3F9227441BB80529004AC920 /* SwitchUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchUp.swift; sourceTree = "<group>"; };
 		3FFE8EE91BB65B7B00AD2CFC /* PlayToPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayToPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE8EEC1BB65B7B00AD2CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9227411BB801E8004AC920 /* AVFoundation.framework in Frameworks */,
 				3F9227301BB71C25004AC920 /* FlatUIKit.framework in Frameworks */,
 				3F9227251BB6A1F4004AC920 /* pop.framework in Frameworks */,
 				3FFE8F0D1BB687D100AD2CFC /* L360Confetti.framework in Frameworks */,
@@ -99,6 +110,7 @@
 				3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */,
 				3F9227311BB721F9004AC920 /* RapidFireViewController.swift */,
 				3F92273A1BB7F0C8004AC920 /* BustItViewController.swift */,
+				3F9227421BB80510004AC920 /* SwitchUpViewController.swift */,
 			);
 			name = "Game Controllers";
 			sourceTree = "<group>";
@@ -165,6 +177,8 @@
 				3FFE8F1E1BB6913F00AD2CFC /* Aleo-Light.otf */,
 				3FFE8F1F1BB6913F00AD2CFC /* Aleo-LightItalic.otf */,
 				3FFE8F201BB6913F00AD2CFC /* Aleo-Regular.otf */,
+				3F92273E1BB7FF4E004AC920 /* menu_horn.wav */,
+				3F5AF8D21BB8153100CAEB15 /* festivities.mp3 */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -177,6 +191,7 @@
 				3F92272B1BB70F7D004AC920 /* Minigame.swift */,
 				3F92272D1BB713CE004AC920 /* RapidFire.swift */,
 				3F92273C1BB7F375004AC920 /* BustIt.swift */,
+				3F9227441BB80529004AC920 /* SwitchUp.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -193,6 +208,7 @@
 		82E61777F7CEB4E64B381526 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F9227401BB801E8004AC920 /* AVFoundation.framework */,
 				3F92272F1BB71C25004AC920 /* FlatUIKit.framework */,
 				3F9227241BB6A1F4004AC920 /* pop.framework */,
 				3FFE8F0C1BB687D100AD2CFC /* L360Confetti.framework */,
@@ -267,6 +283,8 @@
 			files = (
 				3FFE8EF41BB65B7B00AD2CFC /* Assets.xcassets in Resources */,
 				3FFE8F231BB6913F00AD2CFC /* Aleo-Italic.otf in Resources */,
+				3F5AF8D31BB8153100CAEB15 /* festivities.mp3 in Resources */,
+				3F92273F1BB7FF4E004AC920 /* menu_horn.wav in Resources */,
 				3FFE8F241BB6913F00AD2CFC /* Aleo-Light.otf in Resources */,
 				3FFE8F221BB6913F00AD2CFC /* Aleo-BoldItalic.otf in Resources */,
 				3FFE8EF21BB65B7B00AD2CFC /* Main.storyboard in Resources */,
@@ -331,12 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9227451BB80529004AC920 /* SwitchUp.swift in Sources */,
 				3F92273D1BB7F375004AC920 /* BustIt.swift in Sources */,
 				3FFE8EEF1BB65B7B00AD2CFC /* MainViewController.swift in Sources */,
 				3F92273B1BB7F0C8004AC920 /* BustItViewController.swift in Sources */,
 				3F92272C1BB70F7D004AC920 /* Minigame.swift in Sources */,
 				3FFE8F291BB693DE00AD2CFC /* Festivity.swift in Sources */,
 				3FFE8EED1BB65B7B00AD2CFC /* AppDelegate.swift in Sources */,
+				3F9227431BB80510004AC920 /* SwitchUpViewController.swift in Sources */,
 				3F9227271BB6C44F004AC920 /* TapABoxGameViewController.swift in Sources */,
 				3F9227391BB7C13B004AC920 /* EndResultsViewController.swift in Sources */,
 				3F92272E1BB713CE004AC920 /* RapidFire.swift in Sources */,

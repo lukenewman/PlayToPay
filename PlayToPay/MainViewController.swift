@@ -11,6 +11,7 @@ import ChameleonFramework
 import HTPressableButton
 import SnapKit
 import L360Confetti
+import AVFoundation
 
 class MainViewController: UIViewController, L360ConfettiAreaDelegate {
     
@@ -23,11 +24,14 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
     var minusButton: HTPressableButton!
     
     var confettiArea: L360ConfettiArea!
+    var audioPlayer = AVAudioPlayer()
     
     @IBOutlet weak var numPlayersLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Festivity.theFestivity.reset()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -106,10 +110,25 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         for _ in 1...Int(numPlayersLabel.text!)! {
             Festivity.theFestivity.players.append(Player())
         }
+
+        playHorn()
         confettiArea.burstAt(self.view.center, confettiWidth: 10, numberOfConfetti: 50)
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(3 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
             self.performSegueWithIdentifier("toGameSelection", sender: self)
+        }
+    }
+    
+    var avPlayer: AVAudioPlayer!
+    
+    func playHorn() {
+        do {
+            try avPlayer = AVAudioPlayer(contentsOfURL: NSURL (fileURLWithPath: NSBundle.mainBundle().pathForResource("festivities", ofType: "mp3")!), fileTypeHint:nil)
+            avPlayer.prepareToPlay()
+            print("playing")
+            avPlayer.play()
+        } catch {
+            //Handle the error
         }
     }
     

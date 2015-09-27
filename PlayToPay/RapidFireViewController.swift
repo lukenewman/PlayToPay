@@ -30,8 +30,8 @@ class RapidFireViewController: UIViewController {
         let buttonFrame = CGRectMake(0, 0, 150, 150)
         
         let button = HTPressableButton(frame: buttonFrame, buttonStyle: HTPressableButtonStyle.Circular)
-        button.buttonColor = FlatPink()
-        button.shadowColor = FlatPinkDark()
+        button.buttonColor = FlatRed()
+        button.shadowColor = FlatRedDark()
         
         button.setTitle("HIT ME", forState: UIControlState.Normal)
         
