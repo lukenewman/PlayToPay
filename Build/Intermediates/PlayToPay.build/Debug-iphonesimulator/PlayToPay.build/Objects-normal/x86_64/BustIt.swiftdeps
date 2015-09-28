@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "StringLiteralType"
-- "Minigame"
-- !private "FlatGreen"
-- !private "UIImage"
 - "BustIt"
+- !private "UIImage"
+- !private "FlatGreen"
+- "Minigame"
 depends-member:
 - !private ["PSs9AnyObject", "FlatGreen"]
 - !private ["PSs9AnyObject", "UIImage"]

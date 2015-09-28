@@ -7,11 +7,11 @@ provides-member:
 - ["C9PlayToPay8SwitchUp", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "UIImage"
+- !private "StringLiteralType"
+- "Minigame"
 - "SwitchUp"
 - !private "FlatOrange"
-- !private "StringLiteralType"
-- !private "UIImage"
-- "Minigame"
 depends-member:
 - !private ["PSs9AnyObject", "FlatOrange"]
 - !private ["PSs9AnyObject", "UIImage"]

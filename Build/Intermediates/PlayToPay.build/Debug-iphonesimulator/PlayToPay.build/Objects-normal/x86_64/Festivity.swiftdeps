@@ -7,19 +7,20 @@ provides-member:
 - ["C9PlayToPay9Festivity", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Festivity"
-- "Minigame"
-- !private "print"
 - !private "StringLiteralType"
-- !private "=="
-- !private "++"
 - "Player"
-- "Bool"
-- "Int"
 - !private "-"
+- "Int"
+- !private "=="
+- !private "print"
+- !private "++"
+- "Minigame"
+- "Festivity"
+- "Bool"
 depends-member:
 - ["PSs9AnyObject", "Festivity"]
 - !private ["PSs9AnyObject", "currentPlayerIndex"]
+- !private ["PSs9AnyObject", "game"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "name"]
 - !private ["PSs9AnyObject", "players"]
@@ -94,6 +95,7 @@ depends-member:
 - ["C9PlayToPay9Festivity", "init"]
 - ["C9PlayToPay9Festivity", "players"]
 - !private ["C9PlayToPay9Festivity", "print"]
+- ["C9PlayToPay9Festivity", "reset"]
 - ["C9PlayToPay9Festivity", "scoreToBeat"]
 - ["C9PlayToPay9Festivity", "scoreToBeatHolder"]
 - ["C9PlayToPay9Festivity", "theFestivity"]
@@ -409,4 +411,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
-interface-hash: "b339fd8ecb7cf1736063f9c99b33aedb"
+interface-hash: "46818e9291acdf33bd5172615a5d0430"

@@ -7,10 +7,10 @@ provides-member:
 - ["C9PlayToPay8Minigame", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Minigame"
-- "UIColor"
 - "UIImage"
 - "String"
+- "UIColor"
+- "Minigame"
 depends-member:
 - ["PSs9AnyObject", ""]
 - ["C9PlayToPay8Minigame", "String"]

@@ -6,53 +6,52 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay20BustItViewController", ""]
 provides-dynamic-lookup:
-- "timer"
-- "goToResults"
-- "timingFreeze"
 - "addTime"
 - "canTap"
-- "viewDidLoad"
-- "screenSwitch"
-- "resetRound"
-- "timeLabel"
-- "round"
-- "randomCGFloat"
-- "count"
 - "mainButton"
+- "timing"
+- "randomCGFloat"
+- "prepareForSegue"
+- "timingFreeze"
+- "round"
+- "viewDidLoad"
+- "resetRound"
+- "goToResults"
+- "timer"
+- "screenSwitch"
+- "count"
+- "seconds"
 - "setupGame"
 - "scoreLabel"
-- "prepareForSegue"
-- "seconds"
 - "buttonTapped"
-- "timing"
 depends-top-level:
-- !private "MinigameResultsViewController"
-- "Float"
-- !private "StringLiteralType"
-- !private "UIColor"
-- "UIViewController"
-- !private "=="
-- "IntegerLiteralType"
-- !private "/"
-- "AnyObject"
-- !private "+="
 - !private "UInt32"
+- "UIButton"
+- !private "StringLiteralType"
+- !private "Int"
+- !private "+="
+- !private "||"
 - "UIStoryboardSegue"
+- !private "Selector"
+- !private "UIColor"
+- !private "MinigameResultsViewController"
+- !private "=="
+- !private "/"
+- "IntegerLiteralType"
+- "UILabel"
+- !private "-"
+- "AnyObject"
+- !private "++"
+- "NSTimer"
+- !private "arc4random"
+- !private "BooleanLiteralType"
 - "BustItViewController"
 - !private "+"
-- "NSTimer"
-- !private ">"
-- !private "BooleanLiteralType"
-- "UIButton"
-- !private "arc4random"
+- "UIViewController"
 - !private "*"
+- !private ">"
+- "Float"
 - !private "FlatMint"
-- "UILabel"
-- !private "Selector"
-- !private "Int"
-- !private "||"
-- !private "-"
-- !private "++"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
@@ -88,7 +87,6 @@ depends-member:
 - ["PSs9AnyObject", "seconds"]
 - ["PSs9AnyObject", "setupGame"]
 - !private ["PSs9AnyObject", "text"]
-- ["PSs9AnyObject", "timeLabel"]
 - ["PSs9AnyObject", "timer"]
 - ["PSs9AnyObject", "timing"]
 - ["PSs9AnyObject", "timingFreeze"]
@@ -142,7 +140,6 @@ depends-member:
 - ["C9PlayToPay20BustItViewController", "screenSwitch"]
 - ["C9PlayToPay20BustItViewController", "seconds"]
 - ["C9PlayToPay20BustItViewController", "setupGame"]
-- ["C9PlayToPay20BustItViewController", "timeLabel"]
 - ["C9PlayToPay20BustItViewController", "timer"]
 - ["C9PlayToPay20BustItViewController", "timing"]
 - ["C9PlayToPay20BustItViewController", "timingFreeze"]
@@ -186,7 +183,6 @@ depends-member:
 - ["PSs11CVarArgType", "seconds"]
 - ["PSs11CVarArgType", "setupGame"]
 - !private ["PSs11CVarArgType", "text"]
-- ["PSs11CVarArgType", "timeLabel"]
 - ["PSs11CVarArgType", "timer"]
 - ["PSs11CVarArgType", "timing"]
 - ["PSs11CVarArgType", "timingFreeze"]
@@ -238,7 +234,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "seconds"]
 - ["PSs23CustomStringConvertible", "setupGame"]
 - !private ["PSs23CustomStringConvertible", "text"]
-- ["PSs23CustomStringConvertible", "timeLabel"]
 - ["PSs23CustomStringConvertible", "timer"]
 - ["PSs23CustomStringConvertible", "timing"]
 - ["PSs23CustomStringConvertible", "timingFreeze"]
@@ -285,7 +280,6 @@ depends-member:
 - ["PSs9Equatable", "seconds"]
 - ["PSs9Equatable", "setupGame"]
 - !private ["PSs9Equatable", "text"]
-- ["PSs9Equatable", "timeLabel"]
 - ["PSs9Equatable", "timer"]
 - ["PSs9Equatable", "timing"]
 - ["PSs9Equatable", "timingFreeze"]
@@ -347,7 +341,6 @@ depends-member:
 - ["PSs8Hashable", "seconds"]
 - ["PSs8Hashable", "setupGame"]
 - !private ["PSs8Hashable", "text"]
-- ["PSs8Hashable", "timeLabel"]
 - ["PSs8Hashable", "timer"]
 - ["PSs8Hashable", "timing"]
 - ["PSs8Hashable", "timingFreeze"]
@@ -418,7 +411,6 @@ depends-member:
 - ["PSo8NSCoding", "seconds"]
 - ["PSo8NSCoding", "setupGame"]
 - !private ["PSo8NSCoding", "text"]
-- ["PSo8NSCoding", "timeLabel"]
 - ["PSo8NSCoding", "timer"]
 - ["PSo8NSCoding", "timing"]
 - ["PSo8NSCoding", "timingFreeze"]
@@ -453,7 +445,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "screenSwitch"]
 - ["PSo26NSExtensionRequestHandling", "seconds"]
 - ["PSo26NSExtensionRequestHandling", "setupGame"]
-- ["PSo26NSExtensionRequestHandling", "timeLabel"]
 - ["PSo26NSExtensionRequestHandling", "timer"]
 - ["PSo26NSExtensionRequestHandling", "timing"]
 - ["PSo26NSExtensionRequestHandling", "timingFreeze"]
@@ -497,7 +488,6 @@ depends-member:
 - ["CSo8NSObject", "seconds"]
 - ["CSo8NSObject", "setupGame"]
 - !private ["CSo8NSObject", "text"]
-- ["CSo8NSObject", "timeLabel"]
 - ["CSo8NSObject", "timer"]
 - ["CSo8NSObject", "timing"]
 - ["CSo8NSObject", "timingFreeze"]
@@ -534,7 +524,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "seconds"]
 - ["PSo16NSObjectProtocol", "setupGame"]
 - !private ["PSo16NSObjectProtocol", "text"]
-- ["PSo16NSObjectProtocol", "timeLabel"]
 - ["PSo16NSObjectProtocol", "timer"]
 - ["PSo16NSObjectProtocol", "timing"]
 - ["PSo16NSObjectProtocol", "timingFreeze"]
@@ -608,7 +597,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "seconds"]
 - ["PSo21UIAppearanceContainer", "setupGame"]
 - !private ["PSo21UIAppearanceContainer", "text"]
-- ["PSo21UIAppearanceContainer", "timeLabel"]
 - ["PSo21UIAppearanceContainer", "timer"]
 - ["PSo21UIAppearanceContainer", "timing"]
 - ["PSo21UIAppearanceContainer", "timingFreeze"]
@@ -642,7 +630,6 @@ depends-member:
 - ["PSo18UIContentContainer", "screenSwitch"]
 - ["PSo18UIContentContainer", "seconds"]
 - ["PSo18UIContentContainer", "setupGame"]
-- ["PSo18UIContentContainer", "timeLabel"]
 - ["PSo18UIContentContainer", "timer"]
 - ["PSo18UIContentContainer", "timing"]
 - ["PSo18UIContentContainer", "timingFreeze"]
@@ -687,7 +674,6 @@ depends-member:
 - ["CSo11UIResponder", "seconds"]
 - ["CSo11UIResponder", "setupGame"]
 - !private ["CSo11UIResponder", "text"]
-- ["CSo11UIResponder", "timeLabel"]
 - ["CSo11UIResponder", "timer"]
 - ["CSo11UIResponder", "timing"]
 - ["CSo11UIResponder", "timingFreeze"]
@@ -718,7 +704,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "screenSwitch"]
 - ["PSo16UIStateRestoring", "seconds"]
 - ["PSo16UIStateRestoring", "setupGame"]
-- ["PSo16UIStateRestoring", "timeLabel"]
 - ["PSo16UIStateRestoring", "timer"]
 - ["PSo16UIStateRestoring", "timing"]
 - ["PSo16UIStateRestoring", "timingFreeze"]
@@ -753,7 +738,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "seconds"]
 - ["PSo18UITraitEnvironment", "setupGame"]
 - !private ["PSo18UITraitEnvironment", "text"]
-- ["PSo18UITraitEnvironment", "timeLabel"]
 - ["PSo18UITraitEnvironment", "timer"]
 - ["PSo18UITraitEnvironment", "timing"]
 - ["PSo18UITraitEnvironment", "timingFreeze"]
@@ -793,7 +777,6 @@ depends-member:
 - ["CSo16UIViewController", "screenSwitch"]
 - ["CSo16UIViewController", "seconds"]
 - ["CSo16UIViewController", "setupGame"]
-- ["CSo16UIViewController", "timeLabel"]
 - ["CSo16UIViewController", "timer"]
 - ["CSo16UIViewController", "timing"]
 - ["CSo16UIViewController", "timingFreeze"]
@@ -1098,4 +1081,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
-interface-hash: "41ccd405cf5e4e8aa45a05dc6b6b2116"
+interface-hash: "152fbb2721170a8fd23720fd0e185e0e"

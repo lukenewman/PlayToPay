@@ -73,8 +73,9 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         plusButton.buttonColor = FlatGreen()
         plusButton.shadowColor = FlatGreenDark()
         plusButton.disabledButtonColor = FlatGray()
-        
-        plusButton.setTitle("MORE", forState: UIControlState.Normal)
+        plusButton.setTitle("+", forState: UIControlState.Normal)
+        plusButton.titleLabel!.font = UIFont(name: "Aleo-Bold", size:40)
+
         
         plusButton.addTarget(self, action: "addPlayer", forControlEvents: UIControlEvents.TouchUpInside)
         
@@ -93,7 +94,8 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         minusButton.buttonColor = FlatRed()
         minusButton.shadowColor = FlatRedDark()
         minusButton.disabledButtonColor = FlatGray()
-        minusButton.setTitle("LESS", forState: UIControlState.Normal)
+        minusButton.setTitle("-", forState: UIControlState.Normal)
+        minusButton.titleLabel!.font = UIFont(name: "Aleo-Bold", size:40)
         
         minusButton.addTarget(self, action: "subPlayer", forControlEvents: UIControlEvents.TouchUpInside)
         

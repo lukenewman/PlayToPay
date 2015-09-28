@@ -7,11 +7,11 @@ provides-member:
 - ["C9PlayToPay6Player", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
 - "Player"
+- !private "StringLiteralType"
 - "Bool"
-- "String"
 - !private "BooleanLiteralType"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "isStillInIt"]
 - !private ["PSs9AnyObject", "name"]

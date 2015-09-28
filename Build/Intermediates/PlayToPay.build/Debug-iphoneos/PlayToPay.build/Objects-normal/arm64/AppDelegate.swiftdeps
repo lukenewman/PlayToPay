@@ -9,15 +9,15 @@ provides-dynamic-lookup:
 - "application"
 - "window"
 depends-top-level:
-- "UIResponder"
-- "NSObject"
-- "AppDelegate"
-- !private "BooleanLiteralType"
 - "UIApplication"
 - "UIWindow"
+- "NSObject"
+- "AppDelegate"
+- "AnyObject"
+- "UIResponder"
 - "UIApplicationDelegate"
 - "Bool"
-- "AnyObject"
+- !private "BooleanLiteralType"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

@@ -122,7 +122,6 @@ SWIFT_CLASS("_TtC9PlayToPay20BustItViewController")
 @property (nonatomic) NSTimer * __nonnull timer;
 @property (nonatomic, weak) IBOutlet UIButton * __null_unspecified mainButton;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified scoreLabel;
-@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified timeLabel;
 - (void)viewDidLoad;
 - (IBAction)buttonTapped:(id __nonnull)sender;
 - (float)randomCGFloat;
@@ -238,6 +237,8 @@ SWIFT_CLASS("_TtC9PlayToPay25PlayerStartViewController")
 @property (nonatomic, readonly, copy) NSArray<NSString *> * __nonnull buttonTitles;
 @property (nonatomic) HTPressableButton * __null_unspecified playButton;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified gameTitleLabel;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified gameIconBackgroundView;
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified gameIconImageView;
 @property (nonatomic, weak) IBOutlet UITextView * __null_unspecified instructionsTextView;
 @property (nonatomic, weak) IBOutlet UIView * __null_unspecified enterNameView;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified enterNameLabel;

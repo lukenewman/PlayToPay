@@ -7,11 +7,11 @@ provides-member:
 - ["C9PlayToPay9RapidFire", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "UIImage"
 - !private "FlatRed"
-- !private "StringLiteralType"
 - "RapidFire"
 - "Minigame"
-- !private "UIImage"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "FlatRed"]
 - !private ["PSs9AnyObject", "UIImage"]
