@@ -127,7 +127,6 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         do {
             try avPlayer = AVAudioPlayer(contentsOfURL: NSURL (fileURLWithPath: NSBundle.mainBundle().pathForResource("festivities", ofType: "mp3")!), fileTypeHint:nil)
             avPlayer.prepareToPlay()
-            print("playing")
             avPlayer.play()
         } catch {
             //Handle the error

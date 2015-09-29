@@ -13,6 +13,7 @@ import HTPressableButton
 import pop
 import L360Confetti
 import AVFoundation
+import Venmo_iOS_SDK
 
 class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
 
@@ -69,7 +70,6 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
         do {
             try avPlayer = AVAudioPlayer(contentsOfURL: NSURL (fileURLWithPath: NSBundle.mainBundle().pathForResource("menu_horn", ofType: "wav")!), fileTypeHint:nil)
             avPlayer.prepareToPlay()
-            print("playing")
             avPlayer.play()
         } catch {
             //Handle the error
@@ -142,14 +142,12 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
     }
     
     func showLoser() {
-        print("show loser")
         let enterFromRight = POPSpringAnimation(propertyNamed: kPOPLayerPositionX)
         enterFromRight.toValue = self.view.bounds.midX
         enterFromRight.springBounciness = 10
         enterFromRight.springSpeed = 10
         loserLabel.layer.pop_addAnimation(enterFromRight, forKey: "enterFromRight")
         
-//        loserLabel.removeConstraints(loserLabel.constraints)
         loserLabel.snp_remakeConstraints { (make) -> Void in
             make.center.equalTo(self.view)
         }
@@ -166,7 +164,13 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
     }
     
     func payWithVenmo() {
-        
+        Venmo.sharedInstance().requestPermissions([VENPermissionMakePayments, VENPermissionAccessProfile]) { (success, error) -> Void in
+            if success {
+                
+            } else {
+                
+            }
+        }
     }
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

@@ -18,12 +18,6 @@ class Festivity {
     
     var currentPlayer: Player {
         get {
-            print("PLAYERS:")
-            var i = 0
-            for player in players {
-                print("\(i): \(player.name)")
-                i++
-            }
             return players[currentPlayerIndex]
         }
     }

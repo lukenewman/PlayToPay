@@ -70,6 +70,11 @@
         },
         {
           'type': 'file',
+          'name': "Chameleon_.h",
+          'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.h"
+        },
+        {
+          'type': 'file',
           'name': "NSArray+Chameleon.h",
           'external-contents': "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.h"
         },

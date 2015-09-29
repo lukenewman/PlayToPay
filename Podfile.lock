@@ -1,6 +1,6 @@
 PODS:
-  - ChameleonFramework/Default (2.0.1)
-  - ChameleonFramework/Swift (2.0.1):
+  - ChameleonFramework/Default (2.0.2.2)
+  - ChameleonFramework/Swift (2.0.2.2):
     - ChameleonFramework/Default
   - CMDQueryStringSerialization (0.2.0)
   - FlatUIKit (1.6.2)
@@ -37,7 +37,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/life360/confetti.git
 
 SPEC CHECKSUMS:
-  ChameleonFramework: c8e3d76f1c86a607b3b8ea776880bc5148b70c1a
+  ChameleonFramework: 752e613b4352a7fd37f9cbd9aafbe0e0c4029b90
   CMDQueryStringSerialization: 15f9004212bbc72533bb533f63df79d90a00a7d8
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
   HTPressableButton: 8e0108962e6e4620378dcfccdaaf363a10e98fa2

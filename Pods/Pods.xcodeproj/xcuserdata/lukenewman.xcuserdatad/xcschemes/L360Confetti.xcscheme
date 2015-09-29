@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B40C5D9E306731CE0DC77A5"
+               BlueprintIdentifier = "697BC994777B88EDA8889216"
                BuildableName = "L360Confetti.framework"
                BlueprintName = "L360Confetti"
                ReferencedContainer = "container:Pods.xcodeproj">

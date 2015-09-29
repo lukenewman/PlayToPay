@@ -4,6 +4,9 @@ provides-top-level:
 - "RandomFlatColorWithShade"
 - "ContrastColorOf"
 - "GradientColor"
+- "HexColor"
+- "AverageColorFromImage"
+- "ColorsFromImage"
 - "RandomFlatColor"
 - "ClearColor"
 - "FlatBlack"
@@ -58,65 +61,73 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "FlatYellowDark"
-- "FlatGreenDark"
-- "FlatGreen"
-- "FlatWhiteDark"
-- "FlatCoffeeDark"
-- "FlatMaroonDark"
 - "FlatRed"
-- "FlatPurpleDark"
-- "FlatPurple"
-- "FlatSkyBlueDark"
-- "FlatPinkDark"
-- "ClearColor"
-- "FlatBrown"
-- "FlatMintDark"
-- "FlatSand"
-- "RandomFlatColorWithShade"
-- "FlatPowderBlueDark"
-- "FlatWatermelon"
-- "FlatBlack"
-- "FlatWatermelonDark"
-- "FlatSandDark"
-- "FlatOrange"
-- "FlatBlackDark"
-- "FlatOrangeDark"
-- "FlatCoffee"
-- "FlatMaroon"
-- "UIColor"
-- "FlatPowderBlue"
-- "UIShadeStyle"
-- "FlatPlumDark"
-- "FlatBlue"
-- "FlatPlum"
-- "FlatWhite"
-- "UIGradientStyle"
-- "GradientColor"
-- "RandomFlatColor"
-- "FlatForestGreen"
-- "FlatForestGreenDark"
-- "FlatMagenta"
-- "FlatNavyBlue"
-- "FlatBlueDark"
-- "FlatSkyBlue"
-- "FlatLimeDark"
-- "CGRect"
-- "FlatBrownDark"
-- "FlatGray"
-- "FlatGrayDark"
-- "FlatPink"
-- "FlatLime"
-- "ComplementaryFlatColorOf"
-- "FlatMint"
-- "FlatTeal"
-- "FlatMagentaDark"
+- "FlatGreen"
 - "FlatTealDark"
-- "FlatNavyBlueDark"
-- "FlatRedDark"
-- "FlatYellow"
+- "FlatCoffee"
+- "FlatPinkDark"
 - "ContrastColorOf"
+- "FlatPurpleDark"
+- "FlatMaroon"
+- "FlatMint"
 - "Bool"
+- "FlatBlackDark"
+- "FlatCoffeeDark"
+- "FlatGreenDark"
+- "FlatWatermelon"
+- "FlatMaroonDark"
+- "FlatSkyBlueDark"
+- "FlatGrayDark"
+- "ColorsFromImage"
+- "FlatBrown"
+- "FlatBrownDark"
+- "FlatWhiteDark"
+- "UIColor"
+- "FlatTeal"
+- "FlatYellow"
+- "ComplementaryFlatColorOf"
+- "UIGradientStyle"
+- "FlatMagentaDark"
+- "ClearColor"
+- "FlatGray"
+- "FlatMagenta"
+- "CGRect"
+- "FlatPlum"
+- "FlatOrangeDark"
+- "FlatNavyBlue"
+- "FlatPowderBlueDark"
+- "GradientColor"
+- "FlatOrange"
+- "FlatForestGreenDark"
+- "FlatWhite"
+- "FlatSkyBlue"
+- "FlatForestGreen"
+- "String"
+- "RandomFlatColorWithShade"
+- "HexColor"
+- "FlatPowderBlue"
+- "FlatBlueDark"
+- "FlatNavyBlueDark"
+- "UIShadeStyle"
+- "CGFloat"
+- "NSArray"
+- "RandomFlatColor"
+- "FlatSandDark"
+- "FlatBlue"
+- "FlatMintDark"
+- "AverageColorFromImage"
+- "FlatLime"
+- "UIImage"
+- "FlatPink"
+- "FlatSand"
+- "FlatPurple"
+- "FlatLimeDark"
+- !private "BooleanLiteralType"
+- "FlatPlumDark"
+- "FlatRedDark"
+- "FlatBlack"
+- "FlatYellowDark"
+- "FlatWatermelonDark"
 depends-member:
 - !private ["PSs9AnyObject", "clearColor"]
 - !private ["PSs9AnyObject", "flatBlackColor"]
@@ -169,6 +180,8 @@ depends-member:
 - !private ["PSs9AnyObject", "flatYellowColorDark"]
 - !private ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "randomFlatColor"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["PSs11CVarArgType", "clearColor"]
 - !private ["PSs11CVarArgType", "flatBlackColor"]
 - !private ["PSs11CVarArgType", "flatBlackColorDark"]
@@ -373,6 +386,7 @@ depends-member:
 - !private ["PSs8Hashable", "flatYellowColorDark"]
 - !private ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "randomFlatColor"]
+- !private ["CSo7NSArray", "init"]
 - !private ["PSo8NSCoding", "clearColor"]
 - !private ["PSo8NSCoding", "flatBlackColor"]
 - !private ["PSo8NSCoding", "flatBlackColorDark"]
@@ -475,6 +489,8 @@ depends-member:
 - !private ["PSo9NSCopying", "flatYellowColorDark"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "randomFlatColor"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSObject", "clearColor"]
 - !private ["CSo8NSObject", "flatBlackColor"]
 - !private ["CSo8NSObject", "flatBlackColorDark"]
@@ -628,6 +644,8 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "flatYellowColorDark"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "randomFlatColor"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["CSo7UIColor", "clearColor"]
 - !private ["CSo7UIColor", "flatBlackColor"]
 - !private ["CSo7UIColor", "flatBlackColorDark"]
@@ -679,25 +697,36 @@ depends-member:
 - !private ["CSo7UIColor", "flatYellowColorDark"]
 - !private ["CSo7UIColor", "init"]
 - !private ["CSo7UIColor", "randomFlatColor"]
+- !private ["CSo7UIImage", "init"]
+- !private ["PSs12_Reflectable", "init"]
 depends-nominal:
 - !private "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "V12CoreGraphics7CGFloat"
 - !private "PSs11CVarArgType"
 - !private "PSs23CustomStringConvertible"
 - !private "PSs9Equatable"
 - !private "PSs8Hashable"
+- !private "CSo7NSArray"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
 - !private "CSo8NSObject"
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
+- !private "PSs12SequenceType"
+- !private "PSo29UIAccessibilityIdentification"
 - !private "CSo7UIColor"
+- !private "CSo7UIImage"
+- !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.h"
@@ -706,6 +735,7 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonMacros.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonEnums.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChameleonFramework.build/unextended-module.modulemap"
@@ -716,4 +746,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "6d940067a275f7308d59c2554022a4d4"
+interface-hash: "044c24cd353d8ebae12eae9028a3bb2e"

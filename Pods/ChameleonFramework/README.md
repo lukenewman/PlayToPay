@@ -2,9 +2,17 @@
   <img src="http://i.imgur.com/BwqHhB4.png" alt="Chameleon by Vicc Alexander"/>
 </p>
 
+<p align="center">
+    <img src="https://img.shields.io/badge/platform-iOS%207%2B-blue.svg?style=flat" alt="Platform: iOS 7+" />
+    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat" alt="Language: Swift 2" /></a>
+    <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible" /></a>
+    <a href="https://cocoapods.org/pods/ChameleonFramework"><img src="https://cocoapod-badges.herokuapp.com/v/ChameleonFramework/badge.png" alt="Cocoapods compatible" /></a>
+    <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" />
+</p>
+
 ## Introduction
 
-**Chameleon** is a lightweight, yet powerful, flat color framework for iOS (Objective-C & Swift). It is built on the idea that software applications should function effortlessly while simultaneously maintaining their beautiful interfaces.
+**Chameleon** is a lightweight, yet powerful, color framework for iOS (Objective-C & Swift). It is built on the idea that software applications should function effortlessly while simultaneously maintaining their beautiful interfaces.
 
 With Chameleon, you can easily stop tinkering with RGB values, wasting hours figuring out the right color combinations to use in your app, and worrying about whether your text will be readable on the various background colors of your app. 
 
@@ -153,6 +161,16 @@ use_frameworks!
 
 pod 'ChameleonFramework/Swift'
 ```
+
+###### **Note:** Swift support for Chameleon 2.0 is almost complete.
+
+=======
+####Carthage Installation
+Add this to your Cartfile:
+```ruby
+github "ViccAlexander/Chameleon"
+```
+
 =======
 ####Manual Installation
 If you rather install this framework manually, just drag and drop the Chameleon folder into your project, and make sure you check the following boxes. Note: Don't forget to manually import the *QuartzCore* & *CoreGraphics* framework if you plan on using gradient colors!
@@ -370,7 +388,7 @@ As mentioned previously, this feature is unique to Chameleon. While this feature
 
 ######Swift
 ``` swift
-TBA
+UIColor.pinkColor().flatten()
 ```
 
 #### Gradient Colors
@@ -380,19 +398,19 @@ Using a gradient to color an object usually requires a couple of lines of code p
 Chameleon provides three simple gradient styles. Gradients can be created from any number of colors you desire as long as at least two colors are provided. Don't forget that the contrasting text feature is also compatible with gradient colors!
 
 **UIGradientStyles:**
-* `UIGradientStyleLeftToRight`
-* `UIGradientStyleTopToBottom`
-* `UIGradientStyleRadial`
+* `UIGradientStyleLeftToRight` (UIGradientStyle.LeftToRight in Swift)
+* `UIGradientStyleTopToBottom` (UIGradientStyle.TopToBottom in Swift)
+* `UIGradientStyleRadial` (UIGradientStyle.Radial in Swift)
 
 #####Normal Convention:
 ######Objective-C
 ``` objective-c
-[UIColor colorWithGradientStyle:(UIGradientStyle)gradientStyle withFrame:(CGRect)frame andColors:(NSArray *)colors];
+[UIColor colorWithGradientStyle:(UIGradientStyle)gradientStyle withFrame:(CGRect)frame andColors:(NSArray<UIColor *> *)colors];
 ```
 
 ######Swift
 ``` swift
-UIColor(gradientStyle:UIGradientStyle, withFrame:CGRect, andColors:[AnyObject]!)
+UIColor(gradientStyle:UIGradientStyle, withFrame:CGRect, andColors:[UIColor])
 ```
 
 #####Chameleon Shorthand:
@@ -422,7 +440,7 @@ One of the most requested features, *hex colors*, is now available. You can simp
 
 ######Swift
 ``` swift
-TBA
+UIColor(hexString:string]
 ```
 
 #####Chameleon Shorthand:
@@ -433,7 +451,7 @@ HexColor(hexString)
 
 ######Swift
 ``` swift
-TBA
+HexColor(hexString)
 ```
 
 #### Lighter and Darker Colors ![New](http://i.imgur.com/BX3b9ES.png)
@@ -448,7 +466,7 @@ Sometimes all you need is a color a shade lighter or a shade darker. Well for th
 
 ######Swift
 ``` swift
-TBA
+color.lightenByPercentage(percentage: CGFloat)
 ```
 
 You can also generate a darker version of a color:
@@ -461,7 +479,7 @@ You can also generate a darker version of a color:
 
 ######Swift
 ``` swift
-TBA
+color.darkenByPercentage(percentage: CGFloat)
 ```
 
 ### Colors From Images ![New](http://i.imgur.com/BX3b9ES.png)
@@ -475,9 +493,9 @@ To generate a color scheme simply do the following:
 [NSArray arrayOfColorsFromImage:(UIImage *)image withFlatScheme:(BOOL)flatScheme];
 ```
 
-######Swift
+######Swift (**Array extension missing**)
 ``` swift
-TBA
+NSArray(ofColorsFromImage: UIImage, withFlatScheme: Bool)
 ```
 
 #####Chameleon Shorthand:
@@ -488,7 +506,7 @@ ColorsFromImage(image, isFlatScheme)
 
 ######Swift
 ``` swift
-TBA
+ColorsFromImage(image, isFlatScheme)
 ```
 
 To extract the average color from an image, you can also do:
@@ -500,7 +518,7 @@ To extract the average color from an image, you can also do:
 
 ######Swift
 ``` swift
-TBA
+UIColor(averageColorFromImage: UIImage)
 ```
 
 #####Chameleon Shorthand:
@@ -511,7 +529,7 @@ AverageColorFromImage(image)
 
 ######Swift
 ``` swift
-TBA
+AverageColorFromImage(image)
 ```
 
 ###UIStatusBarStyle Methods
@@ -526,7 +544,7 @@ Many apps on the market, even the most popular ones, overlook this aspect of a b
 
 ######Swift
 ``` swift
-TBA
+self.setStatusBarStyle(UIStatusBarStyleContrast)
 ```
 ######**Note**: Make sure that the key *View controller-based status bar appearance* in **Info.plist** is set to `YES`.
 
@@ -655,7 +673,23 @@ Using Chameleon in your App? [Let me know](https://twitter.com/viccsmind). 🌈�
 
 ## 📄 Change Log
 
+### 2.0.2
+
+* Carthage support added. (By [@bre7](https://github.com/bre7))
+* Demo project added. (By [@bre7](https://github.com/bre7))
+* Shields added to `README`. (By [@bre7](https://github.com/bre7))
+* Fixed *'Wrong Navigation Bar Color'* bug. ([#51](https://github.com/ViccAlexander/Chameleon/issues/51)) (By [@bre7](https://github.com/bre7))
+* Fixed *'Flatten'* bug. ([#53](https://github.com/ViccAlexander/Chameleon/issues/53)) (By [@bre7](https://github.com/bre7))
+* Fixed *'EXC_BAD_ACCESS Error'* issue. ([#57](https://github.com/ViccAlexander/Chameleon/issues/57)) (By [@bre7](https://github.com/bre7))
+* Several swift functions were made public. (By [@dexter505](https://github.com/dexter505))
+
+### 2.0.1
+
+* Fixed *'ColorWithFlatVersionOf'* bug. ([#50](https://github.com/ViccAlexander/Chameleon/pull/50)) (By [@bre7](https://github.com/bre7))
+
 ### 2.0.0
+
+* Added support for hex colors, colors from images, themes, and lighten and darken by percentage methods. (By [@ViccAlexander](https://github.com/ViccAlexander)) 
 
 ###### Added Methods  
 

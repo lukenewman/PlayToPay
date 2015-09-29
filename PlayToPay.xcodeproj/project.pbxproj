@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3F5AF8D31BB8153100CAEB15 /* festivities.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F5AF8D21BB8153100CAEB15 /* festivities.mp3 */; settings = {ASSET_TAGS = (); }; };
+		3F814D9D1BBAD8DA00F00B58 /* VENCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F814D9B1BBAD8DA00F00B58 /* VENCore.framework */; };
+		3F814D9E1BBAD8DA00F00B58 /* Venmo_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F814D9C1BBAD8DA00F00B58 /* Venmo_iOS_SDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3F814DA11BBADA0000F00B58 /* CMDQueryStringSerialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F814D9F1BBADA0000F00B58 /* CMDQueryStringSerialization.framework */; };
+		3F814DA21BBADA0000F00B58 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F814DA01BBADA0000F00B58 /* SSKeychain.framework */; };
 		3F9227231BB69914004AC920 /* GameSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227221BB69914004AC920 /* GameSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F9227251BB6A1F4004AC920 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9227241BB6A1F4004AC920 /* pop.framework */; };
 		3F9227271BB6C44F004AC920 /* TapABoxGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -47,6 +51,10 @@
 		07244C5670972D1763997D98 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAD1EE51D10C124D528F9A8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3F5AF8D21BB8153100CAEB15 /* festivities.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = festivities.mp3; sourceTree = "<group>"; };
+		3F814D9B1BBAD8DA00F00B58 /* VENCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VENCore.framework; path = "Pods/../build/Debug-iphoneos/VENCore.framework"; sourceTree = "<group>"; };
+		3F814D9C1BBAD8DA00F00B58 /* Venmo_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Venmo_iOS_SDK.framework; path = "Pods/../build/Debug-iphoneos/Venmo_iOS_SDK.framework"; sourceTree = "<group>"; };
+		3F814D9F1BBADA0000F00B58 /* CMDQueryStringSerialization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CMDQueryStringSerialization.framework; path = "Pods/../build/Debug-iphoneos/CMDQueryStringSerialization.framework"; sourceTree = "<group>"; };
+		3F814DA01BBADA0000F00B58 /* SSKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSKeychain.framework; path = "Pods/../build/Debug-iphoneos/SSKeychain.framework"; sourceTree = "<group>"; };
 		3F9227221BB69914004AC920 /* GameSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSelectionViewController.swift; sourceTree = "<group>"; };
 		3F9227241BB6A1F4004AC920 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop.framework"; sourceTree = "<group>"; };
 		3F9227261BB6C44F004AC920 /* TapABoxGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapABoxGameViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +71,7 @@
 		3F9227401BB801E8004AC920 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3F9227421BB80510004AC920 /* SwitchUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchUpViewController.swift; sourceTree = "<group>"; };
 		3F9227441BB80529004AC920 /* SwitchUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchUp.swift; sourceTree = "<group>"; };
+		3FC25F791BBADA8700627AD8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3FFE8EE91BB65B7B00AD2CFC /* PlayToPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayToPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE8EEC1BB65B7B00AD2CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFE8EEE1BB65B7B00AD2CFC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +99,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F814DA11BBADA0000F00B58 /* CMDQueryStringSerialization.framework in Frameworks */,
+				3F814DA21BBADA0000F00B58 /* SSKeychain.framework in Frameworks */,
+				3F814D9D1BBAD8DA00F00B58 /* VENCore.framework in Frameworks */,
+				3F814D9E1BBAD8DA00F00B58 /* Venmo_iOS_SDK.framework in Frameworks */,
 				3F9227411BB801E8004AC920 /* AVFoundation.framework in Frameworks */,
 				3F9227301BB71C25004AC920 /* FlatUIKit.framework in Frameworks */,
 				3F9227251BB6A1F4004AC920 /* pop.framework in Frameworks */,
@@ -164,6 +177,7 @@
 			children = (
 				3FFE8EF31BB65B7B00AD2CFC /* Assets.xcassets */,
 				3FFE8EF81BB65B7B00AD2CFC /* Info.plist */,
+				3FC25F791BBADA8700627AD8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -208,6 +222,10 @@
 		82E61777F7CEB4E64B381526 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F814D9F1BBADA0000F00B58 /* CMDQueryStringSerialization.framework */,
+				3F814DA01BBADA0000F00B58 /* SSKeychain.framework */,
+				3F814D9B1BBAD8DA00F00B58 /* VENCore.framework */,
+				3F814D9C1BBAD8DA00F00B58 /* Venmo_iOS_SDK.framework */,
 				3F9227401BB801E8004AC920 /* AVFoundation.framework */,
 				3F92272F1BB71C25004AC920 /* FlatUIKit.framework */,
 				3F9227241BB6A1F4004AC920 /* pop.framework */,

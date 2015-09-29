@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 
 #import "Chameleon.h"
+#import "Chameleon_.h"
 #import "ChameleonConstants.h"
 #import "ChameleonEnums.h"
 #import "ChameleonMacros.h"

@@ -7,38 +7,31 @@ provides-member:
 - ["C9PlayToPay9Festivity", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "Player"
-- !private "-"
 - "Int"
-- !private "=="
-- !private "print"
-- !private "++"
-- "Minigame"
 - "Festivity"
 - "Bool"
+- !private "-"
+- "Minigame"
+- !private "=="
+- "Player"
 depends-member:
 - ["PSs9AnyObject", "Festivity"]
 - !private ["PSs9AnyObject", "currentPlayerIndex"]
 - !private ["PSs9AnyObject", "game"]
 - ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "name"]
 - !private ["PSs9AnyObject", "players"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "scoreToBeat"]
 - !private ["PSs9AnyObject", "scoreToBeatHolder"]
 - ["PSs9AnyObject", ""]
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]
-- !private ["Sa", "_Element"]
 - !private ["Sa", "count"]
 - !private ["Sa", "deinit"]
 - !private ["Sa", "subscript"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
-- !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "count"]
 - !private ["PSs23ArrayLiteralConvertible", "subscript"]
 - !private ["VSs10ArraySlice", "Generator"]
@@ -47,11 +40,8 @@ depends-member:
 - !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["PSs21BitwiseOperationsType", "Distance"]
 - !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
-- !private ["Sb", "deinit"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
-- !private ["PSs11CVarArgType", "init"]
-- !private ["VSs9Character", "deinit"]
 - !private ["PSs14CollectionType", "Generator"]
 - !private ["PSs14CollectionType", "Index"]
 - !private ["PSs14CollectionType", "SubSequence"]
@@ -60,28 +50,20 @@ depends-member:
 - !private ["PSs14CollectionType", "subscript"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
-- !private ["PSs10Comparable", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "Generator"]
 - !private ["PSs28CustomDebugStringConvertible", "Index"]
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
-- !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "count"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
 - !private ["PSs23CustomStringConvertible", "Index"]
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
-- !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "count"]
-- !private ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
-- !private ["Sd", "deinit"]
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
-- !private ["PSs9Equatable", "init"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - ["C9PlayToPay9Festivity", "Bool"]
 - ["C9PlayToPay9Festivity", "Festivity"]
 - ["C9PlayToPay9Festivity", "Int"]
@@ -94,19 +76,15 @@ depends-member:
 - ["C9PlayToPay9Festivity", "game"]
 - ["C9PlayToPay9Festivity", "init"]
 - ["C9PlayToPay9Festivity", "players"]
-- !private ["C9PlayToPay9Festivity", "print"]
 - ["C9PlayToPay9Festivity", "reset"]
 - ["C9PlayToPay9Festivity", "scoreToBeat"]
 - ["C9PlayToPay9Festivity", "scoreToBeatHolder"]
 - ["C9PlayToPay9Festivity", "theFestivity"]
-- !private ["Sf", "deinit"]
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["PSs13GeneratorType", "Element"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
-- !private ["PSs8Hashable", "init"]
-- !private ["SQ", "Generator"]
 - !private ["SQ", "deinit"]
 - !private ["PSs9Indexable", "Generator"]
 - !private ["PSs9Indexable", "Index"]
@@ -117,11 +95,6 @@ depends-member:
 - !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "Distance"]
 - !private ["Si", "IntegerLiteralType"]
-- !private ["Si", "deinit"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
 - !private ["PSs21IntegerArithmeticType", "Distance"]
 - !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["PSs25IntegerLiteralConvertible", "Distance"]
@@ -130,42 +103,26 @@ depends-member:
 - !private ["PSs11IntegerType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
-- !private ["PSs14MirrorPathType", "init"]
 - !private ["PSs21MutableCollectionType", "Generator"]
 - !private ["PSs21MutableCollectionType", "Index"]
 - !private ["PSs21MutableCollectionType", "SubSequence"]
-- !private ["PSs21MutableCollectionType", "_Element"]
 - !private ["PSs21MutableCollectionType", "count"]
 - !private ["PSs21MutableCollectionType", "subscript"]
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
 - !private ["PSs16MutableIndexable", "SubSequence"]
-- !private ["PSs16MutableIndexable", "_Element"]
 - !private ["PSs16MutableIndexable", "count"]
 - !private ["PSs16MutableIndexable", "subscript"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
 - !private ["PSs16MutableSliceable", "SubSequence"]
-- !private ["PSs16MutableSliceable", "_Element"]
 - !private ["PSs16MutableSliceable", "count"]
 - !private ["PSs16MutableSliceable", "subscript"]
-- !private ["PSo8NSCoding", "init"]
-- !private ["PSo9NSCopying", "init"]
-- !private ["PSo16NSMutableCopying", "init"]
-- !private ["CSo8NSObject", "init"]
-- !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "deinit"]
-- !private ["CSo8NSString", "init"]
-- !private ["PSs21NilLiteralConvertible", "Generator"]
-- !private ["PSs16OutputStreamType", "init"]
-- !private ["C9PlayToPay6Player", "name"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["PSs30RangeReplaceableCollectionType", "Generator"]
 - !private ["PSs30RangeReplaceableCollectionType", "Index"]
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
-- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
 - !private ["PSs12SequenceType", "Element"]
@@ -183,36 +140,18 @@ depends-member:
 - !private ["VSs5Slice", "Index"]
 - !private ["VSs5Slice", "SubSequence"]
 - !private ["VSs5Slice", "_Element"]
-- !private ["PSs10Streamable", "init"]
 - !private ["PSs10Strideable", "Distance"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
-- !private ["SS", "init"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "init"]
-- !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
-- !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
 - !private ["PSs10_ArrayType", "Generator"]
 - !private ["PSs10_ArrayType", "Index"]
 - !private ["PSs10_ArrayType", "SubSequence"]
-- !private ["PSs10_ArrayType", "_Element"]
 - !private ["PSs10_ArrayType", "count"]
 - !private ["PSs10_ArrayType", "subscript"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs16_CocoaStringType", "init"]
 - !private ["PSs24_DestructorSafeContainer", "Generator"]
 - !private ["PSs24_DestructorSafeContainer", "Index"]
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
-- !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "count"]
 - !private ["PSs24_DestructorSafeContainer", "subscript"]
 - !private ["PSs14_Incrementable", "Distance"]
@@ -226,9 +165,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "Index"]
 - !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
-- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
@@ -237,9 +174,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "Index"]
 - !private ["PSs12_Reflectable", "IntegerLiteralType"]
 - !private ["PSs12_Reflectable", "SubSequence"]
-- !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "count"]
-- !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
@@ -252,18 +187,13 @@ depends-nominal:
 - !private "VSs10ArraySlice"
 - !private "PSs22BidirectionalIndexType"
 - !private "PSs21BitwiseOperationsType"
-- !private "Sb"
 - !private "PSs11CVarArgType"
-- !private "VSs9Character"
 - !private "PSs14CollectionType"
 - !private "PSs10Comparable"
 - !private "PSs28CustomDebugStringConvertible"
 - !private "PSs23CustomStringConvertible"
-- !private "Sd"
 - !private "PSs9Equatable"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
 - "C9PlayToPay9Festivity"
-- !private "Sf"
 - !private "PSs16ForwardIndexType"
 - !private "PSs13GeneratorType"
 - !private "PSs8Hashable"
@@ -271,10 +201,6 @@ depends-nominal:
 - !private "PSs9Indexable"
 - !private "VSs17IndexingGenerator"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
@@ -282,41 +208,15 @@ depends-nominal:
 - !private "PSs21MutableCollectionType"
 - !private "PSs16MutableIndexable"
 - !private "PSs16MutableSliceable"
-- !private "PSo8NSCoding"
-- !private "PSo9NSCopying"
-- !private "PSo16NSMutableCopying"
-- !private "CSo8NSObject"
-- !private "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
-- !private "PSs21NilLiteralConvertible"
-- !private "PSs16OutputStreamType"
-- !private "C9PlayToPay6Player"
 - !private "PSs21RandomAccessIndexType"
 - !private "PSs30RangeReplaceableCollectionType"
 - !private "PSs12SequenceType"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
-- !private "PSs10Streamable"
 - !private "PSs10Strideable"
-- !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
-- !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
-- !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
 - !private "PSs10_ArrayType"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
 - !private "PSs24_DestructorSafeContainer"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
@@ -337,9 +237,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
@@ -348,6 +248,7 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonMacros.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonEnums.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon_.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
@@ -371,6 +272,43 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENHTTPResponse.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENHTTP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENUserPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransactionPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransaction.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCreateTransactionRequest.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/UIDevice+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENUser.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransactionTarget.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSString+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSError+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSDictionary+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSArray+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENURLProtocol.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENPermissionConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENErrors.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENSession.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENPermission.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENRequestDecoder.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENHMAC_SHA256_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENDefines_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENBase64_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENUser+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENTransaction+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/UIDevice+IdentifierAddition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSURL+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSString+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSString+MD5Addition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSError+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSDictionary+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSBundle+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo-iOS-SDK-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Modules/module.modulemap"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"

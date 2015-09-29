@@ -6,77 +6,76 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay18MainViewController", ""]
 provides-dynamic-lookup:
-- "plusButton"
-- "addPlayer"
-- "maxNumberOfPlayers"
-- "avPlayer"
-- "colorsForConfettiArea"
-- "commenceButton"
-- "numPlayersLabel"
-- "subPlayer"
 - "minNumberOfPlayers"
-- "commenceFestivities"
 - "confettiArea"
-- "drawPlusButton"
-- "numberOfPlayers"
-- "minusButton"
-- "viewDidLoad"
-- "drawCommenceButton"
+- "commenceFestivities"
+- "avPlayer"
+- "numPlayersLabel"
 - "drawMinusButton"
-- "viewWillAppear"
+- "drawCommenceButton"
+- "maxNumberOfPlayers"
 - "playHorn"
+- "viewWillAppear"
+- "commenceButton"
+- "viewDidLoad"
+- "drawPlusButton"
+- "subPlayer"
+- "addPlayer"
+- "plusButton"
 - "audioPlayer"
+- "minusButton"
+- "colorsForConfettiArea"
+- "numberOfPlayers"
 depends-top-level:
-- !private "FlatGreen"
-- "MainViewController"
-- !private "Array"
+- "HTPressableButton"
+- !private "UIControlState"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "UIFont"
+- !private "Int"
+- !private "--"
 - !private "Void"
-- !private "FlatWhite"
+- !private "..."
+- !private "FlatGray"
+- !private "FlatYellow"
+- "AVAudioPlayer"
+- "UILabel"
 - !private "=="
+- !private "HTPressableButtonStyle"
+- "IntegerLiteralType"
+- "L360ConfettiAreaDelegate"
+- !private "DISPATCH_TIME_NOW"
+- !private "Player"
+- !private "FlatRed"
+- !private "UnicodeScalarType"
+- !private "Int64"
+- !private "dispatch_time"
+- !private "++"
+- !private "*"
+- "Bool"
+- !private "FlatGreenDark"
+- !private ">="
+- !private "Array"
+- !private "NSEC_PER_SEC"
+- !private "NSURL"
 - !private "dispatch_get_main_queue"
 - !private "FlatSkyBlue"
-- !private "Player"
-- "IntegerLiteralType"
-- !private "UIControlState"
-- !private "FlatRed"
-- !private "FlatYellow"
-- !private "NSBundle"
+- !private "UIControlEvents"
+- !private "BooleanLiteralType"
+- !private "CGRectMake"
+- !private "FlatGreen"
+- "L360ConfettiArea"
+- !private "FlatRedDark"
+- "MainViewController"
+- !private "dispatch_after"
+- "AnyObject"
+- !private "<="
 - !private "FlatWatermelon"
 - !private "Festivity"
-- !private "FlatMint"
-- "UILabel"
-- !private "FlatGreenDark"
-- !private "*"
-- "HTPressableButton"
-- !private "<="
-- !private "NSEC_PER_SEC"
-- !private "--"
-- !private "dispatch_time"
-- "AnyObject"
-- !private "..."
-- !private "Int64"
-- !private "++"
-- !private "UnicodeScalarType"
-- !private "print"
-- !private "Int"
-- !private "DISPATCH_TIME_NOW"
-- !private "UIControlEvents"
-- "AVAudioPlayer"
-- !private ">="
-- !private "dispatch_after"
-- !private "FlatGray"
-- !private "HTPressableButtonStyle"
-- !private "StringLiteralType"
-- !private "CGRectMake"
-- !private "FlatRedDark"
 - !private "FlatYellowDark"
-- "L360ConfettiArea"
-- "UIViewController"
-- "L360ConfettiAreaDelegate"
-- !private "NSURL"
-- !private "UIFont"
-- !private "BooleanLiteralType"
-- "Bool"
+- !private "FlatWhite"
+- !private "NSBundle"
+- !private "FlatMint"
 depends-member:
 - ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "play"]
@@ -150,7 +149,6 @@ depends-member:
 - !private ["PSs9AnyObject", "players"]
 - ["PSs9AnyObject", "plusButton"]
 - !private ["PSs9AnyObject", "prepareToPlay"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "reset"]
 - !private ["PSs9AnyObject", "right"]
 - !private ["PSs9AnyObject", "setTitle"]
@@ -262,7 +260,6 @@ depends-member:
 - ["PSs11CVarArgType", "playHorn"]
 - ["PSs11CVarArgType", "plusButton"]
 - !private ["PSs11CVarArgType", "prepareToPlay"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "setTitle"]
 - !private ["PSs11CVarArgType", "shadowColor"]
 - !private ["PSs11CVarArgType", "snp_makeConstraints"]
@@ -376,7 +373,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "playHorn"]
 - ["PSs23CustomStringConvertible", "plusButton"]
 - !private ["PSs23CustomStringConvertible", "prepareToPlay"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "setTitle"]
 - !private ["PSs23CustomStringConvertible", "shadowColor"]
 - !private ["PSs23CustomStringConvertible", "snp_makeConstraints"]
@@ -461,7 +457,6 @@ depends-member:
 - ["PSs9Equatable", "playHorn"]
 - ["PSs9Equatable", "plusButton"]
 - !private ["PSs9Equatable", "prepareToPlay"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "setTitle"]
 - !private ["PSs9Equatable", "shadowColor"]
 - !private ["PSs9Equatable", "snp_makeConstraints"]
@@ -563,7 +558,6 @@ depends-member:
 - ["PSs8Hashable", "playHorn"]
 - ["PSs8Hashable", "plusButton"]
 - !private ["PSs8Hashable", "prepareToPlay"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "setTitle"]
 - !private ["PSs8Hashable", "shadowColor"]
 - !private ["PSs8Hashable", "snp_makeConstraints"]
@@ -652,7 +646,6 @@ depends-member:
 - !private ["PSo24L360ConfettiAreaDelegate", "performSegueWithIdentifier"]
 - !private ["PSo24L360ConfettiAreaDelegate", "playHorn"]
 - !private ["PSo24L360ConfettiAreaDelegate", "plusButton"]
-- !private ["PSo24L360ConfettiAreaDelegate", "print"]
 - !private ["PSo24L360ConfettiAreaDelegate", "view"]
 - ["PSo24L360ConfettiAreaDelegate", ""]
 - ["C9PlayToPay18MainViewController", "AVAudioPlayer"]
@@ -709,7 +702,6 @@ depends-member:
 - !private ["C9PlayToPay18MainViewController", "performSegueWithIdentifier"]
 - ["C9PlayToPay18MainViewController", "playHorn"]
 - ["C9PlayToPay18MainViewController", "plusButton"]
-- !private ["C9PlayToPay18MainViewController", "print"]
 - ["C9PlayToPay18MainViewController", "subPlayer"]
 - !private ["C9PlayToPay18MainViewController", "view"]
 - ["C9PlayToPay18MainViewController", "viewDidLoad"]
@@ -798,7 +790,6 @@ depends-member:
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - ["PSo8NSCoding", "playHorn"]
 - ["PSo8NSCoding", "plusButton"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "setTitle"]
 - !private ["PSo8NSCoding", "shadowColor"]
 - !private ["PSo8NSCoding", "snp_makeConstraints"]
@@ -859,7 +850,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "playHorn"]
 - ["PSo26NSExtensionRequestHandling", "plusButton"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "subPlayer"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -934,7 +924,6 @@ depends-member:
 - ["CSo8NSObject", "playHorn"]
 - ["CSo8NSObject", "plusButton"]
 - !private ["CSo8NSObject", "prepareToPlay"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "setTitle"]
 - !private ["CSo8NSObject", "shadowColor"]
 - !private ["CSo8NSObject", "snp_makeConstraints"]
@@ -1008,7 +997,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "playHorn"]
 - ["PSo16NSObjectProtocol", "plusButton"]
 - !private ["PSo16NSObjectProtocol", "prepareToPlay"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "setTitle"]
 - !private ["PSo16NSObjectProtocol", "shadowColor"]
 - !private ["PSo16NSObjectProtocol", "snp_makeConstraints"]
@@ -1162,7 +1150,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "playHorn"]
 - ["PSo21UIAppearanceContainer", "plusButton"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "setTitle"]
 - !private ["PSo21UIAppearanceContainer", "shadowColor"]
 - !private ["PSo21UIAppearanceContainer", "snp_makeConstraints"]
@@ -1231,7 +1218,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "playHorn"]
 - ["PSo18UIContentContainer", "plusButton"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "subPlayer"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -1350,7 +1336,6 @@ depends-member:
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - ["CSo11UIResponder", "playHorn"]
 - ["CSo11UIResponder", "plusButton"]
-- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "setTitle"]
 - !private ["CSo11UIResponder", "shadowColor"]
 - !private ["CSo11UIResponder", "snp_makeConstraints"]
@@ -1409,7 +1394,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "playHorn"]
 - ["PSo16UIStateRestoring", "plusButton"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "subPlayer"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -1475,7 +1459,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UITraitEnvironment", "playHorn"]
 - ["PSo18UITraitEnvironment", "plusButton"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "shadowColor"]
 - !private ["PSo18UITraitEnvironment", "snp_makeConstraints"]
@@ -1557,7 +1540,6 @@ depends-member:
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "playHorn"]
 - ["CSo16UIViewController", "plusButton"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "subPlayer"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -1793,9 +1775,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
@@ -1804,6 +1786,7 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonMacros.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonEnums.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon_.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
@@ -1827,6 +1810,43 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENHTTPResponse.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENHTTP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENUserPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransactionPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransaction.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCreateTransactionRequest.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/UIDevice+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENUser.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransactionTarget.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSString+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSError+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSDictionary+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSArray+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENURLProtocol.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENPermissionConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENErrors.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENSession.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENPermission.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENRequestDecoder.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENHMAC_SHA256_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENDefines_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENBase64_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENUser+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENTransaction+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/UIDevice+IdentifierAddition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSURL+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSString+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSString+MD5Addition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSError+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSDictionary+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSBundle+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo-iOS-SDK-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Modules/module.modulemap"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"

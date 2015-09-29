@@ -85,8 +85,7 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
             playButton.enabled = false
         }
         
-        // Print the score to beat
-        print("setting score to beat to \(festivity.scoreToBeat)")
+        // Display the score to beat
         if let holder = festivity.scoreToBeatHolder {
             scoreToBeatLabel.text = "\(festivity.scoreToBeat) (\(holder))"
         }
@@ -101,12 +100,10 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(textField: UITextField) {
-        print("textFieldDidEndEditing")
         if textField.text != "" {
             textField.resignFirstResponder()
             
             // Save player name
-            print("saving player name: \(textField.text!)")
             Festivity.theFestivity.currentPlayer.name = textField.text!
             
             let oldX = enterNameView.frame.midX

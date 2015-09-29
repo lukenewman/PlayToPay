@@ -8,66 +8,93 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>ChameleonFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>FlatUIKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>HTPressableButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>L360Confetti.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>SSKeychain.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>VENCore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Venmo-iOS-SDK 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>Venmo-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FB2D7EFC580781D22162B6BC34ED27A</key>
+		<key>05F835ABC7643CF08268D3ACBF41BB04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D2B35C98A890D9A28ABA1627DBA4071</key>
+		<key>2EA30AE78773EDA3146E53CA9AE08176</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +104,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C59D881F488D43EAD04AF7E966F80A9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4D3BB2F505ADB0CADB3055025E42D416</key>
+		<key>4C9A8BC2C54A997669C2066C847573C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,22 +119,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>58C1B737328778C2C55C44D2DBA3B4F0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5D090B2DC1CA6472ADFFB771E5C640E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3847305349685204EF1E5628BA06EE7</key>
+		<key>B296724D0163F40EF3DC57E447047196</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E57784CDFC7181DD171E2F814FA0F9E5</key>
+		<key>B9D5B4FF4A86C605B159A205BCB378C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE01FEE438863EEB895FF571186F201C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE281FA95E0AD0486CC4FEA43BD4F590</key>
 		<dict>
 			<key>primary</key>
 			<true/>

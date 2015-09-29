@@ -6,57 +6,56 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay25PlayerStartViewController", ""]
 provides-dynamic-lookup:
-- "drawPlayButton"
-- "gameIconBackgroundView"
-- "enterNameTextField"
-- "buttonTitles"
-- "playGame"
-- "instructionsTextView"
 - "scoreToBeatLabel"
 - "enterNameLabel"
-- "textFieldShouldReturn"
+- "instructionsTextView"
 - "textFieldDidEndEditing"
+- "drawPlayButton"
+- "gameIconImageView"
 - "gameTitleLabel"
 - "scoreToBeatView"
+- "playGame"
+- "buttonTitles"
 - "playButton"
-- "gameIconImageView"
-- "viewDidLoad"
 - "enterNameView"
+- "enterNameTextField"
+- "textFieldShouldReturn"
+- "viewDidLoad"
+- "gameIconBackgroundView"
 depends-top-level:
-- "StringLiteralType"
 - "Minigame"
-- !private "!="
-- !private "HTPressableButtonStyle"
-- "Array"
-- "UITextFieldDelegate"
-- !private "UIFont"
-- "UIView"
-- !private "Void"
-- "Festivity"
-- !private "UIControlEvents"
-- !private "print"
-- "UIViewController"
-- !private "POPSpringAnimation"
-- !private "UInt32"
-- !private "UnicodeScalarType"
-- "UILabel"
-- !private "FlatYellow"
-- !private "UIControlState"
-- "UIImageView"
-- !private "Int"
-- !private "BooleanLiteralType"
 - "Bool"
-- !private "+"
+- "HTPressableButton"
+- !private "UIControlState"
+- !private "arc4random_uniform"
 - !private "FlatYellowDark"
 - "UITextField"
-- "PlayerStartViewController"
-- "UITextView"
-- !private "FlatOrange"
-- !private "FlatOrangeDark"
-- "HTPressableButton"
+- !private "Int"
+- !private "!="
+- "StringLiteralType"
 - !private "kPOPLayerPositionX"
+- !private "HTPressableButtonStyle"
+- "Festivity"
+- "PlayerStartViewController"
+- !private "POPSpringAnimation"
 - !private "CGRectMake"
-- !private "arc4random_uniform"
+- !private "UnicodeScalarType"
+- !private "UInt32"
+- !private "FlatYellow"
+- !private "UIControlEvents"
+- "Array"
+- "UIImageView"
+- !private "Void"
+- !private "+"
+- "UIViewController"
+- !private "FlatOrange"
+- "UILabel"
+- "UITextView"
+- !private "UIFont"
+- !private "FlatOrangeDark"
+- "UITextFieldDelegate"
+- !private "BooleanLiteralType"
+- "UIView"
 depends-member:
 - !private ["PSs9AnyObject", "CGColor"]
 - !private ["PSs9AnyObject", "CGRectMake"]
@@ -115,7 +114,6 @@ depends-member:
 - ["PSs9AnyObject", "playButton"]
 - ["PSs9AnyObject", "playGame"]
 - !private ["PSs9AnyObject", "pop_addAnimation"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "resignFirstResponder"]
 - !private ["PSs9AnyObject", "scoreToBeat"]
 - !private ["PSs9AnyObject", "scoreToBeatHolder"]
@@ -235,7 +233,6 @@ depends-member:
 - ["PSs11CVarArgType", "playButton"]
 - ["PSs11CVarArgType", "playGame"]
 - !private ["PSs11CVarArgType", "pop_addAnimation"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "resignFirstResponder"]
 - ["PSs11CVarArgType", "scoreToBeatLabel"]
 - ["PSs11CVarArgType", "scoreToBeatView"]
@@ -345,7 +342,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "playButton"]
 - ["PSs23CustomStringConvertible", "playGame"]
 - !private ["PSs23CustomStringConvertible", "pop_addAnimation"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "resignFirstResponder"]
 - ["PSs23CustomStringConvertible", "scoreToBeatLabel"]
 - ["PSs23CustomStringConvertible", "scoreToBeatView"]
@@ -427,7 +423,6 @@ depends-member:
 - ["PSs9Equatable", "playButton"]
 - ["PSs9Equatable", "playGame"]
 - !private ["PSs9Equatable", "pop_addAnimation"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "resignFirstResponder"]
 - ["PSs9Equatable", "scoreToBeatLabel"]
 - ["PSs9Equatable", "scoreToBeatView"]
@@ -524,7 +519,6 @@ depends-member:
 - ["PSs8Hashable", "playButton"]
 - ["PSs8Hashable", "playGame"]
 - !private ["PSs8Hashable", "pop_addAnimation"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "resignFirstResponder"]
 - ["PSs8Hashable", "scoreToBeatLabel"]
 - ["PSs8Hashable", "scoreToBeatView"]
@@ -650,7 +644,6 @@ depends-member:
 - ["PSo8NSCoding", "playButton"]
 - ["PSo8NSCoding", "playGame"]
 - !private ["PSo8NSCoding", "pop_addAnimation"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "resignFirstResponder"]
 - ["PSo8NSCoding", "scoreToBeatLabel"]
 - ["PSo8NSCoding", "scoreToBeatView"]
@@ -709,7 +702,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "playButton"]
 - ["PSo26NSExtensionRequestHandling", "playGame"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "scoreToBeatLabel"]
 - ["PSo26NSExtensionRequestHandling", "scoreToBeatView"]
 - ["PSo26NSExtensionRequestHandling", "textField"]
@@ -780,7 +772,6 @@ depends-member:
 - ["CSo8NSObject", "playButton"]
 - ["CSo8NSObject", "playGame"]
 - !private ["CSo8NSObject", "pop_addAnimation"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "resignFirstResponder"]
 - ["CSo8NSObject", "scoreToBeatLabel"]
 - ["CSo8NSObject", "scoreToBeatView"]
@@ -852,7 +843,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "playButton"]
 - ["PSo16NSObjectProtocol", "playGame"]
 - !private ["PSo16NSObjectProtocol", "pop_addAnimation"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "resignFirstResponder"]
 - ["PSo16NSObjectProtocol", "scoreToBeatLabel"]
 - ["PSo16NSObjectProtocol", "scoreToBeatView"]
@@ -878,7 +868,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "CGColor"]
 - !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "deinit"]
 - !private ["CSo8NSString", "init"]
 - ["PSs21NilLiteralConvertible", "Some"]
 - !private ["PSs13OptionSetType", "Normal"]
@@ -940,7 +929,6 @@ depends-member:
 - !private ["C9PlayToPay25PlayerStartViewController", "performSegueWithIdentifier"]
 - ["C9PlayToPay25PlayerStartViewController", "playButton"]
 - ["C9PlayToPay25PlayerStartViewController", "playGame"]
-- !private ["C9PlayToPay25PlayerStartViewController", "print"]
 - ["C9PlayToPay25PlayerStartViewController", "scoreToBeatLabel"]
 - ["C9PlayToPay25PlayerStartViewController", "scoreToBeatView"]
 - ["C9PlayToPay25PlayerStartViewController", "textField"]
@@ -1076,7 +1064,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "playButton"]
 - ["PSo21UIAppearanceContainer", "playGame"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "resignFirstResponder"]
 - ["PSo21UIAppearanceContainer", "scoreToBeatLabel"]
 - ["PSo21UIAppearanceContainer", "scoreToBeatView"]
@@ -1138,7 +1125,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "playButton"]
 - ["PSo18UIContentContainer", "playGame"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "scoreToBeatLabel"]
 - ["PSo18UIContentContainer", "scoreToBeatView"]
 - ["PSo18UIContentContainer", "textField"]
@@ -1266,7 +1252,6 @@ depends-member:
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - ["CSo11UIResponder", "playButton"]
 - ["CSo11UIResponder", "playGame"]
-- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "resignFirstResponder"]
 - ["CSo11UIResponder", "scoreToBeatLabel"]
 - ["CSo11UIResponder", "scoreToBeatView"]
@@ -1321,7 +1306,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "playButton"]
 - ["PSo16UIStateRestoring", "playGame"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "scoreToBeatLabel"]
 - ["PSo16UIStateRestoring", "scoreToBeatView"]
 - ["PSo16UIStateRestoring", "textField"]
@@ -1367,7 +1351,6 @@ depends-member:
 - !private ["PSo19UITextFieldDelegate", "kPOPLayerPositionX"]
 - !private ["PSo19UITextFieldDelegate", "performSegueWithIdentifier"]
 - !private ["PSo19UITextFieldDelegate", "playButton"]
-- !private ["PSo19UITextFieldDelegate", "print"]
 - !private ["PSo19UITextFieldDelegate", "scoreToBeatLabel"]
 - !private ["PSo19UITextFieldDelegate", "scoreToBeatView"]
 - ["PSo19UITextFieldDelegate", "textField"]
@@ -1435,7 +1418,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UITraitEnvironment", "playButton"]
 - ["PSo18UITraitEnvironment", "playGame"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "resignFirstResponder"]
 - ["PSo18UITraitEnvironment", "scoreToBeatLabel"]
 - ["PSo18UITraitEnvironment", "scoreToBeatView"]
@@ -1518,7 +1500,6 @@ depends-member:
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "playButton"]
 - ["CSo16UIViewController", "playGame"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "scoreToBeatLabel"]
 - ["CSo16UIViewController", "scoreToBeatView"]
 - ["CSo16UIViewController", "textField"]
@@ -1774,9 +1755,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
@@ -1785,6 +1766,7 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonMacros.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonEnums.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon_.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/ChameleonFramework.framework/Modules/module.modulemap"
@@ -1808,6 +1790,43 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENHTTPResponse.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENHTTP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENUserPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransactionPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransaction.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCreateTransactionRequest.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/UIDevice+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENUser.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENTransactionTarget.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSString+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSError+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSDictionary+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/NSArray+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Headers/VENCore-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/VENCore.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENURLProtocol.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENPermissionConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENErrors.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENSession.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENPermission.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENRequestDecoder.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENHMAC_SHA256_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENDefines_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENBase64_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENUser+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/VENTransaction+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/UIDevice+IdentifierAddition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSURL+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSString+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSString+MD5Addition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSError+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSDictionary+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/NSBundle+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Headers/Venmo-iOS-SDK-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/Venmo_iOS_SDK.framework/Modules/module.modulemap"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
