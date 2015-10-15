@@ -114,6 +114,7 @@ class MainViewController: UIViewController, L360ConfettiAreaDelegate {
         }
 
         playHorn()
+        self.view.bringSubviewToFront(self.confettiArea)
         confettiArea.burstAt(self.view.center, confettiWidth: 10, numberOfConfetti: 50)
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(3 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in

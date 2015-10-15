@@ -53,10 +53,15 @@ class EndResultsViewController: UIViewController, L360ConfettiAreaDelegate {
             
             self.playHorn()
             
+            self.view.bringSubviewToFront(self.confettiArea)
+            
             // CONFETTI
             self.confettiArea.burstAt(CGPointMake(self.view.bounds.size.width / 4, 30), confettiWidth: 5, numberOfConfetti: 25)
             self.confettiArea.burstAt(CGPointMake(self.view.bounds.size.width / 2, 30), confettiWidth: 5, numberOfConfetti: 25)
             self.confettiArea.burstAt(CGPointMake(3 * (self.view.bounds.size.width / 4), 30), confettiWidth: 5, numberOfConfetti: 25)
+            
+            self.view.bringSubviewToFront(self.venmoButton)
+            self.view.bringSubviewToFront(self.playAgainButton)
         }
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(5 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
             self.showPlayAgainButton()

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Chameleon.h</key>
 		<data>
-		rDe0aZokxHrW/VABpUcslvZpvvA=
+		k3XS6V9qNC1H+VbrSG+y5g0AM9U=
 		</data>
 		<key>Headers/ChameleonConstants.h</key>
 		<data>
@@ -22,11 +22,15 @@
 		</data>
 		<key>Headers/ChameleonFramework-umbrella.h</key>
 		<data>
-		WzktgQpmFBY/DLazhlTo16/51Bo=
+		iXocFKU3HQicgNXmYPaBP2g7vPE=
 		</data>
 		<key>Headers/ChameleonMacros.h</key>
 		<data>
 		W7V/x1an/FNrx4Ntb9wPYbvLnmc=
+		</data>
+		<key>Headers/Chameleon_.h</key>
+		<data>
+		rDe0aZokxHrW/VABpUcslvZpvvA=
 		</data>
 		<key>Headers/NSArray+Chameleon.h</key>
 		<data>
@@ -66,7 +70,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R/bMlutW/Ex7Ms98U25MA1c8BD4=
+		ajrDH4QzqqLXJs46uNBY1MVdPT0=
+		</data>
+		<key>Modules/ChameleonFramework.swiftmodule/arm.swiftdoc</key>
+		<data>
+		G40ZKxZeGbDiufsVP/4VgPLgqGY=
+		</data>
+		<key>Modules/ChameleonFramework.swiftmodule/arm.swiftmodule</key>
+		<data>
+		vg/Lulg2Qf5+w/Hsc8moTQfZfuw=
 		</data>
 		<key>Modules/ChameleonFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -74,7 +86,7 @@
 		</data>
 		<key>Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		iTUHg4EvH98ZpH8b0Y25m3mq0KI=
+		BbjQOxXC9voIBeZDD15inC5F7Ec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +97,7 @@
 	<dict>
 		<key>Headers/Chameleon.h</key>
 		<data>
-		rDe0aZokxHrW/VABpUcslvZpvvA=
+		k3XS6V9qNC1H+VbrSG+y5g0AM9U=
 		</data>
 		<key>Headers/ChameleonConstants.h</key>
 		<data>
@@ -101,11 +113,15 @@
 		</data>
 		<key>Headers/ChameleonFramework-umbrella.h</key>
 		<data>
-		WzktgQpmFBY/DLazhlTo16/51Bo=
+		iXocFKU3HQicgNXmYPaBP2g7vPE=
 		</data>
 		<key>Headers/ChameleonMacros.h</key>
 		<data>
 		W7V/x1an/FNrx4Ntb9wPYbvLnmc=
+		</data>
+		<key>Headers/Chameleon_.h</key>
+		<data>
+		rDe0aZokxHrW/VABpUcslvZpvvA=
 		</data>
 		<key>Headers/NSArray+Chameleon.h</key>
 		<data>
@@ -143,13 +159,21 @@
 		<data>
 		AZjiimqGRmO059aHnrLz/oMGrIw=
 		</data>
+		<key>Modules/ChameleonFramework.swiftmodule/arm.swiftdoc</key>
+		<data>
+		G40ZKxZeGbDiufsVP/4VgPLgqGY=
+		</data>
+		<key>Modules/ChameleonFramework.swiftmodule/arm.swiftmodule</key>
+		<data>
+		vg/Lulg2Qf5+w/Hsc8moTQfZfuw=
+		</data>
 		<key>Modules/ChameleonFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
 		Fq4/GBaJtuC5ZnCk+gF/L2KS1cY=
 		</data>
 		<key>Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		iTUHg4EvH98ZpH8b0Y25m3mq0KI=
+		BbjQOxXC9voIBeZDD15inC5F7Ec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

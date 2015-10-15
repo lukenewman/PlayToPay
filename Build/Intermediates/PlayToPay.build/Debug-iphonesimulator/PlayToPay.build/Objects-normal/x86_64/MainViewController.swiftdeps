@@ -6,76 +6,76 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay18MainViewController", ""]
 provides-dynamic-lookup:
-- "minNumberOfPlayers"
-- "confettiArea"
-- "commenceFestivities"
-- "avPlayer"
-- "numPlayersLabel"
-- "drawMinusButton"
+- "colorsForConfettiArea"
 - "drawCommenceButton"
 - "maxNumberOfPlayers"
-- "playHorn"
-- "viewWillAppear"
-- "commenceButton"
-- "viewDidLoad"
 - "drawPlusButton"
-- "subPlayer"
-- "addPlayer"
+- "minusButton"
 - "plusButton"
 - "audioPlayer"
-- "minusButton"
-- "colorsForConfettiArea"
+- "subPlayer"
+- "drawMinusButton"
+- "minNumberOfPlayers"
 - "numberOfPlayers"
+- "viewWillAppear"
+- "avPlayer"
+- "commenceButton"
+- "playHorn"
+- "viewDidLoad"
+- "commenceFestivities"
+- "confettiArea"
+- "addPlayer"
+- "numPlayersLabel"
 depends-top-level:
-- "HTPressableButton"
-- !private "UIControlState"
-- !private "StringLiteralType"
 - "UIViewController"
-- !private "UIFont"
-- !private "Int"
-- !private "--"
-- !private "Void"
-- !private "..."
-- !private "FlatGray"
-- !private "FlatYellow"
-- "AVAudioPlayer"
-- "UILabel"
-- !private "=="
-- !private "HTPressableButtonStyle"
-- "IntegerLiteralType"
-- "L360ConfettiAreaDelegate"
-- !private "DISPATCH_TIME_NOW"
-- !private "Player"
-- !private "FlatRed"
+- !private "Festivity"
+- !private "CGRectMake"
+- "MainViewController"
+- !private "FlatWhite"
+- !private "FlatRedDark"
+- !private "FlatGreen"
+- "AnyObject"
+- !private "FlatYellowDark"
+- !private "dispatch_get_main_queue"
+- !private "StringLiteralType"
+- "HTPressableButton"
 - !private "UnicodeScalarType"
+- !private "<="
+- !private "HTPressableButtonStyle"
+- !private "--"
+- !private "UIControlEvents"
+- "UILabel"
+- "IntegerLiteralType"
+- !private "FlatWatermelon"
+- !private "DISPATCH_TIME_NOW"
+- !private "NSBundle"
+- !private "=="
+- !private "FlatGreenDark"
 - !private "Int64"
+- !private "UIFont"
+- !private "NSEC_PER_SEC"
+- "AVAudioPlayer"
+- !private "Player"
+- !private "*"
+- !private "FlatMint"
+- "Bool"
+- !private "FlatGray"
+- !private "FlatRed"
+- !private "Array"
+- !private "NSURL"
+- !private "UIControlState"
+- !private ">="
+- !private "..."
+- "L360ConfettiArea"
+- !private "Int"
+- !private "BooleanLiteralType"
+- !private "FlatSkyBlue"
 - !private "dispatch_time"
 - !private "++"
-- !private "*"
-- "Bool"
-- !private "FlatGreenDark"
-- !private ">="
-- !private "Array"
-- !private "NSEC_PER_SEC"
-- !private "NSURL"
-- !private "dispatch_get_main_queue"
-- !private "FlatSkyBlue"
-- !private "UIControlEvents"
-- !private "BooleanLiteralType"
-- !private "CGRectMake"
-- !private "FlatGreen"
-- "L360ConfettiArea"
-- !private "FlatRedDark"
-- "MainViewController"
+- !private "FlatYellow"
+- "L360ConfettiAreaDelegate"
 - !private "dispatch_after"
-- "AnyObject"
-- !private "<="
-- !private "FlatWatermelon"
-- !private "Festivity"
-- !private "FlatYellowDark"
-- !private "FlatWhite"
-- !private "NSBundle"
-- !private "FlatMint"
+- !private "Void"
 depends-member:
 - ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "play"]
@@ -114,6 +114,7 @@ depends-member:
 - ["PSs9AnyObject", "avPlayer"]
 - !private ["PSs9AnyObject", "backgroundColor"]
 - !private ["PSs9AnyObject", "bottom"]
+- !private ["PSs9AnyObject", "bringSubviewToFront"]
 - !private ["PSs9AnyObject", "burstAt"]
 - !private ["PSs9AnyObject", "buttonColor"]
 - !private ["PSs9AnyObject", "center"]
@@ -229,6 +230,7 @@ depends-member:
 - ["PSs11CVarArgType", "audioPlayer"]
 - ["PSs11CVarArgType", "avPlayer"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
+- !private ["PSs11CVarArgType", "bringSubviewToFront"]
 - !private ["PSs11CVarArgType", "burstAt"]
 - !private ["PSs11CVarArgType", "buttonColor"]
 - !private ["PSs11CVarArgType", "center"]
@@ -342,6 +344,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "audioPlayer"]
 - ["PSs23CustomStringConvertible", "avPlayer"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- !private ["PSs23CustomStringConvertible", "bringSubviewToFront"]
 - !private ["PSs23CustomStringConvertible", "burstAt"]
 - !private ["PSs23CustomStringConvertible", "buttonColor"]
 - !private ["PSs23CustomStringConvertible", "center"]
@@ -426,6 +429,7 @@ depends-member:
 - ["PSs9Equatable", "audioPlayer"]
 - ["PSs9Equatable", "avPlayer"]
 - !private ["PSs9Equatable", "backgroundColor"]
+- !private ["PSs9Equatable", "bringSubviewToFront"]
 - !private ["PSs9Equatable", "burstAt"]
 - !private ["PSs9Equatable", "buttonColor"]
 - !private ["PSs9Equatable", "center"]
@@ -527,6 +531,7 @@ depends-member:
 - ["PSs8Hashable", "audioPlayer"]
 - ["PSs8Hashable", "avPlayer"]
 - !private ["PSs8Hashable", "backgroundColor"]
+- !private ["PSs8Hashable", "bringSubviewToFront"]
 - !private ["PSs8Hashable", "burstAt"]
 - !private ["PSs8Hashable", "buttonColor"]
 - !private ["PSs8Hashable", "center"]
@@ -763,6 +768,7 @@ depends-member:
 - ["PSo8NSCoding", "audioPlayer"]
 - ["PSo8NSCoding", "avPlayer"]
 - !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "bringSubviewToFront"]
 - !private ["PSo8NSCoding", "burstAt"]
 - !private ["PSo8NSCoding", "buttonColor"]
 - !private ["PSo8NSCoding", "center"]
@@ -893,6 +899,7 @@ depends-member:
 - ["CSo8NSObject", "audioPlayer"]
 - ["CSo8NSObject", "avPlayer"]
 - !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "bringSubviewToFront"]
 - !private ["CSo8NSObject", "burstAt"]
 - !private ["CSo8NSObject", "buttonColor"]
 - !private ["CSo8NSObject", "center"]
@@ -966,6 +973,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "audioPlayer"]
 - ["PSo16NSObjectProtocol", "avPlayer"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "bringSubviewToFront"]
 - !private ["PSo16NSObjectProtocol", "burstAt"]
 - !private ["PSo16NSObjectProtocol", "buttonColor"]
 - !private ["PSo16NSObjectProtocol", "center"]
@@ -1059,6 +1067,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "bringSubviewToFront"]
 - !private ["PSo29UIAccessibilityIdentification", "burstAt"]
 - !private ["PSo29UIAccessibilityIdentification", "buttonColor"]
 - !private ["PSo29UIAccessibilityIdentification", "center"]
@@ -1076,6 +1085,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "addTarget"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "bringSubviewToFront"]
 - !private ["PSo12UIAppearance", "burstAt"]
 - !private ["PSo12UIAppearance", "buttonColor"]
 - !private ["PSo12UIAppearance", "center"]
@@ -1123,6 +1133,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "audioPlayer"]
 - ["PSo21UIAppearanceContainer", "avPlayer"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "bringSubviewToFront"]
 - !private ["PSo21UIAppearanceContainer", "burstAt"]
 - !private ["PSo21UIAppearanceContainer", "buttonColor"]
 - !private ["PSo21UIAppearanceContainer", "center"]
@@ -1237,6 +1248,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "addTarget"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "bringSubviewToFront"]
 - !private ["PSo17UICoordinateSpace", "burstAt"]
 - !private ["PSo17UICoordinateSpace", "buttonColor"]
 - !private ["PSo17UICoordinateSpace", "center"]
@@ -1254,6 +1266,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "bringSubviewToFront"]
 - !private ["PSo13UIDynamicItem", "burstAt"]
 - !private ["PSo13UIDynamicItem", "buttonColor"]
 - !private ["PSo13UIDynamicItem", "center"]
@@ -1309,6 +1322,7 @@ depends-member:
 - ["CSo11UIResponder", "audioPlayer"]
 - ["CSo11UIResponder", "avPlayer"]
 - !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "bringSubviewToFront"]
 - !private ["CSo11UIResponder", "burstAt"]
 - !private ["CSo11UIResponder", "buttonColor"]
 - !private ["CSo11UIResponder", "center"]
@@ -1432,6 +1446,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "audioPlayer"]
 - ["PSo18UITraitEnvironment", "avPlayer"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "bringSubviewToFront"]
 - !private ["PSo18UITraitEnvironment", "burstAt"]
 - !private ["PSo18UITraitEnvironment", "buttonColor"]
 - !private ["PSo18UITraitEnvironment", "center"]
@@ -1472,6 +1487,7 @@ depends-member:
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "addTarget"]
 - !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "bringSubviewToFront"]
 - !private ["CSo6UIView", "burstAt"]
 - !private ["CSo6UIView", "buttonColor"]
 - !private ["CSo6UIView", "center"]
@@ -1615,6 +1631,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "addTarget"]
 - !private ["PSs12_Reflectable", "append"]
 - !private ["PSs12_Reflectable", "backgroundColor"]
+- !private ["PSs12_Reflectable", "bringSubviewToFront"]
 - !private ["PSs12_Reflectable", "burstAt"]
 - !private ["PSs12_Reflectable", "buttonColor"]
 - !private ["PSs12_Reflectable", "center"]

@@ -6,75 +6,76 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay18MainViewController", ""]
 provides-dynamic-lookup:
-- "numberOfPlayers"
 - "viewDidLoad"
+- "numberOfPlayers"
+- "minNumberOfPlayers"
+- "drawMinusButton"
 - "viewWillAppear"
-- "confettiArea"
+- "avPlayer"
+- "plusButton"
+- "audioPlayer"
 - "commenceFestivities"
-- "commenceButton"
-- "drawCommenceButton"
-- "subPlayer"
 - "playHorn"
+- "subPlayer"
 - "numPlayersLabel"
 - "maxNumberOfPlayers"
-- "avPlayer"
 - "minusButton"
 - "drawPlusButton"
-- "minNumberOfPlayers"
+- "confettiArea"
 - "addPlayer"
-- "plusButton"
 - "colorsForConfettiArea"
-- "drawMinusButton"
-- "audioPlayer"
+- "commenceButton"
+- "drawCommenceButton"
 depends-top-level:
-- !private "=="
-- !private "UIControlEvents"
-- "IntegerLiteralType"
-- "Bool"
-- !private "dispatch_time"
-- !private "..."
-- !private "--"
-- !private "dispatch_after"
-- "L360ConfettiArea"
-- !private "*"
-- !private "print"
-- !private ">="
-- !private "Int64"
-- "L360ConfettiAreaDelegate"
-- !private "Int"
-- !private "NSBundle"
-- !private "<="
-- !private "DISPATCH_TIME_NOW"
-- !private "HTPressableButtonStyle"
-- !private "Festivity"
-- "MainViewController"
-- "UILabel"
-- !private "Array"
 - !private "FlatRed"
-- !private "FlatGreenDark"
-- !private "FlatGreen"
-- !private "++"
-- !private "UIControlState"
-- !private "BooleanLiteralType"
-- !private "FlatRedDark"
-- "HTPressableButton"
-- !private "Void"
-- !private "FlatWhite"
+- "Bool"
+- "L360ConfettiArea"
+- !private "NSBundle"
 - !private "FlatSkyBlue"
-- !private "FlatYellow"
-- !private "StringLiteralType"
-- !private "CGRectMake"
-- !private "FlatGray"
-- !private "FlatYellowDark"
-- "UIViewController"
-- !private "FlatWatermelon"
-- !private "NSEC_PER_SEC"
-- !private "Player"
 - "AVAudioPlayer"
-- !private "FlatMint"
-- "AnyObject"
+- !private "Array"
 - !private "dispatch_get_main_queue"
 - !private "NSURL"
+- !private "StringLiteralType"
+- !private "++"
+- "AnyObject"
+- !private "UIControlEvents"
+- !private "HTPressableButtonStyle"
+- !private ">="
+- !private "FlatYellow"
+- "HTPressableButton"
+- !private "BooleanLiteralType"
+- !private "FlatWhite"
+- !private "Int"
+- "UILabel"
+- !private "UnicodeScalarType"
+- !private "..."
+- !private "FlatYellowDark"
+- !private "--"
+- "MainViewController"
+- !private "CGRectMake"
+- !private "Festivity"
+- !private "DISPATCH_TIME_NOW"
+- !private "FlatMint"
+- !private "FlatGreen"
+- !private "dispatch_after"
+- !private "UIFont"
+- !private "FlatGray"
+- !private "UIControlState"
+- !private "dispatch_time"
+- !private "<="
+- !private "FlatRedDark"
+- !private "FlatWatermelon"
+- "IntegerLiteralType"
+- !private "FlatGreenDark"
+- !private "Void"
+- !private "*"
+- !private "NSEC_PER_SEC"
+- !private "=="
+- "UIViewController"
+- "L360ConfettiAreaDelegate"
+- !private "Player"
+- !private "Int64"
 depends-member:
 - ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "play"]
@@ -105,6 +106,7 @@ depends-member:
 - !private ["PSs9AnyObject", "Player"]
 - !private ["PSs9AnyObject", "UIControlEvents"]
 - !private ["PSs9AnyObject", "UIControlState"]
+- !private ["PSs9AnyObject", "UIFont"]
 - ["PSs9AnyObject", "addPlayer"]
 - !private ["PSs9AnyObject", "addSubview"]
 - !private ["PSs9AnyObject", "addTarget"]
@@ -112,6 +114,7 @@ depends-member:
 - ["PSs9AnyObject", "avPlayer"]
 - !private ["PSs9AnyObject", "backgroundColor"]
 - !private ["PSs9AnyObject", "bottom"]
+- !private ["PSs9AnyObject", "bringSubviewToFront"]
 - !private ["PSs9AnyObject", "burstAt"]
 - !private ["PSs9AnyObject", "buttonColor"]
 - !private ["PSs9AnyObject", "center"]
@@ -130,6 +133,7 @@ depends-member:
 - ["PSs9AnyObject", "drawMinusButton"]
 - ["PSs9AnyObject", "drawPlusButton"]
 - !private ["PSs9AnyObject", "enabled"]
+- !private ["PSs9AnyObject", "font"]
 - !private ["PSs9AnyObject", "frame"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "left"]
@@ -146,7 +150,6 @@ depends-member:
 - !private ["PSs9AnyObject", "players"]
 - ["PSs9AnyObject", "plusButton"]
 - !private ["PSs9AnyObject", "prepareToPlay"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "reset"]
 - !private ["PSs9AnyObject", "right"]
 - !private ["PSs9AnyObject", "setTitle"]
@@ -155,6 +158,7 @@ depends-member:
 - ["PSs9AnyObject", "subPlayer"]
 - !private ["PSs9AnyObject", "text"]
 - !private ["PSs9AnyObject", "theFestivity"]
+- !private ["PSs9AnyObject", "titleLabel"]
 - !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", "viewWillAppear"]
@@ -218,6 +222,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "Player"]
 - !private ["PSs11CVarArgType", "UIControlEvents"]
 - !private ["PSs11CVarArgType", "UIControlState"]
+- !private ["PSs11CVarArgType", "UIFont"]
 - !private ["PSs11CVarArgType", "_DisabledRangeIndex"]
 - ["PSs11CVarArgType", "addPlayer"]
 - !private ["PSs11CVarArgType", "addSubview"]
@@ -225,6 +230,7 @@ depends-member:
 - ["PSs11CVarArgType", "audioPlayer"]
 - ["PSs11CVarArgType", "avPlayer"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
+- !private ["PSs11CVarArgType", "bringSubviewToFront"]
 - !private ["PSs11CVarArgType", "burstAt"]
 - !private ["PSs11CVarArgType", "buttonColor"]
 - !private ["PSs11CVarArgType", "center"]
@@ -241,6 +247,7 @@ depends-member:
 - ["PSs11CVarArgType", "drawMinusButton"]
 - ["PSs11CVarArgType", "drawPlusButton"]
 - !private ["PSs11CVarArgType", "enabled"]
+- !private ["PSs11CVarArgType", "font"]
 - !private ["PSs11CVarArgType", "frame"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "mainBundle"]
@@ -255,12 +262,12 @@ depends-member:
 - ["PSs11CVarArgType", "playHorn"]
 - ["PSs11CVarArgType", "plusButton"]
 - !private ["PSs11CVarArgType", "prepareToPlay"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "setTitle"]
 - !private ["PSs11CVarArgType", "shadowColor"]
 - !private ["PSs11CVarArgType", "snp_makeConstraints"]
 - ["PSs11CVarArgType", "subPlayer"]
 - !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "titleLabel"]
 - !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", "viewWillAppear"]
@@ -326,6 +333,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UIControlEvents"]
 - !private ["PSs23CustomStringConvertible", "UIControlState"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
 - !private ["PSs23CustomStringConvertible", "_DisabledRangeIndex"]
 - !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
@@ -336,6 +344,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "audioPlayer"]
 - ["PSs23CustomStringConvertible", "avPlayer"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- !private ["PSs23CustomStringConvertible", "bringSubviewToFront"]
 - !private ["PSs23CustomStringConvertible", "burstAt"]
 - !private ["PSs23CustomStringConvertible", "buttonColor"]
 - !private ["PSs23CustomStringConvertible", "center"]
@@ -352,6 +361,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "drawMinusButton"]
 - ["PSs23CustomStringConvertible", "drawPlusButton"]
 - !private ["PSs23CustomStringConvertible", "enabled"]
+- !private ["PSs23CustomStringConvertible", "font"]
 - !private ["PSs23CustomStringConvertible", "frame"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "mainBundle"]
@@ -366,12 +376,12 @@ depends-member:
 - ["PSs23CustomStringConvertible", "playHorn"]
 - ["PSs23CustomStringConvertible", "plusButton"]
 - !private ["PSs23CustomStringConvertible", "prepareToPlay"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "setTitle"]
 - !private ["PSs23CustomStringConvertible", "shadowColor"]
 - !private ["PSs23CustomStringConvertible", "snp_makeConstraints"]
 - ["PSs23CustomStringConvertible", "subPlayer"]
 - !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "titleLabel"]
 - !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", "viewWillAppear"]
@@ -410,6 +420,7 @@ depends-member:
 - !private ["PSs9Equatable", "TouchUpInside"]
 - !private ["PSs9Equatable", "UIControlEvents"]
 - !private ["PSs9Equatable", "UIControlState"]
+- !private ["PSs9Equatable", "UIFont"]
 - !private ["PSs9Equatable", "_DisabledRangeIndex"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - ["PSs9Equatable", "addPlayer"]
@@ -418,6 +429,7 @@ depends-member:
 - ["PSs9Equatable", "audioPlayer"]
 - ["PSs9Equatable", "avPlayer"]
 - !private ["PSs9Equatable", "backgroundColor"]
+- !private ["PSs9Equatable", "bringSubviewToFront"]
 - !private ["PSs9Equatable", "burstAt"]
 - !private ["PSs9Equatable", "buttonColor"]
 - !private ["PSs9Equatable", "center"]
@@ -434,6 +446,7 @@ depends-member:
 - ["PSs9Equatable", "drawMinusButton"]
 - ["PSs9Equatable", "drawPlusButton"]
 - !private ["PSs9Equatable", "enabled"]
+- !private ["PSs9Equatable", "font"]
 - !private ["PSs9Equatable", "frame"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "mainBundle"]
@@ -448,12 +461,12 @@ depends-member:
 - ["PSs9Equatable", "playHorn"]
 - ["PSs9Equatable", "plusButton"]
 - !private ["PSs9Equatable", "prepareToPlay"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "setTitle"]
 - !private ["PSs9Equatable", "shadowColor"]
 - !private ["PSs9Equatable", "snp_makeConstraints"]
 - ["PSs9Equatable", "subPlayer"]
 - !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "titleLabel"]
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", "viewWillAppear"]
@@ -476,6 +489,7 @@ depends-member:
 - !private ["CSo17HTPressableButton", "setTitle"]
 - !private ["CSo17HTPressableButton", "shadowColor"]
 - !private ["CSo17HTPressableButton", "snp_makeConstraints"]
+- !private ["CSo17HTPressableButton", "titleLabel"]
 - !private ["OSC22HTPressableButtonStyle", "Circular"]
 - !private ["OSC22HTPressableButtonStyle", "Rounded"]
 - ["PSs8Hashable", "AVAudioPlayer"]
@@ -508,6 +522,7 @@ depends-member:
 - !private ["PSs8Hashable", "Rounded"]
 - !private ["PSs8Hashable", "UIControlEvents"]
 - !private ["PSs8Hashable", "UIControlState"]
+- !private ["PSs8Hashable", "UIFont"]
 - !private ["PSs8Hashable", "_DisabledRangeIndex"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - ["PSs8Hashable", "addPlayer"]
@@ -516,6 +531,7 @@ depends-member:
 - ["PSs8Hashable", "audioPlayer"]
 - ["PSs8Hashable", "avPlayer"]
 - !private ["PSs8Hashable", "backgroundColor"]
+- !private ["PSs8Hashable", "bringSubviewToFront"]
 - !private ["PSs8Hashable", "burstAt"]
 - !private ["PSs8Hashable", "buttonColor"]
 - !private ["PSs8Hashable", "center"]
@@ -532,6 +548,7 @@ depends-member:
 - ["PSs8Hashable", "drawMinusButton"]
 - ["PSs8Hashable", "drawPlusButton"]
 - !private ["PSs8Hashable", "enabled"]
+- !private ["PSs8Hashable", "font"]
 - !private ["PSs8Hashable", "frame"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "mainBundle"]
@@ -546,12 +563,12 @@ depends-member:
 - ["PSs8Hashable", "playHorn"]
 - ["PSs8Hashable", "plusButton"]
 - !private ["PSs8Hashable", "prepareToPlay"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "setTitle"]
 - !private ["PSs8Hashable", "shadowColor"]
 - !private ["PSs8Hashable", "snp_makeConstraints"]
 - ["PSs8Hashable", "subPlayer"]
 - !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "titleLabel"]
 - !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", "viewWillAppear"]
@@ -615,6 +632,7 @@ depends-member:
 - !private ["PSo24L360ConfettiAreaDelegate", "Player"]
 - !private ["PSo24L360ConfettiAreaDelegate", "UIControlEvents"]
 - !private ["PSo24L360ConfettiAreaDelegate", "UIControlState"]
+- !private ["PSo24L360ConfettiAreaDelegate", "UIFont"]
 - !private ["PSo24L360ConfettiAreaDelegate", "avPlayer"]
 - ["PSo24L360ConfettiAreaDelegate", "colorsForConfettiArea"]
 - !private ["PSo24L360ConfettiAreaDelegate", "commenceButton"]
@@ -633,7 +651,6 @@ depends-member:
 - !private ["PSo24L360ConfettiAreaDelegate", "performSegueWithIdentifier"]
 - !private ["PSo24L360ConfettiAreaDelegate", "playHorn"]
 - !private ["PSo24L360ConfettiAreaDelegate", "plusButton"]
-- !private ["PSo24L360ConfettiAreaDelegate", "print"]
 - !private ["PSo24L360ConfettiAreaDelegate", "view"]
 - ["PSo24L360ConfettiAreaDelegate", ""]
 - ["C9PlayToPay18MainViewController", "AVAudioPlayer"]
@@ -664,6 +681,7 @@ depends-member:
 - !private ["C9PlayToPay18MainViewController", "Player"]
 - !private ["C9PlayToPay18MainViewController", "UIControlEvents"]
 - !private ["C9PlayToPay18MainViewController", "UIControlState"]
+- !private ["C9PlayToPay18MainViewController", "UIFont"]
 - ["C9PlayToPay18MainViewController", "UILabel"]
 - !private ["C9PlayToPay18MainViewController", "Void"]
 - ["C9PlayToPay18MainViewController", "addPlayer"]
@@ -689,7 +707,6 @@ depends-member:
 - !private ["C9PlayToPay18MainViewController", "performSegueWithIdentifier"]
 - ["C9PlayToPay18MainViewController", "playHorn"]
 - ["C9PlayToPay18MainViewController", "plusButton"]
-- !private ["C9PlayToPay18MainViewController", "print"]
 - ["C9PlayToPay18MainViewController", "subPlayer"]
 - !private ["C9PlayToPay18MainViewController", "view"]
 - ["C9PlayToPay18MainViewController", "viewDidLoad"]
@@ -744,12 +761,14 @@ depends-member:
 - !private ["PSo8NSCoding", "Player"]
 - !private ["PSo8NSCoding", "UIControlEvents"]
 - !private ["PSo8NSCoding", "UIControlState"]
+- !private ["PSo8NSCoding", "UIFont"]
 - ["PSo8NSCoding", "addPlayer"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "addTarget"]
 - ["PSo8NSCoding", "audioPlayer"]
 - ["PSo8NSCoding", "avPlayer"]
 - !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "bringSubviewToFront"]
 - !private ["PSo8NSCoding", "burstAt"]
 - !private ["PSo8NSCoding", "buttonColor"]
 - !private ["PSo8NSCoding", "center"]
@@ -766,6 +785,7 @@ depends-member:
 - ["PSo8NSCoding", "drawMinusButton"]
 - ["PSo8NSCoding", "drawPlusButton"]
 - !private ["PSo8NSCoding", "enabled"]
+- !private ["PSo8NSCoding", "font"]
 - !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "maxNumberOfPlayers"]
@@ -776,12 +796,12 @@ depends-member:
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - ["PSo8NSCoding", "playHorn"]
 - ["PSo8NSCoding", "plusButton"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "setTitle"]
 - !private ["PSo8NSCoding", "shadowColor"]
 - !private ["PSo8NSCoding", "snp_makeConstraints"]
 - ["PSo8NSCoding", "subPlayer"]
 - !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "titleLabel"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewWillAppear"]
@@ -813,6 +833,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Player"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlEvents"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
+- !private ["PSo26NSExtensionRequestHandling", "UIFont"]
 - ["PSo26NSExtensionRequestHandling", "addPlayer"]
 - ["PSo26NSExtensionRequestHandling", "audioPlayer"]
 - ["PSo26NSExtensionRequestHandling", "avPlayer"]
@@ -835,7 +856,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "playHorn"]
 - ["PSo26NSExtensionRequestHandling", "plusButton"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "subPlayer"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -870,6 +890,7 @@ depends-member:
 - !private ["CSo8NSObject", "Player"]
 - !private ["CSo8NSObject", "UIControlEvents"]
 - !private ["CSo8NSObject", "UIControlState"]
+- !private ["CSo8NSObject", "UIFont"]
 - ["CSo8NSObject", "UILabel"]
 - !private ["CSo8NSObject", "Void"]
 - ["CSo8NSObject", "addPlayer"]
@@ -878,6 +899,7 @@ depends-member:
 - ["CSo8NSObject", "audioPlayer"]
 - ["CSo8NSObject", "avPlayer"]
 - !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "bringSubviewToFront"]
 - !private ["CSo8NSObject", "burstAt"]
 - !private ["CSo8NSObject", "buttonColor"]
 - !private ["CSo8NSObject", "center"]
@@ -894,6 +916,7 @@ depends-member:
 - ["CSo8NSObject", "drawMinusButton"]
 - ["CSo8NSObject", "drawPlusButton"]
 - !private ["CSo8NSObject", "enabled"]
+- !private ["CSo8NSObject", "font"]
 - !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "mainBundle"]
@@ -908,12 +931,12 @@ depends-member:
 - ["CSo8NSObject", "playHorn"]
 - ["CSo8NSObject", "plusButton"]
 - !private ["CSo8NSObject", "prepareToPlay"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "setTitle"]
 - !private ["CSo8NSObject", "shadowColor"]
 - !private ["CSo8NSObject", "snp_makeConstraints"]
 - ["CSo8NSObject", "subPlayer"]
 - !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "titleLabel"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewWillAppear"]
@@ -943,12 +966,14 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Player"]
 - !private ["PSo16NSObjectProtocol", "UIControlEvents"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
 - ["PSo16NSObjectProtocol", "addPlayer"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
 - ["PSo16NSObjectProtocol", "audioPlayer"]
 - ["PSo16NSObjectProtocol", "avPlayer"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "bringSubviewToFront"]
 - !private ["PSo16NSObjectProtocol", "burstAt"]
 - !private ["PSo16NSObjectProtocol", "buttonColor"]
 - !private ["PSo16NSObjectProtocol", "center"]
@@ -965,6 +990,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "drawMinusButton"]
 - ["PSo16NSObjectProtocol", "drawPlusButton"]
 - !private ["PSo16NSObjectProtocol", "enabled"]
+- !private ["PSo16NSObjectProtocol", "font"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "mainBundle"]
@@ -979,12 +1005,12 @@ depends-member:
 - ["PSo16NSObjectProtocol", "playHorn"]
 - ["PSo16NSObjectProtocol", "plusButton"]
 - !private ["PSo16NSObjectProtocol", "prepareToPlay"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "setTitle"]
 - !private ["PSo16NSObjectProtocol", "shadowColor"]
 - !private ["PSo16NSObjectProtocol", "snp_makeConstraints"]
 - ["PSo16NSObjectProtocol", "subPlayer"]
 - !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "titleLabel"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewWillAppear"]
@@ -1041,33 +1067,39 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "bringSubviewToFront"]
 - !private ["PSo29UIAccessibilityIdentification", "burstAt"]
 - !private ["PSo29UIAccessibilityIdentification", "buttonColor"]
 - !private ["PSo29UIAccessibilityIdentification", "center"]
 - !private ["PSo29UIAccessibilityIdentification", "delegate"]
 - !private ["PSo29UIAccessibilityIdentification", "disabledButtonColor"]
 - !private ["PSo29UIAccessibilityIdentification", "enabled"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
 - !private ["PSo29UIAccessibilityIdentification", "frame"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "setTitle"]
 - !private ["PSo29UIAccessibilityIdentification", "shadowColor"]
 - !private ["PSo29UIAccessibilityIdentification", "snp_makeConstraints"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "titleLabel"]
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "addTarget"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "bringSubviewToFront"]
 - !private ["PSo12UIAppearance", "burstAt"]
 - !private ["PSo12UIAppearance", "buttonColor"]
 - !private ["PSo12UIAppearance", "center"]
 - !private ["PSo12UIAppearance", "delegate"]
 - !private ["PSo12UIAppearance", "disabledButtonColor"]
 - !private ["PSo12UIAppearance", "enabled"]
+- !private ["PSo12UIAppearance", "font"]
 - !private ["PSo12UIAppearance", "frame"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "setTitle"]
 - !private ["PSo12UIAppearance", "shadowColor"]
 - !private ["PSo12UIAppearance", "snp_makeConstraints"]
 - !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "titleLabel"]
 - ["PSo21UIAppearanceContainer", "AVAudioPlayer"]
 - !private ["PSo21UIAppearanceContainer", "CGRectMake"]
 - !private ["PSo21UIAppearanceContainer", "DISPATCH_TIME_NOW"]
@@ -1094,12 +1126,14 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Player"]
 - !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
 - !private ["PSo21UIAppearanceContainer", "UIControlState"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
 - ["PSo21UIAppearanceContainer", "addPlayer"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "addTarget"]
 - ["PSo21UIAppearanceContainer", "audioPlayer"]
 - ["PSo21UIAppearanceContainer", "avPlayer"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "bringSubviewToFront"]
 - !private ["PSo21UIAppearanceContainer", "burstAt"]
 - !private ["PSo21UIAppearanceContainer", "buttonColor"]
 - !private ["PSo21UIAppearanceContainer", "center"]
@@ -1116,6 +1150,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "drawMinusButton"]
 - ["PSo21UIAppearanceContainer", "drawPlusButton"]
 - !private ["PSo21UIAppearanceContainer", "enabled"]
+- !private ["PSo21UIAppearanceContainer", "font"]
 - !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "maxNumberOfPlayers"]
@@ -1126,12 +1161,12 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "playHorn"]
 - ["PSo21UIAppearanceContainer", "plusButton"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "setTitle"]
 - !private ["PSo21UIAppearanceContainer", "shadowColor"]
 - !private ["PSo21UIAppearanceContainer", "snp_makeConstraints"]
 - ["PSo21UIAppearanceContainer", "subPlayer"]
 - !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "titleLabel"]
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewWillAppear"]
@@ -1144,6 +1179,7 @@ depends-member:
 - !private ["CSo8UIButton", "setTitle"]
 - !private ["CSo8UIButton", "shadowColor"]
 - !private ["CSo8UIButton", "snp_makeConstraints"]
+- !private ["CSo8UIButton", "titleLabel"]
 - ["PSo18UIContentContainer", "AVAudioPlayer"]
 - !private ["PSo18UIContentContainer", "CGRectMake"]
 - !private ["PSo18UIContentContainer", "DISPATCH_TIME_NOW"]
@@ -1170,6 +1206,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Player"]
 - !private ["PSo18UIContentContainer", "UIControlEvents"]
 - !private ["PSo18UIContentContainer", "UIControlState"]
+- !private ["PSo18UIContentContainer", "UIFont"]
 - ["PSo18UIContentContainer", "addPlayer"]
 - ["PSo18UIContentContainer", "audioPlayer"]
 - ["PSo18UIContentContainer", "avPlayer"]
@@ -1192,7 +1229,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "playHorn"]
 - ["PSo18UIContentContainer", "plusButton"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "subPlayer"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -1206,39 +1242,48 @@ depends-member:
 - !private ["CSo9UIControl", "setTitle"]
 - !private ["CSo9UIControl", "shadowColor"]
 - !private ["CSo9UIControl", "snp_makeConstraints"]
+- !private ["CSo9UIControl", "titleLabel"]
 - !private ["VSC15UIControlEvents", "TouchUpInside"]
 - !private ["VSC14UIControlState", "Normal"]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "addTarget"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "bringSubviewToFront"]
 - !private ["PSo17UICoordinateSpace", "burstAt"]
 - !private ["PSo17UICoordinateSpace", "buttonColor"]
 - !private ["PSo17UICoordinateSpace", "center"]
 - !private ["PSo17UICoordinateSpace", "delegate"]
 - !private ["PSo17UICoordinateSpace", "disabledButtonColor"]
 - !private ["PSo17UICoordinateSpace", "enabled"]
+- !private ["PSo17UICoordinateSpace", "font"]
 - !private ["PSo17UICoordinateSpace", "frame"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "setTitle"]
 - !private ["PSo17UICoordinateSpace", "shadowColor"]
 - !private ["PSo17UICoordinateSpace", "snp_makeConstraints"]
 - !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "titleLabel"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "bringSubviewToFront"]
 - !private ["PSo13UIDynamicItem", "burstAt"]
 - !private ["PSo13UIDynamicItem", "buttonColor"]
 - !private ["PSo13UIDynamicItem", "center"]
 - !private ["PSo13UIDynamicItem", "delegate"]
 - !private ["PSo13UIDynamicItem", "disabledButtonColor"]
 - !private ["PSo13UIDynamicItem", "enabled"]
+- !private ["PSo13UIDynamicItem", "font"]
 - !private ["PSo13UIDynamicItem", "frame"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "setTitle"]
 - !private ["PSo13UIDynamicItem", "shadowColor"]
 - !private ["PSo13UIDynamicItem", "snp_makeConstraints"]
 - !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "titleLabel"]
 - !private ["VSC12UIEdgeInsets", "deinit"]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo7UILabel", "font"]
 - !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "AVAudioPlayer"]
 - ["CSo11UIResponder", "AnyObject"]
@@ -1268,6 +1313,7 @@ depends-member:
 - !private ["CSo11UIResponder", "Player"]
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - !private ["CSo11UIResponder", "UIControlState"]
+- !private ["CSo11UIResponder", "UIFont"]
 - ["CSo11UIResponder", "UILabel"]
 - !private ["CSo11UIResponder", "Void"]
 - ["CSo11UIResponder", "addPlayer"]
@@ -1276,6 +1322,7 @@ depends-member:
 - ["CSo11UIResponder", "audioPlayer"]
 - ["CSo11UIResponder", "avPlayer"]
 - !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "bringSubviewToFront"]
 - !private ["CSo11UIResponder", "burstAt"]
 - !private ["CSo11UIResponder", "buttonColor"]
 - !private ["CSo11UIResponder", "center"]
@@ -1292,6 +1339,7 @@ depends-member:
 - ["CSo11UIResponder", "drawMinusButton"]
 - ["CSo11UIResponder", "drawPlusButton"]
 - !private ["CSo11UIResponder", "enabled"]
+- !private ["CSo11UIResponder", "font"]
 - !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "maxNumberOfPlayers"]
@@ -1302,12 +1350,12 @@ depends-member:
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - ["CSo11UIResponder", "playHorn"]
 - ["CSo11UIResponder", "plusButton"]
-- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "setTitle"]
 - !private ["CSo11UIResponder", "shadowColor"]
 - !private ["CSo11UIResponder", "snp_makeConstraints"]
 - ["CSo11UIResponder", "subPlayer"]
 - !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "titleLabel"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewWillAppear"]
@@ -1337,6 +1385,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Player"]
 - !private ["PSo16UIStateRestoring", "UIControlEvents"]
 - !private ["PSo16UIStateRestoring", "UIControlState"]
+- !private ["PSo16UIStateRestoring", "UIFont"]
 - ["PSo16UIStateRestoring", "addPlayer"]
 - ["PSo16UIStateRestoring", "audioPlayer"]
 - ["PSo16UIStateRestoring", "avPlayer"]
@@ -1359,7 +1408,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "playHorn"]
 - ["PSo16UIStateRestoring", "plusButton"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "subPlayer"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -1391,12 +1439,14 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Player"]
 - !private ["PSo18UITraitEnvironment", "UIControlEvents"]
 - !private ["PSo18UITraitEnvironment", "UIControlState"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
 - ["PSo18UITraitEnvironment", "addPlayer"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "addTarget"]
 - ["PSo18UITraitEnvironment", "audioPlayer"]
 - ["PSo18UITraitEnvironment", "avPlayer"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "bringSubviewToFront"]
 - !private ["PSo18UITraitEnvironment", "burstAt"]
 - !private ["PSo18UITraitEnvironment", "buttonColor"]
 - !private ["PSo18UITraitEnvironment", "center"]
@@ -1413,6 +1463,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "drawMinusButton"]
 - ["PSo18UITraitEnvironment", "drawPlusButton"]
 - !private ["PSo18UITraitEnvironment", "enabled"]
+- !private ["PSo18UITraitEnvironment", "font"]
 - !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "maxNumberOfPlayers"]
@@ -1423,12 +1474,12 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UITraitEnvironment", "playHorn"]
 - ["PSo18UITraitEnvironment", "plusButton"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "shadowColor"]
 - !private ["PSo18UITraitEnvironment", "snp_makeConstraints"]
 - ["PSo18UITraitEnvironment", "subPlayer"]
 - !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "titleLabel"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewWillAppear"]
@@ -1436,6 +1487,7 @@ depends-member:
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "addTarget"]
 - !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "bringSubviewToFront"]
 - !private ["CSo6UIView", "burstAt"]
 - !private ["CSo6UIView", "buttonColor"]
 - !private ["CSo6UIView", "center"]
@@ -1443,12 +1495,14 @@ depends-member:
 - !private ["CSo6UIView", "delegate"]
 - !private ["CSo6UIView", "disabledButtonColor"]
 - !private ["CSo6UIView", "enabled"]
+- !private ["CSo6UIView", "font"]
 - !private ["CSo6UIView", "frame"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "setTitle"]
 - !private ["CSo6UIView", "shadowColor"]
 - !private ["CSo6UIView", "snp_makeConstraints"]
 - !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "titleLabel"]
 - ["CSo16UIViewController", "AVAudioPlayer"]
 - ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "Bool"]
@@ -1477,6 +1531,7 @@ depends-member:
 - !private ["CSo16UIViewController", "Player"]
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - !private ["CSo16UIViewController", "UIControlState"]
+- !private ["CSo16UIViewController", "UIFont"]
 - ["CSo16UIViewController", "UILabel"]
 - !private ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "addPlayer"]
@@ -1501,7 +1556,6 @@ depends-member:
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "playHorn"]
 - ["CSo16UIViewController", "plusButton"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "subPlayer"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -1577,18 +1631,21 @@ depends-member:
 - !private ["PSs12_Reflectable", "addTarget"]
 - !private ["PSs12_Reflectable", "append"]
 - !private ["PSs12_Reflectable", "backgroundColor"]
+- !private ["PSs12_Reflectable", "bringSubviewToFront"]
 - !private ["PSs12_Reflectable", "burstAt"]
 - !private ["PSs12_Reflectable", "buttonColor"]
 - !private ["PSs12_Reflectable", "center"]
 - !private ["PSs12_Reflectable", "delegate"]
 - !private ["PSs12_Reflectable", "disabledButtonColor"]
 - !private ["PSs12_Reflectable", "enabled"]
+- !private ["PSs12_Reflectable", "font"]
 - !private ["PSs12_Reflectable", "frame"]
 - !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "setTitle"]
 - !private ["PSs12_Reflectable", "shadowColor"]
 - !private ["PSs12_Reflectable", "snp_makeConstraints"]
 - !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "titleLabel"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs18_SignedIntegerType", "_DisabledRangeIndex"]
@@ -1692,6 +1749,7 @@ depends-nominal:
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - !private "VSC12UIEdgeInsets"
+- !private "CSo6UIFont"
 - !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
@@ -1734,9 +1792,9 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
@@ -1745,6 +1803,7 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonMacros.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonEnums.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/Chameleon_.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules/module.modulemap"
@@ -1768,6 +1827,43 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENHTTPResponse.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENHTTP.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENUserPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENTransactionPayloadKeys.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENTransaction.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCreateTransactionRequest.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/UIDevice+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENUser.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENTransactionTarget.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSString+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSError+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSDictionary+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSArray+VENCore.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCore-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Modules/module.modulemap"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENURLProtocol.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENPermissionConstants.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENErrors.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/Venmo.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENSession.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENPermission.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENRequestDecoder.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENHMAC_SHA256_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENDefines_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENBase64_Internal.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENUser+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENTransaction+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/UIDevice+IdentifierAddition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSURL+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSString+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSString+MD5Addition.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSError+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSDictionary+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSBundle+VenmoSDK.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/Venmo-iOS-SDK-umbrella.h"
+- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Modules/module.modulemap"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"

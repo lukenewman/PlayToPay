@@ -497,7 +497,7 @@
 				);
 				INFOPLIST_FILE = PlayToPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.plutoniumapps.PlayToPay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutoniumapps.playtopay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -515,7 +515,7 @@
 				);
 				INFOPLIST_FILE = PlayToPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.plutoniumapps.PlayToPay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutoniumapps.playtopay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};

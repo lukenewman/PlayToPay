@@ -36,24 +36,24 @@ provides-member:
 - ["CSo6UIView", "snp_removeConstraints"]
 - ["CSo6UIView", "snp_installedLayoutConstraints"]
 provides-dynamic-lookup:
-- "snp_installedLayoutConstraints"
 - "snp_removeConstraints"
+- "snp_installedLayoutConstraints"
 depends-top-level:
-- !private "objc_getAssociatedObject"
-- "UIView"
 - "UInt"
+- "UIView"
 - "LayoutConstraint"
-- !private "objc_setAssociatedObject"
-- "ConstraintItem"
-- "StringLiteralType"
+- !private "objc_AssociationPolicy"
 - "View"
 - "Void"
-- "Constraint"
-- "ConstraintMaker"
 - !private "ConstraintAttributes"
-- "String"
+- "ConstraintItem"
+- "StringLiteralType"
+- !private "objc_setAssociatedObject"
+- "Constraint"
 - !private "installedLayoutConstraintsKey"
-- !private "objc_AssociationPolicy"
+- !private "objc_getAssociatedObject"
+- "String"
+- "ConstraintMaker"
 depends-member:
 - !private ["PSs9AnyObject", "ConstraintAttributes"]
 - !private ["PSs9AnyObject", "ConstraintItem"]

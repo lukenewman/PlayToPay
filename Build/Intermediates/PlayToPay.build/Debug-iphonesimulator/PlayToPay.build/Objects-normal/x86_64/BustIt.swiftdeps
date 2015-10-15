@@ -7,10 +7,10 @@ provides-member:
 - ["C9PlayToPay6BustIt", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "FlatGreen"
 - !private "UIImage"
 - "BustIt"
 - "Minigame"
-- !private "FlatGreen"
 - !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "FlatGreen"]
