@@ -14,7 +14,7 @@ class SwitchUp : Minigame {
         super.init()
         
         self.title = "Switch Up"
-        self.instructions = "Tap a colored section for +1 points and a gray one for -1 points -- your choice."
+        self.instructions = "Tap the orange section for +1 points and a gray one for -1 points."
         self.segueIdentifier = "switchUp"
         self.themeColor = FlatOrange()
         self.icon = UIImage(named: "arrow_360")

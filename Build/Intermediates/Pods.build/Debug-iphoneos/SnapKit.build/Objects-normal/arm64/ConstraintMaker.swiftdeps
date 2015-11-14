@@ -7,19 +7,19 @@ provides-member:
 - ["C7SnapKit15ConstraintMaker", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Constraint"
-- "ConstraintDescriptionExtendable"
-- "View"
-- "UInt"
-- "ConstraintDescription"
-- "ConstraintAttributes"
-- "StringLiteralType"
-- "ConstraintMaker"
-- !private "ConcreteConstraint"
-- !private "BooleanLiteralType"
-- "Void"
 - "String"
+- "Constraint"
+- "ConstraintDescription"
+- "StringLiteralType"
+- !private "ConcreteConstraint"
+- "View"
+- "Void"
+- "ConstraintDescriptionExtendable"
+- "UInt"
+- "ConstraintAttributes"
+- "ConstraintMaker"
 - !private "ConstraintItem"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "ConstraintAttributes"]
 - ["PSs9AnyObject", "ConstraintDescription"]
@@ -435,6 +435,8 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["PSo13UIDynamicItem", "snp_installedLayoutConstraints"]
 - !private ["PSo13UIDynamicItem", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo18UIFocusEnvironment", "snp_installedLayoutConstraints"]
+- !private ["PSo18UIFocusEnvironment", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["CSo11UIResponder", "snp_installedLayoutConstraints"]
 - !private ["CSo11UIResponder", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["PSo18UITraitEnvironment", "snp_installedLayoutConstraints"]
@@ -546,6 +548,7 @@ depends-nominal:
 - !private "PSo21UIAppearanceContainer"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
 - !private "CSo11UIResponder"
 - !private "PSo18UITraitEnvironment"
 - !private "CSo6UIView"

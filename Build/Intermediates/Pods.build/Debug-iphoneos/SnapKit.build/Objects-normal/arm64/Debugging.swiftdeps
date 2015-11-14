@@ -10,34 +10,34 @@ provides-member:
 - ["C7SnapKit16LayoutConstraint", "snp_makerFile"]
 - ["C7SnapKit16LayoutConstraint", "snp_makerLine"]
 provides-dynamic-lookup:
-- "snp_makerFile"
+- "snp_label"
+- "snp_label"
 - "description"
-- "snp_label"
-- "snp_label"
+- "snp_makerFile"
 depends-top-level:
+- !private "ObjectIdentifier"
 - !private "objc_AssociationPolicy"
+- "LayoutConstraint"
+- !private "objc_setAssociatedObject"
 - !private "UnicodeScalarType"
 - !private "??"
 - "NSLayoutAttribute"
-- !private "+="
-- "NSLayoutRelation"
-- !private "ObjectIdentifier"
-- "LayoutConstraint"
-- !private "AnyObject"
-- "View"
-- !private "objc_getAssociatedObject"
-- !private "!="
-- !private "descriptionForObject"
-- !private "=="
-- !private ">"
-- !private "objc_setAssociatedObject"
 - "String"
-- "UInt"
-- "StringLiteralType"
-- !private "NSString"
+- !private "!="
 - !private "CGFloat"
+- "View"
+- "StringLiteralType"
+- !private "+="
+- "UInt"
+- !private "descriptionForObject"
 - !private "labelKey"
+- !private ">"
 - !private "<"
+- !private "AnyObject"
+- !private "NSString"
+- !private "objc_getAssociatedObject"
+- !private "=="
+- "NSLayoutRelation"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "abs"]
 - !private ["PSs9AnyObject", "CGFloat"]
@@ -425,6 +425,11 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "objc_getAssociatedObject"]
 - !private ["PSo13UIDynamicItem", "objc_setAssociatedObject"]
 - !private ["PSo13UIDynamicItem", "snp_label"]
+- !private ["PSo18UIFocusEnvironment", "labelKey"]
+- !private ["PSo18UIFocusEnvironment", "objc_AssociationPolicy"]
+- !private ["PSo18UIFocusEnvironment", "objc_getAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "objc_setAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "snp_label"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "labelKey"]
 - !private ["CSo11UIResponder", "objc_AssociationPolicy"]
@@ -527,6 +532,7 @@ depends-nominal:
 - !private "PSo21UIAppearanceContainer"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
 - "CSo11UIResponder"
 - !private "PSo18UITraitEnvironment"
 - "CSo6UIView"
@@ -563,4 +569,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "643d771132b834442a43b2e12ba96de1"
+interface-hash: "675bc94ac2dfb0f8a67f1111b2effb71"

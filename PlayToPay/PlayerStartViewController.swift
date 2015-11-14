@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FlatUIKit
 import HTPressableButton
 import ChameleonFramework
 import pop
@@ -20,7 +19,6 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
     
     var playButton: HTPressableButton!
     
-    let festivity = Festivity.theFestivity
     let currentPlayer = Festivity.theFestivity.currentPlayer
     let currentPlayerIndex = Festivity.theFestivity.currentPlayerIndex
     
@@ -39,7 +37,7 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        game = festivity.game
+        game = Festivity.theFestivity.game
         gameTitleLabel.text = game.title
         gameTitleLabel.textColor = game.themeColor
         gameIconBackgroundView.backgroundColor = game.themeColor
@@ -53,14 +51,15 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
         enterNameView.layer.borderWidth = 5
         enterNameView.layer.cornerRadius = 10
         
-        enterNameTextField.layer.borderColor = FlatOrangeDark().CGColor
-        enterNameTextField.layer.borderWidth = 2
-        enterNameTextField.layer.cornerRadius = 5
+        let layer = CALayer()
+        layer.frame = CGRectMake(0, enterNameTextField.bounds.size.height - 2.0, enterNameTextField.bounds.size.width, 2.0)
+        layer.backgroundColor = UIColor(white: 0.8, alpha: 1.0).CGColor
+        enterNameTextField.layer.addSublayer(layer)
         enterNameTextField.delegate = self
         
         drawPlayButton()
         
-        if festivity.currentPlayer.name != "" {
+        if Festivity.theFestivity.currentPlayer.name != "" {
             
             // Hide enterNameView
             enterNameView.hidden = true
@@ -79,17 +78,17 @@ class PlayerStartViewController: UIViewController, UITextFieldDelegate {
                 make.left.equalTo(self.view.snp_right)
             })
             
-            enterNameLabel.text = "Player \(festivity.currentPlayerIndex + 1),"
+            enterNameLabel.text = "Player \(Festivity.theFestivity.currentPlayerIndex + 1),"
             
             // Disable play button
             playButton.enabled = false
         }
         
         // Display the score to beat
-        if let holder = festivity.scoreToBeatHolder {
-            scoreToBeatLabel.text = "\(festivity.scoreToBeat) (\(holder))"
+        if let holder = Festivity.theFestivity.scoreToBeatHolder {
+            scoreToBeatLabel.text = "\(Festivity.theFestivity.scoreToBeat) (\(holder))"
         }
-        scoreToBeatLabel.text = "\(festivity.scoreToBeat)"
+        scoreToBeatLabel.text = "\(Festivity.theFestivity.scoreToBeat)"
     }
     
     // MARK: Entering a name

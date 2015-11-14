@@ -14,7 +14,7 @@ class BustIt : Minigame {
         super.init()
         
         self.title = "Bust-It"
-        self.instructions = "Tap the screen as fast as you can when you see a color change. Faster reaction, more points."
+        self.instructions = "Tap once when you see a color change. Faster reaction, more points."
         self.segueIdentifier = "bustIt"
         self.themeColor = FlatGreen()
         self.icon = UIImage(named: "rightstopwatch_360")

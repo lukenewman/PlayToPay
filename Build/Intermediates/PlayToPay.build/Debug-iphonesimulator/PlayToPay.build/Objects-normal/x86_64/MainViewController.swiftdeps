@@ -6,76 +6,75 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay18MainViewController", ""]
 provides-dynamic-lookup:
-- "colorsForConfettiArea"
 - "drawCommenceButton"
-- "maxNumberOfPlayers"
+- "colorsForConfettiArea"
+- "addPlayer"
+- "commenceButton"
 - "drawPlusButton"
-- "minusButton"
 - "plusButton"
 - "audioPlayer"
-- "subPlayer"
-- "drawMinusButton"
-- "minNumberOfPlayers"
+- "minusButton"
 - "numberOfPlayers"
-- "viewWillAppear"
-- "avPlayer"
-- "commenceButton"
-- "playHorn"
 - "viewDidLoad"
-- "commenceFestivities"
 - "confettiArea"
-- "addPlayer"
+- "commenceFestivities"
+- "minNumberOfPlayers"
 - "numPlayersLabel"
+- "subPlayer"
+- "avPlayer"
+- "maxNumberOfPlayers"
+- "playHorn"
+- "viewWillAppear"
+- "drawMinusButton"
 depends-top-level:
-- "UIViewController"
-- !private "Festivity"
-- !private "CGRectMake"
-- "MainViewController"
-- !private "FlatWhite"
-- !private "FlatRedDark"
-- !private "FlatGreen"
-- "AnyObject"
-- !private "FlatYellowDark"
-- !private "dispatch_get_main_queue"
-- !private "StringLiteralType"
-- "HTPressableButton"
-- !private "UnicodeScalarType"
-- !private "<="
-- !private "HTPressableButtonStyle"
-- !private "--"
-- !private "UIControlEvents"
-- "UILabel"
-- "IntegerLiteralType"
-- !private "FlatWatermelon"
-- !private "DISPATCH_TIME_NOW"
-- !private "NSBundle"
-- !private "=="
-- !private "FlatGreenDark"
-- !private "Int64"
-- !private "UIFont"
-- !private "NSEC_PER_SEC"
 - "AVAudioPlayer"
-- !private "Player"
+- !private "++"
+- !private "Void"
+- !private "NSEC_PER_SEC"
+- !private "FlatSkyBlue"
 - !private "*"
-- !private "FlatMint"
+- !private "Player"
+- !private "StringLiteralType"
+- "L360ConfettiAreaDelegate"
 - "Bool"
+- !private "HTPressableButtonStyle"
+- !private "FlatYellowDark"
+- !private "Int64"
+- !private "DISPATCH_TIME_NOW"
+- !private "Festivity"
+- !private "FlatGreen"
+- !private "FlatMint"
+- !private "FlatGreenDark"
+- !private "FlatWatermelon"
+- !private "FlatRedDark"
+- !private "NSBundle"
+- !private "--"
 - !private "FlatGray"
-- !private "FlatRed"
-- !private "Array"
-- !private "NSURL"
+- !private "dispatch_get_main_queue"
 - !private "UIControlState"
+- !private "Array"
+- !private "<="
+- !private "FlatRed"
+- !private "UIFont"
+- "UILabel"
 - !private ">="
+- !private "CGRectMake"
+- !private "=="
+- !private "FlatYellow"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- !private "dispatch_after"
+- !private "dispatch_time"
+- "AnyObject"
+- !private "NSURL"
+- !private "FlatWhite"
+- !private "Int"
+- !private "UIControlEvents"
+- !private "BooleanLiteralType"
+- "MainViewController"
 - !private "..."
 - "L360ConfettiArea"
-- !private "Int"
-- !private "BooleanLiteralType"
-- !private "FlatSkyBlue"
-- !private "dispatch_time"
-- !private "++"
-- !private "FlatYellow"
-- "L360ConfettiAreaDelegate"
-- !private "dispatch_after"
-- !private "Void"
+- "HTPressableButton"
 depends-member:
 - ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "play"]
@@ -1282,6 +1281,77 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "titleLabel"]
 - !private ["VSC12UIEdgeInsets", "deinit"]
+- ["PSo18UIFocusEnvironment", "AVAudioPlayer"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "DISPATCH_TIME_NOW"]
+- !private ["PSo18UIFocusEnvironment", "Festivity"]
+- !private ["PSo18UIFocusEnvironment", "FlatGray"]
+- !private ["PSo18UIFocusEnvironment", "FlatGreen"]
+- !private ["PSo18UIFocusEnvironment", "FlatGreenDark"]
+- !private ["PSo18UIFocusEnvironment", "FlatMint"]
+- !private ["PSo18UIFocusEnvironment", "FlatRed"]
+- !private ["PSo18UIFocusEnvironment", "FlatRedDark"]
+- !private ["PSo18UIFocusEnvironment", "FlatSkyBlue"]
+- !private ["PSo18UIFocusEnvironment", "FlatWatermelon"]
+- !private ["PSo18UIFocusEnvironment", "FlatWhite"]
+- !private ["PSo18UIFocusEnvironment", "FlatYellow"]
+- !private ["PSo18UIFocusEnvironment", "FlatYellowDark"]
+- !private ["PSo18UIFocusEnvironment", "HTPressableButton"]
+- !private ["PSo18UIFocusEnvironment", "HTPressableButtonStyle"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "Int64"]
+- !private ["PSo18UIFocusEnvironment", "L360ConfettiArea"]
+- !private ["PSo18UIFocusEnvironment", "NSBundle"]
+- !private ["PSo18UIFocusEnvironment", "NSEC_PER_SEC"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "Player"]
+- !private ["PSo18UIFocusEnvironment", "UIControlEvents"]
+- !private ["PSo18UIFocusEnvironment", "UIControlState"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- ["PSo18UIFocusEnvironment", "addPlayer"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- ["PSo18UIFocusEnvironment", "audioPlayer"]
+- ["PSo18UIFocusEnvironment", "avPlayer"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "bringSubviewToFront"]
+- !private ["PSo18UIFocusEnvironment", "burstAt"]
+- !private ["PSo18UIFocusEnvironment", "buttonColor"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- ["PSo18UIFocusEnvironment", "colorsForConfettiArea"]
+- ["PSo18UIFocusEnvironment", "commenceButton"]
+- ["PSo18UIFocusEnvironment", "commenceFestivities"]
+- ["PSo18UIFocusEnvironment", "confettiArea"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "disabledButtonColor"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_after"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_time"]
+- ["PSo18UIFocusEnvironment", "drawCommenceButton"]
+- ["PSo18UIFocusEnvironment", "drawMinusButton"]
+- ["PSo18UIFocusEnvironment", "drawPlusButton"]
+- !private ["PSo18UIFocusEnvironment", "enabled"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "maxNumberOfPlayers"]
+- ["PSo18UIFocusEnvironment", "minNumberOfPlayers"]
+- ["PSo18UIFocusEnvironment", "minusButton"]
+- ["PSo18UIFocusEnvironment", "numPlayersLabel"]
+- ["PSo18UIFocusEnvironment", "numberOfPlayers"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "playHorn"]
+- ["PSo18UIFocusEnvironment", "plusButton"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
+- !private ["PSo18UIFocusEnvironment", "shadowColor"]
+- !private ["PSo18UIFocusEnvironment", "snp_makeConstraints"]
+- ["PSo18UIFocusEnvironment", "subPlayer"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "titleLabel"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo6UIFont", "init"]
 - !private ["CSo7UILabel", "font"]
 - !private ["CSo7UILabel", "text"]
@@ -1591,6 +1661,7 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
 - !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
 - !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
@@ -1749,6 +1820,7 @@ depends-nominal:
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - !private "VSC12UIEdgeInsets"
+- "PSo18UIFocusEnvironment"
 - !private "CSo6UIFont"
 - !private "CSo7UILabel"
 - "CSo11UIResponder"
@@ -1773,6 +1845,7 @@ depends-nominal:
 - !private "PSs19_CVarArgAlignedType"
 - !private "PSs16_CocoaStringType"
 - !private "PSs24_DestructorSafeContainer"
+- !private "PSs32_FileReferenceLiteralConvertible"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
@@ -1881,27 +1954,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/NSString+Icons.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISwitch.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISegmentedControl.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIButton.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUITextField.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIAlertView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
 interface-hash: "d0ed1eb9ef811a7195aa113b0a4b4c04"

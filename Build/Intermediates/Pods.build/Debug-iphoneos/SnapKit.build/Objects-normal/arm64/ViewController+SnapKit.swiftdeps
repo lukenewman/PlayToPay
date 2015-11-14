@@ -9,9 +9,9 @@ provides-member:
 - ["CSo16UIViewController", "snp_bottomLayoutGuideBottom"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConstraintItem"
-- !private "ConstraintAttributes"
 - "UIViewController"
+- !private "ConstraintAttributes"
+- "ConstraintItem"
 depends-member:
 - !private ["PSs9AnyObject", "ConstraintAttributes"]
 - !private ["PSs9AnyObject", "ConstraintItem"]
@@ -101,6 +101,10 @@ depends-member:
 - !private ["PSo18UIContentContainer", "ConstraintItem"]
 - !private ["PSo18UIContentContainer", "bottomLayoutGuide"]
 - !private ["PSo18UIContentContainer", "topLayoutGuide"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintAttributes"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintItem"]
+- !private ["PSo18UIFocusEnvironment", "bottomLayoutGuide"]
+- !private ["PSo18UIFocusEnvironment", "topLayoutGuide"]
 - !private ["CSo11UIResponder", "ConstraintAttributes"]
 - ["CSo11UIResponder", "ConstraintItem"]
 - !private ["CSo11UIResponder", "bottomLayoutGuide"]
@@ -144,6 +148,7 @@ depends-nominal:
 - !private "PSs14SetAlgebraType"
 - !private "PSo21UIAppearanceContainer"
 - !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
 - "CSo11UIResponder"
 - !private "PSo16UIStateRestoring"
 - !private "PSo18UITraitEnvironment"

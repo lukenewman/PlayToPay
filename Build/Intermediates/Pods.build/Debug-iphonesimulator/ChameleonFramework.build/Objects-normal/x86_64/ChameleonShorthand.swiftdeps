@@ -61,73 +61,73 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "FlatRed"
-- "FlatGreen"
-- "FlatTealDark"
-- "FlatCoffee"
-- "FlatPinkDark"
-- "ContrastColorOf"
-- "FlatPurpleDark"
-- "FlatMaroon"
-- "FlatMint"
-- "Bool"
-- "FlatBlackDark"
-- "FlatCoffeeDark"
-- "FlatGreenDark"
-- "FlatWatermelon"
-- "FlatMaroonDark"
-- "FlatSkyBlueDark"
-- "FlatGrayDark"
-- "ColorsFromImage"
-- "FlatBrown"
-- "FlatBrownDark"
-- "FlatWhiteDark"
-- "UIColor"
-- "FlatTeal"
-- "FlatYellow"
-- "ComplementaryFlatColorOf"
-- "UIGradientStyle"
-- "FlatMagentaDark"
-- "ClearColor"
-- "FlatGray"
-- "FlatMagenta"
-- "CGRect"
-- "FlatPlum"
-- "FlatOrangeDark"
-- "FlatNavyBlue"
-- "FlatPowderBlueDark"
-- "GradientColor"
-- "FlatOrange"
-- "FlatForestGreenDark"
-- "FlatWhite"
-- "FlatSkyBlue"
-- "FlatForestGreen"
-- "String"
-- "RandomFlatColorWithShade"
 - "HexColor"
-- "FlatPowderBlue"
-- "FlatBlueDark"
-- "FlatNavyBlueDark"
-- "UIShadeStyle"
-- "CGFloat"
+- "String"
+- "FlatPlumDark"
 - "NSArray"
+- "FlatNavyBlueDark"
+- "FlatTealDark"
+- "Bool"
+- "FlatMaroon"
 - "RandomFlatColor"
-- "FlatSandDark"
 - "FlatBlue"
+- "FlatYellow"
+- "UIGradientStyle"
+- "CGFloat"
+- "GradientColor"
+- "UIColor"
+- "FlatLimeDark"
+- "FlatGrayDark"
 - "FlatMintDark"
+- "FlatForestGreen"
 - "AverageColorFromImage"
 - "FlatLime"
-- "UIImage"
-- "FlatPink"
-- "FlatSand"
-- "FlatPurple"
-- "FlatLimeDark"
-- !private "BooleanLiteralType"
-- "FlatPlumDark"
-- "FlatRedDark"
-- "FlatBlack"
+- "FlatPinkDark"
 - "FlatYellowDark"
+- "FlatWhite"
+- "FlatPink"
+- "UIShadeStyle"
+- "RandomFlatColorWithShade"
+- "FlatBlueDark"
+- "FlatForestGreenDark"
+- "FlatMint"
+- "FlatSkyBlue"
+- "FlatPurple"
+- "FlatRedDark"
+- "FlatWhiteDark"
+- "FlatNavyBlue"
+- "FlatSkyBlueDark"
+- "FlatBlack"
+- "FlatCoffee"
+- "FlatCoffeeDark"
+- "FlatGreenDark"
+- "FlatPlum"
+- !private "BooleanLiteralType"
+- "FlatMagenta"
+- "FlatWatermelon"
+- "FlatBlackDark"
+- "FlatOrangeDark"
+- "FlatGreen"
+- "FlatRed"
+- "FlatPurpleDark"
+- "FlatMaroonDark"
+- "FlatPowderBlueDark"
+- "FlatTeal"
+- "FlatPowderBlue"
+- "ColorsFromImage"
+- "CGRect"
+- "FlatOrange"
+- "FlatBrownDark"
+- "FlatSand"
+- "ComplementaryFlatColorOf"
+- "FlatMagentaDark"
+- "ContrastColorOf"
+- "UIImage"
+- "FlatSandDark"
+- "FlatGray"
 - "FlatWatermelonDark"
+- "FlatBrown"
+- "ClearColor"
 depends-member:
 - !private ["PSs9AnyObject", "clearColor"]
 - !private ["PSs9AnyObject", "flatBlackColor"]
@@ -698,6 +698,58 @@ depends-member:
 - !private ["CSo7UIColor", "init"]
 - !private ["CSo7UIColor", "randomFlatColor"]
 - !private ["CSo7UIImage", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "clearColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatBlackColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatBlackColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatBlueColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatBlueColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatBrownColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatBrownColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatCoffeeColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatCoffeeColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatForestGreenColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatForestGreenColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatGrayColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatGrayColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatGreenColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatGreenColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatLimeColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatLimeColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatMagentaColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatMagentaColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatMaroonColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatMaroonColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatMintColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatMintColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatNavyBlueColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatNavyBlueColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatOrangeColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatOrangeColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPinkColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPinkColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPlumColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPlumColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPowderBlueColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPowderBlueColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPurpleColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatPurpleColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatRedColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatRedColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatSandColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatSandColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatSkyBlueColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatSkyBlueColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatTealColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatTealColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatWatermelonColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatWatermelonColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatWhiteColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatWhiteColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "flatYellowColor"]
+- !private ["PSs24_ColorLiteralConvertible", "flatYellowColorDark"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "randomFlatColor"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
 - !private ["PSs12_Reflectable", "init"]
 depends-nominal:
 - !private "PSs9AnyObject"
@@ -719,6 +771,8 @@ depends-nominal:
 - !private "PSo29UIAccessibilityIdentification"
 - !private "CSo7UIColor"
 - !private "CSo7UIImage"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs24_ImageLiteralConvertible"
 - !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:

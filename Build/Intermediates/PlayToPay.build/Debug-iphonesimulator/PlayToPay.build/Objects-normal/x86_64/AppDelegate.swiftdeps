@@ -10,20 +10,21 @@ provides-dynamic-lookup:
 - "application"
 - "application"
 depends-top-level:
-- "Bool"
-- "UIApplication"
-- !private "StringLiteralType"
-- "NSObject"
-- "UIResponder"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
-- "String"
 - "AnyObject"
+- "String"
+- "UIApplicationDelegate"
+- !private "StringLiteralType"
+- !private "sleep"
+- "NSObject"
 - "UIWindow"
+- "UIApplication"
+- !private "Venmo"
 - !private "VENTransactionMethod"
 - "AppDelegate"
+- "UIResponder"
 - "NSURL"
-- !private "Venmo"
+- !private "BooleanLiteralType"
+- "Bool"
 depends-member:
 - !private ["PSs9AnyObject", "VENTransactionMethod"]
 - !private ["PSs9AnyObject", "Venmo"]
@@ -44,6 +45,7 @@ depends-member:
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "isVenmoAppInstalled"]
 - !private ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "sleep"]
 - !private ["PSs9AnyObject", "startWithAppId"]
 - ["PSs9AnyObject", "window"]
 - ["PSs9AnyObject", ""]
@@ -70,6 +72,7 @@ depends-member:
 - ["C9PlayToPay11AppDelegate", "applicationWillTerminate"]
 - ["C9PlayToPay11AppDelegate", "deinit"]
 - ["C9PlayToPay11AppDelegate", "init"]
+- !private ["C9PlayToPay11AppDelegate", "sleep"]
 - ["C9PlayToPay11AppDelegate", "window"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
@@ -93,6 +96,7 @@ depends-member:
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "isVenmoAppInstalled"]
 - !private ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "sleep"]
 - !private ["PSs11CVarArgType", "startWithAppId"]
 - ["PSs11CVarArgType", "window"]
 - ["PSs11CVarArgType", ""]
@@ -116,6 +120,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "isVenmoAppInstalled"]
 - !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "sleep"]
 - !private ["PSs23CustomStringConvertible", "startWithAppId"]
 - ["PSs23CustomStringConvertible", "window"]
 - ["PSs23CustomStringConvertible", ""]
@@ -141,6 +146,7 @@ depends-member:
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "isVenmoAppInstalled"]
 - !private ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "sleep"]
 - !private ["PSs9Equatable", "startWithAppId"]
 - ["PSs9Equatable", "window"]
 - ["PSs9Equatable", ""]
@@ -166,6 +172,7 @@ depends-member:
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "isVenmoAppInstalled"]
 - !private ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "sleep"]
 - !private ["PSs8Hashable", "startWithAppId"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
@@ -196,6 +203,7 @@ depends-member:
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "isVenmoAppInstalled"]
 - !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "sleep"]
 - !private ["CSo8NSObject", "startWithAppId"]
 - ["CSo8NSObject", "window"]
 - !private ["PSo16NSObjectProtocol", "VENTransactionMethod"]
@@ -217,6 +225,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isVenmoAppInstalled"]
 - !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "sleep"]
 - !private ["PSo16NSObjectProtocol", "startWithAppId"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
@@ -236,6 +245,7 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
 - ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "sleep"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "AnyObject"]
@@ -260,6 +270,7 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "sleep"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
 - !private ["OSC20VENTransactionMethod", "API"]

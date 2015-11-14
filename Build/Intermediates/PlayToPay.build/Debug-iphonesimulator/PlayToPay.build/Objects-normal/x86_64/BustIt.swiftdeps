@@ -7,11 +7,11 @@ provides-member:
 - ["C9PlayToPay6BustIt", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Minigame"
+- "BustIt"
+- !private "StringLiteralType"
 - !private "FlatGreen"
 - !private "UIImage"
-- "BustIt"
-- "Minigame"
-- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "FlatGreen"]
 - !private ["PSs9AnyObject", "UIImage"]
@@ -51,6 +51,7 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["CSo7UIImage", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
 depends-nominal:
 - "PSs9AnyObject"
 - "C9PlayToPay6BustIt"
@@ -66,6 +67,7 @@ depends-nominal:
 - !private "PSo14NSSecureCoding"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "CSo7UIImage"
+- !private "PSs24_ImageLiteralConvertible"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -166,27 +168,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/NSString+Icons.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISwitch.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISegmentedControl.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIButton.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUITextField.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIAlertView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
 interface-hash: "8259501ce4f1eb442bf51e4eb67a7314"

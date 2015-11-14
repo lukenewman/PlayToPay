@@ -9,6 +9,7 @@
 import Foundation
 
 class Player {
+    
     var name: String!
     var isStillInIt: Bool!
     
@@ -16,4 +17,5 @@ class Player {
         self.name = ""
         self.isStillInIt = true
     }
+    
 }

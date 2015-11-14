@@ -7,11 +7,11 @@ provides-member:
 - ["C9PlayToPay9RapidFire", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Minigame"
-- !private "StringLiteralType"
 - !private "UIImage"
 - !private "FlatRed"
+- "Minigame"
 - "RapidFire"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "FlatRed"]
 - !private ["PSs9AnyObject", "UIImage"]
@@ -51,6 +51,7 @@ depends-member:
 - !private ["C9PlayToPay9RapidFire", "title"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["CSo7UIImage", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
 depends-nominal:
 - "PSs9AnyObject"
 - !private "PSs11CVarArgType"
@@ -66,6 +67,7 @@ depends-nominal:
 - "C9PlayToPay9RapidFire"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "CSo7UIImage"
+- !private "PSs24_ImageLiteralConvertible"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"

@@ -9,15 +9,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "BooleanLiteralType"
-- "View"
-- !private "!="
-- "ConstraintItem"
-- "AnyObject"
 - !private "!=="
+- "ConstraintAttributes"
 - "LayoutSupport"
+- "View"
+- "AnyObject"
+- "ConstraintItem"
 - "Bool"
 - "=="
-- "ConstraintAttributes"
+- !private "!="
 depends-member:
 - !private ["PSs9AnyObject", "attributes"]
 - !private ["PSs9AnyObject", "deinit"]

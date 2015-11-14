@@ -8,16 +8,16 @@ provides-member:
 - ["C7SnapKit14ConstraintItem", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
-- "ConstraintAttributes"
 - !private "!="
+- "=="
 - "View"
+- "ConstraintAttributes"
 - !private "!=="
 - "ConstraintItem"
-- !private "BooleanLiteralType"
+- "LayoutSupport"
 - "AnyObject"
 - "Bool"
-- "LayoutSupport"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "attributes"]
 - !private ["PSs9AnyObject", "deinit"]

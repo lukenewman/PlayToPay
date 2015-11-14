@@ -6,70 +6,89 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay20BustItViewController", ""]
 provides-dynamic-lookup:
+- "countdownTimerLabel"
 - "seconds"
-- "resetRound"
-- "timer"
-- "count"
-- "viewDidLoad"
-- "randomCGFloat"
+- "timingFreeze"
 - "round"
-- "scoreLabel"
-- "addTime"
+- "setupCountdown"
 - "setupGame"
 - "goToResults"
-- "timingFreeze"
-- "canTap"
 - "buttonTapped"
-- "mainButton"
-- "screenSwitch"
+- "count"
+- "scoreLabel"
+- "randomCGFloat"
 - "prepareForSegue"
+- "addTime"
+- "screenSwitch"
+- "countdownTimer"
+- "viewDidLoad"
+- "subtractCountdown"
+- "mainButton"
 - "timing"
+- "timer"
+- "timeLeft"
+- "canTap"
+- "resetRound"
 depends-top-level:
-- "UIViewController"
-- !private "+"
-- "NSTimer"
-- !private "/"
-- "BustItViewController"
-- !private "||"
-- "IntegerLiteralType"
-- "UIStoryboardSegue"
-- "UIButton"
 - !private "StringLiteralType"
-- !private "=="
-- !private "+="
-- !private "UInt32"
-- !private "MinigameResultsViewController"
-- "Float"
-- !private "BooleanLiteralType"
-- !private ">"
-- "UILabel"
-- "AnyObject"
-- !private "FlatMint"
-- !private "Selector"
-- !private "*"
-- !private "-"
-- !private "arc4random"
-- !private "++"
-- !private "UIColor"
+- !private "+"
+- !private "UIFont"
 - !private "Int"
+- !private "UInt32"
+- !private "FlatWhite"
+- "UIButton"
+- !private "||"
+- "NSTimer"
+- !private "Selector"
+- !private ">"
+- !private "++"
+- !private "-"
+- "Float"
+- !private "=="
+- !private "Void"
+- !private "UIColor"
+- "UIStoryboardSegue"
+- !private "Festivity"
+- !private "MinigameResultsViewController"
+- !private "*"
+- !private "/"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "BustItViewController"
+- "UIViewController"
+- "UILabel"
+- !private "FlatMint"
+- !private "+="
+- !private "--"
+- !private "arc4random"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "Festivity"]
 - !private ["PSs9AnyObject", "FlatMint"]
+- !private ["PSs9AnyObject", "FlatWhite"]
 - !private ["PSs9AnyObject", "Float"]
 - !private ["PSs9AnyObject", "Int"]
 - ["PSs9AnyObject", "NSTimer"]
 - !private ["PSs9AnyObject", "Selector"]
 - !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIFont"]
+- !private ["PSs9AnyObject", "UILabel"]
 - !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "addSubview"]
 - ["PSs9AnyObject", "addTime"]
 - !private ["PSs9AnyObject", "arc4random"]
 - !private ["PSs9AnyObject", "backgroundColor"]
 - ["PSs9AnyObject", "buttonTapped"]
 - ["PSs9AnyObject", "canTap"]
 - ["PSs9AnyObject", "count"]
+- ["PSs9AnyObject", "countdownTimer"]
+- ["PSs9AnyObject", "countdownTimerLabel"]
 - !private ["PSs9AnyObject", "destinationViewController"]
+- !private ["PSs9AnyObject", "font"]
+- !private ["PSs9AnyObject", "frame"]
+- !private ["PSs9AnyObject", "game"]
 - ["PSs9AnyObject", "goToResults"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "invalidate"]
@@ -78,6 +97,7 @@ depends-member:
 - !private ["PSs9AnyObject", "performSelector"]
 - ["PSs9AnyObject", "prepareForSegue"]
 - ["PSs9AnyObject", "randomCGFloat"]
+- !private ["PSs9AnyObject", "removeFromSuperview"]
 - ["PSs9AnyObject", "resetRound"]
 - ["PSs9AnyObject", "round"]
 - !private ["PSs9AnyObject", "scheduledTimerWithTimeInterval"]
@@ -85,11 +105,20 @@ depends-member:
 - ["PSs9AnyObject", "scoreLabel"]
 - ["PSs9AnyObject", "screenSwitch"]
 - ["PSs9AnyObject", "seconds"]
+- ["PSs9AnyObject", "setupCountdown"]
 - ["PSs9AnyObject", "setupGame"]
+- !private ["PSs9AnyObject", "snp_makeConstraints"]
+- ["PSs9AnyObject", "subtractCountdown"]
 - !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "textAlignment"]
+- !private ["PSs9AnyObject", "textColor"]
+- !private ["PSs9AnyObject", "theFestivity"]
+- !private ["PSs9AnyObject", "themeColor"]
+- ["PSs9AnyObject", "timeLeft"]
 - ["PSs9AnyObject", "timer"]
 - ["PSs9AnyObject", "timing"]
 - ["PSs9AnyObject", "timingFreeze"]
+- !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - !private ["PSs9AnyObject", "whiteColor"]
 - ["PSs9AnyObject", ""]
@@ -110,7 +139,9 @@ depends-member:
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - ["C9PlayToPay20BustItViewController", "AnyObject"]
+- !private ["C9PlayToPay20BustItViewController", "Festivity"]
 - !private ["C9PlayToPay20BustItViewController", "FlatMint"]
+- !private ["C9PlayToPay20BustItViewController", "FlatWhite"]
 - ["C9PlayToPay20BustItViewController", "Float"]
 - !private ["C9PlayToPay20BustItViewController", "Int"]
 - !private ["C9PlayToPay20BustItViewController", "MinigameResultsViewController"]
@@ -118,14 +149,18 @@ depends-member:
 - !private ["C9PlayToPay20BustItViewController", "Selector"]
 - ["C9PlayToPay20BustItViewController", "UIButton"]
 - !private ["C9PlayToPay20BustItViewController", "UIColor"]
+- !private ["C9PlayToPay20BustItViewController", "UIFont"]
 - ["C9PlayToPay20BustItViewController", "UILabel"]
 - ["C9PlayToPay20BustItViewController", "UIStoryboardSegue"]
 - !private ["C9PlayToPay20BustItViewController", "UInt32"]
+- !private ["C9PlayToPay20BustItViewController", "Void"]
 - ["C9PlayToPay20BustItViewController", "addTime"]
 - !private ["C9PlayToPay20BustItViewController", "arc4random"]
 - ["C9PlayToPay20BustItViewController", "buttonTapped"]
 - ["C9PlayToPay20BustItViewController", "canTap"]
 - ["C9PlayToPay20BustItViewController", "count"]
+- ["C9PlayToPay20BustItViewController", "countdownTimer"]
+- ["C9PlayToPay20BustItViewController", "countdownTimerLabel"]
 - ["C9PlayToPay20BustItViewController", "deinit"]
 - ["C9PlayToPay20BustItViewController", "goToResults"]
 - ["C9PlayToPay20BustItViewController", "init"]
@@ -139,16 +174,22 @@ depends-member:
 - ["C9PlayToPay20BustItViewController", "scoreLabel"]
 - ["C9PlayToPay20BustItViewController", "screenSwitch"]
 - ["C9PlayToPay20BustItViewController", "seconds"]
+- ["C9PlayToPay20BustItViewController", "setupCountdown"]
 - ["C9PlayToPay20BustItViewController", "setupGame"]
+- ["C9PlayToPay20BustItViewController", "subtractCountdown"]
+- ["C9PlayToPay20BustItViewController", "timeLeft"]
 - ["C9PlayToPay20BustItViewController", "timer"]
 - ["C9PlayToPay20BustItViewController", "timing"]
 - ["C9PlayToPay20BustItViewController", "timingFreeze"]
+- !private ["C9PlayToPay20BustItViewController", "view"]
 - ["C9PlayToPay20BustItViewController", "viewDidLoad"]
 - !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
 - !private ["V12CoreGraphics7CGFloat", "Stride"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "Festivity"]
 - !private ["PSs11CVarArgType", "FlatMint"]
+- !private ["PSs11CVarArgType", "FlatWhite"]
 - !private ["PSs11CVarArgType", "Float"]
 - !private ["PSs11CVarArgType", "Int"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
@@ -156,15 +197,22 @@ depends-member:
 - !private ["PSs11CVarArgType", "Selector"]
 - !private ["PSs11CVarArgType", "Stride"]
 - !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- !private ["PSs11CVarArgType", "UILabel"]
 - !private ["PSs11CVarArgType", "UInt32"]
 - !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs11CVarArgType", "addSubview"]
 - ["PSs11CVarArgType", "addTime"]
 - !private ["PSs11CVarArgType", "arc4random"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
 - ["PSs11CVarArgType", "buttonTapped"]
 - ["PSs11CVarArgType", "canTap"]
 - ["PSs11CVarArgType", "count"]
+- ["PSs11CVarArgType", "countdownTimer"]
+- ["PSs11CVarArgType", "countdownTimerLabel"]
 - !private ["PSs11CVarArgType", "destinationViewController"]
+- !private ["PSs11CVarArgType", "font"]
+- !private ["PSs11CVarArgType", "frame"]
 - ["PSs11CVarArgType", "goToResults"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "invalidate"]
@@ -174,6 +222,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "performSelector"]
 - ["PSs11CVarArgType", "prepareForSegue"]
 - ["PSs11CVarArgType", "randomCGFloat"]
+- !private ["PSs11CVarArgType", "removeFromSuperview"]
 - ["PSs11CVarArgType", "resetRound"]
 - ["PSs11CVarArgType", "round"]
 - !private ["PSs11CVarArgType", "scheduledTimerWithTimeInterval"]
@@ -181,11 +230,18 @@ depends-member:
 - ["PSs11CVarArgType", "scoreLabel"]
 - ["PSs11CVarArgType", "screenSwitch"]
 - ["PSs11CVarArgType", "seconds"]
+- ["PSs11CVarArgType", "setupCountdown"]
 - ["PSs11CVarArgType", "setupGame"]
+- !private ["PSs11CVarArgType", "snp_makeConstraints"]
+- ["PSs11CVarArgType", "subtractCountdown"]
 - !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "textAlignment"]
+- !private ["PSs11CVarArgType", "textColor"]
+- ["PSs11CVarArgType", "timeLeft"]
 - ["PSs11CVarArgType", "timer"]
 - ["PSs11CVarArgType", "timing"]
 - ["PSs11CVarArgType", "timingFreeze"]
+- !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - !private ["PSs11CVarArgType", "whiteColor"]
 - ["PSs11CVarArgType", ""]
@@ -198,7 +254,9 @@ depends-member:
 - !private ["PSs10Comparable", "max"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Festivity"]
 - !private ["PSs23CustomStringConvertible", "FlatMint"]
+- !private ["PSs23CustomStringConvertible", "FlatWhite"]
 - !private ["PSs23CustomStringConvertible", "Float"]
 - !private ["PSs23CustomStringConvertible", "Int"]
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
@@ -206,16 +264,23 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "Selector"]
 - !private ["PSs23CustomStringConvertible", "Stride"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- !private ["PSs23CustomStringConvertible", "UILabel"]
 - !private ["PSs23CustomStringConvertible", "UInt32"]
 - !private ["PSs23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
 - ["PSs23CustomStringConvertible", "addTime"]
 - !private ["PSs23CustomStringConvertible", "arc4random"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
 - ["PSs23CustomStringConvertible", "buttonTapped"]
 - ["PSs23CustomStringConvertible", "canTap"]
 - ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "countdownTimer"]
+- ["PSs23CustomStringConvertible", "countdownTimerLabel"]
 - !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- !private ["PSs23CustomStringConvertible", "font"]
+- !private ["PSs23CustomStringConvertible", "frame"]
 - ["PSs23CustomStringConvertible", "goToResults"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "invalidate"]
@@ -225,6 +290,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "performSelector"]
 - ["PSs23CustomStringConvertible", "prepareForSegue"]
 - ["PSs23CustomStringConvertible", "randomCGFloat"]
+- !private ["PSs23CustomStringConvertible", "removeFromSuperview"]
 - ["PSs23CustomStringConvertible", "resetRound"]
 - ["PSs23CustomStringConvertible", "round"]
 - !private ["PSs23CustomStringConvertible", "scheduledTimerWithTimeInterval"]
@@ -232,19 +298,29 @@ depends-member:
 - ["PSs23CustomStringConvertible", "scoreLabel"]
 - ["PSs23CustomStringConvertible", "screenSwitch"]
 - ["PSs23CustomStringConvertible", "seconds"]
+- ["PSs23CustomStringConvertible", "setupCountdown"]
 - ["PSs23CustomStringConvertible", "setupGame"]
+- !private ["PSs23CustomStringConvertible", "snp_makeConstraints"]
+- ["PSs23CustomStringConvertible", "subtractCountdown"]
 - !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "textAlignment"]
+- !private ["PSs23CustomStringConvertible", "textColor"]
+- ["PSs23CustomStringConvertible", "timeLeft"]
 - ["PSs23CustomStringConvertible", "timer"]
 - ["PSs23CustomStringConvertible", "timing"]
 - ["PSs23CustomStringConvertible", "timingFreeze"]
+- !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - !private ["PSs23CustomStringConvertible", "whiteColor"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["Sd", "IntegerLiteralType"]
 - !private ["Sd", "Stride"]
 - !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Center"]
 - !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Festivity"]
 - !private ["PSs9Equatable", "FlatMint"]
+- !private ["PSs9Equatable", "FlatWhite"]
 - !private ["PSs9Equatable", "Float"]
 - !private ["PSs9Equatable", "Int"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
@@ -252,16 +328,23 @@ depends-member:
 - !private ["PSs9Equatable", "Selector"]
 - !private ["PSs9Equatable", "Stride"]
 - !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UIFont"]
+- !private ["PSs9Equatable", "UILabel"]
 - !private ["PSs9Equatable", "UInt32"]
 - !private ["PSs9Equatable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addSubview"]
 - ["PSs9Equatable", "addTime"]
 - !private ["PSs9Equatable", "arc4random"]
 - !private ["PSs9Equatable", "backgroundColor"]
 - ["PSs9Equatable", "buttonTapped"]
 - ["PSs9Equatable", "canTap"]
 - ["PSs9Equatable", "count"]
+- ["PSs9Equatable", "countdownTimer"]
+- ["PSs9Equatable", "countdownTimerLabel"]
 - !private ["PSs9Equatable", "destinationViewController"]
+- !private ["PSs9Equatable", "font"]
+- !private ["PSs9Equatable", "frame"]
 - ["PSs9Equatable", "goToResults"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "invalidate"]
@@ -271,6 +354,7 @@ depends-member:
 - !private ["PSs9Equatable", "performSelector"]
 - ["PSs9Equatable", "prepareForSegue"]
 - ["PSs9Equatable", "randomCGFloat"]
+- !private ["PSs9Equatable", "removeFromSuperview"]
 - ["PSs9Equatable", "resetRound"]
 - ["PSs9Equatable", "round"]
 - !private ["PSs9Equatable", "scheduledTimerWithTimeInterval"]
@@ -278,15 +362,24 @@ depends-member:
 - ["PSs9Equatable", "scoreLabel"]
 - ["PSs9Equatable", "screenSwitch"]
 - ["PSs9Equatable", "seconds"]
+- ["PSs9Equatable", "setupCountdown"]
 - ["PSs9Equatable", "setupGame"]
+- !private ["PSs9Equatable", "snp_makeConstraints"]
+- ["PSs9Equatable", "subtractCountdown"]
 - !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "textAlignment"]
+- !private ["PSs9Equatable", "textColor"]
+- ["PSs9Equatable", "timeLeft"]
 - ["PSs9Equatable", "timer"]
 - ["PSs9Equatable", "timing"]
 - ["PSs9Equatable", "timingFreeze"]
+- !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
 - !private ["PSs9Equatable", "whiteColor"]
 - ["PSs9Equatable", ""]
 - !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["C9PlayToPay9Festivity", "game"]
+- !private ["C9PlayToPay9Festivity", "theFestivity"]
 - !private ["Sf", "deinit"]
 - !private ["Sf", "init"]
 - !private ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
@@ -301,8 +394,11 @@ depends-member:
 - !private ["PSs16ForwardIndexType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs16ForwardIndexType", "init"]
 - !private ["PSs16ForwardIndexType", "max"]
+- !private ["PSs8Hashable", "Center"]
 - !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "Festivity"]
 - !private ["PSs8Hashable", "FlatMint"]
+- !private ["PSs8Hashable", "FlatWhite"]
 - !private ["PSs8Hashable", "Float"]
 - !private ["PSs8Hashable", "Int"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -310,16 +406,23 @@ depends-member:
 - !private ["PSs8Hashable", "Selector"]
 - !private ["PSs8Hashable", "Stride"]
 - !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UIFont"]
+- !private ["PSs8Hashable", "UILabel"]
 - !private ["PSs8Hashable", "UInt32"]
 - !private ["PSs8Hashable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addSubview"]
 - ["PSs8Hashable", "addTime"]
 - !private ["PSs8Hashable", "arc4random"]
 - !private ["PSs8Hashable", "backgroundColor"]
 - ["PSs8Hashable", "buttonTapped"]
 - ["PSs8Hashable", "canTap"]
 - ["PSs8Hashable", "count"]
+- ["PSs8Hashable", "countdownTimer"]
+- ["PSs8Hashable", "countdownTimerLabel"]
 - !private ["PSs8Hashable", "destinationViewController"]
+- !private ["PSs8Hashable", "font"]
+- !private ["PSs8Hashable", "frame"]
 - ["PSs8Hashable", "goToResults"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "invalidate"]
@@ -329,6 +432,7 @@ depends-member:
 - !private ["PSs8Hashable", "performSelector"]
 - ["PSs8Hashable", "prepareForSegue"]
 - ["PSs8Hashable", "randomCGFloat"]
+- !private ["PSs8Hashable", "removeFromSuperview"]
 - ["PSs8Hashable", "resetRound"]
 - ["PSs8Hashable", "round"]
 - !private ["PSs8Hashable", "scheduledTimerWithTimeInterval"]
@@ -336,11 +440,18 @@ depends-member:
 - ["PSs8Hashable", "scoreLabel"]
 - ["PSs8Hashable", "screenSwitch"]
 - ["PSs8Hashable", "seconds"]
+- ["PSs8Hashable", "setupCountdown"]
 - ["PSs8Hashable", "setupGame"]
+- !private ["PSs8Hashable", "snp_makeConstraints"]
+- ["PSs8Hashable", "subtractCountdown"]
 - !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "textAlignment"]
+- !private ["PSs8Hashable", "textColor"]
+- ["PSs8Hashable", "timeLeft"]
 - ["PSs8Hashable", "timer"]
 - ["PSs8Hashable", "timing"]
 - ["PSs8Hashable", "timingFreeze"]
+- !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
 - !private ["PSs8Hashable", "whiteColor"]
 - ["PSs8Hashable", ""]
@@ -375,24 +486,34 @@ depends-member:
 - !private ["PSs11IntegerType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs11IntegerType", "init"]
 - !private ["PSs11IntegerType", "max"]
+- !private ["C9PlayToPay8Minigame", "themeColor"]
 - !private ["C9PlayToPay29MinigameResultsViewController", "score"]
 - !private ["PSs14MirrorPathType", "Distance"]
 - !private ["PSs14MirrorPathType", "IntegerLiteralType"]
 - !private ["PSs14MirrorPathType", "Stride"]
 - !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Festivity"]
 - !private ["PSo8NSCoding", "FlatMint"]
+- !private ["PSo8NSCoding", "FlatWhite"]
 - !private ["PSo8NSCoding", "Float"]
 - !private ["PSo8NSCoding", "Int"]
 - ["PSo8NSCoding", "NSTimer"]
 - !private ["PSo8NSCoding", "Selector"]
 - !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "UILabel"]
 - !private ["PSo8NSCoding", "UInt32"]
+- !private ["PSo8NSCoding", "addSubview"]
 - ["PSo8NSCoding", "addTime"]
 - !private ["PSo8NSCoding", "arc4random"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - ["PSo8NSCoding", "buttonTapped"]
 - ["PSo8NSCoding", "canTap"]
 - ["PSo8NSCoding", "count"]
+- ["PSo8NSCoding", "countdownTimer"]
+- ["PSo8NSCoding", "countdownTimerLabel"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "goToResults"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "mainButton"]
@@ -400,34 +521,48 @@ depends-member:
 - !private ["PSo8NSCoding", "performSelector"]
 - ["PSo8NSCoding", "prepareForSegue"]
 - ["PSo8NSCoding", "randomCGFloat"]
+- !private ["PSo8NSCoding", "removeFromSuperview"]
 - ["PSo8NSCoding", "resetRound"]
 - ["PSo8NSCoding", "round"]
 - !private ["PSo8NSCoding", "score"]
 - ["PSo8NSCoding", "scoreLabel"]
 - ["PSo8NSCoding", "screenSwitch"]
 - ["PSo8NSCoding", "seconds"]
+- ["PSo8NSCoding", "setupCountdown"]
 - ["PSo8NSCoding", "setupGame"]
+- !private ["PSo8NSCoding", "snp_makeConstraints"]
+- ["PSo8NSCoding", "subtractCountdown"]
 - !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textAlignment"]
+- !private ["PSo8NSCoding", "textColor"]
+- ["PSo8NSCoding", "timeLeft"]
 - ["PSo8NSCoding", "timer"]
 - ["PSo8NSCoding", "timing"]
 - ["PSo8NSCoding", "timingFreeze"]
+- !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - !private ["PSo8NSCoding", "whiteColor"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo26NSExtensionRequestHandling", "Festivity"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatMint"]
+- !private ["PSo26NSExtensionRequestHandling", "FlatWhite"]
 - !private ["PSo26NSExtensionRequestHandling", "Float"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - ["PSo26NSExtensionRequestHandling", "NSTimer"]
 - !private ["PSo26NSExtensionRequestHandling", "Selector"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIFont"]
+- !private ["PSo26NSExtensionRequestHandling", "UILabel"]
 - !private ["PSo26NSExtensionRequestHandling", "UInt32"]
 - ["PSo26NSExtensionRequestHandling", "addTime"]
 - !private ["PSo26NSExtensionRequestHandling", "arc4random"]
 - ["PSo26NSExtensionRequestHandling", "buttonTapped"]
 - ["PSo26NSExtensionRequestHandling", "canTap"]
 - ["PSo26NSExtensionRequestHandling", "count"]
+- ["PSo26NSExtensionRequestHandling", "countdownTimer"]
+- ["PSo26NSExtensionRequestHandling", "countdownTimerLabel"]
 - ["PSo26NSExtensionRequestHandling", "goToResults"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "mainButton"]
@@ -441,16 +576,22 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "scoreLabel"]
 - ["PSo26NSExtensionRequestHandling", "screenSwitch"]
 - ["PSo26NSExtensionRequestHandling", "seconds"]
+- ["PSo26NSExtensionRequestHandling", "setupCountdown"]
 - ["PSo26NSExtensionRequestHandling", "setupGame"]
+- ["PSo26NSExtensionRequestHandling", "subtractCountdown"]
+- ["PSo26NSExtensionRequestHandling", "timeLeft"]
 - ["PSo26NSExtensionRequestHandling", "timer"]
 - ["PSo26NSExtensionRequestHandling", "timing"]
 - ["PSo26NSExtensionRequestHandling", "timingFreeze"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Festivity"]
 - !private ["CSo8NSObject", "FlatMint"]
+- !private ["CSo8NSObject", "FlatWhite"]
 - ["CSo8NSObject", "Float"]
 - !private ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "MinigameResultsViewController"]
@@ -458,16 +599,23 @@ depends-member:
 - !private ["CSo8NSObject", "Selector"]
 - ["CSo8NSObject", "UIButton"]
 - !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UIStoryboardSegue"]
 - !private ["CSo8NSObject", "UInt32"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addSubview"]
 - ["CSo8NSObject", "addTime"]
 - !private ["CSo8NSObject", "arc4random"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - ["CSo8NSObject", "buttonTapped"]
 - ["CSo8NSObject", "canTap"]
 - ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "countdownTimer"]
+- ["CSo8NSObject", "countdownTimerLabel"]
 - !private ["CSo8NSObject", "destinationViewController"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "goToResults"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "invalidate"]
@@ -476,6 +624,7 @@ depends-member:
 - !private ["CSo8NSObject", "performSelector"]
 - ["CSo8NSObject", "prepareForSegue"]
 - ["CSo8NSObject", "randomCGFloat"]
+- !private ["CSo8NSObject", "removeFromSuperview"]
 - ["CSo8NSObject", "resetRound"]
 - ["CSo8NSObject", "round"]
 - !private ["CSo8NSObject", "scheduledTimerWithTimeInterval"]
@@ -483,27 +632,43 @@ depends-member:
 - ["CSo8NSObject", "scoreLabel"]
 - ["CSo8NSObject", "screenSwitch"]
 - ["CSo8NSObject", "seconds"]
+- ["CSo8NSObject", "setupCountdown"]
 - ["CSo8NSObject", "setupGame"]
+- !private ["CSo8NSObject", "snp_makeConstraints"]
+- ["CSo8NSObject", "subtractCountdown"]
 - !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textAlignment"]
+- !private ["CSo8NSObject", "textColor"]
+- ["CSo8NSObject", "timeLeft"]
 - ["CSo8NSObject", "timer"]
 - ["CSo8NSObject", "timing"]
 - ["CSo8NSObject", "timingFreeze"]
+- !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "Festivity"]
 - !private ["PSo16NSObjectProtocol", "FlatMint"]
+- !private ["PSo16NSObjectProtocol", "FlatWhite"]
 - !private ["PSo16NSObjectProtocol", "Float"]
 - !private ["PSo16NSObjectProtocol", "Int"]
 - ["PSo16NSObjectProtocol", "NSTimer"]
 - !private ["PSo16NSObjectProtocol", "Selector"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "UILabel"]
 - !private ["PSo16NSObjectProtocol", "UInt32"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
 - ["PSo16NSObjectProtocol", "addTime"]
 - !private ["PSo16NSObjectProtocol", "arc4random"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - ["PSo16NSObjectProtocol", "buttonTapped"]
 - ["PSo16NSObjectProtocol", "canTap"]
 - ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "countdownTimer"]
+- ["PSo16NSObjectProtocol", "countdownTimerLabel"]
 - !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "goToResults"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "invalidate"]
@@ -512,6 +677,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "performSelector"]
 - ["PSo16NSObjectProtocol", "prepareForSegue"]
 - ["PSo16NSObjectProtocol", "randomCGFloat"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
 - ["PSo16NSObjectProtocol", "resetRound"]
 - ["PSo16NSObjectProtocol", "round"]
 - !private ["PSo16NSObjectProtocol", "scheduledTimerWithTimeInterval"]
@@ -519,17 +685,25 @@ depends-member:
 - ["PSo16NSObjectProtocol", "scoreLabel"]
 - ["PSo16NSObjectProtocol", "screenSwitch"]
 - ["PSo16NSObjectProtocol", "seconds"]
+- ["PSo16NSObjectProtocol", "setupCountdown"]
 - ["PSo16NSObjectProtocol", "setupGame"]
+- !private ["PSo16NSObjectProtocol", "snp_makeConstraints"]
+- ["PSo16NSObjectProtocol", "subtractCountdown"]
 - !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textAlignment"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
+- ["PSo16NSObjectProtocol", "timeLeft"]
 - ["PSo16NSObjectProtocol", "timer"]
 - ["PSo16NSObjectProtocol", "timing"]
 - ["PSo16NSObjectProtocol", "timingFreeze"]
+- !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
 - !private ["CSo8NSString", "init"]
+- !private ["OSC15NSTextAlignment", "Center"]
 - ["CSo7NSTimer", "init"]
 - !private ["CSo7NSTimer", "invalidate"]
 - !private ["CSo7NSTimer", "scheduledTimerWithTimeInterval"]
@@ -542,6 +716,7 @@ depends-member:
 - !private ["PSs21RandomAccessIndexType", "_DisallowMixedSignArithmetic"]
 - !private ["PSs21RandomAccessIndexType", "init"]
 - !private ["PSs21RandomAccessIndexType", "max"]
+- !private ["PSs16RawRepresentable", "Center"]
 - !private ["V10ObjectiveC8Selector", "deinit"]
 - !private ["V10ObjectiveC8Selector", "init"]
 - !private ["PSs17SignedIntegerType", "Distance"]
@@ -562,23 +737,48 @@ depends-member:
 - !private ["SS", "init"]
 - !private ["PSs30StringInterpolationConvertible", "init"]
 - !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
+- !private ["PSo29UIAccessibilityIdentification", "snp_makeConstraints"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
+- !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "removeFromSuperview"]
+- !private ["PSo12UIAppearance", "snp_makeConstraints"]
 - !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textAlignment"]
+- !private ["PSo12UIAppearance", "textColor"]
+- !private ["PSo21UIAppearanceContainer", "Festivity"]
 - !private ["PSo21UIAppearanceContainer", "FlatMint"]
+- !private ["PSo21UIAppearanceContainer", "FlatWhite"]
 - !private ["PSo21UIAppearanceContainer", "Float"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - ["PSo21UIAppearanceContainer", "NSTimer"]
 - !private ["PSo21UIAppearanceContainer", "Selector"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- !private ["PSo21UIAppearanceContainer", "UILabel"]
 - !private ["PSo21UIAppearanceContainer", "UInt32"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
 - ["PSo21UIAppearanceContainer", "addTime"]
 - !private ["PSo21UIAppearanceContainer", "arc4random"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - ["PSo21UIAppearanceContainer", "buttonTapped"]
 - ["PSo21UIAppearanceContainer", "canTap"]
 - ["PSo21UIAppearanceContainer", "count"]
+- ["PSo21UIAppearanceContainer", "countdownTimer"]
+- ["PSo21UIAppearanceContainer", "countdownTimerLabel"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "goToResults"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "mainButton"]
@@ -586,33 +786,47 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSelector"]
 - ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - ["PSo21UIAppearanceContainer", "randomCGFloat"]
+- !private ["PSo21UIAppearanceContainer", "removeFromSuperview"]
 - ["PSo21UIAppearanceContainer", "resetRound"]
 - ["PSo21UIAppearanceContainer", "round"]
 - !private ["PSo21UIAppearanceContainer", "score"]
 - ["PSo21UIAppearanceContainer", "scoreLabel"]
 - ["PSo21UIAppearanceContainer", "screenSwitch"]
 - ["PSo21UIAppearanceContainer", "seconds"]
+- ["PSo21UIAppearanceContainer", "setupCountdown"]
 - ["PSo21UIAppearanceContainer", "setupGame"]
+- !private ["PSo21UIAppearanceContainer", "snp_makeConstraints"]
+- ["PSo21UIAppearanceContainer", "subtractCountdown"]
 - !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textAlignment"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
+- ["PSo21UIAppearanceContainer", "timeLeft"]
 - ["PSo21UIAppearanceContainer", "timer"]
 - ["PSo21UIAppearanceContainer", "timing"]
 - ["PSo21UIAppearanceContainer", "timingFreeze"]
+- !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["CSo8UIButton", "backgroundColor"]
 - !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "Festivity"]
 - !private ["PSo18UIContentContainer", "FlatMint"]
+- !private ["PSo18UIContentContainer", "FlatWhite"]
 - !private ["PSo18UIContentContainer", "Float"]
 - !private ["PSo18UIContentContainer", "Int"]
 - ["PSo18UIContentContainer", "NSTimer"]
 - !private ["PSo18UIContentContainer", "Selector"]
 - !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIFont"]
+- !private ["PSo18UIContentContainer", "UILabel"]
 - !private ["PSo18UIContentContainer", "UInt32"]
 - ["PSo18UIContentContainer", "addTime"]
 - !private ["PSo18UIContentContainer", "arc4random"]
 - ["PSo18UIContentContainer", "buttonTapped"]
 - ["PSo18UIContentContainer", "canTap"]
 - ["PSo18UIContentContainer", "count"]
+- ["PSo18UIContentContainer", "countdownTimer"]
+- ["PSo18UIContentContainer", "countdownTimerLabel"]
 - ["PSo18UIContentContainer", "goToResults"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "mainButton"]
@@ -626,20 +840,100 @@ depends-member:
 - ["PSo18UIContentContainer", "scoreLabel"]
 - ["PSo18UIContentContainer", "screenSwitch"]
 - ["PSo18UIContentContainer", "seconds"]
+- ["PSo18UIContentContainer", "setupCountdown"]
 - ["PSo18UIContentContainer", "setupGame"]
+- ["PSo18UIContentContainer", "subtractCountdown"]
+- ["PSo18UIContentContainer", "timeLeft"]
 - ["PSo18UIContentContainer", "timer"]
 - ["PSo18UIContentContainer", "timing"]
 - ["PSo18UIContentContainer", "timingFreeze"]
+- !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["CSo9UIControl", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
+- !private ["PSo17UICoordinateSpace", "snp_makeConstraints"]
 - !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textAlignment"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "removeFromSuperview"]
+- !private ["PSo13UIDynamicItem", "snp_makeConstraints"]
 - !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textAlignment"]
+- !private ["PSo13UIDynamicItem", "textColor"]
+- !private ["PSo18UIFocusEnvironment", "Festivity"]
+- !private ["PSo18UIFocusEnvironment", "FlatMint"]
+- !private ["PSo18UIFocusEnvironment", "FlatWhite"]
+- !private ["PSo18UIFocusEnvironment", "Float"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- ["PSo18UIFocusEnvironment", "NSTimer"]
+- !private ["PSo18UIFocusEnvironment", "Selector"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "UILabel"]
+- !private ["PSo18UIFocusEnvironment", "UInt32"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- ["PSo18UIFocusEnvironment", "addTime"]
+- !private ["PSo18UIFocusEnvironment", "arc4random"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "buttonTapped"]
+- ["PSo18UIFocusEnvironment", "canTap"]
+- ["PSo18UIFocusEnvironment", "count"]
+- ["PSo18UIFocusEnvironment", "countdownTimer"]
+- ["PSo18UIFocusEnvironment", "countdownTimerLabel"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "goToResults"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "mainButton"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "performSelector"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- ["PSo18UIFocusEnvironment", "randomCGFloat"]
+- !private ["PSo18UIFocusEnvironment", "removeFromSuperview"]
+- ["PSo18UIFocusEnvironment", "resetRound"]
+- ["PSo18UIFocusEnvironment", "round"]
+- !private ["PSo18UIFocusEnvironment", "score"]
+- ["PSo18UIFocusEnvironment", "scoreLabel"]
+- ["PSo18UIFocusEnvironment", "screenSwitch"]
+- ["PSo18UIFocusEnvironment", "seconds"]
+- ["PSo18UIFocusEnvironment", "setupCountdown"]
+- ["PSo18UIFocusEnvironment", "setupGame"]
+- !private ["PSo18UIFocusEnvironment", "snp_makeConstraints"]
+- ["PSo18UIFocusEnvironment", "subtractCountdown"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textAlignment"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- ["PSo18UIFocusEnvironment", "timeLeft"]
+- ["PSo18UIFocusEnvironment", "timer"]
+- ["PSo18UIFocusEnvironment", "timing"]
+- ["PSo18UIFocusEnvironment", "timingFreeze"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo7UILabel", "backgroundColor"]
+- !private ["CSo7UILabel", "font"]
+- !private ["CSo7UILabel", "init"]
+- !private ["CSo7UILabel", "removeFromSuperview"]
+- !private ["CSo7UILabel", "snp_makeConstraints"]
 - !private ["CSo7UILabel", "text"]
+- !private ["CSo7UILabel", "textAlignment"]
+- !private ["CSo7UILabel", "textColor"]
 - ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Festivity"]
 - !private ["CSo11UIResponder", "FlatMint"]
+- !private ["CSo11UIResponder", "FlatWhite"]
 - ["CSo11UIResponder", "Float"]
 - !private ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "MinigameResultsViewController"]
@@ -647,15 +941,22 @@ depends-member:
 - !private ["CSo11UIResponder", "Selector"]
 - ["CSo11UIResponder", "UIButton"]
 - !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIFont"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UIStoryboardSegue"]
 - !private ["CSo11UIResponder", "UInt32"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addSubview"]
 - ["CSo11UIResponder", "addTime"]
 - !private ["CSo11UIResponder", "arc4random"]
 - !private ["CSo11UIResponder", "backgroundColor"]
 - ["CSo11UIResponder", "buttonTapped"]
 - ["CSo11UIResponder", "canTap"]
 - ["CSo11UIResponder", "count"]
+- ["CSo11UIResponder", "countdownTimer"]
+- ["CSo11UIResponder", "countdownTimerLabel"]
+- !private ["CSo11UIResponder", "font"]
+- !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "goToResults"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "mainButton"]
@@ -663,30 +964,44 @@ depends-member:
 - !private ["CSo11UIResponder", "performSelector"]
 - ["CSo11UIResponder", "prepareForSegue"]
 - ["CSo11UIResponder", "randomCGFloat"]
+- !private ["CSo11UIResponder", "removeFromSuperview"]
 - ["CSo11UIResponder", "resetRound"]
 - ["CSo11UIResponder", "round"]
 - !private ["CSo11UIResponder", "score"]
 - ["CSo11UIResponder", "scoreLabel"]
 - ["CSo11UIResponder", "screenSwitch"]
 - ["CSo11UIResponder", "seconds"]
+- ["CSo11UIResponder", "setupCountdown"]
 - ["CSo11UIResponder", "setupGame"]
+- !private ["CSo11UIResponder", "snp_makeConstraints"]
+- ["CSo11UIResponder", "subtractCountdown"]
 - !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textAlignment"]
+- !private ["CSo11UIResponder", "textColor"]
+- ["CSo11UIResponder", "timeLeft"]
 - ["CSo11UIResponder", "timer"]
 - ["CSo11UIResponder", "timing"]
 - ["CSo11UIResponder", "timingFreeze"]
+- !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "Festivity"]
 - !private ["PSo16UIStateRestoring", "FlatMint"]
+- !private ["PSo16UIStateRestoring", "FlatWhite"]
 - !private ["PSo16UIStateRestoring", "Float"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - ["PSo16UIStateRestoring", "NSTimer"]
 - !private ["PSo16UIStateRestoring", "Selector"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIFont"]
+- !private ["PSo16UIStateRestoring", "UILabel"]
 - !private ["PSo16UIStateRestoring", "UInt32"]
 - ["PSo16UIStateRestoring", "addTime"]
 - !private ["PSo16UIStateRestoring", "arc4random"]
 - ["PSo16UIStateRestoring", "buttonTapped"]
 - ["PSo16UIStateRestoring", "canTap"]
 - ["PSo16UIStateRestoring", "count"]
+- ["PSo16UIStateRestoring", "countdownTimer"]
+- ["PSo16UIStateRestoring", "countdownTimerLabel"]
 - ["PSo16UIStateRestoring", "goToResults"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "mainButton"]
@@ -700,26 +1015,39 @@ depends-member:
 - ["PSo16UIStateRestoring", "scoreLabel"]
 - ["PSo16UIStateRestoring", "screenSwitch"]
 - ["PSo16UIStateRestoring", "seconds"]
+- ["PSo16UIStateRestoring", "setupCountdown"]
 - ["PSo16UIStateRestoring", "setupGame"]
+- ["PSo16UIStateRestoring", "subtractCountdown"]
+- ["PSo16UIStateRestoring", "timeLeft"]
 - ["PSo16UIStateRestoring", "timer"]
 - ["PSo16UIStateRestoring", "timing"]
 - ["PSo16UIStateRestoring", "timingFreeze"]
+- !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["PSo18UITraitEnvironment", "Festivity"]
 - !private ["PSo18UITraitEnvironment", "FlatMint"]
+- !private ["PSo18UITraitEnvironment", "FlatWhite"]
 - !private ["PSo18UITraitEnvironment", "Float"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - ["PSo18UITraitEnvironment", "NSTimer"]
 - !private ["PSo18UITraitEnvironment", "Selector"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- !private ["PSo18UITraitEnvironment", "UILabel"]
 - !private ["PSo18UITraitEnvironment", "UInt32"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
 - ["PSo18UITraitEnvironment", "addTime"]
 - !private ["PSo18UITraitEnvironment", "arc4random"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - ["PSo18UITraitEnvironment", "buttonTapped"]
 - ["PSo18UITraitEnvironment", "canTap"]
 - ["PSo18UITraitEnvironment", "count"]
+- ["PSo18UITraitEnvironment", "countdownTimer"]
+- ["PSo18UITraitEnvironment", "countdownTimerLabel"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "goToResults"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "mainButton"]
@@ -727,23 +1055,41 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSelector"]
 - ["PSo18UITraitEnvironment", "prepareForSegue"]
 - ["PSo18UITraitEnvironment", "randomCGFloat"]
+- !private ["PSo18UITraitEnvironment", "removeFromSuperview"]
 - ["PSo18UITraitEnvironment", "resetRound"]
 - ["PSo18UITraitEnvironment", "round"]
 - !private ["PSo18UITraitEnvironment", "score"]
 - ["PSo18UITraitEnvironment", "scoreLabel"]
 - ["PSo18UITraitEnvironment", "screenSwitch"]
 - ["PSo18UITraitEnvironment", "seconds"]
+- ["PSo18UITraitEnvironment", "setupCountdown"]
 - ["PSo18UITraitEnvironment", "setupGame"]
+- !private ["PSo18UITraitEnvironment", "snp_makeConstraints"]
+- ["PSo18UITraitEnvironment", "subtractCountdown"]
 - !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textAlignment"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
+- ["PSo18UITraitEnvironment", "timeLeft"]
 - ["PSo18UITraitEnvironment", "timer"]
 - ["PSo18UITraitEnvironment", "timing"]
 - ["PSo18UITraitEnvironment", "timingFreeze"]
+- !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "font"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "removeFromSuperview"]
+- !private ["CSo6UIView", "snp_makeConstraints"]
 - !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textAlignment"]
+- !private ["CSo6UIView", "textColor"]
 - ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Festivity"]
 - !private ["CSo16UIViewController", "FlatMint"]
+- !private ["CSo16UIViewController", "FlatWhite"]
 - ["CSo16UIViewController", "Float"]
 - !private ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "MinigameResultsViewController"]
@@ -751,14 +1097,18 @@ depends-member:
 - !private ["CSo16UIViewController", "Selector"]
 - ["CSo16UIViewController", "UIButton"]
 - !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIFont"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UIStoryboardSegue"]
 - !private ["CSo16UIViewController", "UInt32"]
+- !private ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "addTime"]
 - !private ["CSo16UIViewController", "arc4random"]
 - ["CSo16UIViewController", "buttonTapped"]
 - ["CSo16UIViewController", "canTap"]
 - ["CSo16UIViewController", "count"]
+- ["CSo16UIViewController", "countdownTimer"]
+- ["CSo16UIViewController", "countdownTimerLabel"]
 - !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "goToResults"]
 - ["CSo16UIViewController", "init"]
@@ -773,10 +1123,14 @@ depends-member:
 - ["CSo16UIViewController", "scoreLabel"]
 - ["CSo16UIViewController", "screenSwitch"]
 - ["CSo16UIViewController", "seconds"]
+- ["CSo16UIViewController", "setupCountdown"]
 - ["CSo16UIViewController", "setupGame"]
+- ["CSo16UIViewController", "subtractCountdown"]
+- ["CSo16UIViewController", "timeLeft"]
 - ["CSo16UIViewController", "timer"]
 - ["CSo16UIViewController", "timing"]
 - ["CSo16UIViewController", "timingFreeze"]
+- !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Su", "Distance"]
@@ -835,6 +1189,7 @@ depends-member:
 - !private ["PSs22_CVarArgPassedAsDouble", "Stride"]
 - !private ["PSs22_CVarArgPassedAsDouble", "init"]
 - !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "Distance"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "Stride"]
@@ -875,10 +1230,17 @@ depends-member:
 - !private ["PSs12_Reflectable", "Stride"]
 - !private ["PSs12_Reflectable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addSubview"]
 - !private ["PSs12_Reflectable", "backgroundColor"]
+- !private ["PSs12_Reflectable", "font"]
+- !private ["PSs12_Reflectable", "frame"]
 - !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "max"]
+- !private ["PSs12_Reflectable", "removeFromSuperview"]
+- !private ["PSs12_Reflectable", "snp_makeConstraints"]
 - !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "textAlignment"]
+- !private ["PSs12_Reflectable", "textColor"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs18_SignedIntegerType", "Stride"]
@@ -911,6 +1273,7 @@ depends-nominal:
 - !private "Sd"
 - "PSs9Equatable"
 - !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "C9PlayToPay9Festivity"
 - !private "Sf"
 - !private "PSs23FloatLiteralConvertible"
 - !private "PSs17FloatingPointType"
@@ -924,6 +1287,7 @@ depends-nominal:
 - !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
+- !private "C9PlayToPay8Minigame"
 - !private "C9PlayToPay29MinigameResultsViewController"
 - !private "PSs14MirrorPathType"
 - "PSo8NSCoding"
@@ -935,11 +1299,13 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
+- !private "OSC15NSTextAlignment"
 - "CSo7NSTimer"
 - !private "PSs21NilLiteralConvertible"
 - !private "Sq"
 - !private "PSs16OutputStreamType"
 - !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
 - !private "V10ObjectiveC8Selector"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
@@ -957,6 +1323,8 @@ depends-nominal:
 - !private "CSo9UIControl"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
 - !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
@@ -982,6 +1350,7 @@ depends-nominal:
 - !private "PSs19_CVarArgAlignedType"
 - !private "PSs22_CVarArgPassedAsDouble"
 - !private "PSs16_CocoaStringType"
+- !private "PSs24_ColorLiteralConvertible"
 - !private "PSs28_DisallowMixedSignArithmetic"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
@@ -1001,118 +1370,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/arm64.swiftmodule"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonMacros.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonEnums.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonConstants.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/Chameleon_.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/Chameleon.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/ChameleonFramework.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/UIImage+HTButton.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/UIColor+HTColor.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButtonPrefs.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButton.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Headers/HTPressableButton-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/HTPressableButton.framework/Modules/module.modulemap"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiObject.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360ConfettiArea.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Headers/L360Confetti-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/L360Confetti.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCore.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENHTTPResponse.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENHTTP.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENUserPayloadKeys.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENTransactionPayloadKeys.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENTransaction.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCreateTransactionRequest.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/UIDevice+VENCore.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENUser.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENTransactionTarget.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSString+VENCore.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSError+VENCore.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSDictionary+VENCore.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/NSArray+VENCore.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Headers/VENCore-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/VENCore.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENURLProtocol.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENPermissionConstants.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENErrors.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/Venmo.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENSession.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENPermission.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENRequestDecoder.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENHMAC_SHA256_Internal.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENDefines_Internal.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENBase64_Internal.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENUser+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/VENTransaction+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/UIDevice+IdentifierAddition.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSURL+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSString+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSString+MD5Addition.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSError+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSDictionary+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/NSBundle+VenmoSDK.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Headers/Venmo-iOS-SDK-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/Venmo_iOS_SDK.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPBasicAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimator.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPPropertyAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPSpringAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationExtras.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPGeometry.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationEvent.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimationTracer.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimation.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPAnimatableProperty.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POPDefines.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/POP.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Headers/pop-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/pop.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/NSString+Icons.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUISwitch.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUISegmentedControl.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIButton.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUITextField.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FUIAlertView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphoneos/FlatUIKit.framework/Modules/module.modulemap"
-interface-hash: "152fbb2721170a8fd23720fd0e185e0e"
+interface-hash: "aa306d80d01556cb858e8a9d425d067e"

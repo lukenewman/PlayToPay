@@ -16,7 +16,6 @@ class MinigameResultsViewController: UIViewController {
     let badButtonTitles = ["I hate this game.", "This game sucks.", "I let them win.", "Rigged!", "Damn."]
     let goodButtonTitles = ["Suckas!", "#weblessed", "Heck Yeah", "Not surprised...", "Next!"]
     
-    let festivity = Festivity.theFestivity
     var player = Festivity.theFestivity.currentPlayer
     var score: Int!
     
@@ -33,18 +32,18 @@ class MinigameResultsViewController: UIViewController {
         scoreLabel.text = "\(score)"
         
         if Festivity.theFestivity.scoreToBeat == 0 {
-            betterThanLabel.text = "(better than \(festivity.scoreToBeat))"
+            betterThanLabel.text = "(better than \(Festivity.theFestivity.scoreToBeat))"
             
             resultLabel1.text = "which means \(player.name)"
             resultLabel2.text = "is SAFE!"
             
-            festivity.scoreToBeat = score
-            festivity.scoreToBeatHolder = player
+            Festivity.theFestivity.scoreToBeat = score
+            Festivity.theFestivity.scoreToBeatHolder = player
             
             let index = Int(arc4random_uniform(UInt32(goodButtonTitles.count)))
             drawButton(goodButtonTitles[index])
         } else if score > Festivity.theFestivity.scoreToBeat {
-            betterThanLabel.text = "(better than \(festivity.scoreToBeat))"
+            betterThanLabel.text = "(better than \(Festivity.theFestivity.scoreToBeat))"
             
             resultLabel1.text = "which means \(player.name)"
             resultLabel2.text = "is SAFE!"
@@ -52,9 +51,9 @@ class MinigameResultsViewController: UIViewController {
             let index = Int(arc4random_uniform(UInt32(goodButtonTitles.count)))
             drawButton(goodButtonTitles[index])
         } else {
-            betterThanLabel.text = "(worse than \(festivity.scoreToBeat))"
-            festivity.scoreToBeat = score
-            festivity.scoreToBeatHolder = player
+            betterThanLabel.text = "(worse than \(Festivity.theFestivity.scoreToBeat))"
+            Festivity.theFestivity.scoreToBeat = score
+            Festivity.theFestivity.scoreToBeatHolder = player
             
             resultLabel1.text = "which makes \(player.name)"
             resultLabel2.text = "the new LOSER!"
@@ -72,10 +71,10 @@ class MinigameResultsViewController: UIViewController {
         button.buttonColor = FlatYellow()
         button.shadowColor = FlatYellowDark()
         
-        if festivity.currentPlayerIsFinalPlayer {
+        if Festivity.theFestivity.currentPlayerIsFinalPlayer {
             button.addTarget(self, action: "showEndResults", forControlEvents: UIControlEvents.TouchUpInside)
         } else {
-            festivity.currentPlayerIndex = festivity.currentPlayerIndex + 1
+            Festivity.theFestivity.currentPlayerIndex! += 1
             button.addTarget(self, action: "showPlayerStart", forControlEvents: UIControlEvents.TouchUpInside)
         }
         

@@ -1,5 +1,5 @@
-version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
-options: "e14b0f98b902a0bb3a3e3bf84aa5c0bf"
-build_time: [496954086, 337578000]
-inputs: 
-	"/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [496852411, 0]
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "ce53379e8086d2a6aa610055942fa7fc"
+build_time: [500524495, 963939000]
+inputs:
+  "/Users/lukenewman/Developer/Plutonium/PlayToPay/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [496852411, 0]

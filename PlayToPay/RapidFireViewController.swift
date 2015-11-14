@@ -22,8 +22,7 @@ class RapidFireViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        drawButton()
-        setupGame()
+        setupCountdown()
     }
     
     func drawButton() {
@@ -42,6 +41,39 @@ class RapidFireViewController: UIViewController {
         button.snp_makeConstraints { (make) -> Void in
             make.centerY.equalTo(self.view)
             make.centerX.equalTo(self.view)
+        }
+    }
+    
+    var timeLeft = 3
+    var countdownTimer = NSTimer()
+    var countdownTimerLabel: UILabel!
+    
+    func setupCountdown() {
+        self.countdownTimerLabel = UILabel(frame: self.view.frame)
+        self.countdownTimerLabel.text = "\(timeLeft)"
+        self.countdownTimerLabel.textColor = FlatWhite()
+        self.countdownTimerLabel.backgroundColor = Festivity.theFestivity.game.themeColor
+        self.countdownTimerLabel.font = UIFont(name: "Aleo-Bold", size: 150)
+        self.countdownTimerLabel.textAlignment = .Center
+        
+        self.view.addSubview(self.countdownTimerLabel)
+        
+        self.countdownTimerLabel.snp_makeConstraints { (make) -> Void in
+            make.edges.equalTo(self.view)
+        }
+        
+        countdownTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("subtractCountdown"), userInfo: nil, repeats: true)
+    }
+    
+    func subtractCountdown() {
+        timeLeft--
+        countdownTimerLabel.text = "\(timeLeft)"
+        
+        if (timeLeft == 0)  {
+            countdownTimer.invalidate()
+            self.countdownTimerLabel.removeFromSuperview()
+            drawButton()
+            setupGame()
         }
     }
     

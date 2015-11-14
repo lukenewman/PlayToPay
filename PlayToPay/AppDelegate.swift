@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Venmo.sharedInstance().defaultTransactionMethod = VENTransactionMethod.API
         }
         
+        sleep(3)
+        
         return true
     }
     

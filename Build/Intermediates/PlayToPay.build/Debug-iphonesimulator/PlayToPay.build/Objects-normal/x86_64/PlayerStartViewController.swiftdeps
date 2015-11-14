@@ -6,72 +6,76 @@ provides-nominal:
 provides-member:
 - ["C9PlayToPay25PlayerStartViewController", ""]
 provides-dynamic-lookup:
-- "drawPlayButton"
-- "scoreToBeatLabel"
-- "textFieldDidEndEditing"
+- "buttonTitles"
+- "gameIconImageView"
+- "textFieldShouldReturn"
+- "enterNameLabel"
 - "playGame"
-- "instructionsTextView"
+- "scoreToBeatLabel"
 - "gameIconBackgroundView"
 - "viewDidLoad"
-- "textFieldShouldReturn"
+- "drawPlayButton"
 - "enterNameTextField"
-- "buttonTitles"
+- "instructionsTextView"
 - "enterNameView"
-- "playButton"
-- "gameIconImageView"
-- "enterNameLabel"
-- "scoreToBeatView"
 - "gameTitleLabel"
+- "playButton"
+- "textFieldDidEndEditing"
+- "scoreToBeatView"
 depends-top-level:
-- !private "UInt32"
-- "Minigame"
-- !private "!="
 - !private "Int"
-- !private "CGRectMake"
+- !private "FlatOrange"
+- !private "UIColor"
+- !private "BooleanLiteralType"
 - !private "+"
-- !private "arc4random_uniform"
-- "StringLiteralType"
 - "UITextView"
 - "UIViewController"
-- "HTPressableButton"
-- !private "UIFont"
-- !private "FlatOrangeDark"
-- !private "FlatYellowDark"
-- "UIView"
-- "UIImageView"
-- !private "UnicodeScalarType"
 - "Bool"
-- "UITextFieldDelegate"
-- !private "UIControlEvents"
 - !private "Void"
-- "UITextField"
-- !private "POPSpringAnimation"
-- !private "kPOPLayerPositionX"
-- !private "UIControlState"
-- !private "HTPressableButtonStyle"
-- !private "FlatOrange"
+- "UITextFieldDelegate"
+- !private "CGRectMake"
+- !private "FlatYellowDark"
+- !private "-"
 - !private "FlatYellow"
-- !private "BooleanLiteralType"
-- "UILabel"
+- !private "!="
+- "UIView"
+- !private "HTPressableButtonStyle"
+- !private "POPSpringAnimation"
 - "Festivity"
-- "Array"
+- "UITextField"
 - "PlayerStartViewController"
+- !private "UnicodeScalarType"
+- "Minigame"
+- !private "UIControlEvents"
+- !private "UIFont"
+- !private "UInt32"
+- "Array"
+- "StringLiteralType"
+- "UIImageView"
+- "HTPressableButton"
+- !private "arc4random_uniform"
+- !private "CALayer"
+- !private "UIControlState"
+- !private "kPOPLayerPositionX"
+- "UILabel"
 depends-member:
+- !private ["PSs9AnyObject", "CALayer"]
 - !private ["PSs9AnyObject", "CGColor"]
 - !private ["PSs9AnyObject", "CGRectMake"]
 - ["PSs9AnyObject", "Festivity"]
 - !private ["PSs9AnyObject", "FlatOrange"]
-- !private ["PSs9AnyObject", "FlatOrangeDark"]
 - !private ["PSs9AnyObject", "FlatYellow"]
 - !private ["PSs9AnyObject", "FlatYellowDark"]
 - !private ["PSs9AnyObject", "HTPressableButton"]
 - !private ["PSs9AnyObject", "HTPressableButtonStyle"]
 - !private ["PSs9AnyObject", "Int"]
 - !private ["PSs9AnyObject", "POPSpringAnimation"]
+- !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIControlEvents"]
 - !private ["PSs9AnyObject", "UIControlState"]
 - !private ["PSs9AnyObject", "UIFont"]
 - !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "addSublayer"]
 - !private ["PSs9AnyObject", "addSubview"]
 - !private ["PSs9AnyObject", "addTarget"]
 - !private ["PSs9AnyObject", "arc4random_uniform"]
@@ -79,6 +83,7 @@ depends-member:
 - !private ["PSs9AnyObject", "borderColor"]
 - !private ["PSs9AnyObject", "borderWidth"]
 - !private ["PSs9AnyObject", "bottom"]
+- !private ["PSs9AnyObject", "bounds"]
 - !private ["PSs9AnyObject", "buttonColor"]
 - ["PSs9AnyObject", "buttonTitles"]
 - !private ["PSs9AnyObject", "centerX"]
@@ -93,7 +98,6 @@ depends-member:
 - ["PSs9AnyObject", "enterNameLabel"]
 - ["PSs9AnyObject", "enterNameTextField"]
 - ["PSs9AnyObject", "enterNameView"]
-- ["PSs9AnyObject", "festivity"]
 - !private ["PSs9AnyObject", "font"]
 - !private ["PSs9AnyObject", "frame"]
 - ["PSs9AnyObject", "game"]
@@ -170,24 +174,35 @@ depends-member:
 - !private ["Sb", "deinit"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "addSublayer"]
+- !private ["CSo7CALayer", "backgroundColor"]
 - !private ["CSo7CALayer", "borderColor"]
 - !private ["CSo7CALayer", "borderWidth"]
 - !private ["CSo7CALayer", "cornerRadius"]
+- !private ["CSo7CALayer", "frame"]
+- !private ["CSo7CALayer", "init"]
 - !private ["CSo7CALayer", "pop_addAnimation"]
+- !private ["PSo13CAMediaTiming", "addSublayer"]
+- !private ["PSo13CAMediaTiming", "backgroundColor"]
 - !private ["PSo13CAMediaTiming", "borderColor"]
 - !private ["PSo13CAMediaTiming", "borderWidth"]
 - !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "frame"]
+- !private ["PSo13CAMediaTiming", "init"]
 - !private ["PSo13CAMediaTiming", "pop_addAnimation"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["VSC7CGPoint", "deinit"]
 - !private ["VSC6CGRect", "midX"]
+- !private ["VSC6CGRect", "size"]
 - !private ["VSC6CGSize", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "CALayer"]
 - !private ["PSs11CVarArgType", "CGColor"]
 - !private ["PSs11CVarArgType", "CGRectMake"]
 - !private ["PSs11CVarArgType", "Distance"]
 - ["PSs11CVarArgType", "Festivity"]
 - !private ["PSs11CVarArgType", "FlatOrange"]
-- !private ["PSs11CVarArgType", "FlatOrangeDark"]
 - !private ["PSs11CVarArgType", "FlatYellow"]
 - !private ["PSs11CVarArgType", "FlatYellowDark"]
 - !private ["PSs11CVarArgType", "HTPressableButton"]
@@ -195,16 +210,19 @@ depends-member:
 - !private ["PSs11CVarArgType", "Int"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "POPSpringAnimation"]
+- !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIControlEvents"]
 - !private ["PSs11CVarArgType", "UIControlState"]
 - !private ["PSs11CVarArgType", "UIFont"]
 - !private ["PSs11CVarArgType", "UInt32"]
+- !private ["PSs11CVarArgType", "addSublayer"]
 - !private ["PSs11CVarArgType", "addSubview"]
 - !private ["PSs11CVarArgType", "addTarget"]
 - !private ["PSs11CVarArgType", "arc4random_uniform"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
 - !private ["PSs11CVarArgType", "borderColor"]
 - !private ["PSs11CVarArgType", "borderWidth"]
+- !private ["PSs11CVarArgType", "bounds"]
 - !private ["PSs11CVarArgType", "buttonColor"]
 - ["PSs11CVarArgType", "buttonTitles"]
 - !private ["PSs11CVarArgType", "cornerRadius"]
@@ -216,7 +234,6 @@ depends-member:
 - ["PSs11CVarArgType", "enterNameLabel"]
 - ["PSs11CVarArgType", "enterNameTextField"]
 - ["PSs11CVarArgType", "enterNameView"]
-- ["PSs11CVarArgType", "festivity"]
 - !private ["PSs11CVarArgType", "font"]
 - !private ["PSs11CVarArgType", "frame"]
 - ["PSs11CVarArgType", "game"]
@@ -284,13 +301,13 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "count"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CALayer"]
 - !private ["PSs23CustomStringConvertible", "CGColor"]
 - !private ["PSs23CustomStringConvertible", "CGRectMake"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - ["PSs23CustomStringConvertible", "Element"]
 - ["PSs23CustomStringConvertible", "Festivity"]
 - !private ["PSs23CustomStringConvertible", "FlatOrange"]
-- !private ["PSs23CustomStringConvertible", "FlatOrangeDark"]
 - !private ["PSs23CustomStringConvertible", "FlatYellow"]
 - !private ["PSs23CustomStringConvertible", "FlatYellowDark"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
@@ -302,17 +319,20 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "POPSpringAnimation"]
 - ["PSs23CustomStringConvertible", "Some"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIControlEvents"]
 - !private ["PSs23CustomStringConvertible", "UIControlState"]
 - !private ["PSs23CustomStringConvertible", "UIFont"]
 - !private ["PSs23CustomStringConvertible", "UInt32"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addSublayer"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
 - !private ["PSs23CustomStringConvertible", "addTarget"]
 - !private ["PSs23CustomStringConvertible", "arc4random_uniform"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
 - !private ["PSs23CustomStringConvertible", "borderColor"]
 - !private ["PSs23CustomStringConvertible", "borderWidth"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
 - !private ["PSs23CustomStringConvertible", "buttonColor"]
 - ["PSs23CustomStringConvertible", "buttonTitles"]
 - !private ["PSs23CustomStringConvertible", "cornerRadius"]
@@ -325,7 +345,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "enterNameLabel"]
 - ["PSs23CustomStringConvertible", "enterNameTextField"]
 - ["PSs23CustomStringConvertible", "enterNameView"]
-- ["PSs23CustomStringConvertible", "festivity"]
 - !private ["PSs23CustomStringConvertible", "font"]
 - !private ["PSs23CustomStringConvertible", "frame"]
 - ["PSs23CustomStringConvertible", "game"]
@@ -367,12 +386,12 @@ depends-member:
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CALayer"]
 - !private ["PSs9Equatable", "CGColor"]
 - !private ["PSs9Equatable", "CGRectMake"]
 - !private ["PSs9Equatable", "Distance"]
 - ["PSs9Equatable", "Festivity"]
 - !private ["PSs9Equatable", "FlatOrange"]
-- !private ["PSs9Equatable", "FlatOrangeDark"]
 - !private ["PSs9Equatable", "FlatYellow"]
 - !private ["PSs9Equatable", "FlatYellowDark"]
 - !private ["PSs9Equatable", "HTPressableButton"]
@@ -383,17 +402,20 @@ depends-member:
 - !private ["PSs9Equatable", "POPSpringAnimation"]
 - !private ["PSs9Equatable", "Rounded"]
 - !private ["PSs9Equatable", "TouchUpInside"]
+- !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIControlEvents"]
 - !private ["PSs9Equatable", "UIControlState"]
 - !private ["PSs9Equatable", "UIFont"]
 - !private ["PSs9Equatable", "UInt32"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addSublayer"]
 - !private ["PSs9Equatable", "addSubview"]
 - !private ["PSs9Equatable", "addTarget"]
 - !private ["PSs9Equatable", "arc4random_uniform"]
 - !private ["PSs9Equatable", "backgroundColor"]
 - !private ["PSs9Equatable", "borderColor"]
 - !private ["PSs9Equatable", "borderWidth"]
+- !private ["PSs9Equatable", "bounds"]
 - !private ["PSs9Equatable", "buttonColor"]
 - ["PSs9Equatable", "buttonTitles"]
 - !private ["PSs9Equatable", "cornerRadius"]
@@ -405,13 +427,13 @@ depends-member:
 - ["PSs9Equatable", "enterNameLabel"]
 - ["PSs9Equatable", "enterNameTextField"]
 - ["PSs9Equatable", "enterNameView"]
-- ["PSs9Equatable", "festivity"]
 - !private ["PSs9Equatable", "font"]
 - !private ["PSs9Equatable", "frame"]
 - ["PSs9Equatable", "game"]
 - ["PSs9Equatable", "gameIconBackgroundView"]
 - ["PSs9Equatable", "gameIconImageView"]
 - ["PSs9Equatable", "gameTitleLabel"]
+- !private ["PSs9Equatable", "height"]
 - !private ["PSs9Equatable", "hidden"]
 - !private ["PSs9Equatable", "image"]
 - ["PSs9Equatable", "init"]
@@ -428,6 +450,7 @@ depends-member:
 - ["PSs9Equatable", "scoreToBeatView"]
 - !private ["PSs9Equatable", "setTitle"]
 - !private ["PSs9Equatable", "shadowColor"]
+- !private ["PSs9Equatable", "size"]
 - !private ["PSs9Equatable", "snp_makeConstraints"]
 - !private ["PSs9Equatable", "snp_right"]
 - !private ["PSs9Equatable", "springBounciness"]
@@ -445,6 +468,7 @@ depends-member:
 - !private ["PSs9Equatable", "updateConstraints"]
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "width"]
 - ["PSs9Equatable", ""]
 - !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - ["C9PlayToPay9Festivity", "currentPlayer"]
@@ -466,12 +490,12 @@ depends-member:
 - !private ["CSo17HTPressableButton", "shadowColor"]
 - !private ["CSo17HTPressableButton", "snp_makeConstraints"]
 - !private ["OSC22HTPressableButtonStyle", "Rounded"]
+- !private ["PSs8Hashable", "CALayer"]
 - !private ["PSs8Hashable", "CGColor"]
 - !private ["PSs8Hashable", "CGRectMake"]
 - !private ["PSs8Hashable", "Distance"]
 - ["PSs8Hashable", "Festivity"]
 - !private ["PSs8Hashable", "FlatOrange"]
-- !private ["PSs8Hashable", "FlatOrangeDark"]
 - !private ["PSs8Hashable", "FlatYellow"]
 - !private ["PSs8Hashable", "FlatYellowDark"]
 - !private ["PSs8Hashable", "HTPressableButton"]
@@ -480,17 +504,20 @@ depends-member:
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "POPSpringAnimation"]
 - !private ["PSs8Hashable", "Rounded"]
+- !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIControlEvents"]
 - !private ["PSs8Hashable", "UIControlState"]
 - !private ["PSs8Hashable", "UIFont"]
 - !private ["PSs8Hashable", "UInt32"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addSublayer"]
 - !private ["PSs8Hashable", "addSubview"]
 - !private ["PSs8Hashable", "addTarget"]
 - !private ["PSs8Hashable", "arc4random_uniform"]
 - !private ["PSs8Hashable", "backgroundColor"]
 - !private ["PSs8Hashable", "borderColor"]
 - !private ["PSs8Hashable", "borderWidth"]
+- !private ["PSs8Hashable", "bounds"]
 - !private ["PSs8Hashable", "buttonColor"]
 - ["PSs8Hashable", "buttonTitles"]
 - !private ["PSs8Hashable", "cornerRadius"]
@@ -502,7 +529,6 @@ depends-member:
 - ["PSs8Hashable", "enterNameLabel"]
 - ["PSs8Hashable", "enterNameTextField"]
 - ["PSs8Hashable", "enterNameView"]
-- ["PSs8Hashable", "festivity"]
 - !private ["PSs8Hashable", "font"]
 - !private ["PSs8Hashable", "frame"]
 - ["PSs8Hashable", "game"]
@@ -595,27 +621,30 @@ depends-member:
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "count"]
 - !private ["PSs16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "CALayer"]
 - !private ["PSo8NSCoding", "CGColor"]
 - !private ["PSo8NSCoding", "CGRectMake"]
 - ["PSo8NSCoding", "Festivity"]
 - !private ["PSo8NSCoding", "FlatOrange"]
-- !private ["PSo8NSCoding", "FlatOrangeDark"]
 - !private ["PSo8NSCoding", "FlatYellow"]
 - !private ["PSo8NSCoding", "FlatYellowDark"]
 - !private ["PSo8NSCoding", "HTPressableButton"]
 - !private ["PSo8NSCoding", "HTPressableButtonStyle"]
 - !private ["PSo8NSCoding", "Int"]
 - !private ["PSo8NSCoding", "POPSpringAnimation"]
+- !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIControlEvents"]
 - !private ["PSo8NSCoding", "UIControlState"]
 - !private ["PSo8NSCoding", "UIFont"]
 - !private ["PSo8NSCoding", "UInt32"]
+- !private ["PSo8NSCoding", "addSublayer"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "addTarget"]
 - !private ["PSo8NSCoding", "arc4random_uniform"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "borderColor"]
 - !private ["PSo8NSCoding", "borderWidth"]
+- !private ["PSo8NSCoding", "bounds"]
 - !private ["PSo8NSCoding", "buttonColor"]
 - ["PSo8NSCoding", "buttonTitles"]
 - !private ["PSo8NSCoding", "cornerRadius"]
@@ -627,7 +656,6 @@ depends-member:
 - ["PSo8NSCoding", "enterNameLabel"]
 - ["PSo8NSCoding", "enterNameTextField"]
 - ["PSo8NSCoding", "enterNameView"]
-- ["PSo8NSCoding", "festivity"]
 - !private ["PSo8NSCoding", "font"]
 - !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "game"]
@@ -669,16 +697,17 @@ depends-member:
 - !private ["PSo9NSCopying", "springBounciness"]
 - !private ["PSo9NSCopying", "springSpeed"]
 - !private ["PSo9NSCopying", "toValue"]
+- !private ["PSo26NSExtensionRequestHandling", "CALayer"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
 - ["PSo26NSExtensionRequestHandling", "Festivity"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatOrange"]
-- !private ["PSo26NSExtensionRequestHandling", "FlatOrangeDark"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatYellow"]
 - !private ["PSo26NSExtensionRequestHandling", "FlatYellowDark"]
 - !private ["PSo26NSExtensionRequestHandling", "HTPressableButton"]
 - !private ["PSo26NSExtensionRequestHandling", "HTPressableButtonStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "Int"]
 - !private ["PSo26NSExtensionRequestHandling", "POPSpringAnimation"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlEvents"]
 - !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
 - !private ["PSo26NSExtensionRequestHandling", "UIFont"]
@@ -691,7 +720,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "enterNameLabel"]
 - ["PSo26NSExtensionRequestHandling", "enterNameTextField"]
 - ["PSo26NSExtensionRequestHandling", "enterNameView"]
-- ["PSo26NSExtensionRequestHandling", "festivity"]
 - ["PSo26NSExtensionRequestHandling", "game"]
 - ["PSo26NSExtensionRequestHandling", "gameIconBackgroundView"]
 - ["PSo26NSExtensionRequestHandling", "gameIconImageView"]
@@ -716,11 +744,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CALayer"]
 - !private ["CSo8NSObject", "CGColor"]
 - !private ["CSo8NSObject", "CGRectMake"]
 - ["CSo8NSObject", "Festivity"]
 - !private ["CSo8NSObject", "FlatOrange"]
-- !private ["CSo8NSObject", "FlatOrangeDark"]
 - !private ["CSo8NSObject", "FlatYellow"]
 - !private ["CSo8NSObject", "FlatYellowDark"]
 - ["CSo8NSObject", "HTPressableButton"]
@@ -728,6 +756,7 @@ depends-member:
 - !private ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "Minigame"]
 - !private ["CSo8NSObject", "POPSpringAnimation"]
+- !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIControlEvents"]
 - !private ["CSo8NSObject", "UIControlState"]
 - !private ["CSo8NSObject", "UIFont"]
@@ -738,12 +767,14 @@ depends-member:
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "UInt32"]
 - !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addSublayer"]
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "addTarget"]
 - !private ["CSo8NSObject", "arc4random_uniform"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "borderColor"]
 - !private ["CSo8NSObject", "borderWidth"]
+- !private ["CSo8NSObject", "bounds"]
 - !private ["CSo8NSObject", "buttonColor"]
 - ["CSo8NSObject", "buttonTitles"]
 - !private ["CSo8NSObject", "cornerRadius"]
@@ -755,7 +786,6 @@ depends-member:
 - ["CSo8NSObject", "enterNameLabel"]
 - ["CSo8NSObject", "enterNameTextField"]
 - ["CSo8NSObject", "enterNameView"]
-- ["CSo8NSObject", "festivity"]
 - !private ["CSo8NSObject", "font"]
 - !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "game"]
@@ -794,27 +824,30 @@ depends-member:
 - !private ["CSo8NSObject", "updateConstraints"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CALayer"]
 - !private ["PSo16NSObjectProtocol", "CGColor"]
 - !private ["PSo16NSObjectProtocol", "CGRectMake"]
 - ["PSo16NSObjectProtocol", "Festivity"]
 - !private ["PSo16NSObjectProtocol", "FlatOrange"]
-- !private ["PSo16NSObjectProtocol", "FlatOrangeDark"]
 - !private ["PSo16NSObjectProtocol", "FlatYellow"]
 - !private ["PSo16NSObjectProtocol", "FlatYellowDark"]
 - !private ["PSo16NSObjectProtocol", "HTPressableButton"]
 - !private ["PSo16NSObjectProtocol", "HTPressableButtonStyle"]
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "POPSpringAnimation"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIControlEvents"]
 - !private ["PSo16NSObjectProtocol", "UIControlState"]
 - !private ["PSo16NSObjectProtocol", "UIFont"]
 - !private ["PSo16NSObjectProtocol", "UInt32"]
+- !private ["PSo16NSObjectProtocol", "addSublayer"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
 - !private ["PSo16NSObjectProtocol", "arc4random_uniform"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "borderColor"]
 - !private ["PSo16NSObjectProtocol", "borderWidth"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
 - !private ["PSo16NSObjectProtocol", "buttonColor"]
 - ["PSo16NSObjectProtocol", "buttonTitles"]
 - !private ["PSo16NSObjectProtocol", "cornerRadius"]
@@ -826,7 +859,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "enterNameLabel"]
 - ["PSo16NSObjectProtocol", "enterNameTextField"]
 - ["PSo16NSObjectProtocol", "enterNameView"]
-- ["PSo16NSObjectProtocol", "festivity"]
 - !private ["PSo16NSObjectProtocol", "font"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "game"]
@@ -888,10 +920,10 @@ depends-member:
 - !private ["CSo18POPSpringAnimation", "toValue"]
 - !private ["C9PlayToPay6Player", "name"]
 - ["C9PlayToPay25PlayerStartViewController", "Bool"]
+- !private ["C9PlayToPay25PlayerStartViewController", "CALayer"]
 - !private ["C9PlayToPay25PlayerStartViewController", "CGRectMake"]
 - ["C9PlayToPay25PlayerStartViewController", "Festivity"]
 - !private ["C9PlayToPay25PlayerStartViewController", "FlatOrange"]
-- !private ["C9PlayToPay25PlayerStartViewController", "FlatOrangeDark"]
 - !private ["C9PlayToPay25PlayerStartViewController", "FlatYellow"]
 - !private ["C9PlayToPay25PlayerStartViewController", "FlatYellowDark"]
 - ["C9PlayToPay25PlayerStartViewController", "HTPressableButton"]
@@ -899,6 +931,7 @@ depends-member:
 - !private ["C9PlayToPay25PlayerStartViewController", "Int"]
 - ["C9PlayToPay25PlayerStartViewController", "Minigame"]
 - !private ["C9PlayToPay25PlayerStartViewController", "POPSpringAnimation"]
+- !private ["C9PlayToPay25PlayerStartViewController", "UIColor"]
 - !private ["C9PlayToPay25PlayerStartViewController", "UIControlEvents"]
 - !private ["C9PlayToPay25PlayerStartViewController", "UIControlState"]
 - !private ["C9PlayToPay25PlayerStartViewController", "UIFont"]
@@ -918,7 +951,6 @@ depends-member:
 - ["C9PlayToPay25PlayerStartViewController", "enterNameLabel"]
 - ["C9PlayToPay25PlayerStartViewController", "enterNameTextField"]
 - ["C9PlayToPay25PlayerStartViewController", "enterNameView"]
-- ["C9PlayToPay25PlayerStartViewController", "festivity"]
 - ["C9PlayToPay25PlayerStartViewController", "game"]
 - ["C9PlayToPay25PlayerStartViewController", "gameIconBackgroundView"]
 - ["C9PlayToPay25PlayerStartViewController", "gameIconImageView"]
@@ -983,6 +1015,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
 - !private ["PSo29UIAccessibilityIdentification", "buttonColor"]
 - !private ["PSo29UIAccessibilityIdentification", "delegate"]
 - !private ["PSo29UIAccessibilityIdentification", "enabled"]
@@ -1003,6 +1036,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "addTarget"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "bounds"]
 - !private ["PSo12UIAppearance", "buttonColor"]
 - !private ["PSo12UIAppearance", "delegate"]
 - !private ["PSo12UIAppearance", "enabled"]
@@ -1020,16 +1054,17 @@ depends-member:
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "textColor"]
 - !private ["PSo12UIAppearance", "updateConstraints"]
+- !private ["PSo21UIAppearanceContainer", "CALayer"]
 - !private ["PSo21UIAppearanceContainer", "CGRectMake"]
 - ["PSo21UIAppearanceContainer", "Festivity"]
 - !private ["PSo21UIAppearanceContainer", "FlatOrange"]
-- !private ["PSo21UIAppearanceContainer", "FlatOrangeDark"]
 - !private ["PSo21UIAppearanceContainer", "FlatYellow"]
 - !private ["PSo21UIAppearanceContainer", "FlatYellowDark"]
 - !private ["PSo21UIAppearanceContainer", "HTPressableButton"]
 - !private ["PSo21UIAppearanceContainer", "HTPressableButtonStyle"]
 - !private ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "POPSpringAnimation"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIControlEvents"]
 - !private ["PSo21UIAppearanceContainer", "UIControlState"]
 - !private ["PSo21UIAppearanceContainer", "UIFont"]
@@ -1038,6 +1073,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "addTarget"]
 - !private ["PSo21UIAppearanceContainer", "arc4random_uniform"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
 - !private ["PSo21UIAppearanceContainer", "buttonColor"]
 - ["PSo21UIAppearanceContainer", "buttonTitles"]
 - ["PSo21UIAppearanceContainer", "currentPlayer"]
@@ -1048,7 +1084,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "enterNameLabel"]
 - ["PSo21UIAppearanceContainer", "enterNameTextField"]
 - ["PSo21UIAppearanceContainer", "enterNameView"]
-- ["PSo21UIAppearanceContainer", "festivity"]
 - !private ["PSo21UIAppearanceContainer", "font"]
 - !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "game"]
@@ -1092,16 +1127,18 @@ depends-member:
 - !private ["CSo8UIButton", "shadowColor"]
 - !private ["CSo8UIButton", "snp_makeConstraints"]
 - !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "init"]
+- !private ["PSo18UIContentContainer", "CALayer"]
 - !private ["PSo18UIContentContainer", "CGRectMake"]
 - ["PSo18UIContentContainer", "Festivity"]
 - !private ["PSo18UIContentContainer", "FlatOrange"]
-- !private ["PSo18UIContentContainer", "FlatOrangeDark"]
 - !private ["PSo18UIContentContainer", "FlatYellow"]
 - !private ["PSo18UIContentContainer", "FlatYellowDark"]
 - !private ["PSo18UIContentContainer", "HTPressableButton"]
 - !private ["PSo18UIContentContainer", "HTPressableButtonStyle"]
 - !private ["PSo18UIContentContainer", "Int"]
 - !private ["PSo18UIContentContainer", "POPSpringAnimation"]
+- !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIControlEvents"]
 - !private ["PSo18UIContentContainer", "UIControlState"]
 - !private ["PSo18UIContentContainer", "UIFont"]
@@ -1114,7 +1151,6 @@ depends-member:
 - ["PSo18UIContentContainer", "enterNameLabel"]
 - ["PSo18UIContentContainer", "enterNameTextField"]
 - ["PSo18UIContentContainer", "enterNameView"]
-- ["PSo18UIContentContainer", "festivity"]
 - ["PSo18UIContentContainer", "game"]
 - ["PSo18UIContentContainer", "gameIconBackgroundView"]
 - ["PSo18UIContentContainer", "gameIconImageView"]
@@ -1138,6 +1174,7 @@ depends-member:
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["CSo9UIControl", "addTarget"]
+- !private ["CSo9UIControl", "bounds"]
 - !private ["CSo9UIControl", "buttonColor"]
 - !private ["CSo9UIControl", "delegate"]
 - !private ["CSo9UIControl", "enabled"]
@@ -1153,6 +1190,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "addTarget"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
 - !private ["PSo17UICoordinateSpace", "buttonColor"]
 - !private ["PSo17UICoordinateSpace", "delegate"]
 - !private ["PSo17UICoordinateSpace", "enabled"]
@@ -1173,6 +1211,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "bounds"]
 - !private ["PSo13UIDynamicItem", "buttonColor"]
 - !private ["PSo13UIDynamicItem", "delegate"]
 - !private ["PSo13UIDynamicItem", "enabled"]
@@ -1191,8 +1230,74 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "textColor"]
 - !private ["PSo13UIDynamicItem", "updateConstraints"]
 - !private ["VSC12UIEdgeInsets", "deinit"]
+- !private ["PSo18UIFocusEnvironment", "CALayer"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- ["PSo18UIFocusEnvironment", "Festivity"]
+- !private ["PSo18UIFocusEnvironment", "FlatOrange"]
+- !private ["PSo18UIFocusEnvironment", "FlatYellow"]
+- !private ["PSo18UIFocusEnvironment", "FlatYellowDark"]
+- !private ["PSo18UIFocusEnvironment", "HTPressableButton"]
+- !private ["PSo18UIFocusEnvironment", "HTPressableButtonStyle"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "POPSpringAnimation"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIControlEvents"]
+- !private ["PSo18UIFocusEnvironment", "UIControlState"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "UInt32"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "arc4random_uniform"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "buttonColor"]
+- ["PSo18UIFocusEnvironment", "buttonTitles"]
+- ["PSo18UIFocusEnvironment", "currentPlayer"]
+- ["PSo18UIFocusEnvironment", "currentPlayerIndex"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "drawPlayButton"]
+- !private ["PSo18UIFocusEnvironment", "enabled"]
+- ["PSo18UIFocusEnvironment", "enterNameLabel"]
+- ["PSo18UIFocusEnvironment", "enterNameTextField"]
+- ["PSo18UIFocusEnvironment", "enterNameView"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "game"]
+- ["PSo18UIFocusEnvironment", "gameIconBackgroundView"]
+- ["PSo18UIFocusEnvironment", "gameIconImageView"]
+- ["PSo18UIFocusEnvironment", "gameTitleLabel"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "instructionsTextView"]
+- !private ["PSo18UIFocusEnvironment", "kPOPLayerPositionX"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "playButton"]
+- ["PSo18UIFocusEnvironment", "playGame"]
+- !private ["PSo18UIFocusEnvironment", "resignFirstResponder"]
+- ["PSo18UIFocusEnvironment", "scoreToBeatLabel"]
+- ["PSo18UIFocusEnvironment", "scoreToBeatView"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
+- !private ["PSo18UIFocusEnvironment", "shadowColor"]
+- !private ["PSo18UIFocusEnvironment", "snp_makeConstraints"]
+- !private ["PSo18UIFocusEnvironment", "snp_right"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- ["PSo18UIFocusEnvironment", "textField"]
+- ["PSo18UIFocusEnvironment", "textFieldDidBeginEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldDidEndEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldBeginEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldClear"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldEndEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldReturn"]
+- !private ["PSo18UIFocusEnvironment", "updateConstraints"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo6UIFont", "init"]
 - !private ["CSo11UIImageView", "image"]
+- !private ["PSo10UIKeyInput", "bounds"]
 - !private ["PSo10UIKeyInput", "delegate"]
 - !private ["PSo10UIKeyInput", "font"]
 - !private ["PSo10UIKeyInput", "layer"]
@@ -1201,10 +1306,10 @@ depends-member:
 - !private ["CSo7UILabel", "text"]
 - !private ["CSo7UILabel", "textColor"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CALayer"]
 - !private ["CSo11UIResponder", "CGRectMake"]
 - ["CSo11UIResponder", "Festivity"]
 - !private ["CSo11UIResponder", "FlatOrange"]
-- !private ["CSo11UIResponder", "FlatOrangeDark"]
 - !private ["CSo11UIResponder", "FlatYellow"]
 - !private ["CSo11UIResponder", "FlatYellowDark"]
 - ["CSo11UIResponder", "HTPressableButton"]
@@ -1212,6 +1317,7 @@ depends-member:
 - !private ["CSo11UIResponder", "Int"]
 - ["CSo11UIResponder", "Minigame"]
 - !private ["CSo11UIResponder", "POPSpringAnimation"]
+- !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - !private ["CSo11UIResponder", "UIControlState"]
 - !private ["CSo11UIResponder", "UIFont"]
@@ -1226,6 +1332,7 @@ depends-member:
 - !private ["CSo11UIResponder", "addTarget"]
 - !private ["CSo11UIResponder", "arc4random_uniform"]
 - !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "bounds"]
 - !private ["CSo11UIResponder", "buttonColor"]
 - ["CSo11UIResponder", "buttonTitles"]
 - ["CSo11UIResponder", "currentPlayer"]
@@ -1236,7 +1343,6 @@ depends-member:
 - ["CSo11UIResponder", "enterNameLabel"]
 - ["CSo11UIResponder", "enterNameTextField"]
 - ["CSo11UIResponder", "enterNameView"]
-- ["CSo11UIResponder", "festivity"]
 - !private ["CSo11UIResponder", "font"]
 - !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "game"]
@@ -1273,16 +1379,17 @@ depends-member:
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["CSo12UIScrollView", "font"]
 - !private ["CSo12UIScrollView", "text"]
+- !private ["PSo16UIStateRestoring", "CALayer"]
 - !private ["PSo16UIStateRestoring", "CGRectMake"]
 - ["PSo16UIStateRestoring", "Festivity"]
 - !private ["PSo16UIStateRestoring", "FlatOrange"]
-- !private ["PSo16UIStateRestoring", "FlatOrangeDark"]
 - !private ["PSo16UIStateRestoring", "FlatYellow"]
 - !private ["PSo16UIStateRestoring", "FlatYellowDark"]
 - !private ["PSo16UIStateRestoring", "HTPressableButton"]
 - !private ["PSo16UIStateRestoring", "HTPressableButtonStyle"]
 - !private ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "POPSpringAnimation"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIControlEvents"]
 - !private ["PSo16UIStateRestoring", "UIControlState"]
 - !private ["PSo16UIStateRestoring", "UIFont"]
@@ -1295,7 +1402,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "enterNameLabel"]
 - ["PSo16UIStateRestoring", "enterNameTextField"]
 - ["PSo16UIStateRestoring", "enterNameView"]
-- ["PSo16UIStateRestoring", "festivity"]
 - ["PSo16UIStateRestoring", "game"]
 - ["PSo16UIStateRestoring", "gameIconBackgroundView"]
 - ["PSo16UIStateRestoring", "gameIconImageView"]
@@ -1318,20 +1424,22 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "bounds"]
 - !private ["CSo11UITextField", "delegate"]
 - !private ["CSo11UITextField", "layer"]
 - !private ["CSo11UITextField", "resignFirstResponder"]
 - !private ["CSo11UITextField", "text"]
+- !private ["PSo19UITextFieldDelegate", "CALayer"]
 - !private ["PSo19UITextFieldDelegate", "CGRectMake"]
 - ["PSo19UITextFieldDelegate", "Festivity"]
 - !private ["PSo19UITextFieldDelegate", "FlatOrange"]
-- !private ["PSo19UITextFieldDelegate", "FlatOrangeDark"]
 - !private ["PSo19UITextFieldDelegate", "FlatYellow"]
 - !private ["PSo19UITextFieldDelegate", "FlatYellowDark"]
 - !private ["PSo19UITextFieldDelegate", "HTPressableButton"]
 - !private ["PSo19UITextFieldDelegate", "HTPressableButtonStyle"]
 - !private ["PSo19UITextFieldDelegate", "Int"]
 - !private ["PSo19UITextFieldDelegate", "POPSpringAnimation"]
+- !private ["PSo19UITextFieldDelegate", "UIColor"]
 - !private ["PSo19UITextFieldDelegate", "UIControlEvents"]
 - !private ["PSo19UITextFieldDelegate", "UIControlState"]
 - !private ["PSo19UITextFieldDelegate", "UIFont"]
@@ -1342,7 +1450,6 @@ depends-member:
 - !private ["PSo19UITextFieldDelegate", "enterNameLabel"]
 - !private ["PSo19UITextFieldDelegate", "enterNameTextField"]
 - !private ["PSo19UITextFieldDelegate", "enterNameView"]
-- !private ["PSo19UITextFieldDelegate", "festivity"]
 - !private ["PSo19UITextFieldDelegate", "game"]
 - !private ["PSo19UITextFieldDelegate", "gameIconBackgroundView"]
 - !private ["PSo19UITextFieldDelegate", "gameIconImageView"]
@@ -1362,11 +1469,13 @@ depends-member:
 - ["PSo19UITextFieldDelegate", "textFieldShouldReturn"]
 - !private ["PSo19UITextFieldDelegate", "view"]
 - ["PSo19UITextFieldDelegate", ""]
+- !private ["PSo11UITextInput", "bounds"]
 - !private ["PSo11UITextInput", "delegate"]
 - !private ["PSo11UITextInput", "font"]
 - !private ["PSo11UITextInput", "layer"]
 - !private ["PSo11UITextInput", "resignFirstResponder"]
 - !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "bounds"]
 - !private ["PSo17UITextInputTraits", "delegate"]
 - !private ["PSo17UITextInputTraits", "font"]
 - !private ["PSo17UITextInputTraits", "layer"]
@@ -1374,16 +1483,17 @@ depends-member:
 - !private ["PSo17UITextInputTraits", "text"]
 - !private ["CSo10UITextView", "font"]
 - !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "CALayer"]
 - !private ["PSo18UITraitEnvironment", "CGRectMake"]
 - ["PSo18UITraitEnvironment", "Festivity"]
 - !private ["PSo18UITraitEnvironment", "FlatOrange"]
-- !private ["PSo18UITraitEnvironment", "FlatOrangeDark"]
 - !private ["PSo18UITraitEnvironment", "FlatYellow"]
 - !private ["PSo18UITraitEnvironment", "FlatYellowDark"]
 - !private ["PSo18UITraitEnvironment", "HTPressableButton"]
 - !private ["PSo18UITraitEnvironment", "HTPressableButtonStyle"]
 - !private ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "POPSpringAnimation"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIControlEvents"]
 - !private ["PSo18UITraitEnvironment", "UIControlState"]
 - !private ["PSo18UITraitEnvironment", "UIFont"]
@@ -1392,6 +1502,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "addTarget"]
 - !private ["PSo18UITraitEnvironment", "arc4random_uniform"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
 - !private ["PSo18UITraitEnvironment", "buttonColor"]
 - ["PSo18UITraitEnvironment", "buttonTitles"]
 - ["PSo18UITraitEnvironment", "currentPlayer"]
@@ -1402,7 +1513,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "enterNameLabel"]
 - ["PSo18UITraitEnvironment", "enterNameTextField"]
 - ["PSo18UITraitEnvironment", "enterNameView"]
-- ["PSo18UITraitEnvironment", "festivity"]
 - !private ["PSo18UITraitEnvironment", "font"]
 - !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "game"]
@@ -1441,6 +1551,7 @@ depends-member:
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "addTarget"]
 - !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "bounds"]
 - !private ["CSo6UIView", "buttonColor"]
 - !private ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "delegate"]
@@ -1460,10 +1571,10 @@ depends-member:
 - !private ["CSo6UIView", "textColor"]
 - !private ["CSo6UIView", "updateConstraints"]
 - ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "CALayer"]
 - !private ["CSo16UIViewController", "CGRectMake"]
 - ["CSo16UIViewController", "Festivity"]
 - !private ["CSo16UIViewController", "FlatOrange"]
-- !private ["CSo16UIViewController", "FlatOrangeDark"]
 - !private ["CSo16UIViewController", "FlatYellow"]
 - !private ["CSo16UIViewController", "FlatYellowDark"]
 - ["CSo16UIViewController", "HTPressableButton"]
@@ -1471,6 +1582,7 @@ depends-member:
 - !private ["CSo16UIViewController", "Int"]
 - ["CSo16UIViewController", "Minigame"]
 - !private ["CSo16UIViewController", "POPSpringAnimation"]
+- !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - !private ["CSo16UIViewController", "UIControlState"]
 - !private ["CSo16UIViewController", "UIFont"]
@@ -1489,7 +1601,6 @@ depends-member:
 - ["CSo16UIViewController", "enterNameLabel"]
 - ["CSo16UIViewController", "enterNameTextField"]
 - ["CSo16UIViewController", "enterNameView"]
-- ["CSo16UIViewController", "festivity"]
 - ["CSo16UIViewController", "game"]
 - ["CSo16UIViewController", "gameIconBackgroundView"]
 - ["CSo16UIViewController", "gameIconImageView"]
@@ -1536,6 +1647,8 @@ depends-member:
 - !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
 - !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
 - ["PSs24_DestructorSafeContainer", "Element"]
 - !private ["PSs24_DestructorSafeContainer", "Generator"]
 - !private ["PSs24_DestructorSafeContainer", "Index"]
@@ -1578,12 +1691,14 @@ depends-member:
 - !private ["PSs12_Reflectable", "addSubview"]
 - !private ["PSs12_Reflectable", "addTarget"]
 - !private ["PSs12_Reflectable", "backgroundColor"]
+- !private ["PSs12_Reflectable", "bounds"]
 - !private ["PSs12_Reflectable", "buttonColor"]
 - !private ["PSs12_Reflectable", "count"]
 - !private ["PSs12_Reflectable", "delegate"]
 - !private ["PSs12_Reflectable", "enabled"]
 - !private ["PSs12_Reflectable", "font"]
 - !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "height"]
 - !private ["PSs12_Reflectable", "hidden"]
 - !private ["PSs12_Reflectable", "image"]
 - !private ["PSs12_Reflectable", "init"]
@@ -1592,12 +1707,14 @@ depends-member:
 - !private ["PSs12_Reflectable", "resignFirstResponder"]
 - !private ["PSs12_Reflectable", "setTitle"]
 - !private ["PSs12_Reflectable", "shadowColor"]
+- !private ["PSs12_Reflectable", "size"]
 - !private ["PSs12_Reflectable", "snp_makeConstraints"]
 - !private ["PSs12_Reflectable", "snp_right"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs12_Reflectable", "text"]
 - !private ["PSs12_Reflectable", "textColor"]
 - !private ["PSs12_Reflectable", "updateConstraints"]
+- !private ["PSs12_Reflectable", "width"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs18_SignedIntegerType", "init"]
@@ -1702,6 +1819,7 @@ depends-nominal:
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - !private "VSC12UIEdgeInsets"
+- "PSo18UIFocusEnvironment"
 - !private "CSo6UIFont"
 - !private "CSo11UIImageView"
 - !private "PSo10UIKeyInput"
@@ -1733,6 +1851,7 @@ depends-nominal:
 - !private "PSs37_BuiltinUTF16StringLiteralConvertible"
 - !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "PSs16_CocoaStringType"
+- !private "PSs24_ColorLiteralConvertible"
 - "PSs24_DestructorSafeContainer"
 - !private "PSs28_DisallowMixedSignArithmetic"
 - !private "PSs14_Incrementable"
@@ -1844,27 +1963,4 @@ depends-external:
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/POP.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
 - "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/NSString+Icons.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISwitch.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUISegmentedControl.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIButton.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUITextField.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FUIAlertView.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
-- "/Users/lukenewman/Developer/Plutonium/PlayToPay/Build/Products/Debug-iphonesimulator/FlatUIKit.framework/Modules/module.modulemap"
-interface-hash: "01824c8c3039127512ae83914b3d8a53"
+interface-hash: "5cb45950a4b7142e70e9d0407bd1544e"

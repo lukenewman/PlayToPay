@@ -39,21 +39,21 @@ provides-dynamic-lookup:
 - "snp_removeConstraints"
 - "snp_installedLayoutConstraints"
 depends-top-level:
-- "UInt"
-- "UIView"
-- "LayoutConstraint"
 - !private "objc_AssociationPolicy"
-- "View"
-- "Void"
-- !private "ConstraintAttributes"
-- "ConstraintItem"
 - "StringLiteralType"
+- "LayoutConstraint"
+- "UIView"
 - !private "objc_setAssociatedObject"
-- "Constraint"
+- !private "ConstraintAttributes"
+- "String"
+- "Void"
+- "ConstraintItem"
 - !private "installedLayoutConstraintsKey"
 - !private "objc_getAssociatedObject"
-- "String"
+- "View"
 - "ConstraintMaker"
+- "UInt"
+- "Constraint"
 depends-member:
 - !private ["PSs9AnyObject", "ConstraintAttributes"]
 - !private ["PSs9AnyObject", "ConstraintItem"]
@@ -563,6 +563,13 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "objc_AssociationPolicy"]
 - !private ["PSo13UIDynamicItem", "objc_getAssociatedObject"]
 - !private ["PSo13UIDynamicItem", "objc_setAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintAttributes"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintItem"]
+- !private ["PSo18UIFocusEnvironment", "ConstraintMaker"]
+- !private ["PSo18UIFocusEnvironment", "installedLayoutConstraintsKey"]
+- !private ["PSo18UIFocusEnvironment", "objc_AssociationPolicy"]
+- !private ["PSo18UIFocusEnvironment", "objc_getAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "objc_setAssociatedObject"]
 - ["CSo11UIResponder", "Constraint"]
 - !private ["CSo11UIResponder", "ConstraintAttributes"]
 - ["CSo11UIResponder", "ConstraintItem"]
@@ -692,6 +699,7 @@ depends-nominal:
 - !private "PSo21UIAppearanceContainer"
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
 - "CSo11UIResponder"
 - !private "PSo18UITraitEnvironment"
 - "CSo6UIView"
@@ -709,4 +717,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "efffb839812759c86fbeda236a0f9e58"
+interface-hash: "f19657030ed8dedaa77607b9bfab1386"
